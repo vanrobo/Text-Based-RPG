@@ -20,4 +20,4 @@ Why it's a good project:
 *Control Flow*: You'll use loops, conditionals, and functions extensively to manage game logic.
 Modular Design: Encourages breaking down the game into manageable functions and modules.
 
-This is a test update, to check if VS code allows me to commit to github directly with no issues
+This is a test update, to check if VS code allows me to commit to github directly with no issues a
