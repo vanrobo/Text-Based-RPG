@@ -16,7 +16,7 @@ def mainmenu ():
             break
         
         else:
-            print("please try again")
+            print("please try ageain")
     
 
 
