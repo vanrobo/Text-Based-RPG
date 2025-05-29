@@ -48,3 +48,26 @@ def saveslot(saveslot1_name, saveslot2_name):
             print("Please try again")
 
 mainmenu()
+
+class valt:
+    species = "human"
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self, sound):
+        print(sound)
+        return sound
+    
+my_dog = valt("Shreyansh Jain", 15)
+print(my_dog.name)
+my_dog.bark("hello i am valt a dog WOOF WOOF ")
+
+hello = my_dog.bark("hi")
+
+print(hello)
+
+
+my_cat = valt("Vansh Rishi", 16)
+print(my_cat.age, my_cat.name)
