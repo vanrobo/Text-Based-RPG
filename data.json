@@ -2,5 +2,6 @@
     "slot_1": {"Name": "Warrior's Travel", "Character": "Mom"},
     "slot_2": {"Name": "Conquerer's Will", "Character": "Travelling Spirit"},
     "slot_3": {"Name": "Survival Struggle", "Character": "Corrupted Spirit"},
-    "slot_4": {"Name": "Cleansed World", "Character": "Villager"}
+    "slot_4": {"Name": "Cleansed World", "Character": "Villager"},
+    "settings": {"text_speed": 0.5, "text_to_speech": false, "font_size": 10, "font_family": "Arial Black", "font_colour": "White"}
 }

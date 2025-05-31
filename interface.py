@@ -3,33 +3,150 @@ import json
 import time
 
 
-## base interface person sees when they load into the game
 
+
+
+#Loding player data
 with open("Text-Based-RPG\data.json") as data:
     info = json.load(data)
+
+
     slot_1 = info["slot_1"]
     slot_2 = info["slot_2"]
     slot_3 = info["slot_3"]
     slot_4 = info["slot_4"]
+    config = info["settings"]
 
 
 
-print()
 
 
 
+
+def settings():
+
+    text_speed = config["text_speed"]
+    text_to_speech = config["text_to_speech"]
+    font_size = config["font_size"]
+    font_family = config["font_family"]
+    font_colour = config["font_colour"]
+
+    while True:
+        print("Which setting do you want to change: \
+        \n\n\t(1) Text Speed\n\t(2) Text-To-Speech\n\t(3) Font Size\n\t(4) Font Family\n\t(5) Font Colour\n\n")
+
+        setting = int(input("You: "))
+
+        if setting == 1:
+            print(f"Text Speed: {text_speed}")
+            return
+        
+        elif setting == 2:
+            print(f"Text-To-Speech: {text_to_speech}")
+            return
+
+        elif setting == 3:
+            print(f"Font Size: {font_size}")
+            return
+
+        elif setting == 4:
+            print(f"Font Family: {font_family}")
+            return
+
+        elif setting == 5:
+            print(f"Font Colour: {font_colour}")
+            return
+        
+        else:
+            print("Please try again")
+
+
+## if player decides to delete the saveslot
+def deletion(saveslot_chosen):
+        
+        while True:
+            print(f"Are you sure you want to delete \"{saveslot_chosen}\" (Y/N)\n\n")
+            delete = input("You: ").lower().strip()
+
+            if delete == "y" or delete == "yes":
+                
+                print("This action cannot be undone, do you still wish to continue (Y/N) \n\n")
+
+                while True:
+                    confirmation = input("You: ").lower().strip()
+
+                    if confirmation == "y" or confirmation == "yes":
+                        print("Deleting saveslot")
+                        return
+                    
+                    elif confirmation == "n" or confirmation == "no":
+                        print("Deletion Cancelled \nReturning to saveslot selection")
+                        saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+
+                        return
+                    
+                    else:
+                        print("Please try again")
+            
+
+            elif delete == 'n' or delete == "no":
+                print("Returning to saveslot selection")
+                saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+
+                return
+
+
+            else:
+                print("Please try again")
+
+
+## Registiring player saveslot choice
+def choose(choice, saveslot_chosen):
+
+    if choice == 1:
+        print("When it all began.........")
+    elif choice == 2:
+        print("What do you want to change:")
+    elif choice == 3:
+        deletion(saveslot_chosen)
+    else:
+        print("Returning to saveslot selection........")
+
+
+
+## Saveslot selection
 def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
     while True:
         choice = int(input(f"\nPlease select which saveslot that you want to choose: \
                        \n\n\t(1) {Saveslot1}\n\t(2) {Saveslot2}\n\t(3) {Saveslot3}\n\t(4) {Saveslot4}\n\nYou: "))
         if 0< choice < 5:
-            print("Valid")
-            break
+            while True:
+                choice2 = int(input("What do you want to do: \
+                             \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
+                if 0 < choice2 < 5:
+                    
+                    if choice2 == 1:
+                        saveslot_chosen = Saveslot1
+                    elif choice2 == 2:
+                        saveslot_chosen = Saveslot2
+                    elif choice2 == 1:
+                        saveslot_chosen = Saveslot3
+                    else:
+                        saveslot_chosen = Saveslot4
+
+                    choose(choice2,saveslot_chosen)
+
+
+
+                    return
+                else:
+                    print("Please try again")
         else:
             print("Please try again")
                  
-    print(choice)
 
+
+## base interface person sees when they load into the game
 def mainmenu():
  
     print(r""" 
@@ -53,9 +170,11 @@ def mainmenu():
             break
             
         elif mainOption == "2" or mainOption == "setting" or mainOption == "settings" or mainOption == "s":
+            settings()
             break
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
+            print("Made by: Vanrobo and Valt20_20shu")
             break
 
         else:
