@@ -111,6 +111,8 @@ def choose(choice, saveslot_chosen):
         deletion(saveslot_chosen)
     else:
         print("Returning to saveslot selection........")
+        saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+        return
 
 
 
@@ -119,24 +121,24 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
     while True:
         choice = int(input(f"\nPlease select which saveslot that you want to choose: \
                        \n\n\t(1) {Saveslot1}\n\t(2) {Saveslot2}\n\t(3) {Saveslot3}\n\t(4) {Saveslot4}\n\nYou: "))
+        
         if 0< choice < 5:
+                                
+            if choice2 == 1:
+                saveslot_chosen = Saveslot1
+            elif choice2 == 2:
+                saveslot_chosen = Saveslot2
+            elif choice2 == 3:
+                saveslot_chosen = Saveslot3
+            else:
+                saveslot_chosen = Saveslot4
+
             while True:
                 choice2 = int(input("What do you want to do: \
                              \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
                 if 0 < choice2 < 5:
-                    
-                    if choice2 == 1:
-                        saveslot_chosen = Saveslot1
-                    elif choice2 == 2:
-                        saveslot_chosen = Saveslot2
-                    elif choice2 == 1:
-                        saveslot_chosen = Saveslot3
-                    else:
-                        saveslot_chosen = Saveslot4
 
                     choose(choice2,saveslot_chosen)
-
-
 
                     return
                 else:
