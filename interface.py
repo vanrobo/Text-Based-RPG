@@ -3,7 +3,7 @@ import json
 import time
 
 #Loding player data
-with open("data.json") as data:
+with open("Text-Based-RPG\data.json") as data:
     info = json.load(data)
 
 
@@ -101,10 +101,16 @@ def choose(choice, saveslot_chosen):
 
     if choice == 1:
         print("When it all began.........")
+        return
+    
     elif choice == 2:
         print("What do you want to change:")
+        return
+    
     elif choice == 3:
         deletion(saveslot_chosen)
+        return
+    
     else:
         print("Returning to saveslot selection........")
         saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
@@ -120,11 +126,11 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
         
         if 0< choice < 5:
                                 
-            if choice2 == 1:
+            if choice == 1:
                 saveslot_chosen = Saveslot1
-            elif choice2 == 2:
+            elif choice == 2:
                 saveslot_chosen = Saveslot2
-            elif choice2 == 3:
+            elif choice == 3:
                 saveslot_chosen = Saveslot3
             else:
                 saveslot_chosen = Saveslot4
@@ -165,14 +171,16 @@ def mainmenu():
     
         if mainOption == "1" or mainOption == "play" or mainOption == "p":
             saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+            break
             
             
         elif mainOption == "2" or mainOption == "setting" or mainOption == "settings" or mainOption == "s":
             settings()
-            
+            break
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
             print("Made by: Vanrobo and Valt20_20shu")
+            break
             
         elif mainOption == "4" or mainOption == "exit" or mainOption == "ex" or mainOption == "e":
             print("Exiting the game...")
