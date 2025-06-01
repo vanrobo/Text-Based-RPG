@@ -2,12 +2,8 @@
 import json
 import time
 
-
-
-
-
 #Loding player data
-with open("Text-Based-RPG\data.json") as data:
+with open("data.json") as data:
     info = json.load(data)
 
 
@@ -162,25 +158,28 @@ def mainmenu():
                                                              |_|    |___/
 
 """)
-    print("", "(1) Play", "(2) Settings", "(3) Credits", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
+    print("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
    
     while True:
         mainOption = input("You: ").strip().lower()
     
         if mainOption == "1" or mainOption == "play" or mainOption == "p":
             saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
-            break
+            
             
         elif mainOption == "2" or mainOption == "setting" or mainOption == "settings" or mainOption == "s":
             settings()
-            break
+            
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
             print("Made by: Vanrobo and Valt20_20shu")
+            
+        elif mainOption == "4" or mainOption == "exit" or mainOption == "ex" or mainOption == "e":
+            print("Exiting the game...")
             break
-
+        
         else:
-            print("", "(1) Play", "(2) Settings", "(3) Credits", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
+            print("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
 
 
 mainmenu()
