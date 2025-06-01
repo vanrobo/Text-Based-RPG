@@ -17,8 +17,6 @@ with open("Text-Based-RPG\data.json") as data:
 
 
 
-
-
 def settings():
 
     text_speed = config["text_speed"]
@@ -29,32 +27,66 @@ def settings():
 
     while True:
         print("Which setting do you want to change: \
-        \n\n\t(1) Text Speed\n\t(2) Text-To-Speech\n\t(3) Font Size\n\t(4) Font Family\n\t(5) Font Colour\n\n")
+        \n\n\t(1) Text Speed\n\t(2) Text-To-Speech\n\t(3) Font Size\n\t(4) Font Family\n\t(5) Font Colour\n\t(6) Back \n\n")
 
         setting = int(input("You: "))
 
         if setting == 1:
             print(f"Text Speed: {text_speed}")
-            return
+            text_speed = float(input("Enter new text speed: \n\nYou: "))
+            
         
         elif setting == 2:
             print(f"Text-To-Speech: {text_to_speech}")
-            return
+            text_to_speech = int(input("Enable Text-To-Speech: \n\nYou: "))
 
         elif setting == 3:
             print(f"Font Size: {font_size}")
-            return
+            font_size= int(input("Enter new font size: \n\nYou: "))
+        
 
         elif setting == 4:
             print(f"Font Family: {font_family}")
-            return
+            font_family = int(input("Enter new font family: \n\nYou: "))
+            
 
         elif setting == 5:
             print(f"Font Colour: {font_colour}")
-            return
+            font_colour = int(input("Enter new font colour: \n\nYou: "))
+
         
+        elif setting == 6:
+            print("Do you want to save your settings before leaving (Y/N)? \n\n")
+
+            while True:
+
+                setting_saving = input("You: ").strip().lower()
+
+                if setting_saving == "yes" or setting_saving == 'y':
+                    print("Saving settings..........")
+                    config["text_speed"] = text_speed
+                    config["font_family"] = font_family
+                    config["font_size"] = font_size
+                    config["font_colour"] = font_colour
+                    config["text_to_speech"] = text_to_speech
+
+                    info["settings"] = config
+
+                    return
+                
+                elif setting_saving == "no" or setting_saving == 'n':
+                    print("Reverting settings.......")
+                
+                else:
+                    print("Please try again")
+
+
+
+    
         else:
             print("Please try again")
+
+    
 
 
 ## if player decides to delete the saveslot
@@ -191,4 +223,8 @@ def mainmenu():
 
 
 mainmenu()
+
+
+with open("Text-Based-RPG\data.json", "w") as data:
+    json.dump(info, data, indent=4)
 
