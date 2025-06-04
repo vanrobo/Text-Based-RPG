@@ -3,7 +3,7 @@ import json
 import time
 
 #Loding player data
-with open("Text-Based-RPG\data.json") as data:
+with open("data.json") as data:
     info = json.load(data)
 
 
@@ -26,33 +26,48 @@ def settings():
     font_colour = config["font_colour"]
 
     while True:
-        print("Which setting do you want to change: \
-        \n\n\t(1) Text Speed\n\t(2) Text-To-Speech\n\t(3) Font Size\n\t(4) Font Family\n\t(5) Font Colour\n\t(6) Back \n\n")
+        print(f"Which setting do you want to change: \
+        \n\n\t(1) Text Speed: {text_speed} \n\t(2) Text-To-Speech: {text_to_speech} \n\t(3) Font Size: {font_size} \n\t(4) Font Family {font_family} \n\t(5) Font Colour {font_colour} \n\t(6) Back \n\n")
 
         setting = int(input("You: "))
 
         if setting == 1:
-            print(f"Text Speed: {text_speed}")
-            text_speed = float(input("Enter new text speed: \n\nYou: "))
+            while True:
+                text_speed = float(input("Enter new text speed: \n\nYou: "))
+
+                if 0<text_speed<=1:
+                    break
+
             
         
         elif setting == 2:
-            print(f"Text-To-Speech: {text_to_speech}")
-            text_to_speech = int(input("Enable Text-To-Speech: \n\nYou: "))
+            while True:
+                text_to_speech = input("Enable Text-To-Speech(Y/N): \n\nYou: ").lower().strip()
+
+                if text_to_speech == "y" or text_to_speech == 'yes':
+                    text_to_speech = True
+                    print("Text-To-Speech Enabled")
+                    break
+
+
+                elif text_to_speech == 'n' or text_to_speech == "no":
+                    text_to_speech = False
+                    print("Text-To-Speech disabled")
+                    break 
+
+                else:
+                    print("Please try again")
 
         elif setting == 3:
-            print(f"Font Size: {font_size}")
             font_size= int(input("Enter new font size: \n\nYou: "))
         
 
         elif setting == 4:
-            print(f"Font Family: {font_family}")
-            font_family = int(input("Enter new font family: \n\nYou: "))
+            font_family = input("Enter new font family: \n\nYou: ")
             
 
         elif setting == 5:
-            print(f"Font Colour: {font_colour}")
-            font_colour = int(input("Enter new font colour: \n\nYou: "))
+            font_colour = input("Enter new font colour: \n\nYou: ")
 
         
         elif setting == 6:
@@ -225,6 +240,6 @@ def mainmenu():
 mainmenu()
 
 
-with open("Text-Based-RPG\data.json", "w") as data:
+with open("data.json", "w") as data:
     json.dump(info, data, indent=4)
 
