@@ -1,6 +1,20 @@
 ### this is text-based-rpg interface 
 import json
 import time
+import threading
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+variable_value = os.getenv("API_KEY")
+if variable_value is None:
+    print("API_KEY environment variable is not set.")
+    api_key = input("Please enter your API key: ").strip()
+    with open(".env", "w") as f:
+        f.write(f"API_KEY={api_key}\n")
+elif variable_value:
+    print("key recognised\n\n")
+    pass
 
 #Loding player data
 with open("data.json") as data:
@@ -26,12 +40,12 @@ def settings():
     font_colour = config["font_colour"]
 
     while True:
-        print(f"Which setting do you want to change: \
+        print(f"Which setting do you want to change: [enter a number] \
         \n\n\t(1) Text Speed: {text_speed} \n\t(2) Text-To-Speech: {text_to_speech} \n\t(3) Font Size: {font_size} \n\t(4) Font Family {font_family} \n\t(5) Font Colour {font_colour} \n\t(6) Back \n\n")
 
-        setting = int(input("You: "))
+        setting = input("You: ")
 
-        if setting == 1:
+        if setting == "1":
             while True:
                 text_speed = float(input("Enter new text speed: \n\nYou: "))
 
@@ -40,7 +54,7 @@ def settings():
 
             
         
-        elif setting == 2:
+        elif setting == "2":
             while True:
                 text_to_speech = input("Enable Text-To-Speech(Y/N): \n\nYou: ").lower().strip()
 
@@ -58,20 +72,20 @@ def settings():
                 else:
                     print("Please try again")
 
-        elif setting == 3:
+        elif setting == "3":
             font_size= int(input("Enter new font size: \n\nYou: "))
         
 
-        elif setting == 4:
+        elif setting == "4":
             font_family = input("Enter new font family: \n\nYou: ")
             
 
-        elif setting == 5:
+        elif setting == "5":
             font_colour = input("Enter new font colour: \n\nYou: ")
 
         
-        elif setting == 6:
-            print("Do you want to save your settings before leaving (Y/N)? \n\n")
+        elif setting == "6":
+            print("Do you want to save your settings before leaving (Y/N)? \n")
 
             while True:
 
@@ -86,22 +100,17 @@ def settings():
                     config["text_to_speech"] = text_to_speech
 
                     info["settings"] = config
-
-                    return
-                
+                    print("Success")
+                    return mainmenu()
                 elif setting_saving == "no" or setting_saving == 'n':
                     print("Reverting settings.......")
-                
+                    return mainmenu()
                 else:
                     print("Please try again")
 
-
-
-    
         else:
             print("Please try again")
 
-    
 
 
 ## if player decides to delete the saveslot

@@ -1,8 +1,7 @@
 import json
 
-with open ("data.json") as data: 
-    info = json.load(data)
-    skill = info["skill_level"]
+with open (r"Storage\backstory.json") as backstory: 
+    info = json.load(backstory)
+    backstory = info["backstory"]
 
-
-print(skill)
+print(f"backstory:\n\n\t {backstory}") 
