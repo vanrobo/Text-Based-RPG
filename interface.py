@@ -9,6 +9,7 @@ load_dotenv()
 variable_value = os.getenv("API_KEY")
 if variable_value is None:
     print("API_KEY environment variable is not set.")
+    print("You may get an API key from https://ai.google.dev/gemini-api/docs or https://aistudio.google.com/apikey and set it in the .env file.")
     api_key = input("Please enter your API key: ").strip()
     with open(".env", "w") as f:
         f.write(f"API_KEY={api_key}\n")
@@ -17,7 +18,7 @@ elif variable_value:
     pass
 
 #Loding player data
-with open("data.json") as data:
+with open(r"Storage\data.json") as data:
     info = json.load(data)
 
 
@@ -249,6 +250,6 @@ def mainmenu():
 mainmenu()
 
 
-with open("data.json", "w") as data:
+with open(r"Storage\data.json", "w") as data:
     json.dump(info, data, indent=4)
 

@@ -1,0 +1,506 @@
+{
+  "map_width": 10,
+  "map_height": 10,
+  "tiles": [
+    {
+      "id": 1,
+      "name": "sylvan_forest_edge",
+      "description": "The western edge of the Whispering Woods, bordering the plains."
+    },
+    {
+      "id": 2,
+      "name": "rolling_plains",
+      "description": "Wide open plains, suitable for grazing and agriculture, west of Tairaa."
+    },
+    {
+      "id": 3,
+      "name": "tairaa_village",
+      "description": "The secluded village of Tairaa, nestled near the Silent Peaks."
+    },
+    {
+      "id": 4,
+      "name": "silent_peak_foothills",
+      "description": "The lower reaches of the Silent Peaks, rugged and rocky terrain."
+    },
+    {
+      "id": 5,
+      "name": "ancient_terrai_path",
+      "description": "A winding path carved by the Terrai, leading deeper into the mountains."
+    },
+    {
+      "id": 6,
+      "name": "ember_waste_outskirts",
+      "description": "Marks the borders of the western area, with a light amount of heat"
+    },
+    {
+      "id": 7,
+      "name": "aquari_coastline",
+      "description": "A portion of the eastern coastline, influenced by aquatic currents."
+    },
+    {
+      "id": 8,
+      "name": "open_ocean",
+      "description": "The vast expanse of the ocean, bordering the main continent."
+    },
+    {
+      "id": 9,
+      "name": "sky_citadel_ruins",
+      "description": "The ruins of a Sky Citadel now broken down after war."
+    },
+    {
+      "id": 10,
+      "name": "void_corrupted_lands",
+      "description": "A patch of land tainted by the Voidbringers."
+    },
+    {
+      "id": 11,
+      "name": "sylvan_forest_core",
+      "description": "The dense heart of the Whispering Woods, shrouded in mist."
+    },
+    {
+      "id": 12,
+      "name": "farmlands",
+      "description": "Cultivated fields producing food for Tairaa and surrounding regions."
+    },
+    {
+      "id": 13,
+      "name": "whispering_stone_circle",
+      "description": "An ancient circle of Whispering Stones, radiating faint energy."
+    },
+    {
+      "id": 14,
+      "name": "silent_peak_mid_slopes",
+      "description": "The steeper slopes of the Silent Peaks, covered in snow and ice."
+    },
+    {
+      "id": 15,
+      "name": "mountain_pass",
+      "description": "A narrow pass through the mountains, connecting different regions."
+    },
+    {
+      "id": 16,
+      "name": "lava_fields",
+      "description": "Large field of hot lava in the Ember Wastes"
+    },
+    {
+      "id": 17,
+      "name": "sunken_city_remnants",
+      "description": "Submerged structures of a former Aquari city, visible at low tide."
+    },
+    {
+      "id": 18,
+      "name": "shipping_lanes",
+      "description": "Frequently used shipping lanes for trading with other islands."
+    },
+    {
+      "id": 19,
+      "name": "aeri_outpost",
+      "description": "A small observation outpost built by the Aeri, clinging to a cliff face."
+    },
+    {
+      "id": 20,
+      "name": "void_rift",
+      "description": "A small rift in reality, leaking Void energy into the world."
+    },
+    {
+      "id": 21,
+      "name": "river_source",
+      "description": "The origin point of a major river flowing from the mountains."
+    },
+    {
+      "id": 22,
+      "name": "caravan_route",
+      "description": "A well-traveled route for merchants and travelers."
+    },
+    {
+      "id": 23,
+      "name": "mining_outpost",
+      "description": "A small mining outpost extracting resources from the mountains."
+    },
+    {
+      "id": 24,
+      "name": "silent_peak_summit",
+      "description": "The highest point of the Silent Peaks, shrouded in perpetual snow."
+    },
+    {
+      "id": 25,
+      "name": "forgotten_temple",
+      "description": "The ruins of a temple dedicated to the elders of the land."
+    },
+    {
+      "id": 26,
+      "name": "magma_vents",
+      "description": "Multiple small magma vents"
+    },
+    {
+      "id": 27,
+      "name": "coral_reefs",
+      "description": "Vibrant coral reefs teeming with marine life."
+    },
+    {
+      "id": 28,
+      "name": "uncharted_waters",
+      "description": "Unexplored waters, rumored to hold hidden dangers and treasures."
+    },
+    {
+      "id": 29,
+      "name": "windy_plateau",
+      "description": "A high altitude plateau"
+    },
+    {
+      "id": 30,
+      "name": "void_infused_forest",
+      "description": "Forest which had been infused by the voidbringers"
+    },
+    {
+      "id": 31,
+      "name": "sylvan_druid_grove",
+      "description": "A sacred grove protected by the Sylvani."
+    },
+    {
+      "id": 32,
+      "name": "abandoned_settlement",
+      "description": "The remains of a settlement destroyed by conflict or natural disaster."
+    },
+    {
+      "id": 33,
+      "name": "stone_carving_site",
+      "description": "A site where intricate stone carvings are created."
+    },
+    {
+      "id": 34,
+      "name": "mountain_lake",
+      "description": "A pristine lake fed by glacial meltwater."
+    },
+    {
+      "id": 35,
+      "name": "ancient_battlefield",
+      "description": "The site of a major battle from the war against the Voidbringers."
+    },
+    {
+      "id": 36,
+      "name": "geothermal_vents",
+      "description": "Small geothermal vents which makes steam."
+    },
+    {
+      "id": 37,
+      "name": "underwater_caves",
+      "description": "Submerged caves with unique ecosystems."
+    },
+    {
+      "id": 38,
+      "name": "pirate_cove",
+      "description": "A hidden cove used by pirates as a hideout."
+    },
+    {
+      "id": 39,
+      "name": "aeri_watchtower",
+      "description": "A watchtower, overseeing surrounding regions."
+    },
+    {
+      "id": 40,
+      "name": "corrupted_wildlife",
+      "description": "Area where wildlife are corrupt and very aggressive"
+    },
+    {
+      "id": 41,
+      "name": "sylvan_trade_route",
+      "description": "A path used for trading with the sylvan"
+    },
+    {
+      "id": 42,
+      "name": "empty_fields",
+      "description": "Abandoned field which has nothing growing on it"
+    },
+    {
+      "id": 43,
+      "name": "carving_workshop",
+      "description": "A workshop for the people of the land."
+    },
+    {
+      "id": 44,
+      "name": "abandoned_terrai_mines",
+      "description": "Abandoned terrai mines."
+    },
+    {
+      "id": 45,
+      "name": "training_grounds",
+      "description": "An area for training future warriors"
+    },
+    {
+      "id": 46,
+      "name": "burning_forest",
+      "description": "Forest which had been set alight and now burns."
+    },
+    {
+      "id": 47,
+      "name": "ocean_floor",
+      "description": "Normal ocean floor."
+    },
+    {
+      "id": 48,
+      "name": "ship_wreck",
+      "description": "Shipwreck on the ocean floor"
+    },
+    {
+      "id": 49,
+      "name": "strong_gusts",
+      "description": "Area that has strong gusts"
+    },
+    {
+      "id": 50,
+      "name": "fountain_of_corruption",
+      "description": "Large fountain of corruption"
+    },
+    {
+      "id": 51,
+      "name": "unexplored_route",
+      "description": "Unexplored path that leads somewhere."
+    },
+    {
+      "id": 52,
+      "name": "broken_bridge",
+      "description": "A bridge that had been broken down."
+    },
+    {
+      "id": 53,
+      "name": "abandoned_home",
+      "description": "Area where someone used to live."
+    },
+    {
+      "id": 54,
+      "name": "silent_falls",
+      "description": "Silent falls"
+    },
+    {
+      "id": 55,
+      "name": "open_grounds",
+      "description": "grounds that are open and empty"
+    },
+    {
+      "id": 56,
+      "name": "burnt_area",
+      "description": "Area that had been burnt down."
+    },
+    {
+      "id": 57,
+      "name": "unexplored_deep",
+      "description": "unexplored depths of the ocean"
+    },
+    {
+      "id": 58,
+      "name": "siren_cliffs",
+      "description": "Area where a bunch of sirens appear"
+    },
+    {
+      "id": 59,
+      "name": "tornado_alley",
+      "description": "Area where tornados are prominent"
+    },
+    {
+      "id": 60,
+      "name": "void_crystal_field",
+      "description": "Field of crystals corrupt"
+    },
+        {
+      "id": 61,
+      "name": "abandoned_trade_route",
+      "description": "Area where a trade was held long ago, but now is abandoned"
+    },
+    {
+      "id": 62,
+      "name": "abandoned_homestead",
+      "description": "Area where someone used to live, but had been abandoned for long now"
+    },
+    {
+      "id": 63,
+      "name": "hidden_cave",
+      "description": "A cave that is hidden deep inside the land"
+    },
+    {
+      "id": 64,
+      "name": "forgotten_path",
+      "description": "A path which had been long forgotten"
+    },
+    {
+      "id": 65,
+      "name": "training_site",
+      "description": "Site where the land's defenders would train"
+    },
+    {
+      "id": 66,
+      "name": "abandoned_town",
+      "description": "Town that had been abandoned for long now"
+    },
+    {
+      "id": 67,
+      "name": "sandy_sea",
+      "description": "Sea filled with sand in the deeper regions"
+    },
+    {
+      "id": 68,
+      "name": "siren_sea",
+      "description": "Sea where a bunch of sirens come"
+    },
+    {
+      "id": 69,
+      "name": "plateau_path",
+      "description": "Path that leads around the plateau"
+    },
+    {
+      "id": 70,
+      "name": "corrupt_waterfall",
+      "description": "Waterfall where the water is corrupt"
+    },
+        {
+      "id": 71,
+      "name": "broken_roads",
+      "description": "Roads that are broken"
+    },
+    {
+      "id": 72,
+      "name": "homestead_field",
+      "description": "A field that surrounds a homestaed"
+    },
+    {
+      "id": 73,
+      "name": "hidden_passway",
+      "description": "Passway to hidden region"
+    },
+    {
+      "id": 74,
+      "name": "mountain_path",
+      "description": "A mountain path which leads to the top of the mountain"
+    },
+    {
+      "id": 75,
+      "name": "training_camp",
+      "description": "Camp for training future defenders"
+    },
+    {
+      "id": 76,
+      "name": "fiery_ruins",
+      "description": "Ruins which had been burnt long ago."
+    },
+    {
+      "id": 77,
+      "name": "sea_shores",
+      "description": "Shores of the sea"
+    },
+    {
+      "id": 78,
+      "name": "safe_sea",
+      "description": "Sea safe for all travelers"
+    },
+    {
+      "id": 79,
+      "name": "plateau_ruins",
+      "description": "Ruins on the top of the high plateu"
+    },
+    {
+      "id": 80,
+      "name": "the_void",
+      "description": "The beginning of the voidbringers"
+    },
+     {
+      "id": 81,
+      "name": "ancient_trading_route",
+      "description": "A trading route that has been used for a long time."
+    },
+    {
+      "id": 82,
+      "name": "old_homes",
+      "description": "Old homes."
+    },
+    {
+      "id": 83,
+      "name": "caves",
+      "description": "A cave in the area"
+    },
+    {
+      "id": 84,
+      "name": "long_path",
+      "description": "A path that stretches for miles"
+    },
+    {
+      "id": 85,
+      "name": "training_zone",
+      "description": "A zone for training."
+    },
+    {
+      "id": 86,
+      "name": "abandoned_area",
+      "description": "Area that is abandoned"
+    },
+    {
+      "id": 87,
+      "name": "low_tide",
+      "description": "Low tide."
+    },
+    {
+      "id": 88,
+      "name": "bad_sea",
+      "description": "Sea that has some bad monsters"
+    },
+    {
+      "id": 89,
+      "name": "windy_road",
+      "description": "A very windy road"
+    },
+    {
+      "id": 90,
+      "name": "void_creatures",
+      "description": "Area that has a bunch of void creatures"
+    },
+     {
+      "id": 91,
+      "name": "trading_place",
+      "description": "A place where trading happens."
+    },
+    {
+      "id": 92,
+      "name": "old_homestead",
+      "description": "Old homestaed"
+    },
+    {
+      "id": 93,
+      "name": "hidden_place",
+      "description": "A place that is hidden"
+    },
+    {
+      "id": 94,
+      "name": "mountain_side",
+      "description": "The side of the mountain"
+    },
+    {
+      "id": 95,
+      "name": "training",
+      "description": "Training"
+    },
+    {
+      "id": 96,
+      "name": "ruined",
+      "description": "Area that is ruined"
+    },
+    {
+      "id": 97,
+      "name": "tidal_beach",
+      "description": "Beach that is tideal"
+    },
+    {
+      "id": 98,
+      "name": "water_monster",
+      "description": "Sea that has strong monsters"
+    },
+    {
+      "id": 99,
+      "name": "windy",
+      "description": "Windy"
+    },
+    {
+      "id": 100,
+      "name": "voidbringer",
+      "description": "Area that has the voidbringer"
+    }
+  ]
+}
