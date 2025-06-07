@@ -59,3 +59,4 @@ def generateLite(prompt,storage=None,*extra): # same as above but for lite which
     except Exception as e:
         print(f"An error occurred: {e}")
 
+generate(prompts.main_story, r"Storage\backstory.json", "The protagonist resides in india, in a bustling city known as delhi, and inside the dwarka sector 22 area. The protagonist is a 16 year old boy named shreyansh jain who is a student at the delhi public school in dwarka. He is a bright student who excels in his studies and is known for his intelligence and creativity. He has a passion for technology and spends most of his free time tinkering with gadgets and learning about new advancements in the field. He is also an avid gamer and enjoys playing video games with his friends. Shreyansh is a kind-hearted person who always helps others in need and is well-liked by his peers. He has a close-knit group of friends who share his interests and often collaborate on projects together.") # generates the backstory

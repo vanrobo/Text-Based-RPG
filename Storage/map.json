@@ -4,503 +4,503 @@
   "tiles": [
     {
       "id": 1,
-      "name": "sylvan_forest_edge",
-      "description": "The western edge of the Whispering Woods, bordering the plains."
+      "name": "dwarka_sector_10",
+      "description": "A bustling residential sector in Dwarka known for its parks and community centers."
     },
     {
       "id": 2,
-      "name": "rolling_plains",
-      "description": "Wide open plains, suitable for grazing and agriculture, west of Tairaa."
+      "name": "najafgarh_drain_floodplain",
+      "description": "The wide, often waterlogged plain flanking the Najafgarh Drain, prone to seasonal flooding."
     },
     {
       "id": 3,
-      "name": "tairaa_village",
-      "description": "The secluded village of Tairaa, nestled near the Silent Peaks."
+      "name": "dwarka_mor_metro_station",
+      "description": "A major interchange station on the Delhi Metro's Blue Line, connecting Dwarka to central Delhi."
     },
     {
       "id": 4,
-      "name": "silent_peak_foothills",
-      "description": "The lower reaches of the Silent Peaks, rugged and rocky terrain."
+      "name": "palam_vihar_extension",
+      "description": "An expanding residential area near Dwarka, offering relatively affordable housing options."
     },
     {
       "id": 5,
-      "name": "ancient_terrai_path",
-      "description": "A winding path carved by the Terrai, leading deeper into the mountains."
+      "name": "indraprastha_institute_information_technology_delhi",
+      "description": "A prominent technical institute, a hub for innovation and tech education in the region."
     },
     {
       "id": 6,
-      "name": "ember_waste_outskirts",
-      "description": "Marks the borders of the western area, with a light amount of heat"
+      "name": "dwarka_sector_21_metro",
+      "description": "The elevated metro station serving Sector 21, a busy transport hub for residents."
     },
     {
       "id": 7,
-      "name": "aquari_coastline",
-      "description": "A portion of the eastern coastline, influenced by aquatic currents."
+      "name": "delhi_international_airport",
+      "description": "Indira Gandhi International Airport, a major international gateway to India, constantly bustling."
     },
     {
       "id": 8,
-      "name": "open_ocean",
-      "description": "The vast expanse of the ocean, bordering the main continent."
+      "name": "aerocity_hospitality_district",
+      "description": "A modern district near the airport hosting numerous hotels, restaurants, and commercial spaces."
     },
     {
       "id": 9,
-      "name": "sky_citadel_ruins",
-      "description": "The ruins of a Sky Citadel now broken down after war."
+      "name": "gurgaon_border_industrial_zone",
+      "description": "An area of industrial activity at the border of Gurgaon and Delhi, impacting nearby residential areas."
     },
     {
       "id": 10,
-      "name": "void_corrupted_lands",
-      "description": "A patch of land tainted by the Voidbringers."
+      "name": "national_highway_48",
+      "description": "A major highway connecting Delhi to other parts of India, vital for trade and transportation."
     },
     {
       "id": 11,
-      "name": "sylvan_forest_core",
-      "description": "The dense heart of the Whispering Woods, shrouded in mist."
+      "name": "dwarka_sector_6",
+      "description": "A well-established residential sector, known for its wide streets and community parks, where you can find children playing cricket in the evenings."
     },
     {
       "id": 12,
-      "name": "farmlands",
-      "description": "Cultivated fields producing food for Tairaa and surrounding regions."
+      "name": "najafgarh_rural_area",
+      "description": "Predominantly agricultural land characterized by fertile fields and small villages, contrasting sharply with the urban landscape."
     },
     {
       "id": 13,
-      "name": "whispering_stone_circle",
-      "description": "An ancient circle of Whispering Stones, radiating faint energy."
+      "name": "uttam_nagar_commercial_hub",
+      "description": "A densely populated commercial area with bustling markets and local shops, a center for everyday needs."
     },
     {
       "id": 14,
-      "name": "silent_peak_mid_slopes",
-      "description": "The steeper slopes of the Silent Peaks, covered in snow and ice."
+      "name": "janakpuri_district_center",
+      "description": "A large commercial and residential area with shopping malls, office complexes, and parks."
     },
     {
       "id": 15,
-      "name": "mountain_pass",
-      "description": "A narrow pass through the mountains, connecting different regions."
+      "name": "subhash_nagar_industrial_estate",
+      "description": "A significant industrial zone, contributing to the region's economy but also posing environmental challenges."
     },
     {
       "id": 16,
-      "name": "lava_fields",
-      "description": "Large field of hot lava in the Ember Wastes"
+      "name": "rajouri_garden_market",
+      "description": "A vibrant and popular shopping destination, drawing crowds from all over Delhi."
     },
     {
       "id": 17,
-      "name": "sunken_city_remnants",
-      "description": "Submerged structures of a former Aquari city, visible at low tide."
+      "name": "delhi_cantonment_area",
+      "description": "A military cantonment, a restricted area with a strong military presence and well-maintained infrastructure."
     },
     {
       "id": 18,
-      "name": "shipping_lanes",
-      "description": "Frequently used shipping lanes for trading with other islands."
+      "name": "dhaula_kuan_interchange",
+      "description": "A major traffic intersection connecting various parts of Delhi and the airport."
     },
     {
       "id": 19,
-      "name": "aeri_outpost",
-      "description": "A small observation outpost built by the Aeri, clinging to a cliff face."
+      "name": "mahipalpur_village",
+      "description": "A rapidly developing village near the airport, blending rural life with urban influence."
     },
     {
       "id": 20,
-      "name": "void_rift",
-      "description": "A small rift in reality, leaking Void energy into the world."
+      "name": "gurgaon_cyber_hub",
+      "description": "A major commercial and IT hub, a center for multinational corporations and tech startups."
     },
     {
       "id": 21,
-      "name": "river_source",
-      "description": "The origin point of a major river flowing from the mountains."
+      "name": "dps_dwarka_school",
+      "description": "A well-regarded academic institution, attended by bright young minds like Shreyansh, striving for excellence."
     },
     {
       "id": 22,
-      "name": "caravan_route",
-      "description": "A well-traveled route for merchants and travelers."
+      "name": "nallah_drainage_area",
+      "description": "An open drainage channel, often polluted, that runs through the outskirts of the city."
     },
     {
       "id": 23,
-      "name": "mining_outpost",
-      "description": "A small mining outpost extracting resources from the mountains."
+      "name": "vikaspuri_residential_zone",
+      "description": "A planned residential area with parks, markets, and schools, aiming for a balanced community life."
     },
     {
       "id": 24,
-      "name": "silent_peak_summit",
-      "description": "The highest point of the Silent Peaks, shrouded in perpetual snow."
+      "name": "punjabi_bagh_club_area",
+      "description": "An upscale residential area known for its affluent residents and recreational facilities."
     },
     {
       "id": 25,
-      "name": "forgotten_temple",
-      "description": "The ruins of a temple dedicated to the elders of the land."
+      "name": "motia_khan_slum_area",
+      "description": "A densely populated informal settlement, facing challenges related to sanitation and housing."
     },
     {
       "id": 26,
-      "name": "magma_vents",
-      "description": "Multiple small magma vents"
+      "name": "karol_bagh_shopping_district",
+      "description": "A historic shopping district famous for its textiles and street food."
     },
     {
       "id": 27,
-      "name": "coral_reefs",
-      "description": "Vibrant coral reefs teeming with marine life."
+      "name": "new_delhi_railway_station",
+      "description": "One of the busiest railway stations in India, connecting Delhi to all major cities."
     },
     {
       "id": 28,
-      "name": "uncharted_waters",
-      "description": "Unexplored waters, rumored to hold hidden dangers and treasures."
+      "name": "connaught_place_cbd",
+      "description": "The heart of Delhi, a central business district known for its colonial architecture and commercial activity."
     },
     {
       "id": 29,
-      "name": "windy_plateau",
-      "description": "A high altitude plateau"
+      "name": "vasant_vihar_diplomatic_enclave",
+      "description": "A posh residential area housing numerous embassies and diplomats."
     },
     {
       "id": 30,
-      "name": "void_infused_forest",
-      "description": "Forest which had been infused by the voidbringers"
+      "name": "mehrauli_archaeological_park",
+      "description": "A historical site with ancient ruins and tombs, offering a glimpse into Delhi's past."
     },
     {
       "id": 31,
-      "name": "sylvan_druid_grove",
-      "description": "A sacred grove protected by the Sylvani."
+      "name": "dwarka_sector_22",
+      "description": "Shreyansh's home. A modern residential sector with apartment complexes, wide roads, and access to the metro."
     },
     {
       "id": 32,
-      "name": "abandoned_settlement",
-      "description": "The remains of a settlement destroyed by conflict or natural disaster."
+      "name": "sector_23_sports_complex",
+      "description": "A sporting facility and community space for the public."
     },
     {
       "id": 33,
-      "name": "stone_carving_site",
-      "description": "A site where intricate stone carvings are created."
+      "name": "palam_airport_domestic_terminal",
+      "description": "The older domestic terminal of the Delhi airport."
     },
     {
       "id": 34,
-      "name": "mountain_lake",
-      "description": "A pristine lake fed by glacial meltwater."
+      "name": "gurgaon_farmland",
+      "description": "Expansive agricultural land outside of Gurgaon, providing food and resources for the city."
     },
     {
       "id": 35,
-      "name": "ancient_battlefield",
-      "description": "The site of a major battle from the war against the Voidbringers."
+      "name": "kapashera_border_region",
+      "description": "An area bordering Delhi and Haryana."
     },
     {
       "id": 36,
-      "name": "geothermal_vents",
-      "description": "Small geothermal vents which makes steam."
+      "name": "delhi_gurgaon_expressway",
+      "description": "A high-speed road connecting Delhi and Gurgaon."
     },
     {
       "id": 37,
-      "name": "underwater_caves",
-      "description": "Submerged caves with unique ecosystems."
+      "name": "nehru_place_IT_hub",
+      "description": "A center for computer hardware and software sales."
     },
     {
       "id": 38,
-      "name": "pirate_cove",
-      "description": "A hidden cove used by pirates as a hideout."
+      "name": "hauz_khas_village",
+      "description": "An urban village mixing ancient ruins with modern cafes and boutiques."
     },
     {
       "id": 39,
-      "name": "aeri_watchtower",
-      "description": "A watchtower, overseeing surrounding regions."
+      "name": "saket_shopping_malls",
+      "description": "An area known for its large shopping malls and retail spaces."
     },
     {
       "id": 40,
-      "name": "corrupted_wildlife",
-      "description": "Area where wildlife are corrupt and very aggressive"
+      "name": "tughlaqabad_fort",
+      "description": "An ancient fort providing insight into Delhi's past."
     },
     {
       "id": 41,
-      "name": "sylvan_trade_route",
-      "description": "A path used for trading with the sylvan"
+      "name": "pochanpur_village",
+      "description": "A traditional village on the outskirts of Dwarka, retaining a rustic charm amid urban sprawl."
     },
     {
       "id": 42,
-      "name": "empty_fields",
-      "description": "Abandoned field which has nothing growing on it"
+      "name": "sector_8_park",
+      "description": "A large park offers green space for the public."
     },
     {
       "id": 43,
-      "name": "carving_workshop",
-      "description": "A workshop for the people of the land."
+      "name": "sector_9_market",
+      "description": "An informal market with street vendors and local shops."
     },
     {
       "id": 44,
-      "name": "abandoned_terrai_mines",
-      "description": "Abandoned terrai mines."
+      "name": "sector_23_housing_society",
+      "description": "A residential zone known for modern architecture."
     },
     {
       "id": 45,
-      "name": "training_grounds",
-      "description": "An area for training future warriors"
+      "name": "sector_24_metro_depot",
+      "description": "A crucial infrastructure area."
     },
     {
       "id": 46,
-      "name": "burning_forest",
-      "description": "Forest which had been set alight and now burns."
+      "name": "sector_7_cultural_center",
+      "description": "A venue for cultural activities and events."
     },
     {
       "id": 47,
-      "name": "ocean_floor",
-      "description": "Normal ocean floor."
+      "name": "sector_5_residential_community",
+      "description": "A planned suburb known for quiet streets."
     },
     {
       "id": 48,
-      "name": "ship_wreck",
-      "description": "Shipwreck on the ocean floor"
+      "name": "bijwasan_border_village",
+      "description": "Rural outpost just outside of Delhi."
     },
     {
       "id": 49,
-      "name": "strong_gusts",
-      "description": "Area that has strong gusts"
+      "name": "palam_railway_station",
+      "description": "Serving the local population."
     },
     {
       "id": 50,
-      "name": "fountain_of_corruption",
-      "description": "Large fountain of corruption"
+      "name": "the_leela_ambience_gurgaon",
+      "description": "A popular hotel near Dwarka."
     },
     {
       "id": 51,
-      "name": "unexplored_route",
-      "description": "Unexplored path that leads somewhere."
+      "name": "sector_11_sports_ground",
+      "description": "A hub for athletic activity and recreation."
     },
     {
       "id": 52,
-      "name": "broken_bridge",
-      "description": "A bridge that had been broken down."
+      "name": "dabri_mor_intersection",
+      "description": "A congested traffic junction connecting major routes."
     },
     {
       "id": 53,
-      "name": "abandoned_home",
-      "description": "Area where someone used to live."
+      "name": "dwarka_expressway_construction_zone",
+      "description": "Ongoing infrastructure development."
     },
     {
       "id": 54,
-      "name": "silent_falls",
-      "description": "Silent falls"
+      "name": "sector_25_vacant_land",
+      "description": "Empty for now, future development planned."
     },
     {
       "id": 55,
-      "name": "open_grounds",
-      "description": "grounds that are open and empty"
+      "name": "sector_3_water_treatment_plant",
+      "description": "Essential infrastructure for sanitation."
     },
     {
       "id": 56,
-      "name": "burnt_area",
-      "description": "Area that had been burnt down."
+      "name": "sector_12_school_zone",
+      "description": "A neighborhood known for quality schools."
     },
     {
       "id": 57,
-      "name": "unexplored_deep",
-      "description": "unexplored depths of the ocean"
+      "name": "dharampura_village",
+      "description": "Rural settlement with agricultural traditions."
     },
     {
       "id": 58,
-      "name": "siren_cliffs",
-      "description": "Area where a bunch of sirens appear"
+      "name": "kapashera_textile_factories",
+      "description": "An industrial area producing garments."
     },
     {
       "id": 59,
-      "name": "tornado_alley",
-      "description": "Area where tornados are prominent"
+      "name": "dlf_cyber_city_gurgaon",
+      "description": "Modern commercial district."
     },
     {
       "id": 60,
-      "name": "void_crystal_field",
-      "description": "Field of crystals corrupt"
+      "name": "golf_course_road_gurgaon",
+      "description": "An upscale residential corridor in Gurgaon."
     },
-        {
+    {
       "id": 61,
-      "name": "abandoned_trade_route",
-      "description": "Area where a trade was held long ago, but now is abandoned"
+      "name": "sector_4_community_center",
+      "description": "Gathering for local events."
     },
     {
       "id": 62,
-      "name": "abandoned_homestead",
-      "description": "Area where someone used to live, but had been abandoned for long now"
+      "name": "sector_14_hospital",
+      "description": "Important healthcare facility."
     },
     {
       "id": 63,
-      "name": "hidden_cave",
-      "description": "A cave that is hidden deep inside the land"
+      "name": "mubarakpur_dabas_village",
+      "description": "Small village facing urbanization challenges."
     },
     {
       "id": 64,
-      "name": "forgotten_path",
-      "description": "A path which had been long forgotten"
+      "name": "gurgaon_toll_plaza",
+      "description": "A highway access point."
     },
     {
       "id": 65,
-      "name": "training_site",
-      "description": "Site where the land's defenders would train"
+      "name": "iffco_chowk_metro",
+      "description": "Important connection."
     },
     {
       "id": 66,
-      "name": "abandoned_town",
-      "description": "Town that had been abandoned for long now"
+      "name": "mg_road_gurgaon",
+      "description": "Popular shopping area."
     },
     {
       "id": 67,
-      "name": "sandy_sea",
-      "description": "Sea filled with sand in the deeper regions"
+      "name": "ambience_mall_gurgaon",
+      "description": "Large retail area."
     },
     {
       "id": 68,
-      "name": "siren_sea",
-      "description": "Sea where a bunch of sirens come"
+      "name": "sector_17_park",
+      "description": "Recreational facility."
     },
     {
       "id": 69,
-      "name": "plateau_path",
-      "description": "Path that leads around the plateau"
+      "name": "sector_16_market",
+      "description": "Shopping and commercial activity."
     },
     {
       "id": 70,
-      "name": "corrupt_waterfall",
-      "description": "Waterfall where the water is corrupt"
+      "name": "sector_15_school",
+      "description": "Educational institution."
     },
-        {
+    {
       "id": 71,
-      "name": "broken_roads",
-      "description": "Roads that are broken"
+      "name": "budhela_village",
+      "description": "Rural traditions and modern life."
     },
     {
       "id": 72,
-      "name": "homestead_field",
-      "description": "A field that surrounds a homestaed"
+      "name": "sector_26_bio_diversity_park",
+      "description": "Preserved green."
     },
     {
       "id": 73,
-      "name": "hidden_passway",
-      "description": "Passway to hidden region"
+      "name": "sector_27_construction",
+      "description": "Development and infrastructure."
     },
     {
       "id": 74,
-      "name": "mountain_path",
-      "description": "A mountain path which leads to the top of the mountain"
+      "name": "sector_1_apartment",
+      "description": "Residential complex."
     },
     {
       "id": 75,
-      "name": "training_camp",
-      "description": "Camp for training future defenders"
+      "name": "sector_2_garden",
+      "description": "A peaceful area."
     },
     {
       "id": 76,
-      "name": "fiery_ruins",
-      "description": "Ruins which had been burnt long ago."
+      "name": "najafgarh_canal",
+      "description": "An important waterway."
     },
     {
       "id": 77,
-      "name": "sea_shores",
-      "description": "Shores of the sea"
+      "name": "sector_13_residential",
+      "description": "Area with homes."
     },
     {
       "id": 78,
-      "name": "safe_sea",
-      "description": "Sea safe for all travelers"
+      "name": "sector_19_institutional_area",
+      "description": "Goverment sector."
     },
     {
       "id": 79,
-      "name": "plateau_ruins",
-      "description": "Ruins on the top of the high plateu"
+      "name": "sector_20_dps_school",
+      "description": "Academics and growth."
     },
     {
       "id": 80,
-      "name": "the_void",
-      "description": "The beginning of the voidbringers"
+      "name": "sector_18_commercial_hub",
+      "description": "Business activity."
     },
-     {
+    {
       "id": 81,
-      "name": "ancient_trading_route",
-      "description": "A trading route that has been used for a long time."
+      "name": "gurgaon_border_highway",
+      "description": "Connecting regions."
     },
     {
       "id": 82,
-      "name": "old_homes",
-      "description": "Old homes."
+      "name": "samalkha_village",
+      "description": "Community life."
     },
     {
       "id": 83,
-      "name": "caves",
-      "description": "A cave in the area"
+      "name": "manesar_industrial",
+      "description": "Manufacturing and jobs."
     },
     {
       "id": 84,
-      "name": "long_path",
-      "description": "A path that stretches for miles"
+      "name": "sohna_road_residential",
+      "description": "Housing and communities."
     },
     {
       "id": 85,
-      "name": "training_zone",
-      "description": "A zone for training."
+      "name": "sector_29_leisure_valley",
+      "description": "Relaxation spot."
     },
     {
       "id": 86,
-      "name": "abandoned_area",
-      "description": "Area that is abandoned"
+      "name": "rajiv_chowk_gurgaon",
+      "description": "Junction of activity."
     },
     {
       "id": 87,
-      "name": "low_tide",
-      "description": "Low tide."
+      "name": "huda_city_centre_metro",
+      "description": "Key station."
     },
     {
       "id": 88,
-      "name": "bad_sea",
-      "description": "Sea that has some bad monsters"
+      "name": "cyber_greens_gurgaon",
+      "description": "Office parks."
     },
     {
       "id": 89,
-      "name": "windy_road",
-      "description": "A very windy road"
+      "name": "old_gurgaon",
+      "description": "Local businesses."
     },
     {
       "id": 90,
-      "name": "void_creatures",
-      "description": "Area that has a bunch of void creatures"
+      "name": "sector_44_hospital",
+      "description": "Healthcare institution."
     },
-     {
+    {
       "id": 91,
-      "name": "trading_place",
-      "description": "A place where trading happens."
+      "name": "bhim_bharat_village",
+      "description": "Community connection."
     },
     {
       "id": 92,
-      "name": "old_homestead",
-      "description": "Old homestaed"
+      "name": "daultabad_industrial",
+      "description": "Factories and work."
     },
     {
       "id": 93,
-      "name": "hidden_place",
-      "description": "A place that is hidden"
+      "name": "sector_108_highway",
+      "description": "Travel infrastructure."
     },
     {
       "id": 94,
-      "name": "mountain_side",
-      "description": "The side of the mountain"
+      "name": "mewat_border_agriculture",
+      "description": "Farming and countryside."
     },
     {
       "id": 95,
-      "name": "training",
-      "description": "Training"
+      "name": "sector_82_residential",
+      "description": "Planned housing sector."
     },
     {
       "id": 96,
-      "name": "ruined",
-      "description": "Area that is ruined"
+      "name": "sector_102_construction",
+      "description": "Development."
     },
     {
       "id": 97,
-      "name": "tidal_beach",
-      "description": "Beach that is tideal"
+      "name": "pataudi_palace",
+      "description": "Heritage site."
     },
     {
       "id": 98,
-      "name": "water_monster",
-      "description": "Sea that has strong monsters"
+      "name": "sector_68_commercial",
+      "description": "Business hub."
     },
     {
       "id": 99,
-      "name": "windy",
-      "description": "Windy"
+      "name": "sector_37d_residential",
+      "description": "Modern living spaces."
     },
     {
       "id": 100,
-      "name": "voidbringer",
-      "description": "Area that has the voidbringer"
+      "name": "west_expressway",
+      "description": "Roadway."
     }
   ]
 }

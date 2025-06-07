@@ -4,6 +4,7 @@ import time
 import threading
 import os
 from dotenv import load_dotenv
+import ai
 
 load_dotenv()
 variable_value = os.getenv("API_KEY")
@@ -27,14 +28,13 @@ with open(r"Storage\data.json") as data:
     slot_3 = info["slot_3"]
     slot_4 = info["slot_4"]
     config = info["settings"]
-
+    print(slot_1, slot_2, slot_3, slot_4, config)
 
 
 
 
 def settings():
 
-    text_speed = config["text_speed"]
     text_to_speech = config["text_to_speech"]
     font_size = config["font_size"]
     font_family = config["font_family"]
@@ -42,16 +42,17 @@ def settings():
 
     while True:
         print(f"Which setting do you want to change: [enter a number] \
-        \n\n\t(1) Text Speed: {text_speed} \n\t(2) Text-To-Speech: {text_to_speech} \n\t(3) Font Size: {font_size} \n\t(4) Font Family {font_family} \n\t(5) Font Colour {font_colour} \n\t(6) Back \n\n")
+        \n\n\t(1) API_KEY \n\t(2) Text-To-Speech: {text_to_speech} \n\t(3) Font Size: {font_size} \n\t(4) Font Family: {font_family} \n\t(5) Font Colour: {font_colour} \n\t(6) Back \n\n")
 
         setting = input("You: ")
 
         if setting == "1":
             while True:
-                text_speed = float(input("Enter new text speed: \n\nYou: "))
-
-                if 0<text_speed<=1:
-                    break
+                api_key_new = input("Enter new api_key: \n\nYou: ")
+                with open(".env", "w") as f:
+                    f.write(f"API_KEY={api_key_new}\n")
+                print("API_KEY updated")
+                break
 
             
         
@@ -94,12 +95,10 @@ def settings():
 
                 if setting_saving == "yes" or setting_saving == 'y':
                     print("Saving settings..........")
-                    config["text_speed"] = text_speed
                     config["font_family"] = font_family
                     config["font_size"] = font_size
                     config["font_colour"] = font_colour
                     config["text_to_speech"] = text_to_speech
-
                     info["settings"] = config
                     print("Success")
                     return mainmenu()
@@ -122,7 +121,6 @@ def deletion(saveslot_chosen):
             delete = input("You: ").lower().strip()
 
             if delete == "y" or delete == "yes":
-                
                 print("This action cannot be undone, do you still wish to continue (Y/N) \n\n")
 
                 while True:
@@ -227,17 +225,13 @@ def mainmenu():
         mainOption = input("You: ").strip().lower()
     
         if mainOption == "1" or mainOption == "play" or mainOption == "p":
-            saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
-            break
-            
+            saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])            
             
         elif mainOption == "2" or mainOption == "setting" or mainOption == "settings" or mainOption == "s":
             settings()
-            break
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
             print("Made by: Vanrobo and Valt20_20shu")
-            break
             
         elif mainOption == "4" or mainOption == "exit" or mainOption == "ex" or mainOption == "e":
             print("Exiting the game...")
