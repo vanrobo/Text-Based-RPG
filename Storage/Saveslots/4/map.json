@@ -4,503 +4,503 @@
     "tiles": [
         {
             "id": 1,
-            "name": "red_fort_district",
-            "description": "The historical Red Fort dominates this district, a center of Mughal-era architecture and political significance."
+            "name": "old_delhi_red_fort_district",
+            "description": "Home to the iconic Red Fort, a symbol of Mughal power, now a bustling tourist destination intertwined with local life."
         },
         {
             "id": 2,
-            "name": "chandni_chowk_central",
-            "description": "The heart of Chandni Chowk, a chaotic and vibrant marketplace filled with spice shops, street food vendors, and bustling crowds."
+            "name": "chandni_chowk_marketplace",
+            "description": "The heart of Old Delhi, a chaotic and vibrant marketplace filled with spices, street food, and hidden alleys, Shreyansh's home."
         },
         {
             "id": 3,
-            "name": "khari_baoli_spice_market",
-            "description": "Asia's largest spice market, a sensory overload of aromas and colors with ancient roots."
+            "name": "jama_masjid_vicinity",
+            "description": "Surrounding the grand Jama Masjid mosque, a center of Islamic culture and a labyrinth of traditional crafts and food stalls."
         },
         {
             "id": 4,
-            "name": "jama_masjid_precinct",
-            "description": "Centered around the majestic Jama Masjid mosque, a spiritual and architectural landmark."
+            "name": "daryaganj_book_market",
+            "description": "A sprawling second-hand book market, a treasure trove of forgotten knowledge and literary gems, buzzing with students and scholars."
         },
         {
             "id": 5,
-            "name": "daryaganj_book_market",
-            "description": "A sprawling Sunday book market, a haven for bibliophiles and collectors of rare editions."
+            "name": "kashmere_gate_isbt_area",
+            "description": "A major transportation hub, the Inter-State Bus Terminal connects Delhi to surrounding regions, a melting pot of travelers and commerce."
         },
         {
             "id": 6,
-            "name": "delhi_gate_area",
-            "description": "A major gateway and transport hub, connecting Old Delhi to New Delhi."
+            "name": "civil_lines_residential_zone",
+            "description": "A quieter, more spacious residential area with colonial-era bungalows and tree-lined streets, a stark contrast to the Old Delhi chaos."
         },
         {
             "id": 7,
-            "name": "raj_ghat_memorial_area",
-            "description": "The solemn memorial to Mahatma Gandhi, a place of peace and reflection."
+            "name": "new_delhi_railway_station",
+            "description": "One of India's busiest railway stations, a gateway to the city, filled with the energy and diversity of the nation."
         },
         {
             "id": 8,
-            "name": "netaji_subhash_marg",
-            "description": "A major thoroughfare lined with historical buildings and government offices."
+            "name": "raj_ghat_memorial_park",
+            "description": "A solemn memorial dedicated to Mahatma Gandhi, a peaceful green space offering respite from the urban bustle."
         },
         {
             "id": 9,
-            "name": "sanjay_van_forest_area",
-            "description": "A dense urban forest, a green lung providing respite from the city's bustle."
+            "name": "lodi_garden_historic_site",
+            "description": "A historical garden complex with tombs and monuments from the Lodi dynasty, a serene escape with ancient secrets."
         },
         {
             "id": 10,
-            "name": "yamuna_river_bank",
-            "description": "The banks of the Yamuna River, a vital water source and a site for religious rituals."
+            "name": "connaught_place_commercial_hub",
+            "description": "A circular commercial district, the heart of New Delhi, with shops, restaurants, and colonial architecture, a modern center of activity."
         },
         {
             "id": 11,
-            "name": "kashmere_gate_isbt",
-            "description": "The Inter-State Bus Terminal, a major transportation hub connecting Delhi to surrounding states."
+            "name": "paharganj_backpacker_district",
+            "description": "A budget-friendly district known for its hostels, cheap eats, and a vibrant mix of international travelers and local culture."
         },
         {
             "id": 12,
-            "name": "civil_lines_residential",
-            "description": "A historically significant residential area with colonial-era bungalows."
+            "name": "karol_bagh_shopping_area",
+            "description": "A bustling shopping district known for its affordable clothing, electronics, and a wide array of local businesses."
         },
         {
             "id": 13,
-            "name": "university_of_delhi_north_campus",
-            "description": "The sprawling campus of Delhi University, a center of learning and youthful energy."
+            "name": "delhi_university_north_campus",
+            "description": "A sprawling university campus, a center of learning and youthful energy, with historic buildings and vibrant student life."
         },
         {
             "id": 14,
-            "name": "model_town_suburban",
-            "description": "A planned suburban area with well-laid-out residential blocks."
+            "name": "yamuna_river_floodplains",
+            "description": "The fertile plains along the Yamuna River, used for agriculture and recreation, a lifeline for the city."
         },
         {
             "id": 15,
-            "name": "pitampura_commercial_hub",
-            "description": "A modern commercial hub with shopping malls, office complexes, and residential apartments."
+            "name": "north_delhi_industrial_area",
+            "description": "An industrial zone with factories and warehouses, contributing to the city's economy and creating a gritty landscape."
         },
         {
             "id": 16,
-            "name": "rohini_residential_sector",
-            "description": "A large residential area with a mix of housing options."
+            "name": "gt_karnal_road_corridor",
+            "description": "A major highway connecting Delhi to northern regions, a vital transportation artery for goods and people."
         },
         {
             "id": 17,
-            "name": "narela_industrial_zone",
-            "description": "An industrial zone with factories, warehouses, and manufacturing units."
+            "name": "rohini_residential_sector",
+            "description": "A planned residential area with apartment complexes and parks, offering a more structured urban environment."
         },
         {
             "id": 18,
-            "name": "alipur_rural_outskirts",
-            "description": "Rural outskirts with agricultural fields and small villages."
+            "name": "pitampura_commercial_complex",
+            "description": "A modern commercial complex with shopping malls, office buildings, and entertainment venues, a symbol of Delhi's growth."
         },
         {
             "id": 19,
-            "name": "gt_karnal_road_highway",
-            "description": "A major highway connecting Delhi to northern India."
+            "name": "mangolpuri_resettlement_colony",
+            "description": "A densely populated resettlement colony, reflecting the challenges of urban migration and the city's growing population."
         },
         {
             "id": 20,
-            "name": "wazirabad_barrage_area",
-            "description": "An area along the Yamuna, including a barrage and nearby agricultural land."
+            "name": "bawana_industrial_area",
+            "description": "A large industrial area on the outskirts of Delhi, housing factories and manufacturing units of various scales."
         },
         {
             "id": 21,
-            "name": "shastri_park_area",
-            "description": "A residential and commercial area near a large public park."
+            "name": "old_delhi_walled_city_core",
+            "description": "The densely populated core of Old Delhi, with narrow alleys, crumbling havelis, and a rich tapestry of history and tradition."
         },
         {
             "id": 22,
-            "name": "karol_bagh_shopping_district",
-            "description": "A popular shopping district known for its affordable clothing and accessories."
+            "name": "khari_baoli_spice_market",
+            "description": "Asia's largest spice market, a sensory overload of aromas and colors, a testament to Delhi's trading heritage."
         },
         {
             "id": 23,
-            "name": "paharganj_backpacker_area",
-            "description": "A bustling area popular with backpackers, known for its budget hotels and restaurants."
+            "name": "sanjay_lake_recreational_area",
+            "description": "A man-made lake and park offering recreational activities, a green lung for the city's eastern part."
         },
         {
             "id": 24,
-            "name": "connaught_place_cbd",
-            "description": "The Central Business District of Delhi, with colonial-era architecture and modern businesses."
+            "name": "ip_estate_power_hub",
+            "description": "A major power generation and distribution hub, essential for Delhi's energy needs."
         },
         {
             "id": 25,
-            "name": "india_gate_area",
-            "description": "A war memorial and popular gathering place, surrounded by lush gardens."
+            "name": "rajiv_chowk_metro_station",
+            "description": "One of the busiest metro stations in the world, a crucial interchange connecting different parts of Delhi."
         },
         {
             "id": 26,
-            "name": "lodhi_garden_historic_park",
-            "description": "A historical garden with tombs and ruins from the Lodhi dynasty."
+            "name": "indian_agricultural_research_institute",
+            "description": "A leading agricultural research institute, contributing to advancements in farming techniques and food security."
         },
         {
             "id": 27,
-            "name": "sunder_nursery_heritage_site",
-            "description": "A restored Mughal-era garden complex with tombs, gardens, and water features."
+            "name": "mehrauli_archaeological_park",
+            "description": "A historical park with ruins and tombs from various dynasties, a window into Delhi's past."
         },
         {
             "id": 28,
-            "name": "humayun's_tomb_complex",
-            "description": "A magnificent Mughal-era tomb, a precursor to the Taj Mahal."
+            "name": "hauz_khas_village_urban_village",
+            "description": "A trendy urban village with cafes, boutiques, and art galleries, blending modern culture with historical ruins."
         },
         {
             "id": 29,
-            "name": "sarai_kale_khan_isbt",
-            "description": "A bus terminal serving routes to eastern and southern destinations."
+            "name": "saket_district_centre",
+            "description": "A modern district center with shopping malls, offices, and residential apartments, reflecting Delhi's contemporary growth."
         },
         {
             "id": 30,
-            "name": "new_delhi_railway_station",
-            "description": "A major railway station connecting Delhi to destinations across India."
+            "name": "gurugram_cyber_hub_it_park",
+            "description": "A satellite city and major IT hub, housing multinational corporations and contributing to Delhi's economic region."
         },
         {
             "id": 31,
-            "name": "ransomware_vihar_residential",
-            "description": "A densely populated residential area."
+            "name": "motia_khan_wholesale_market",
+            "description": "A sprawling wholesale market, the main supply chain for the entire city."
         },
         {
             "id": 32,
-            "name": "laxmi_nagar_commercial",
-            "description": "A bustling commercial center with shops, markets, and street vendors."
+            "name": "qutub_minar_historical_complex",
+            "description": "Home to Qutub Minar, a historic tourist destination intertwinded with local life."
         },
         {
             "id": 33,
-            "name": "vasundhara_enclave_housing",
-            "description": "A planned housing area with apartments and green spaces."
+            "name": "central_delhi_government_area",
+            "description": "Central government buildings, and various other government faciliities."
         },
         {
             "id": 34,
-            "name": "ghazipur_landfill_site",
-            "description": "A massive landfill site, a stark reminder of the city's waste management challenges."
+            "name": "delhi_cantt_military_area",
+            "description": "An important area for the Indian Military."
         },
         {
             "id": 35,
-            "name": "noida_expressway_area",
-            "description": "An expressway connecting Delhi to Noida, a satellite city."
+            "name": "ambedkar_university_delhi",
+            "description": "A modern state university in New Delhi."
         },
         {
             "id": 36,
-            "name": "mayur_vihar_phase_i",
-            "description": "A residential area with apartments and parks."
+            "name": "dwarka_residential_area",
+            "description": "A largely residential area near the airport."
         },
         {
             "id": 37,
-            "name": "akshardham_temple_complex",
-            "description": "A sprawling Hindu temple complex dedicated to Swaminarayan."
+            "name": "igi_airport_area",
+            "description": "Area surrounding and near the international airport for Delhi."
         },
         {
             "id": 38,
-            "name": "commonwealth_games_village",
-            "description": "The site of the 2010 Commonwealth Games, now a residential and sports complex."
+            "name": "vasant_kunj_residential_area",
+            "description": "A residential area south of the city center."
         },
         {
             "id": 39,
-            "name": "ip_estate_office_area",
-            "description": "An area with government offices and commercial buildings."
+            "name": "greater_kailash_m_block_market",
+            "description": "An affluent area known for its restaurants and markets."
         },
         {
             "id": 40,
-            "name": "ito_intersection",
-            "description": "A major intersection and traffic bottleneck."
+            "name": "defence_colony_residential_area",
+            "description": "A residential area located south of the city."
         },
         {
             "id": 41,
-            "name": "jhandewalan_temple_area",
-            "description": "A temple dedicated to Goddess Durga, a popular pilgrimage site."
+            "name": "lajpat_nagar_market",
+            "description": "A local market, located in South Delhi."
         },
         {
             "id": 42,
-            "name": "roshanara_bagh_garden",
-            "description": "A Mughal-era garden with historical significance."
+            "name": "new_friends_colony",
+            "description": "A residential area south of the main city center."
         },
         {
             "id": 43,
-            "name": "gulabi_bagh_slum",
-            "description": "A densely populated slum area with challenging living conditions."
+            "name": "jamia_millia_islamia",
+            "description": "An important university in the South Delhi area."
         },
         {
             "id": 44,
-            "name": "kishanganj_railway_yard",
-            "description": "A railway yard with trains and maintenance facilities."
+            "name": "okhla_industrial_area",
+            "description": "Industrial area in the South of Delhi."
         },
         {
             "id": 45,
-            "name": "dayabasti_industrial_area",
-            "description": "An industrial area with factories and workshops."
+            "name": "kalindi_kunj_border_area",
+            "description": "A border area that connects to nearby cities."
         },
         {
             "id": 46,
-            "name": "punjabi_bagh_residential",
-            "description": "An upscale residential area with large houses and gardens."
+            "name": "south_delhi_hills",
+            "description": "A few small hills and greener areas of the city."
         },
         {
             "id": 47,
-            "name": "rajouri_garden_market",
-            "description": "A popular market with a mix of shops and restaurants."
+            "name": "nehru_place_it_hub",
+            "description": "IT and business hub."
         },
         {
             "id": 48,
-            "name": "janakpuri_district_center",
-            "description": "A district center with government offices and commercial buildings."
+            "name": "delhi_ncr_border_area",
+            "description": "Border between Delhi and surrounding states."
         },
         {
             "id": 49,
-            "name": "dwarka_residential_area",
-            "description": "A planned residential area with apartments and parks."
+            "name": "kalkaji_temple_area",
+            "description": "An area with a prominent Hindu temple."
         },
         {
             "id": 50,
-            "name": "najafgarh_rural_belt",
-            "description": "A rural belt with agricultural fields and small villages."
+            "name": "moti_bagh_embassy_area",
+            "description": "The Embassy area of Delhi."
         },
         {
             "id": 51,
-            "name": "gurgaon_industrial_suburb",
-            "description": "A major industrial and commercial suburb of Delhi."
+            "name": "siri_fort_sports_complex",
+            "description": "Home of a sports complex."
         },
         {
             "id": 52,
-            "name": "south_delhi_ridge",
-            "description": "The Aravalli range extends into Delhi, providing natural beauty."
+            "name": "punjabi_bagh_residential",
+            "description": "A residential area to the west of the city."
         },
         {
             "id": 53,
-            "name": "hauz_khas_village",
-            "description": "Historic village blended with modern cafes and boutiques, near lake."
+            "name": "rajouri_garden_market",
+            "description": "A local commercial market."
         },
         {
             "id": 54,
-            "name": "saket_district_court",
-            "description": "A major court complex, important for legal activity."
+            "name": "subhash_nagar_residential",
+            "description": "Residential area in West Delhi."
         },
         {
             "id": 55,
-            "name": "pushp_vihar_residential",
-            "description": "A predominantly residential sector for middle to high income families."
+            "name": "janakpuri_district_center",
+            "description": "A district center with government offices and other commercial establishments."
         },
         {
             "id": 56,
-            "name": "nehru_place_electronics",
-            "description": "A hub for electronics and computer hardware, attracts tech enthusiasts."
+            "name": "tilak_nagar_market",
+            "description": "A local marketplace for the surrounding area."
         },
         {
             "id": 57,
-            "name": "kalkaji_temple_area",
-            "description": "Famous Hindu temple dedicated to Goddess Kali, attracts devotees daily."
+            "name": "vikaspuri_residential",
+            "description": "A largely residential area in West Delhi."
         },
         {
             "id": 58,
-            "name": "tughlaqabad_fort",
-            "description": "Ruins of an ancient fort, providing historical perspective."
+            "name": "uttar_nagar_residential_area",
+            "description": "A densely populated residential area."
         },
         {
             "id": 59,
-            "name": "badarpur_border",
-            "description": "The Delhi-Haryana border, marked by check posts and traffic."
+            "name": "najafgarh_rural_area",
+            "description": "Rural area on the edges of the city."
         },
         {
             "id": 60,
-            "name": "faridabad_industrial",
-            "description": "Another large industrial city bordering Delhi, known for manufacturing."
+            "name": "dwaraka_expressway",
+            "description": "Major highway connecting airport to Delhi."
         },
         {
             "id": 61,
-            "name": "old_delhi_railway_station",
-            "description": "Historic railway station servicing north and east India."
+            "name": "kirti_nagar_furniture_market",
+            "description": "Market that specializes in furniture sales and production."
         },
         {
             "id": 62,
-            "name": "sisganj_gurudwara",
-            "description": "Important Sikh shrine in Chandni Chowk, symbol of faith and sacrifice."
+            "name": "mayapuri_industrial_area",
+            "description": "Industrial zone with factories and warehouses."
         },
         {
             "id": 63,
-            "name": "paranthe_wali_gali",
-            "description": "Famous lane for stuffed paranthas, a culinary delight."
+            "name": "naraina_industrial_area",
+            "description": "Large industrial area, west of Delhi."
         },
         {
             "id": 64,
-            "name": "kinari_bazar",
-            "description": "Market for wedding accessories and embroidery, shimmering with colours."
+            "name": "rajender_nagar_residential",
+            "description": "A primarily residential area."
         },
         {
             "id": 65,
-            "name": "ballimaran_shoe_market",
-            "description": "Lively market for shoes and footwear, bustling with bargain hunters."
+            "name": "patel_nagar_market",
+            "description": "Local Market in West Delhi."
         },
         {
             "id": 66,
-            "name": "meena_bazar",
-            "description": "Historically significant market in Red Fort, trading center for artisans."
+            "name": "shadipur_depot_area",
+            "description": "Transport and logistics."
         },
         {
             "id": 67,
-            "name": "fatehpuri_mosque",
-            "description": "Another prominent mosque in Chandni Chowk, architectural marvel."
+            "name": "new_delhi_central_area",
+            "description": "Central district of New Delhi"
         },
         {
             "id": 68,
-            "name": "town_hall_old_delhi",
-            "description": "British-era building with historical and administrative value."
+            "name": "karakardooma_district_court",
+            "description": "Government/ Judicial area of Delhi."
         },
         {
             "id": 69,
-            "name": "hardinge_library",
-            "description": "Historic library providing literary resources to locals."
+            "name": "laxmi_nagar_commercial_area",
+            "description": "Area with a lot of shopping, commerce, and traffic."
         },
         {
             "id": 70,
-            "name": "gali_qasim_jaan",
-            "description": "Narrow street with old havelis, reflecting cultural history."
+            "name": "preet_vihar_residential_zone",
+            "description": "Residential area with mixed-income dwellings."
         },
         {
             "id": 71,
-            "name": "lal_kuan_market",
-            "description": "Wholesale market for building materials and hardware."
+            "name": "anand_vihar_isbt",
+            "description": "Area containing a large bus terminal and park."
         },
         {
             "id": 72,
-            "name": "qutub_minar",
-            "description": "A UNESCO world heritage site, a minaret showcasing Indo-Islamic architecture."
+            "name": "ghaziabad_industrial_area",
+            "description": "Edge of the industrial area, with many factories."
         },
         {
             "id": 73,
-            "name": "mehrauli_archaeological_park",
-            "description": "An area with historical ruins, temples, and tombs."
+            "name": "vasundhara_residential_area",
+            "description": "Residential area on the edge of Delhi, spilling into Ghaziabad."
         },
         {
             "id": 74,
-            "name": "fortis_hospital_gurgaon",
-            "description": "A major hospital in Gurgaon, catering to medical needs."
+            "name": "dilshad_garden_residential",
+            "description": "A smaller residential area, surrounded by busy commercial districts."
         },
         {
             "id": 75,
-            "name": "mg_road_gurgaon",
-            "description": "A road filled with malls, restaurants, and businesses."
+            "name": "shahdara_industrial_belt",
+            "description": "An industrial belt."
         },
         {
             "id": 76,
-            "name": "cyber_hub_gurgaon",
-            "description": "A hub with restaurants and pubs, caters to the IT workforce."
+            "name": "yamuna_vihar_residential",
+            "description": "Densely populated residential area."
         },
         {
             "id": 77,
-            "name": "sohna_road_gurgaon",
-            "description": "Road leading to Sohna, connecting with rural regions."
+            "name": "gtb_hospital_area",
+            "description": "Area near the largest hospital of east Delhi."
         },
         {
             "id": 78,
-            "name": "dhaula_kuan_military",
-            "description": "Important military base, presence of military infrastructure."
+            "name": "vivek_vihar_residential",
+            "description": "Residential area near industrial belts."
         },
         {
             "id": 79,
-            "name": "iit_delhi",
-            "description": "Prestigious engineering institute, attracts top students."
+            "name": "jhilmil_industrial_area",
+            "description": "Industrial area in east Delhi."
         },
         {
             "id": 80,
-            "name": "munirka_student_housing",
-            "description": "Area surrounding student housing, lively and affordable options."
+            "name": "trilokpuri_resettlement_colony",
+            "description": "Resettlement colony with tightly packed buildings and street vendors."
         },
         {
             "id": 81,
-            "name": "rk_puram_government",
-            "description": "Area marked by government housing and infrastructure."
+            "name": "connaught_place_underground",
+            "description": "An underground market below a primary commercial center."
         },
         {
             "id": 82,
-            "name": "greater_kailash",
-            "description": "Upscale residential area with high-end boutiques."
+            "name": "south_extension_market",
+            "description": "One of many shopping centers within New Delhi."
         },
         {
             "id": 83,
-            "name": "south_ex_market",
-            "description": "Popular market with branded stores and eateries."
+            "name": "greater_noida_expressway",
+            "description": "Highway extending East, out of Delhi."
         },
         {
             "id": 84,
-            "name": "def_colony_restaurants",
-            "description": "Known for restaurants and cafes, caters to food lovers."
+            "name": "purana_qila_historical_site",
+            "description": "Historical site dating back to the pre-mughal era."
         },
         {
             "id": 85,
-            "name": "lajpat_nagar_market",
-            "description": "Traditional market with clothing and accessories."
+            "name": "sunder_nursery_heritage_park",
+            "description": "A heritage garden, with various plant and animal species."
         },
         {
             "id": 86,
-            "name": "amar_colony",
-            "description": "Small colony known for street food and snacks."
+            "name": "sarojini_nagar_market",
+            "description": "A vibrant outdoor market, for clothing and consumer goods."
         },
         {
             "id": 87,
-            "name": "east_of_kailash_temples",
-            "description": "Area dominated by religious spots and temples."
+            "name": "aiims_medical_institute",
+            "description": "One of the top medical schools in India."
         },
         {
             "id": 88,
-            "name": "vasant_kunj",
-            "description": "Upscale residential area adjacent to diplomatic enclave."
+            "name": "dhaula_kuan_army_area",
+            "description": "Area belonging to the indian armed forces."
         },
         {
             "id": 89,
-            "name": "ambience_mall_gurgaon",
-            "description": "Large shopping mall with numerous stores."
+            "name": "aerocity_hotel_district",
+            "description": "Luxury hotel area next to the airport."
         },
         {
             "id": 90,
-            "name": "indira_gandhi_airport",
-            "description": "International airport connecting Delhi with the world."
+            "name": "gurgaon_residential_area",
+            "description": "Residential areas south of Delhi."
         },
         {
             "id": 91,
-            "name": "aerocity",
-            "description": "Area near the airport with hotels and commercial spaces."
+            "name": "mg_road_shopping_area",
+            "description": "Shopping destination near the Delhi border."
         },
         {
             "id": 92,
-            "name": "manesar_industrial_area",
-            "description": "Industrial zone located on Delhi's outskirts."
+            "name": "cyber_city_office_park",
+            "description": "Office area for major Delhi employers."
         },
         {
             "id": 93,
-            "name": "gurgaon_golf_course",
-            "description": "Luxury golf course, green patch in urban area."
+            "name": "golf_course_extension_road",
+            "description": "Residential area with office parks."
         },
         {
             "id": 94,
-            "name": "national_highway_8",
-            "description": "Key highway linking Delhi with Rajasthan."
+            "name": "sohna_road_industrial_zone",
+            "description": "An important industrial area."
         },
         {
             "id": 95,
-            "name": "sultanpur_bird_sanctuary",
-            "description": "Important bird sanctuary near Gurgaon, wetland zone."
+            "name": "manesar_industrial_park",
+            "description": "Industrial town with many tech and manufacturing factories."
         },
         {
             "id": 96,
-            "name": "damdama_lake",
-            "description": "A lake surrounded by hills, tourist and recreational location."
+            "name": "kalkaji_business_center",
+            "description": "Area near the temple that attracts business."
         },
         {
             "id": 97,
-            "name": "farukh_nagar_fort",
-            "description": "Small town known for historical fort and buildings."
+            "name": "noida_city_center",
+            "description": "Business and shopping area on the edge of the city."
         },
         {
             "id": 98,
-            "name": "pataudi_palace",
-            "description": "Former royal palace in the area, cultural legacy."
+            "name": "botanical_garden_noida",
+            "description": "A green space, near busy area."
         },
         {
             "id": 99,
-            "name": "kundli_industrial_zone",
-            "description": "Haryana Industrial zone adjacent to Delhi."
+            "name": "greater_noida_residential",
+            "description": "Area of newer developments, and dense buildings."
         },
         {
             "id": 100,
-            "name": "singhu_border",
-            "description": "Delhi-Haryana border, known for protest sites."
+            "name": "dadri_industrial_zone",
+            "description": "Industrial area that creates a lot of jobs, and opportunities."
         }
     ]
 }

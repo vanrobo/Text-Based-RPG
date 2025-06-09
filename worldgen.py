@@ -18,6 +18,6 @@ world_generation = prompts.world_gen + "\n\n" + prompts.specifications(backstory
 
 print("Generating map...")
 
-sno = 2 
+sno= int(input("Enter a number from 1-4"))
 
-ai.generate(world_generation, rf"Saveslots\{sno}\map.json")
+ai.generate(world_generation, rf"Storage\Saveslots\{sno}\map.json")

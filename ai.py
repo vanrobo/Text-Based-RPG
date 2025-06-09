@@ -57,6 +57,3 @@ def generateLite(prompt,storage=None,*extra): # same as above but for lite which
     except Exception as e:
         print(f"An error occurred: {e}")
 
-sno = 2
-
-generate(prompts.main_story, rf"Saveslots\{sno}\backstory.json", "the protagonist is named shreyansh, who lives in delhi") # generates the backstory
