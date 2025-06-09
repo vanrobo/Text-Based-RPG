@@ -18,4 +18,6 @@ world_generation = prompts.world_gen + "\n\n" + prompts.specifications(backstory
 
 print("Generating map...")
 
-ai.generate(world_generation, r"Storage\map.json")
+sno = 2 
+
+ai.generate(world_generation, rf"Saveslots\{sno}\map.json")
