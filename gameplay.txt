@@ -1,0 +1,36 @@
+RPG
+
+Player starts a new save
+
+1. Enters character name
+2. Decides world type
+3. Location
+
+
+Background tasks
+
+1. Generate backstory
+2. Generate map
+
+Player spawns in the corrupted world for the first time
+
+1. Generate Tutorial Zone
+2. Teach player basic mechanics
+
+Person  sprawling dungeon
+
+1. Generate Dungeon Map [with walls]
+2. Person may move in all 4 directions
+3. Person may find enemies [rng]
+4. Person may interact with things in each room.
+5. Person can not move through walls
+
+On fighting enemies
+
+4 options
+
+1. Fight , 2. Mercy, 3. Inventory 4. Exit
+
+Person may use any 10 of his skills 
+
+Quests"
