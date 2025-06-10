@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import json
 import prompts
 import ai
+import time
 
 with open(r"Storage\backstory.json") as backstory: 
     info = json.load(backstory)
@@ -14,10 +15,14 @@ with open(r"Storage\backstory.json") as backstory:
     theme_description = info["theme"]
 
 
-world_generation = prompts.world_gen + "\n\n" + prompts.specifications(backstory,location,protagonist,theme_description) 
+world_generation = prompts.world_gen + "\n\n" + prompts.specification_worldgen(backstory,location,protagonist,theme_description) 
+
+sno= int(input("Enter a number from 1-4: "))
 
 print("Generating map...")
 
-sno= int(input("Enter a number from 1-4"))
+test = ai.generate(world_generation, rf"Storage\Saveslots\{sno}\map.json")
+print("Map Generated")
 
-ai.generate(world_generation, rf"Storage\Saveslots\{sno}\map.json")
+
+

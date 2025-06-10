@@ -1,6 +1,7 @@
 from google import genai
 import os
 from dotenv import load_dotenv
+
 import prompts
 import time # for note taking
 # This file contains all the code for the AI 

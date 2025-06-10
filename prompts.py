@@ -1,5 +1,5 @@
 
-main_story = """
+back_story = """
 YOU MUST RESPOND WITH ONLY THE JSON OBJECT. DO NOT INCLUDE ANY TEXT BEFORE OR AFTER THE JSON. DO NOT WRAP THE JSON IN MARKDOWN CODE BLOCKS (I.E., NO ```JSON OR ```).
 
 You are a master storyteller. Your task is to generate a detailed JSON object based on the core information provided at the end of this entire prompt.
@@ -65,14 +65,16 @@ Desired JSON Output Structure (showing only a few tiles for brevity,note these d
 }
 """
 
+main_story =  f""" """
 
 
 
-def specifications(backstory, location, protagonist, theme_description):
+def specification_worldgen(world_type, backstory, location, protagonist, theme_description):
     specifications_worldgen = f"""
     Everything after this is a description of the map theme and specific requirements:
 
     CONTEXT:
+    World Type:  b
     Backstory: {backstory}
     Protagonist Details: {protagonist}
     Protagonist's Starting Location: {location} (This specific place is the protagonist's origin or current point, but the map should depict a broader regional area surrounding it.)
@@ -105,3 +107,5 @@ def specifications(backstory, location, protagonist, theme_description):
     """
     return specifications_worldgen
 
+def specification_backstory(name, location, ):
+    print(name)
