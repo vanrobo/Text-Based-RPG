@@ -4,503 +4,503 @@
   "tiles": [
     {
       "id": 1,
-      "name": "crimsonwing_mesa",
-      "description": "A high mesa overlooking the scrubland, favored by Crimsonwings for nesting and strategic advantage."
+      "name": "sagebrush_plains_north",
+      "description": "Expansive plains covered in hardy sagebrush, stretching northward, offering limited resources for the avian clans."
     },
     {
       "id": 2,
-      "name": "sagebrush_plains_east",
-      "description": "Expansive plains dominated by sagebrush, providing cover for small creatures and foraging opportunities."
+      "name": "redrock_canyon_west",
+      "description": "A deep canyon carved into red sandstone, providing shelter but also potential ambush points for rival clans."
     },
     {
       "id": 3,
-      "name": "dusty_ravine",
-      "description": "A deep ravine carved by wind and erosion, offering shelter from the elements and a hidden pathway."
+      "name": "whispering_wind_pass",
+      "description": "A mountain pass known for its strong, echoing winds, a strategic point for scouting and defense."
     },
     {
       "id": 4,
-      "name": "abandoned_mining_outpost",
-      "description": "A derelict outpost, a relic of the city's expansion, now haunted by memories and scavenging birds."
+      "name": "cactus_spine_ridge",
+      "description": "A rugged ridge dotted with towering cacti, offering a vantage point over the scrubland."
     },
     {
       "id": 5,
-      "name": "irradiated_wastelands",
-      "description": "Lands rendered desolate by toxic runoffs, a testament to the city's destructive practices; few dare to venture here."
+      "name": "old_avian_nesting_grounds",
+      "description": "Abandoned nesting grounds of a once-thriving avian colony, now a haunted reminder of the past."
     },
     {
       "id": 6,
-      "name": "scavenger_market_perimeter",
-      "description": "The outer reaches of the sprawling market where scavengers sell their reclaimed goods."
+      "name": "sunbaked_clay_flats",
+      "description": "Vast, cracked clay flats baked by the sun, difficult terrain to traverse."
     },
     {
       "id": 7,
-      "name": "scrubland_farms_suburb",
-      "description": "A network of small, family-owned farms struggling to survive amidst the encroaching city sprawl."
+      "name": "scrubland_clearing_central",
+      "description": "The dusty Scrubland Clearing with the gnarled Joshua tree, a neutral meeting ground for avian clans, where Kira often seeks refuge."
     },
     {
       "id": 8,
-      "name": "industrial_outskirts",
-      "description": "A gritty landscape of factories, warehouses, and refineries, churning out the city's needs at a cost."
+      "name": "crimsonwing_territory_east",
+      "description": "The heart of the Crimsonwing clan's territory, known for its strategic advantage and diminishing resources."
     },
     {
       "id": 9,
-      "name": "highway_connector_east",
-      "description": "A major highway connecting the city center to the eastern suburbs, a constant stream of automated vehicles."
+      "name": "elder_council_overlook",
+      "description": "A high vantage point where the elder Crimsonwings traditionally hold council, resistant to change."
     },
     {
       "id": 10,
-      "name": "the_gilded_spires",
-      "description": "A district of opulent skyscrapers, the heart of corporate power and extravagant wealth, barely visible from scrubland."
+      "name": "youth_gathering_rock",
+      "description": "A secluded rock where the younger Crimsonwings gather, questioning tradition and seeking new solutions."
     },
     {
       "id": 11,
-      "name": "arid_mesa_foothills",
-      "description": "The rocky foothills of the Crimsonwing Mesa, where hardy shrubs cling to the slopes."
+      "name": "sagebrush_river_bed",
+      "description": "A dry riverbed now only sparsely filled with water, a source of contention between avian clans."
     },
     {
       "id": 12,
-      "name": "sagebrush_plains_west",
-      "description": "The Western expanse of the Sagebrush Plains, known for its occasional flash floods."
+      "name": "harvest_canyon_trail",
+      "description": "A narrow trail used for gathering scarce resources, often patrolled by Crimsonwings."
     },
     {
       "id": 13,
-      "name": "joshua_tree_grove",
-      "description": "A protected grove of ancient Joshua trees, a reminder of the scrubland's past glory."
+      "name": "abandoned_water_cache",
+      "description": "A forgotten water cache, a potential treasure trove or a dangerous trap."
     },
     {
       "id": 14,
-      "name": "collapsed_skyway_section",
-      "description": "A crumbling section of a once-grand skyway, a hazardous reminder of failed infrastructure projects."
+      "name": "thornbush_barrier",
+      "description": "A dense barrier of thornbushes, hindering travel and providing cover."
     },
     {
       "id": 15,
-      "name": "the_slag_heaps",
-      "description": "Towering slag heaps, a toxic legacy of mining operations, where only the toughest scavengers dare to tread."
+      "name": "shimmering_heat_oasis",
+      "description": "A mirage-like oasis shimmering in the heat, often leading travelers astray."
     },
     {
       "id": 16,
-      "name": "scavenger_market_center",
-      "description": "The bustling heart of the market, a chaotic mix of vendors, traders, and curious onlookers."
+      "name": "broken_wing_memorial",
+      "description": "A solemn memorial for fallen Crimsonwings, a place of reflection and remembrance."
     },
     {
       "id": 17,
-      "name": "suburban_solar_fields",
-      "description": "Vast solar fields providing energy to the city, replacing the natural landscape with rows of panels."
+      "name": "ancient_song_stones",
+      "description": "Ancient stones etched with ancestral songs, holding the history of the avian clans."
     },
     {
       "id": 18,
-      "name": "industrial_canal_district",
-      "description": "A network of canals used for transporting industrial materials, often polluted and dangerous."
+      "name": "forgotten_feather_trail",
+      "description": "A winding trail marked by scattered feathers, a path of a long-lost avian traveler."
     },
     {
       "id": 19,
-      "name": "the_gridlocked_bypass",
-      "description": "A constantly congested bypass around the city, choked with traffic and exhaust fumes."
+      "name": "canyon_echo_chamber",
+      "description": "A natural echo chamber in the canyon, used for communication and rituals."
     },
     {
       "id": 20,
-      "name": "corporate_plaza_district",
-      "description": "A district dominated by gleaming corporate headquarters, symbols of wealth and influence."
+      "name": "sky_watch_peak",
+      "description": "The highest peak in the area, providing a panoramic view of the scrubland and city outskirts."
     },
     {
       "id": 21,
-      "name": "scrubland_canyons",
-      "description": "A network of narrow canyons, home to elusive creatures and hidden springs."
+      "name": "city_outskirts_west",
+      "description": "The initial encroachment of the city, encroaching on the scrubland's edge."
     },
     {
       "id": 22,
-      "name": "abandoned_reservoir_site",
-      "description": "A dried-up reservoir, a stark reminder of the city's water shortages and mismanagement."
+      "name": "precious_resource_mine",
+      "description": "The city is built here around a precious resource that is now being strip mined."
     },
     {
       "id": 23,
-      "name": "scrubland_clearing_joshua_tree",
-      "description": "The neutral ground marked by the gnarled Joshua tree, a meeting place for avian clans, like KiraKira's, amidst the sagebrush."
+      "name": "resource_mine_access_road",
+      "description": "The main route to the resource mine where a lot of the industry is moving."
     },
     {
       "id": 24,
-      "name": "broken_aqueduct_section",
-      "description": "A ruined section of an old aqueduct, a testament to the city's constant need for resources."
+      "name": "dust_devil_ravine",
+      "description": "A ravine notorious for its frequent dust devils, a dangerous place to linger."
     },
     {
       "id": 25,
-      "name": "toxic_filtration_plant",
-      "description": "A facility struggling to clean up the city's toxic waste, releasing foul odors into the surrounding area."
+      "name": "scavenger_crow_territory",
+      "description": "A territory dominated by crows, who live on scrap from the mines."
     },
     {
       "id": 26,
-      "name": "scavenger_guild_hall",
-      "description": "The headquarters of the Scavenger's Guild, a powerful organization that controls the flow of salvaged goods."
+      "name": "shady_hawk_perch",
+      "description": "The best lookouts for hawk to strike at crows fighting over scrap."
     },
     {
       "id": 27,
-      "name": "automated_farm_complex",
-      "description": "A massive automated farming complex, providing a portion of the city's food supply."
+      "name": "hidden_tunnel_nest",
+      "description": "A rare and hidden nest that provides shelter for many animals."
     },
     {
       "id": 28,
-      "name": "industrial_drone_depot",
-      "description": "A storage and maintenance facility for industrial drones, buzzing with activity and heavy machinery."
+      "name": "Joshua_tree_sanctuary",
+      "description": "Ancient resting place of joshua trees that provides shade from the sun."
     },
     {
       "id": 29,
-      "name": "orbital_freight_terminal",
-      "description": "The district surrounding a key Orbital Freight Terminal where goods are delivered from space."
+      "name": "coyote_canyon_territory",
+      "description": "Coyotes hunting and defending their family in the rocky canyon."
     },
     {
       "id": 30,
-      "name": "residential_spire_bottom",
-      "description": "The lower residential tiers of the city's tallest spires, densely populated and vertically-oriented."
+      "name": "night_stalker_cave",
+      "description": "A hidden cave for the animals of the night."
     },
     {
       "id": 31,
-      "name": "wind_turbine_valley",
-      "description": "A valley filled with towering wind turbines, harnessing the power of the desert winds."
+      "name": "abandoned_trade_route",
+      "description": "A forgotten route which once carried the most precious goods"
     },
     {
       "id": 32,
-      "name": "dry_riverbed_crossing",
-      "description": "A dry riverbed that occasionally floods during heavy rains, a treacherous path for travelers."
+      "name": "shifting_sand_dunes",
+      "description": "Impossible to traverse, a path of only sand and death."
     },
     {
       "id": 33,
-      "name": "ancient_avian_burial_grounds",
-      "description": "A sacred burial ground for the ancestors of the avian clans, a place of respect and remembrance."
+      "name": "scrubland_crossroads",
+      "description": "Crossroads for the avian races, not always friendly."
     },
     {
       "id": 34,
-      "name": "water_rationing_checkpoint",
-      "description": "A heavily guarded checkpoint where water is strictly rationed to the population."
+      "name": "abandoned_rail_line",
+      "description": "Forgotten relic of a past race."
     },
     {
       "id": 35,
-      "name": "landfill_methane_collector",
-      "description": "A network of collectors extracting methane gas from the city's vast landfill."
+      "name": "city_supply_route",
+      "description": "The main route that supplies and keeps the city running."
     },
     {
       "id": 36,
-      "name": "scavenger_training_grounds",
-      "description": "A training area where aspiring scavengers learn the skills needed to survive in the wasteland."
+      "name": "dust_bowl_plains",
+      "description": "A place where no life can grow due to the destruction and industry of the city."
     },
     {
       "id": 37,
-      "name": "recycled_housing_block",
-      "description": "Housing built from recycled materials, a sign of the city's commitment to sustainability."
+      "name": "mining_operation_site",
+      "description": "This area is being blown up and destroyed for more resources."
     },
     {
       "id": 38,
-      "name": "autonomous_logistics_center",
-      "description": "A highly automated center for sorting and distributing goods throughout the region."
+      "name": "city_resource_storage",
+      "description": "A place where resource are stored from the mine."
     },
     {
       "id": 39,
-      "name": "entertainment_dome_district",
-      "description": "Domed districts dedicated to virtual reality and other immersive entertainment experiences."
+      "name": "refinery_processing_plant",
+      "description": "Where the resources are being refined into usable material."
     },
     {
       "id": 40,
-      "name": "corporate_research_park",
-      "description": "A cluster of research facilities focused on advanced technologies, shrouded in secrecy."
+      "name": "city_power_grid",
+      "description": "Where the power to the city is being generated from."
     },
-    {
+        {
       "id": 41,
-      "name": "scrubland_rock_outcrops",
-      "description": "Scattered rock outcrops, offering vantage points and shelter from the harsh sun."
+      "name": "eastern_city_gates",
+      "description": "The city gates and entrance coming from the east."
     },
     {
       "id": 42,
-      "name": "underground_aquifer_taps",
-      "description": "Secret taps into underground aquifers, a source of water for those who dare to steal it."
+      "name": "old_town_market",
+      "description": "An old dusty and forgotten part of the city."
     },
     {
       "id": 43,
-      "name": "crimsonwing_training_grounds",
-      "description": "Where the Crimsonwings hone their aerial skills and strategic thinking; KiraKira likely trained here."
+      "name": "central_city_plaza",
+      "description": "The city's center point and largest plaza."
     },
     {
       "id": 44,
-      "name": "black_market_water_trade",
-      "description": "A hidden marketplace where water is traded illegally, a risky but lucrative endeavor."
+      "name": "grand_city_library",
+      "description": "Library built on the ancient knowledge of the previous race."
     },
     {
       "id": 45,
-      "name": "decontamination_zone",
-      "description": "A sterile zone designed to remove toxins from people and equipment entering the city."
+      "name": "rich_sector",
+      "description": "Home of the rich elites of the city."
     },
     {
       "id": 46,
-      "name": "mutant_creature_habitat",
-      "description": "A desolate region where mutant creatures roam, a consequence of the city's pollution."
+      "name": "industrial_sector",
+      "description": "Home of the workers who live to maintain the city."
     },
     {
       "id": 47,
-      "name": "verti_farm_sky_gardens",
-      "description": "Vertical farms attached to skyscrapers, providing fresh produce for the city's elite."
+      "name": "northern_gate_tower",
+      "description": "High tower to defend against the wilderness."
     },
     {
       "id": 48,
-      "name": "automated_freight_drone_hub",
-      "description": "A high-traffic area where freight drones deliver goods to businesses and residents."
+      "name": "the_archives",
+      "description": "Records of the important leaders and historical events of the city."
     },
     {
       "id": 49,
-      "name": "high_speed_maglev_station",
-      "description": "A transportation hub where high-speed maglev trains connect to distant cities."
+      "name": "the_underground_market",
+      "description": "A black market run in the back alleys."
     },
     {
       "id": 50,
-      "name": "arcology_living_quarter",
-      "description": "A self-contained living quarter within a massive arcology, providing everything residents need."
+      "name": "the_broken_bridge",
+      "description": "A forgotten location that the city is still hoping to repair."
     },
-    {
+        {
       "id": 51,
-      "name": "desert_wash_creek",
-      "description": "A seasonal creek bed, providing a temporary oasis for wildlife after rare rainfalls."
+      "name": "water_recycling_facility",
+      "description": "An innovative facility to recycle the water from the surrounding area."
     },
     {
       "id": 52,
-      "name": "abandoned_irrigation_system",
-      "description": "The remains of an irrigation system, a failed attempt to cultivate the arid land."
+      "name": "the_old_market_district",
+      "description": "An old district that used to be for merchants before the city expanded."
     },
     {
       "id": 53,
-      "name": "avian_clan_observatory",
-      "description": "A high vantage point used by avian clans to observe the surrounding territory and track movements."
+      "name": "city_central_park",
+      "description": "A park with ancient joshua trees that still provides shade."
     },
     {
       "id": 54,
-      "name": "contaminated_groundwater_source",
-      "description": "A source of contaminated groundwater, a health hazard for those who rely on it."
+      "name": "grand_central_station",
+      "description": "Bustling with people trying to enter and leave the city."
     },
     {
       "id": 55,
-      "name": "reclamation_process_center",
-      "description": "A facility focused on reclaiming valuable resources from the city's waste stream."
+      "name": "city_wealthy_sector",
+      "description": "A sector for all the wealthiest and richest folks."
     },
     {
       "id": 56,
-      "name": "outcast_settlement_edge",
-      "description": "The edge of a settlement for outcasts and refugees, struggling to survive on the fringes of society."
+      "name": "industrial_complex",
+      "description": "The main building for the industrial sector."
     },
     {
       "id": 57,
-      "name": "bio_dome_experimental_site",
-      "description": "An experimental site for growing food in a controlled environment, part of the city's sustainability efforts."
+      "name": "northern_supply_trade",
+      "description": "All goods come in here to supply the northern sectors."
     },
     {
       "id": 58,
-      "name": "autonomous_taxi_network",
-      "description": "A transportation network of autonomous taxis, providing convenient transportation within the city."
+      "name": "memorial_gardens",
+      "description": "Built to honor past leaders of the city."
     },
     {
       "id": 59,
-      "name": "theatrical_virtual_reality_arcade",
-      "description": "A district where residents can explore virtual worlds and experience simulated adventures."
+      "name": "back_alley_gang",
+      "description": "Where shady gangs lurk in the back alley's."
     },
     {
       "id": 60,
-      "name": "university_research_labs",
-      "description": "A hub for scientific research and technological innovation, driving the city's economy."
+      "name": "old_railway_bridge",
+      "description": "An old bridge that needs fixing."
     },
-    {
+            {
       "id": 61,
-      "name": "thorny_scrub_patch",
-      "description": "A dense patch of thorny scrub, providing refuge for small animals but difficult to navigate."
+      "name": "water_pipeline_junction",
+      "description": "Where the water of the city is all stored."
     },
     {
       "id": 62,
-      "name": "derelict_comm_relay_station",
-      "description": "An abandoned communications relay station, a relic of a bygone era."
+      "name": "the_dust_bowl",
+      "description": "No life is able to grow here due to how polluted the ground is."
     },
     {
       "id": 63,
-      "name": "the_great_avian_nesting_site",
-      "description": "A protected nesting site for various avian species, a symbol of the scrubland's natural heritage."
+      "name": "the_central_market",
+      "description": "One of the wealthiest places of the city."
     },
     {
       "id": 64,
-      "name": "underground_sewer_access",
-      "description": "A dangerous access point to the city's underground sewer system, a haven for criminals and outcasts."
+      "name": "central_transport_hub",
+      "description": "Allows goods to be transported quicker than anything."
     },
     {
       "id": 65,
-      "name": "chemical_processing_facility",
-      "description": "A facility that processes chemical waste from the city, releasing potentially harmful emissions."
+      "name": "central_wealthy_sector",
+      "description": "One of the wealthiest families lives here."
     },
     {
       "id": 66,
-      "name": "outcast_settlement_market",
-      "description": "A bustling marketplace where outcasts trade goods and services, a community of survivors."
+      "name": "the_industrial_farms",
+      "description": "Industrial sector that has farms in them to provide for the city."
     },
     {
       "id": 67,
-      "name": "vertical_hydroponics_system",
-      "description": "A system for growing plants without soil, a sustainable way to produce food in the city."
+      "name": "city_supply_chain",
+      "description": "Where the city is being supplied at all times."
     },
     {
       "id": 68,
-      "name": "railway_freight_yard",
-      "description": "A large railway yard where goods are transferred between trains and trucks."
+      "name": "city_memorial_park",
+      "description": "A beautiful park to memorialize heros"
     },
     {
       "id": 69,
-      "name": "hologram_projection_district",
-      "description": "Where the City projects vibrant 3d advertisements across entire districts."
+      "name": "shadow_syndicates",
+      "description": "Home of the dark and secret guilds of the city."
     },
     {
       "id": 70,
-      "name": "advanced_robotics_factory",
-      "description": "A cutting-edge factory that produces robots for various industries, driving the city's technological advancement."
+      "name": "the_broken_railway",
+      "description": "A broken section that is being fixed."
     },
-    {
+                {
       "id": 71,
-      "name": "sun_baked_mesa",
-      "description": "A flat mesa baked by the desert sun, offering a panoramic view of the surrounding landscape."
+      "name": "water_distribution",
+      "description": "A vital location to keep the city afloat."
     },
     {
       "id": 72,
-      "name": "eroded_cliffside",
-      "description": "A steep cliffside eroded by wind and rain, a dangerous but scenic location."
+      "name": "dust_fields",
+      "description": "Dust storms can erupt here at any time."
     },
     {
       "id": 73,
-      "name": "avian_ancient_ruins",
-      "description": "Ruins of structures built by avian clans long ago, a reminder of their rich history."
+      "name": "new_city_market",
+      "description": "Brand new market area."
     },
     {
       "id": 74,
-      "name": "contaminated_groundwater_lake",
-      "description": "A body of stagnant groundwater, a breeding ground for disease and environmental hazards."
+      "name": "transport_trade_hub",
+      "description": "A place where people are trade items."
     },
     {
       "id": 75,
-      "name": "metal_salvage_yard",
-      "description": "Area where metals are melted down in a chaotic melting facility; scavenged metal is melted down and reformed into new items."
+      "name": "wealthy_district",
+      "description": "Home to the elites of the city."
     },
     {
       "id": 76,
-      "name": "refugee_camp_outer_edge",
-      "description": "The outer reaches of the Refugee Camp, living in tents and converted cars."
+      "name": "industrial_homes",
+      "description": "Homes the people living in the industrial sectors"
     },
     {
       "id": 77,
-      "name": "algae_purification_ponds",
-      "description": "The Ponds filter and purify water using algae."
+      "name": "city_supply_line",
+      "description": "Keeps the city stocked and running."
     },
     {
       "id": 78,
-      "name": "automated_highway_interchange",
-      "description": "A complex network of highways all managed by Automated Systems."
+      "name": "park_memorial",
+      "description": "In honor to those who served."
     },
     {
       "id": 79,
-      "name": "VR_arena",
-      "description": "The virtual reality arena where users compete using real-world hardware and virtual landscapes."
+      "name": "secret_societies",
+      "description": "Places that only the dark knows about."
     },
     {
       "id": 80,
-      "name": "Data_Harvesting_Center",
-      "description": "Where personal data is collected and sold."
+      "name": "railway_bridge_remnants",
+      "description": "An ancient bridge where peices still float."
     },
-    {
+                    {
       "id": 81,
-      "name": "Overlook Cliffside",
-      "description": "The best place to view the entire city below."
+      "name": "city_water_reserves",
+      "description": "City water for all."
     },
     {
       "id": 82,
-      "name": "Desert_Road",
-      "description": "A deserted area that has had roads built on it at one point."
+      "name": "dust_bowl_valley",
+      "description": "A valley of dust where it only flows."
     },
     {
       "id": 83,
-      "name": "The_Great_Chasm",
-      "description": "A large, 100-foot-wide chasm runs through this part of the city."
+      "name": "merchant_district",
+      "description": "District full of merchant and traders."
     },
     {
       "id": 84,
-      "name": "The_Forgotten_Ruins",
-      "description": "A part of the city that has been abandoned due to toxic materials being released."
+      "name": "transport_plaza",
+      "description": "A plaza of transport."
     },
     {
       "id": 85,
-      "name": "Waste_Processing_Plant",
-      "description": "The location of where waste is broken down and repurposed into building materials."
+      "name": "city_elite_homes",
+      "description": "The biggest and wealthiest homes the city."
     },
     {
       "id": 86,
-      "name": "The_Ghetto",
-      "description": "Where people of little means are forced to live."
+      "name": "industrial_site",
+      "description": "A huge site where people work."
     },
     {
       "id": 87,
-      "name": "Hydroponic_Farms",
-      "description": "Where food is produced year-round using water and light, no land."
+      "name": "major_supply",
+      "description": "Major supply area."
     },
     {
       "id": 88,
-      "name": "Rail_Depot",
-      "description": "The rail depot for transports that are going long distance."
+      "name": "grand_memorial",
+      "description": "Grand memorial for the rich elites."
     },
     {
       "id": 89,
-      "name": "entertainment_district",
-      "description": "Where people spend money for entertainment purposes."
+      "name": "black_market",
+      "description": "Where shady deals happen."
     },
     {
       "id": 90,
-      "name": "City_College",
-      "description": "The center of all city education."
+      "name": "railway_remnants",
+      "description": "What remains of the railway."
     },
-    {
+                        {
       "id": 91,
-      "name": "The_Badlands",
-      "description": "Where bandits and rouges live."
+      "name": "city_water_source",
+      "description": "The city's water spring."
     },
     {
       "id": 92,
-      "name": "Old_Road",
-      "description": "An old broken road with debris throughout."
+      "name": "dust_desert",
+      "description": "A dessert of dust and sand."
     },
     {
       "id": 93,
-      "name": "Tunnel_Entrance",
-      "description": "A hole in the side of the mountain with a tunnel running through."
+      "name": "the_market",
+      "description": "A market open to the public."
     },
     {
       "id": 94,
-      "name": "Abandoned_Town",
-      "description": "A city that had to be abandoned due to toxic levels."
+      "name": "transport_center",
+      "description": "Transporters and drivers arrive here."
     },
     {
       "id": 95,
-      "name": "Industrial_district",
-      "description": "Factories, warehouses and plants."
+      "name": "city_wealth",
+      "description": "Area of city wealth."
     },
     {
       "id": 96,
-      "name": "Low_Income_Housing",
-      "description": "Where the city's poor spend their lives."
+      "name": "industrial_factory",
+      "description": "Place that create more stuff than the others."
     },
     {
       "id": 97,
-      "name": "Fish_Farms",
-      "description": "Farms where fish are bread in an indoor setting."
+      "name": "big_supply",
+      "description": "Where lots of goods arrive."
     },
     {
       "id": 98,
-      "name": "Highway_Check_Point",
-      "description": "Vehicles checked for what they are carrying on the automated highway."
+      "name": "the_memorial",
+      "description": "In honor and memory of others."
     },
     {
       "id": 99,
-      "name": "The_Theater",
-      "description": "A place where holograms are created."
+      "name": "shadow_deals",
+      "description": "Where shady deals goes down."
     },
     {
       "id": 100,
-      "name": "Goverment_Offices",
-      "description": "Where all official buisness is preformed."
+      "name": "remnants",
+      "description": "Remnants of days."
     }
   ]
 }
