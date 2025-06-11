@@ -20,6 +20,12 @@ def map_generation(sno):
         world_type = None
     world_generation = prompts.world_gen + "\n\n" + prompts.specification_worldgen(world_type,backstory,location,protagonist,theme_description) 
     generation = ai.generate(world_generation, rf"Storage\Saveslots\{sno}\map.json")
-    print(generation)
+    for i in generation:
+        print(i, end = '', flush=True)
+        time.sleep(0.02)
+
+
+
+
 map_generation(sno)
 

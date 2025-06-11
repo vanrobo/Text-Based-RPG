@@ -55,6 +55,7 @@ def generate(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fe
         if storage:
             with open(storage, "w") as file:
                 file.write(answer) # writes the response to the file
+                print(f"Written to {storage}")
         return answer
     except genai.errors.ClientError as e: # if no api key has an error
         print(f"Invalid argument: {e}\n")

@@ -4,503 +4,503 @@
   "tiles": [
     {
       "id": 1,
-      "name": "whispering_crags_peak",
-      "description": "The highest point of the Crags, perpetually wreathed in swirling winds and often struck by lightning. A place of raw elemental power."
+      "name": "crag_peak_summit",
+      "description": "The highest point of the Whispering Crags, perpetually wreathed in mist and echoing with the memory of ancient Storm Kings."
     },
     {
       "id": 2,
-      "name": "stormking_ruins_lower_slopes",
-      "description": "Weathered ruins of an ancient Storm King's fortress, now inhabited only by hardy mountain goats and the echoes of forgotten rituals."
+      "name": "zephyrs_hidden_cave",
+      "description": "The entrance to Zephyr's hidden laboratory, carved into the mountainside. Visible only to those who know where to look."
     },
     {
       "id": 3,
-      "name": "zephyrs_hidden_cave_entrance",
-      "description": "A discreet opening on the mountainside, leading to Zephyr's secluded laboratory and library, filled with arcane knowledge and alchemical tools."
+      "name": "storm_valley_floor",
+      "description": "The valley below the Crags, frequently struck by sudden and violent thunderstorms. The air crackles with latent energy."
     },
     {
       "id": 4,
-      "name": "lightning_scarred_valley",
-      "description": "A valley frequently ravaged by thunderstorms, the ground scarred with lightning strikes and the air thick with ozone."
+      "name": "ancient_storm_altar",
+      "description": "A crumbling stone altar, once used by the Storm Kings for weather manipulation rituals. Now, a ruin haunted by echoes of power."
     },
     {
       "id": 5,
-      "name": "altitude_research_weather_station",
-      "description": "A lone weather station, manned by researchers studying the Crags' unique meteorological phenomena and the lingering magical energies."
+      "name": "hermetic_order_ruins",
+      "description": "The remains of the hermetic order's monastery, where Zephyr learned the elemental arts. Partially destroyed by a lightning strike years ago."
     },
     {
       "id": 6,
-      "name": "crag_foothills_shepherd_outpost",
-      "description": "A remote outpost used by shepherds who graze their flocks on the rugged slopes, their lives intertwined with the unpredictable weather."
+      "name": "skyfire_river_source",
+      "description": "The source of the Skyfire River, fed by glacial meltwater and said to have healing properties. Revered by the local villages."
     },
     {
       "id": 7,
-      "name": "ancient_windstone_circle",
-      "description": "A circle of standing stones, believed to amplify the Crags' natural winds, used by the Storm Kings for weather manipulation."
+      "name": "cragside_fishing_village",
+      "description": "A small village nestled at the foot of the Crags, known for its hardy fishermen and their knowledge of the mountain weather."
     },
     {
       "id": 8,
-      "name": "ravaged_mountain_forest_edge",
-      "description": "The border of a once-lush forest, now twisted and broken by the Crags' violent storms, a testament to nature's power."
+      "name": "windswept_farmlands",
+      "description": "Terraced farmlands clinging to the hillsides, their crops struggling against the harsh winds and unpredictable storms."
     },
     {
       "id": 9,
-      "name": "zeriouan_hermit_order_retreat",
-      "description": "The hermetic order's secluded mountain retreat, where Zephyr was raised, dedicated to studying the elemental forces of Zerioua."
+      "name": "broken_lightning_bridge",
+      "description": "A shattered bridge, once a vital trade route. Destroyed during the Great Tempest, now a treacherous crossing."
     },
     {
       "id": 10,
-      "name": "storm_ravaged_pass",
-      "description": "A mountain pass frequently blocked by landslides and blizzards, a perilous route for travelers seeking to cross the Crags."
+      "name": "abandoned_weather_station",
+      "description": "A disused weather station, built by the Storm Kings to predict and control storms. Now overgrown and haunted by whispers of the past."
     },
     {
       "id": 11,
-      "name": "foothills_river_crossing",
-      "description": "A shallow river crossing that serves as a vital trade route for the small villages at the base of the Whispering Crags."
+      "name": "echoing_canyon",
+      "description": "A deep canyon known for its strange acoustics, where the wind carries whispers of forgotten languages and ancient prophecies."
     },
     {
       "id": 12,
-      "name": "isolated_farming_village",
-      "description": "A community of resilient farmers who have learned to coexist with the unpredictable storms and harsh conditions of the Crags' foothills."
+      "name": "storm_scarred_forest",
+      "description": "A forest bearing the marks of countless lightning strikes, with charred trees and an eerie silence."
     },
     {
       "id": 13,
-      "name": "lightning_struck_orchard",
-      "description": "An orchard where many of the trees show burn scars from past lightning strikes, but still produce hardy, tangy fruit."
+      "name": "mineral_rich_mines",
+      "description": "A mine known for its unique minerals, used in crafting powerful lightning-based artifacts."
     },
     {
       "id": 14,
-      "name": "mountain_road_to_lower_valley",
-      "description": "A winding, treacherous road that connects the Crags' heights to the more sheltered valleys below, offering stunning views and perilous turns."
+      "name": "ancient_watcher_tower",
+      "description": "A ruined tower, built to watch for approaching storms and warn the populace. Now a haven for bandits and wild creatures."
     },
     {
       "id": 15,
-      "name": "trading_post_crossroads",
-      "description": "A bustling trading post where travelers and merchants exchange goods, rumors, and tall tales of the Crags and beyond."
+      "name": "skyfire_river_bend",
+      "description": "A sharp bend in the Skyfire River, where the water flows swiftly and powerfully. Home to rare fish and dangerous currents."
     },
     {
       "id": 16,
-      "name": "sheltered_pasture_land",
-      "description": "A rare area of relatively calm pastureland, used to graze livestock during the brief periods of good weather."
+      "name": "hidden_druid_grove",
+      "description": "A secluded grove, where druids once communed with the spirits of the storm. Now a place of quiet reflection and natural power."
     },
     {
       "id": 17,
-      "name": "abandoned_weather_artifact_site",
-      "description": "The ruins of a research site experimenting with weather modification abandoned after a failed ritual, now said to be haunted."
+      "name": "pilgrim_trail_entrance",
+      "description": "The start of a trail leading to a holy site atop the mountains, attracting pilgrims seeking enlightenment and spiritual strength."
     },
     {
       "id": 18,
-      "name": "storm_warden_shrine",
-      "description": "A small shrine dedicated to appeasing the storms and winds of the Crags, adorned with talismans and offerings."
+      "name": "windswept_wheat_fields",
+      "description": "Vast wheat fields that stretch as far as the eye can see. These fields are often affected by lightning strikes, which affects the crops"
     },
     {
       "id": 19,
-      "name": "mineral_rich_quarry",
-      "description": "A quarry where valuable minerals are extracted from the Crags' rocky heart, providing resources for alchemists and artisans alike."
+      "name": "thunderclap_gorge",
+      "description": "A steep gorge prone to thunderclaps that echo throughout the region. It is a beautiful yet very dangerous region."
     },
     {
       "id": 20,
-      "name": "valley_river_source",
-      "description": "The source of the river that flows through the valley, fed by melting snow and the Crags' abundant rainfall."
+      "name": "isolated_sheep_herding_camp",
+      "description": "An isolated camp for sheep herders. This area is frequently affected by the whims of the mountain weather."
     },
     {
       "id": 21,
-      "name": "foothills_rocky_outcrops",
-      "description": "Rocky terrain leading up to the steeper slopes of the Whispering Crags. Sparse vegetation clings to the uneven ground."
+      "name": "cragside_quarry",
+      "description": "The quarry provides stone for many villages. It is a site where many workers work to obtain materials from the Crags."
     },
     {
       "id": 22,
-      "name": "abandoned_shack",
-      "description": "A derelict shack, likely abandoned due to the unpredictability of the surrounding weather and dangerous wildlife. Serves as a temporary shelter for weary travelers."
+      "name": "abandoned_logging_camp",
+      "description": "A site where many lumberjacks cut lumber for wood. This logging camp was abandoned after too many lightning strikes."
     },
     {
       "id": 23,
-      "name": "lightning_charred_tree",
-      "description": "A large, solitary tree that bears the scars of multiple lightning strikes. A stark reminder of the potent storms that rage through the region."
+      "name": "ruined_elemental_academy",
+      "description": "Once a center of learning for elemental magic. This structure was destroyed during the Great Tempest, causing untold damage."
     },
     {
       "id": 24,
-      "name": "cragstone_strewn_path",
-      "description": "A path almost covered over by loose stone fallen from the mountains. Only passable for sure-footed travellers."
+      "name": "ancient_gargoyle_statue",
+      "description": "This statue is very worn, but remains as a lasting monument to the past."
     },
     {
       "id": 25,
-      "name": "hidden_medicinal_herb_patch",
-      "description": "A secluded area where rare medicinal herbs grow, sheltered from the worst of the weather. Known only to local healers."
+      "name": "overlook_of_broken_city",
+      "description": "The city below fell to ruin after the Great Tempest. The area is plagued by storms and bandits."
     },
     {
       "id": 26,
-      "name": "mountain_goat_trail",
-      "description": "A narrow, precarious trail used primarily by mountain goats. Not recommended for those with a fear of heights."
+      "name": "shrine_to_skyfire",
+      "description": "This shrine brings spiritual enlightenment to pilgrims seeking spiritual strength."
     },
     {
       "id": 27,
-      "name": "old_stormking_watchtower_ruins",
-      "description": "The crumbling remains of a watchtower once used by the Storm Kings to monitor the weather patterns. Now home to nesting birds."
+      "name": "desolate_watchtower",
+      "description": "This watchtower sits abandoned and desolated. It overlooks many zones around the crags, offering a vantage point."
     },
     {
       "id": 28,
-      "name": "echoing_wind_canyon",
-      "description": "A deep canyon where the wind howls incessantly, creating eerie echoes that can disorient travelers."
+      "name": "bandit_hideout",
+      "description": "This hideout is home to many bandits. The bandits harass local populations and create trouble."
     },
     {
       "id": 29,
-      "name": "streamfed_valley_farms",
-      "description": "Small farms in the valley are watered by a mountain steam. Prone to flooding after heavy rains."
+      "name": "small_farming_town",
+      "description": "This town is home to many farmers. They help to feed local populations with their agriculture."
     },
     {
       "id": 30,
-      "name": "storm_damaged_bridge",
-      "description": "An old bridge, partially collapsed by a previous storm. Passable, but with extreme caution."
+      "name": "skyfire_tavern",
+      "description": "The tavern serves food and ale to weary travelers."
     },
     {
       "id": 31,
-      "name": "town_of_aerilon",
-      "description": "The closest town of aerilon, built near the mountains to draw power and wisdom from them."
+      "name": "cragside_trading_outpost",
+      "description": "Traders arrive to sell and trade exotic wares and materials. They come from far and wide to visit the crags."
     },
     {
       "id": 32,
-      "name": "aerilon_farmers_market",
-      "description": "In Aerilon, the farmers market offers fresh foods and alchemical ingredients."
+      "name": "temple_to_storm_kings",
+      "description": "This temple pays tribute to the storm kings."
     },
     {
       "id": 33,
-      "name": "aerilon_arcane_academy",
-      "description": "An Academy where young mages can learn and master their magic in Aerilon."
+      "name": "ancient_magical_barrier",
+      "description": "A magical barrier protects the region from storms."
     },
     {
       "id": 34,
-      "name": "aerilon_inn_the_storms_rest",
-      "description": "A popular inn that provides weary travellers with a place to relax in Aerilon."
+      "name": "haunted_meteorite_crater",
+      "description": "A crater where a meteorite crashed long ago. The area is now haunted."
     },
     {
       "id": 35,
-      "name": "aerilon_town_square",
-      "description": "The bustling center of Aerilon, where merchants trade and locals gather."
+      "name": "secret_underground_lab",
+      "description": "An underground lab where secrets abound and are hidden."
     },
     {
       "id": 36,
-      "name": "aerilon_residential_district",
-      "description": "Quiet residential neighborhoods where many aerilon citizens live."
+      "name": "abandoned_military_fort",
+      "description": "Long ago, the military resided here. It now sits desolated."
     },
     {
       "id": 37,
-      "name": "aerilon_watchtower_center",
-      "description": "A central watchtower that protects aerilon against danger."
+      "name": "forgotten_graveyard",
+      "description": "A lost and forgotten graveyard."
     },
     {
       "id": 38,
-      "name": "aerilon_apothecary_shop",
-      "description": "A small local shop which has various magical herbs and reagents from around the region, located in Aerilon."
+      "name": "warlock_lair",
+      "description": "An evil warlock lurks here."
     },
     {
       "id": 39,
-      "name": "aerilon_temple_of_winds",
-      "description": "A temple dedicated to the stormkings who once protected the region."
+      "name": "monster_infested_caverns",
+      "description": "These caverns are home to monsters. Only the brave travel here."
     },
     {
       "id": 40,
-      "name": "aerilon_gate_east",
-      "description": "The east gate of Aerilon, used to connect the city to the world outside."
+      "name": "ancient_ruins",
+      "description": "Remnants of the past remind the present of what came before."
     },
     {
       "id": 41,
-      "name": "eastern_trade_route",
-      "description": "A major trade route leading east from Aerilon. Many dangerous animals and monsters stalk this route."
+      "name": "cragside_prison",
+      "description": "A prison for criminals and ne'er-do-wells."
     },
     {
       "id": 42,
-      "name": "overgrown_forest_trail",
-      "description": "An overgrown path through a forest, now dangerous to travel through due to fallen trees and lack of use."
+      "name": "library_of_secrets",
+      "description": "This library contains tomes and forbidden texts from the past."
     },
     {
       "id": 43,
-      "name": "haunted_old_battlefield",
-      "description": "An old battlefield where a major battle was fought long ago. It is said to be haunted by the ghosts of the fallen."
+      "name": "ancient_treasure_vault",
+      "description": "A chamber full of gold and treasure. It is a very dangerous place."
     },
     {
       "id": 44,
-      "name": "abandoned_farmers_village",
-      "description": "A village that was abandoned due to lack of crops and resources."
+      "name": "desecrated_chapel",
+      "description": "This chapel was once holy, now it is desecrated and profane."
     },
     {
       "id": 45,
-      "name": "bandit_hideout_camp",
-      "description": "A camp where bandits hide out in secrecy and rob travellers."
+      "name": "dragon_lair",
+      "description": "A lair of a sleeping dragon."
     },
     {
       "id": 46,
-      "name": "isolated_fishing_pond",
-      "description": "An isolated area of water perfect for finding fish if you're willing to make the hike."
+      "name": "ancient_battlefield",
+      "description": "A battlefield where many fought and died long ago."
     },
     {
       "id": 47,
-      "name": "monster_filled_caves",
-      "description": "A cave system that is now filled with dangerous monsters."
+      "name": "cragside_armory",
+      "description": "A site where weapons are forged."
     },
     {
       "id": 48,
-      "name": "collapsed_mine_shaft",
-      "description": "An old mineshaft that has collapsed and is now inaccessible."
+      "name": "magical_shop",
+      "description": "A shop to buy and sell rare materials."
     },
     {
       "id": 49,
-      "name": "ancient_elf_rune_stones",
-      "description": "Mysterious old rune stones that were placed long ago by elves."
+      "name": "elemental_conflux",
+      "description": "A convergence of the elements creates strange effects."
     },
     {
       "id": 50,
-      "name": "secret_druid_grove",
-      "description": "A secret grove hidden deep within the forest where druids can study nature and wildlife."
+      "name": "monk_sanctuary",
+      "description": "A sanctuary for monks to meditate."
     },
     {
       "id": 51,
-      "name": "northern_mountaintop",
-      "description": "The top of the range north of the Whispering Crags."
+      "name": "hidden_elven_city",
+      "description": "The elves reside here."
     },
     {
       "id": 52,
-      "name": "wind_elemental_nest",
-      "description": "The nesting place for a group of wind elementals."
+      "name": "dwarven_outpost",
+      "description": "The dwarves sell their wares here."
     },
     {
       "id": 53,
-      "name": "abandoned_altar_of_storms",
-      "description": "A very old ruin where the ancient Stormkings would make sacrifices to the gods."
+      "name": "halfling_farms",
+      "description": "The halflings farm the fields and raise animals."
     },
     {
       "id": 54,
-      "name": "old_hermit_hut",
-      "description": "A old small hut where a local hermit used to live, but now he is long gone."
+      "name": "gnomish_town",
+      "description": "The gnomes reside here."
     },
     {
       "id": 55,
-      "name": "monster_patrolled_trail",
-      "description": "A path often patrolled by monsters, making it dangerous to travel."
+      "name": "undead_infested_town",
+      "description": "A town besieged by the undead."
     },
     {
       "id": 56,
-      "name": "abandoned_orc_village",
-      "description": "A village that was abandoned long ago when the local orcs were driven out."
+      "name": "ogre_camp",
+      "description": "The ogres reside in this camp."
     },
     {
       "id": 57,
-      "name": "highlands_springs",
-      "description": "Warm waters spring from this mountain source year round."
+      "name": "goblin_village",
+      "description": "Goblins gather here."
     },
     {
       "id": 58,
-      "name": "ancient_druid_circle",
-      "description": "A place where the Druids would come to worship on the winter solstice."
+      "name": "kobold_campsite",
+      "description": "Kobolds plot and plan in this area."
     },
     {
       "id": 59,
-      "name": "secret_treasure_cache",
-      "description": "A spot well-hidden in the mountains where old treasure used to be kept, but most of it's been robbed by now."
+      "name": "lizardfolk_swamp",
+      "description": "The lizardfolk lie in wait here."
     },
     {
       "id": 60,
-      "name": "rare_metal_deposit",
-      "description": "A cave deposit of rare metal once mined by the dwarves long ago."
+      "name": "murloc_fishing_hole",
+      "description": "Murlocs fish for their food here."
     },
     {
       "id": 61,
-      "name": "aerilon_gate_west",
-      "description": "The Western gate to Aerilon, often patrolled."
+      "name": "quarryside_traveler_camp",
+      "description": "A camp to rest and sell supplies before continuing their trip."
     },
     {
       "id": 62,
-      "name": "western_farming_districts",
-      "description": "The local farming districts West of the City."
+      "name": "ancient_skyfire_battery",
+      "description": "An artifact that once manipulated the weather."
     },
     {
       "id": 63,
-      "name": "abandoned_goblin_warrens",
-      "description": "A network of underground tunnels that was once home to a large group of goblins."
+      "name": "flooded_fishing_village",
+      "description": "Devastated by the Skyfire River."
     },
     {
       "id": 64,
-      "name": "rare_mushroom_grove",
-      "description": "A small part of the forest that produces rare mushrooms."
+      "name": "highway_to_distant_lands",
+      "description": "A highway to travel to new locations."
     },
     {
       "id": 65,
-      "name": "abandoned_wizard_tower",
-      "description": "A tower abandoned after a great tragedy long ago. Said to contain valuable magical items."
+      "name": "old_railway_station",
+      "description": "A railway station that services local cities."
     },
     {
       "id": 66,
-      "name": "large_oak_forest",
-      "description": "A old and vast oak forest."
+      "name": "ancient_airfield",
+      "description": "An airfield to launch and land planes."
     },
     {
       "id": 67,
-      "name": "wolf_pack_territory",
-      "description": "The area of the forest often prowled by a large wolf pack."
+      "name": "docks_for_sailors",
+      "description": "A place for sailors to rest and reload cargo."
     },
     {
       "id": 68,
-      "name": "beehive_hive_territory",
-      "description": "The domain of a hive of giant bees."
+      "name": "skyfire_river_delta",
+      "description": "The delta of the river."
     },
     {
       "id": 69,
-      "name": "ancient_fort_ruins",
-      "description": "Remains of an old mountain fort."
+      "name": "cragside_industrial_complex",
+      "description": "An area of industry."
     },
     {
       "id": 70,
-      "name": "dangerous_cliffside_path",
-      "description": "An old, dangerous path that runs along a cliff."
+      "name": "central_cragside",
+      "description": "A large city."
     },
     {
       "id": 71,
-      "name": "aerilon_residential_estates",
-      "description": "The home of the wealthy merchants of Aerilon."
+      "name": "suburban_residential",
+      "description": "Residential area."
     },
     {
       "id": 72,
-      "name": "aerilon_town_hall",
-      "description": "The main government building for Aerilon."
+      "name": "market_square",
+      "description": "A square where merchants trade and sell."
     },
     {
       "id": 73,
-      "name": "aerilon_mages_guild",
-      "description": "A guild that houses many of the local mages in Aerilon."
+      "name": "downtown_district",
+      "description": "The downtown part of the city."
     },
     {
       "id": 74,
-      "name": "aerilon_old_town",
-      "description": "The oldest parts of Aerilon, featuring run-down buildings and cobblestone streets."
+      "name": "financial_district",
+      "description": "The banks are here."
     },
     {
       "id": 75,
-      "name": "monster_attacked_caravan",
-      "description": "The remains of a merchant caravan that was attacked by monsters."
+      "name": "commercial_center",
+      "description": "An area for the commerce."
     },
     {
       "id": 76,
-      "name": "aerilon_northern_barracks",
-      "description": "The city barracks to the north, where soldiers are trained."
+      "name": "government_district",
+      "description": "An area for the government."
     },
     {
       "id": 77,
-      "name": "northern_watch_tower",
-      "description": "A northern guard tower that overlooks the mountain pass."
+      "name": "entertainment_zone",
+      "description": "For leisure and entertainment."
     },
     {
       "id": 78,
-      "name": "long_forgotten_graveyard",
-      "description": "An old graveyard that is no longer maintained."
+      "name": "historical_museum",
+      "description": "To learn about the past."
     },
     {
       "id": 79,
-      "name": "storm_scarred_hills",
-      "description": "Hills that show signs of frequent lightning and storms."
+      "name": "university",
+      "description": "A learning facility."
     },
     {
       "id": 80,
-      "name": "mountain_spring_trail",
-      "description": "A trail leading to a clear mountain spring."
+      "name": "central_hospital",
+      "description": "For medical care."
     },
     {
       "id": 81,
-      "name": "aerilon_docks_area",
-      "description": "The part of the river docks located near the town center."
+      "name": "cragside_park",
+      "description": "A park for leisure activities."
     },
     {
       "id": 82,
-      "name": "aerilon_trading_company",
-      "description": "A trading company office near the docks that exports and imports goods to the town."
+      "name": "cragside_beach",
+      "description": "A sandy coastline."
     },
     {
       "id": 83,
-      "name": "aerilon_fishermens_guild",
-      "description": "A guild of fishermen working on the river."
+      "name": "military_training_facility",
+      "description": "To practice combat."
     },
     {
       "id": 84,
-      "name": "aerilon_boatwright_shop",
-      "description": "A shop where skilled craftsmen repair boats, or make new ones."
+      "name": "shopping_mall",
+      "description": "Shopping and commerce."
     },
     {
       "id": 85,
-      "name": "aerilon_river_crossing",
-      "description": "A shallow river crossing that serves as a quick route across the water."
+      "name": "residential_suburb",
+      "description": "Suburbs with residences."
     },
     {
       "id": 86,
-      "name": "shipwreck_remnants",
-      "description": "Debris from an old ship that washed up."
+      "name": "school",
+      "description": "An elementary school."
     },
     {
       "id": 87,
-      "name": "swampy_lowlands",
-      "description": "The lands near the river are swampy from the heavy rainfall."
+      "name": "restaurant",
+      "description": "A place to eat."
     },
     {
       "id": 88,
-      "name": "dangerous_crocodile_territory",
-      "description": "The swamp is home to a large crocodile population."
+      "name": "apartment_complex",
+      "description": "An apartment complex."
     },
     {
       "id": 89,
-      "name": "bandit_lumber_camp",
-      "description": "The town's supply of wood is constantly stolen by a bandit lumber camp."
+      "name": "farm_fields",
+      "description": "Fields to farm."
     },
     {
       "id": 90,
-      "name": "aerilon_southern_gate",
-      "description": "A large gate that leads south from Aerilon."
+      "name": "forested_woodland",
+      "description": "An area full of trees."
     },
     {
       "id": 91,
-      "name": "southern_farmlands",
-      "description": "Vast, open farmland where Aerilon harvests much of its food."
+      "name": "river_valley",
+      "description": "A valley where the Skyfire River flows through."
     },
     {
       "id": 92,
-      "name": "aerilon_grain_mills",
-      "description": "Mills near the farmlands that process the towns supply of grain."
+      "name": "mountain_ridge",
+      "description": "A mountain ridge line."
     },
     {
       "id": 93,
-      "name": "ruined_temple_of_the_fields",
-      "description": "A monument to agriculture lost in the sands of time."
+      "name": "cave_system",
+      "description": "A system of caves."
     },
     {
       "id": 94,
-      "name": "old_scarecrow_field",
-      "description": "Fields populated only by old and broken scarecrows."
+      "name": "mountain_pass",
+      "description": "A mountain pass to travel through."
     },
     {
       "id": 95,
-      "name": "deserted_farmhouse",
-      "description": "A farmhouse where the residents vanished without a trace."
+      "name": "hilltop_viewpoint",
+      "description": "A hill to overlook the cities."
     },
     {
       "id": 96,
-      "name": "farming_supply_store",
-      "description": "A shop to supply the area farmers with tools."
+      "name": "lake",
+      "description": "A large body of water."
     },
     {
       "id": 97,
-      "name": "farming_guild",
-      "description": "An organization where all the town's farmers meet."
+      "name": "abandoned_cabin",
+      "description": "An abandoned cabin."
     },
     {
       "id": 98,
-      "name": "harvest_storage_barns",
-      "description": "Large barns used to store the autumn harvest."
+      "name": "crater",
+      "description": "A large impact crater."
     },
     {
       "id": 99,
-      "name": "trade_route_marker",
-      "description": "A marker that guides merchants on a trail through the countryside."
+      "name": "cemetery",
+      "description": "A graveyard."
     },
     {
       "id": 100,
-      "name": "plowed_fields",
-      "description": "Massive tracts of land that is plowed in preparation for planting."
+      "name": "small_lake_town",
+      "description": "Town next to a beautiful lake."
     }
   ]
 }

@@ -4,503 +4,503 @@
   "tiles": [
     {
       "id": 1,
-      "name": "neo_mumbai_skycity_sector_alpha",
-      "description": "Gleaming towers reserved for the Conglomerate elite, accessible only by authorized sky-lifts and patrolled by drone security."
+      "name": "neo_mumbai_sky_city_north",
+      "description": "The northern district of the Sky-City, shimmering towers reserved for the Conglomerate elite. Hovercar traffic hums constantly."
     },
     {
       "id": 2,
-      "name": "central_data_hub",
-      "description": "The core of the Omni-Net, a massive server farm constantly monitoring activity across Neo-Mumbai. Access is heavily restricted."
+      "name": "corporate_plaza_district",
+      "description": "Gleaming office buildings housing the headquarters of the Neo-Tech Conglomerates. Security drones are ever-present."
     },
     {
       "id": 3,
-      "name": "conglomerate_manufacturing_district",
-      "description": "Automated factories churning out consumer goods for the Sky-Cities, powered by questionable energy sources. Heavy pollution is common."
+      "name": "arcology_residential_zone",
+      "description": "Massive, self-contained residential structures providing housing for mid-level corporate employees."
     },
     {
       "id": 4,
-      "name": "upper_level_residential_zone",
-      "description": "High-density housing for privileged workers who support the Conglomerate infrastructure. A stark contrast to the Underlevels."
+      "name": "monorail_transfer_station",
+      "description": "A major transit hub connecting the Sky-City to the upper levels of the Underlevels via a high-speed monorail."
     },
     {
       "id": 5,
-      "name": "aerial_transport_hub",
-      "description": "A network of platforms and docking stations for transport drones, ferrying goods and personnel between districts."
+      "name": "industrial_smelter_complex",
+      "description": "A sprawling factory complex processing raw materials extracted from the lower levels, belching out thick smoke."
     },
     {
       "id": 6,
-      "name": "waste_recycling_plant_epsilon",
-      "description": "A sprawling complex processing waste from the Sky-Cities. Unpleasant fumes often drift down into the lower levels."
+      "name": "gamma_7_upper_access_shaft",
+      "description": "One of the main access points into Sector Gamma-7, heavily guarded by Conglomerate security forces."
     },
     {
       "id": 7,
-      "name": "sector_beta_commercial_district",
-      "description": "A hub of legal trade in Neo-Mumbai, heavily monitored by Conglomerate security forces. High-end goods are sold here."
+      "name": "recycling_processing_plant",
+      "description": "A massive facility where waste from the Sky-City is processed and recycled, or dumped into the lower levels."
     },
     {
       "id": 8,
-      "name": "artificial_sunlight_generator_site",
-      "description": "A series of powerful lamps projecting limited sunlight into the Underlevels. Maintained and controlled by the Conglomerates."
+      "name": "contaminated_water_reservoir",
+      "description": "A large reservoir of polluted water, a byproduct of the industrial processes. Access is restricted."
     },
     {
       "id": 9,
-      "name": "neo_mumbai_central_power_grid",
-      "description": "A colossal energy plant powering the entire city. Vulnerable to sabotage and critical to the Conglomerate's control."
+      "name": "broken_highway_overpass",
+      "description": "A section of the old pre-Collapse highway system, now crumbling and unusable. A haven for scavengers."
     },
     {
       "id": 10,
-      "name": "overground_train_line_1_terminus",
-      "description": "A major transit hub connecting various city sectors, often overcrowded and heavily guarded."
+      "name": "neo_mumbai_sky_city_east",
+      "description": "The eastern district of the Sky-City. Known for its advanced research facilities and pristine parks."
     },
     {
       "id": 11,
-      "name": "sector_gamma_7_entrance_zone",
-      "description": "The main entry point to the Underlevels, a crowded and chaotic area filled with checkpoints and black market stalls."
+      "name": "conglomerate_research_lab",
+      "description": "A high-security research facility developing advanced technologies for the Conglomerates."
     },
     {
       "id": 12,
-      "name": "dilapidated_housing_block_42",
-      "description": "A decaying apartment complex in Sector Gamma-7, home to many struggling families like the Rishis."
+      "name": "hydroponics_farm_dome",
+      "description": "A climate-controlled dome where food is grown for the Sky-City residents. Guarded against contamination."
     },
     {
       "id": 13,
-      "name": "gamma_7_black_market_square",
-      "description": "A bustling hub for illegal goods and services, from scavenged technology to bootleg nutrient paste."
+      "name": "underlevel_service_tunnel",
+      "description": "A dimly lit service tunnel connecting different sections of the Underlevels. Often used for smuggling."
     },
     {
       "id": 14,
-      "name": "abandoned_subway_station_delta",
-      "description": "A crumbling relic of the pre-Collapse era, now used as a hideout by resistance cells and scavengers."
+      "name": "gamma_7_residential_block",
+      "description": "A densely populated residential area in Sector Gamma-7. Home to Vansh Rishi and his family."
     },
     {
       "id": 15,
-      "name": "underlevel_waste_processing_chute_7",
-      "description": "A hazardous area where raw sewage and industrial waste are dumped, emitting noxious fumes."
+      "name": "black_market_bazaar",
+      "description": "A bustling black market where scavenged goods and illicit technologies are traded. Risky, but profitable."
     },
     {
       "id": 16,
-      "name": "makeshift_repair_shop_alley",
-      "description": "A cluster of small workshops where skilled individuals repair broken machinery and electronics, using salvaged parts."
+      "name": "collapsed_habitation_zone",
+      "description": "A sector where buildings collapsed during the Great Collapse. Now filled with makeshift shelters and scavengers."
     },
     {
       "id": 17,
-      "name": "underground_hydroponics_farm",
-      "description": "A hidden farm growing meager crops under artificial light, providing a small amount of fresh food to the Underlevels."
+      "name": "toxic_waste_dump",
+      "description": "A vast wasteland where toxic waste is dumped from the upper levels, a constant threat to the Underlevel residents."
     },
     {
       "id": 18,
-      "name": "resistance_cell_meeting_point_alpha",
-      "description": "A secret location used by rebels plotting against the Conglomerates, heavily guarded and constantly changing."
+      "name": "derelict_power_station",
+      "description": "A decaying power station that once provided energy for the city. Now a dangerous place to explore."
     },
     {
       "id": 19,
-      "name": "collapsed_highway_overpass_zone",
-      "description": "A crumbling reminder of the Great Collapse, blocking access to certain areas and providing cover for outlaws."
+      "name": "contaminated_river_delta",
+      "description": "The delta of a river choked with pollutants and industrial waste. A breeding ground for disease."
     },
     {
       "id": 20,
-      "name": "forgotten_tech_salvage_site_omega",
-      "description": "A dangerous area where scavengers search for valuable technology buried beneath the rubble."
+      "name": "neo_mumbai_sky_city_west",
+      "description": "The western district, known for its luxury apartments and entertainment venues for the elite."
     },
     {
       "id": 21,
-      "name": "industrial_outskirts_sector_theta",
-      "description": "Factories that make parts for the high cities. Pollution is rampant and very few regulations exist."
+      "name": "entertainment_district_spire",
+      "description": "Soaring spires house casinos and virtual reality arcades for the enjoyment of the wealthy."
     },
     {
       "id": 22,
-      "name": "smog_covered_wasteland",
-      "description": "Barren area where toxic chemicals have leaked. Inhabitable by many forms of life."
+      "name": "luxury_apartment_complex",
+      "description": "Exclusive residences with panoramic views of the smog-choked landscape below."
     },
     {
       "id": 23,
-      "name": "pre_collapse_highway_fragment",
-      "description": "A ruined section of ancient road. Now used by scavengers and raiders for easy access to the city's outskirts."
+      "name": "gamma_7_ventilation_shaft",
+      "description": "A large ventilation shaft that pumps filtered air into the lower levels, but is prone to breakdowns."
     },
     {
       "id": 24,
-      "name": "abandoned_mining_quarry",
-      "description": "A deep chasm left when the mining was closed. This area is largely uninhabited."
+      "name": "makeshift_clinic",
+      "description": "A rudimentary clinic run by volunteers, providing basic medical care to the Underlevel residents."
     },
     {
       "id": 25,
-      "name": "nutrient_paste_refinery",
-      "description": "Industrial plant that provides the food for the masses. Controlled by the Conglomerates."
+      "name": "resistance_cell_hideout",
+      "description": "A hidden base of operations for a resistance cell fighting against the Conglomerates."
     },
     {
       "id": 26,
-      "name": "the_great_divider_river",
-      "description": "River that splits the land. Used by smugglers and raiders to transport goods. Very little is known about this area."
+      "name": "abandoned_subway_tunnel",
+      "description": "A dark and dangerous tunnel that once served as part of the city's subway system. Now a refuge for the desperate."
     },
     {
       "id": 27,
-      "name": "shanty_town_outside_sector",
-      "description": "Shacks are built on top of each other to provide housing for the low class."
+      "name": "slum_settlement",
+      "description": "A squalid settlement built on top of a toxic waste dump. Inhabitants struggle for survival."
     },
     {
       "id": 28,
-      "name": "the_forgotten_woods",
-      "description": "The forests are largely uninhabited by humans due to radioactive leaks. Wildlife is rare."
+      "name": "pre_collapse_ruins",
+      "description": "The remnants of old Mumbai before the Great Collapse. A reminder of a lost world."
     },
     {
       "id": 29,
-      "name": "conglomerate_security_outpost_gamma",
-      "description": "Heavily fortified outpost. They guard the river crossings."
+      "name": "desiccated_mangrove_swamp",
+      "description": "A withered coastal mangrove forest destroyed by rising sea levels and industrial waste."
     },
     {
       "id": 30,
-      "name": "old_monument_park",
-      "description": "Ancient statues and monuments from a time before the collapse."
+      "name": "neo_mumbai_central_command",
+      "description": "Central command of the Neo-Mumbai Conglomerates, the beating heart of their power."
     },
     {
       "id": 31,
-      "name": "the_mechanical_graveyard",
-      "description": "Waste-area for robots. Heavily irradiated."
+      "name": "omni_net_server_farm",
+      "description": "A massive server farm housing the Omni-Net, the Conglomerates' surveillance network."
     },
     {
       "id": 32,
-      "name": "agricultural_zone_rho",
-      "description": "Farms used for plant production."
+      "name": "conglomerate_propaganda_center",
+      "description": "A center for producing propaganda promoting the Conglomerates' ideology and control."
     },
     {
       "id": 33,
-      "name": "artificial_lake_alpha",
-      "description": "artificialy created lake to provide water to the area."
+      "name": "gamma_7_filtration_plant",
+      "description": "A crucial facility that attempts to filter air and water for Sector Gamma-7, often failing catastrophically."
     },
     {
       "id": 34,
-      "name": "suburban_sector_kappa",
-      "description": "Upper-lower class lives here. Safe neighborhood controlled by a private company."
+      "name": "makeshift_school",
+      "description": "A clandestine school where children learn forgotten knowledge and skills."
     },
     {
       "id": 35,
-      "name": "high_speed_rail_track",
-      "description": "Very fast rail to connect parts of the city."
+      "name": "underground_farm",
+      "description": "A hidden farm where crops are grown using recycled water and artificial light."
     },
     {
       "id": 36,
-      "name": "satellite_city_beta",
-      "description": "Smaller populated district."
+      "name": "sealed_off_laboratory",
+      "description": "A laboratory sealed off during the Great Collapse, rumored to contain valuable pre-Collapse technologies."
     },
     {
       "id": 37,
-      "name": "the_glowing_swamps",
-      "description": "radioactive waster dumps."
+      "name": "radioactive_wasteland",
+      "description": "A region contaminated by radioactive waste, dangerous and uninhabitable."
     },
     {
       "id": 38,
-      "name": "research_outpost_epsilon",
-      "description": "scientists study radiation."
+      "name": "coastal_defense_turret",
+      "description": "Automated turrets defending the coast from pirates and rebels."
     },
     {
       "id": 39,
-      "name": "corporate_headquarters_zone",
-      "description": "Offices of the Conglomerates."
+      "name": "flooded_industrial_zone",
+      "description": "Submerged ruins of factories and warehouses from the pre-Collapse era."
     },
     {
       "id": 40,
-      "name": "commercial_hub_delta",
-      "description": "District full of stores and shops."
+      "name": "neo_mumbai_north_gate",
+      "description": "Heavily guarded perimeter checkpoint controlling entry to and from the city."
     },
     {
       "id": 41,
-      "name": "the_black_market_district",
-      "description": "Illegal trades happens here."
+      "name": "drone_patrol_corridor",
+      "description": "Regularly patrolled skyways where Conglomerate drones maintain surveillance and security."
     },
     {
       "id": 42,
-      "name": "upper_class_apartments_zeta",
-      "description": "luxury condos."
+      "name": "transportation_hub_north",
+      "description": "Bustling network of maglev lines, cargo rail, and automated transport vehicles."
     },
     {
       "id": 43,
-      "name": "the_old_library_district",
-      "description": "Old books are stored here."
+      "name": "gamma_7_security_checkpoint",
+      "description": "Conglomerate soldiers are a common sight, controlling all entrances and exits in Gamma-7."
     },
     {
       "id": 44,
-      "name": "conglomerate_barracks_sector_alpha",
-      "description": "Military station."
+      "name": "community_kitchen",
+      "description": "A volunteer-run service offering meager meals to those in need in Gamma-7."
     },
     {
       "id": 45,
-      "name": "central_park_alpha",
-      "description": "Small park located downtown."
+      "name": "engineering_guild_workshop",
+      "description": "Skilled mechanics attempt to maintain the area's aging infrastructure, using whatever spare parts they can find."
     },
     {
       "id": 46,
-      "name": "the_underground_city_tunnel",
-      "description": "tunnels conecting to the underlevels."
+      "name": "network_node_scrapyard",
+      "description": "A massive pile of discarded Omni-Net components, picked over for valuable scraps."
     },
     {
       "id": 47,
-      "name": "government_sector_mu",
-      "description": "the official offices."
+      "name": "deforested_foothills",
+      "description": "Once lush forests, now barren from industrial pollution. Only the hardiest weeds survive."
     },
     {
       "id": 48,
-      "name": "high_class_residence_alpha",
-      "description": "mansions and very expensive houses."
+      "name": "coastal_military_outpost",
+      "description": "Armed to the teeth, these bunkers ensure no illegal vessels enter or leave the city."
     },
     {
       "id": 49,
-      "name": "the_museum_of_old",
-      "description": "museum preserving old relics."
+      "name": "chemical_processing_lagoon",
+      "description": "Brightly coloured waste pools that reek of heavy toxins - the waste product of many industries."
     },
     {
       "id": 50,
-      "name": "the_pre_collapse_plaza",
-      "description": "a huge plaza from before the collapse."
+      "name": "conglomerate_data_center",
+      "description": "A vault of information, storing citizen and industrial details and protected by the highest-level security."
     },
     {
       "id": 51,
-      "name": "the_cybernetic_modification_center",
-      "description": "cyborg technology can be upgraded here."
+      "name": "recreation_sim_center",
+      "description": "Upper-level facilities that offer users a chance to experience simulated natural environments, a true luxury."
     },
     {
       "id": 52,
-      "name": "the_underground_arena",
-      "description": "secret fights happens here."
+      "name": "conglomerate_executive_apartments",
+      "description": "Extravagant, spacious living quarters with views that span the entire polluted landscape."
     },
     {
       "id": 53,
-      "name": "the_water_filtration_plant",
-      "description": "filtration plant providing clean water."
+      "name": "gamma_7_community_center",
+      "description": "A gathering place to share information, gossip, and network in Gamma-7."
     },
     {
       "id": 54,
-      "name": "the_elite_university",
-      "description": "high class children education building."
+      "name": "recycling_district_refinery",
+      "description": "Industrial-level waste refinement and smelting, a critical part of the Conglomerates' operations."
     },
     {
       "id": 55,
-      "name": "secret_resistance_base_iota",
-      "description": "underground HQ for the resistance."
+      "name": "information_broker_hub",
+      "description": "A shadowy meeting-place where data runners trade in valuable Conglomerate information."
     },
     {
       "id": 56,
-      "name": "the_slum_district_zeta",
-      "description": "overpopulated poverty district."
+      "name": "hidden_tunnels_network",
+      "description": "A maze of maintenance passages where the lights have long gone out - dangerous but useful."
     },
     {
       "id": 57,
-      "name": "abandoned_railway_station",
-      "description": "derelict train stop."
+      "name": "barren_mining_hills",
+      "description": "Stripped of all natural resources, these hills have become little more than a source of dust storms."
     },
     {
       "id": 58,
-      "name": "high_rise_office_block",
-      "description": "modern business locations."
+      "name": "smuggling_coastline",
+      "description": "A lawless area of beach with hidden coves, used for importing illegal goods."
     },
     {
       "id": 59,
-      "name": "the_skyline_gardens",
-      "description": "hanging gardens of skycity."
+      "name": "irradiated_salt_flats",
+      "description": "Nothing can survive in this deadly environment, except the most dangerous scavengers."
     },
     {
       "id": 60,
-      "name": "conglomerate_science_lab",
-      "description": "cutting edge reaserch laboratory."
+      "name": "central_processing_center",
+      "description": "The hub from which all raw materials are redistributed for industrial use."
     },
     {
       "id": 61,
-      "name": "the_industrial_port",
-      "description": "Area where items are shipped in and out."
+      "name": "drone_servicing_station",
+      "description": "Where fleets of mechanical eyes are repaired, maintained, and upgraded for Conglomerate operations."
     },
     {
       "id": 62,
-      "name": "the_radioactive_dockyards",
-      "description": "ships being built and repaired."
+      "name": "energy_grid_substation",
+      "description": "A crucial point in the distribution network, that is constantly monitored by the Conglomerates."
     },
     {
       "id": 63,
-      "name": "the_artificial_fishery",
-      "description": "fish is produced here using cybernetic enhancements."
+      "name": "gamma_7_repair_factory",
+      "description": "Skilled labourers and dangerous machinery create make-shift solutions to every kind of problem."
     },
     {
       "id": 64,
-      "name": "the_waste_disposal_barges",
-      "description": "barges dispose of waste by taking it to the ocean."
+      "name": "market_exchange",
+      "description": "Where residents of Gamma-7 buy, sell, and barter for whatever goods they can find."
     },
     {
       "id": 65,
-      "name": "the_maritime_security_zone",
-      "description": "patrol boats securing the port."
+      "name": "tech_recycling_plant",
+      "description": "Old tech is brought back to life in a constant attempt to circumvent the Omni-Net."
     },
     {
       "id": 66,
-      "name": "old_fishing_village",
-      "description": "old houses by the sea."
+      "name": "illegal_modification_garage",
+      "description": "A haven for speed freaks and vehicle enthusiasts to modify their cars in dangerous ways."
     },
     {
       "id": 67,
-      "name": "the_submerged_wreck",
-      "description": "ships remain below the surface."
+      "name": "polluted_rainwater_catchment",
+      "description": "Despite the high pollution, residents need to find ways to collect fresh water."
     },
     {
       "id": 68,
-      "name": "the_tidal_flats",
-      "description": "mudflats and beaches are common."
+      "name": "coastal_power_station",
+      "description": "A large facility converting waste heat and wave power into usable energy."
     },
     {
       "id": 69,
-      "name": "the_offshore_wind_farm",
-      "description": "turbines generate energy."
+      "name": "heavy_metal_desert",
+      "description": "Even the most hardy plants struggle to survive here in this wasteland."
     },
     {
       "id": 70,
-      "name": "the_water_processing_facility",
-      "description": "clean water production area."
+      "name": "under_city_storage",
+      "description": "Vast storage areas beneath the roads, left for decay and forgotten."
     },
     {
       "id": 71,
-      "name": "the_artificial_beach",
-      "description": "created man-made beach."
+      "name": "luxury_housing_development",
+      "description": "Where the wealthy can look down on the residents of the under-city."
     },
     {
       "id": 72,
-      "name": "the_coastal_highway",
-      "description": "road connecting to the city."
+      "name": "corporate_training_complex",
+      "description": "Highly secure facilities where employees are trained and assimilated into Conglomerate culture."
     },
     {
       "id": 73,
-      "name": "the_lighthouse_point",
-      "description": "lighthouse guiding ships."
+      "name": "gamma_7_refugee_camp",
+      "description": "Those who have lost everything gather here for safety and mutual aid."
     },
     {
       "id": 74,
-      "name": "the_erosion_zone",
-      "description": "land slowly disappears."
+      "name": "old_railway_yards",
+      "description": "Derelict, overgrown areas left to rust after the Collapse."
     },
     {
       "id": 75,
-      "name": "coastal_defense_zone",
-      "description": "military base that defends the coast."
+      "name": "underground_medical_practice",
+      "description": "A last resort for those who can't afford a real hospital."
     },
     {
       "id": 76,
-      "name": "fishing_trawler_docks",
-      "description": "dock for fishing ships."
+      "name": "network_cable_access",
+      "description": "Highly sought-after entry points into the Omni-Net."
     },
     {
       "id": 77,
-      "name": "marina_complex",
-      "description": "dock for yachts and boats."
+      "name": "rubble_quarry",
+      "description": "The last accessible materials that are readily available, and vital to the Underlevels."
     },
     {
       "id": 78,
-      "name": "the_shipping_lane",
-      "description": "major sea rout for cargo."
+      "name": "oil_slick_shoreline",
+      "description": "Birds and sea-life don't stand a chance in this toxic landscape."
     },
     {
       "id": 79,
-      "name": "the_oil_rigs",
-      "description": "drilling and extracting materials."
+      "name": "dystopian_vista_overlook",
+      "description": "A scenic point high above the city where you can see all the under-city."
     },
     {
       "id": 80,
-      "name": "the_underwater_cable_network",
-      "description": "cables that carry energy."
+      "name": "transportation_drone_factory",
+      "description": "Factory churning out swarms of drones."
     },
     {
       "id": 81,
-      "name": "conglomerate_surveillance_post",
-      "description": "spot for constant monitoring."
+      "name": "prison_detention_center",
+      "description": "Where dissenters and criminals are incarcerated and forgotten about."
     },
     {
       "id": 82,
-      "name": "the_smuggling_coves",
-      "description": "secret hideouts."
+      "name": "holo_entertainment_arcade",
+      "description": "Offering a brief escape from the realities of the Underlevels."
     },
     {
       "id": 83,
-      "name": "the_bio_luminescent_bay",
-      "description": "rare lifeforms."
+      "name": "gamma_7_salvage_yard",
+      "description": "Where scavengers bring their haul, hoping to find a buyer."
     },
     {
       "id": 84,
-      "name": "ancient_ruined_city",
-      "description": "old buildings lost to the sea."
+      "name": "gated_community",
+      "description": "Enclaves of security and green foliage for the wealthy."
     },
     {
       "id": 85,
-      "name": "ocean_dump_site",
-      "description": "toxic waste dumping."
+      "name": "reclaimed_water_aquifer",
+      "description": "Precious water sources."
     },
     {
       "id": 86,
-      "name": "coastal_radio_tower",
-      "description": "telecommunications for boats."
+      "name": "collapsed_bridge",
+      "description": "Ruined bridge. "
     },
     {
       "id": 87,
-      "name": "the_diving_platform",
-      "description": "training diving base."
+      "name": "eroded_canyon",
+      "description": "Windswept erosion."
     },
     {
       "id": 88,
-      "name": "the_bird_sanctuary",
-      "description": "refuge of nature."
+      "name": "artificial_lake",
+      "description": "Fake lake for upper class."
     },
     {
       "id": 89,
-      "name": "the_storm_surge_barrier",
-      "description": "protecting from floods."
+      "name": "factory_farms",
+      "description": "Growing vat vegetables."
     },
     {
       "id": 90,
-      "name": "conglomerate_airfield_zeta",
-      "description": "flight transport operation."
+      "name": "commuter_city_outer",
+      "description": "Where most live far from wealth."
     },
     {
       "id": 91,
-      "name": "underground_transport_tunnel_access",
-      "description": "entry to railway network."
+      "name": "suburban_homes",
+      "description": "Middle-class residents."
     },
     {
       "id": 92,
-      "name": "the_grand_skycity_hotel",
-      "description": "luxory experience."
+      "name": "underlevel_tunnels",
+      "description": "Secret passages, full of dangers."
     },
     {
       "id": 93,
-      "name": "the_memorial_garden",
-      "description": "honoring fallen heroes."
+      "name": "flooded_streets",
+      "description": "Sea level rise."
     },
     {
       "id": 94,
-      "name": "conglomerate_propaganda_plaza",
-      "description": "motivational speeches and events."
+      "name": "overrun_slum",
+      "description": "Slums, squalor and death."
     },
     {
       "id": 95,
-      "name": "the_virtual_reality_parlor",
-      "description": "VR experience for the upper class."
+      "name": "polluted_forest",
+      "description": "Dying trees and toxic soil."
     },
     {
       "id": 96,
-      "name": "the_genetically_modified_pet_store",
-      "description": "genetically engineered animals."
+      "name": "research_bunker",
+      "description": "Mysterious lab location."
     },
     {
       "id": 97,
-      "name": "the_recreational_dome",
-      "description": "athletic and sport activities."
+      "name": "collapsed_skyscraper",
+      "description": "Once a sign of wealth and progress, now an empty corpse"
     },
     {
       "id": 98,
-      "name": "the_artificial_ski_resort",
-      "description": "a resort inside the skycity."
+      "name": "shipping_docks",
+      "description": "Bringing in goods for the elite"
     },
     {
       "id": 99,
-      "name": "the_holo_entertainment_center",
-      "description": "holographic show."
+      "name": "construction_site",
+      "description": "Ongoing projects for the rich."
     },
     {
       "id": 100,
-      "name": "the_zenith_tower",
-      "description": "tallest building in the city."
+      "name": "the_collapse_landmark",
+      "description": "Memorial to the lost."
     }
   ]
 }
