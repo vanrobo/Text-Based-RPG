@@ -6,23 +6,21 @@ import prompts
 import ai
 import time
 
-with open(r"Storage\backstory.json") as backstory: 
-    info = json.load(backstory)
-    backstory = info["backstory"]
-    protagonist_info = info["protagonist"]
-    protagonist = protagonist_info["name"]+protagonist_info["background"]
-    location = info["location"]
-    theme_description = info["theme"]
-
-
-world_generation = prompts.world_gen + "\n\n" + prompts.specification_worldgen(backstory,location,protagonist,theme_description) 
 
 sno= int(input("Enter a number from 1-4: "))
 
-print("Generating map...")
-
-test = ai.generate(world_generation, rf"Storage\Saveslots\{sno}\map.json")
-print("Map Generated")
-
-
+def map_generation(sno):
+    with open(rf"Storage\Saveslots\{sno}\backstory.json") as backstory: 
+        info = json.load(backstory)
+        backstory = info["backstory"]
+        protagonist_info = info["protagonist"]
+        protagonist = protagonist_info["name"]+protagonist_info["background"]
+        location = info["location"]
+        theme_description = info["theme"]
+        world_type = None
+    print(rf"Storage\Saveslots\{sno}\backstory.json")
+    world_generation = prompts.world_gen + "\n\n" + prompts.specification_worldgen(world_type,backstory,location,protagonist,theme_description) 
+    generation = ai.generate(world_generation, rf"Storage\Saveslots\{sno}\map.json")
+    print(generation)
+map_generation(sno)
 

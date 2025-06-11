@@ -1,506 +1,506 @@
 {
-    "map_width": 10,
-    "map_height": 10,
-    "tiles": [
-        {
-            "id": 1,
-            "name": "civil_lines_district",
-            "description": "A planned residential area in Delhi with wide roads and colonial-era bungalows, known for its relative tranquility."
-        },
-        {
-            "id": 2,
-            "name": "kashmere_gate_isbt",
-            "description": "The Inter-State Bus Terminal, a major transportation hub connecting Delhi to other states."
-        },
-        {
-            "id": 3,
-            "name": "yamuna_river_bank",
-            "description": "The eastern bank of the Yamuna River, a historically significant waterway flowing beside Delhi."
-        },
-        {
-            "id": 4,
-            "name": "shahdara_industrial_area",
-            "description": "An industrial zone east of the Yamuna, characterized by factories and warehouses."
-        },
-        {
-            "id": 5,
-            "name": "dilshad_garden_residential",
-            "description": "A densely populated residential colony with apartments and local markets."
-        },
-        {
-            "id": 6,
-            "name": "red_fort_monument",
-            "description": "The iconic Red Fort, a UNESCO World Heritage Site and a symbol of Mughal power in Delhi."
-        },
-        {
-            "id": 7,
-            "name": "chandni_chowk_market",
-            "description": "The heart of Old Delhi, a vibrant and chaotic marketplace known for its street food, spices, and textiles; Shreyansh's home."
-        },
-        {
-            "id": 8,
-            "name": "jama_masjid_area",
-            "description": "The area surrounding Jama Masjid, one of India's largest mosques, with bustling streets and traditional shops."
-        },
-        {
-            "id": 9,
-            "name": "daryaganj_book_market",
-            "description": "A famous Sunday book market known for its wide selection of affordable books and literary atmosphere."
-        },
-        {
-            "id": 10,
-            "name": "rajghat_memorial",
-            "description": "The memorial dedicated to Mahatma Gandhi, a serene and reflective space."
-        },
-        {
-            "id": 11,
-            "name": "new_delhi_railway_station",
-            "description": "A major railway station connecting Delhi to various parts of the country."
-        },
-        {
-            "id": 12,
-            "name": "connaught_place_cbd",
-            "description": "The central business district of Delhi, a circular commercial hub with shops, restaurants, and offices."
-        },
-        {
-            "id": 13,
-            "name": "paharganj_backpacker_district",
-            "description": "A budget-friendly area near the railway station, popular with backpackers and known for its narrow streets."
-        },
-        {
-            "id": 14,
-            "name": "ramlila_maidan_grounds",
-            "description": "A large open ground used for rallies, events, and the annual Ramlila performance."
-        },
-        {
-            "id": 15,
-            "name": "delhi_gate_area",
-            "description": "The area around Delhi Gate, a historical gateway to the city."
-        },
-        {
-            "id": 16,
-            "name": "firoz_shah_kotla_fort",
-            "description": "The ruins of Firoz Shah Kotla Fort, a 14th-century fortress with a cricket stadium nearby."
-        },
-        {
-            "id": 17,
-            "name": "ito_intersection",
-            "description": "A major traffic intersection, known for its offices and media houses."
-        },
-        {
-            "id": 18,
-            "name": "vikas_marg_highway",
-            "description": "A major arterial road connecting East Delhi to the city center."
-        },
-        {
-            "id": 19,
-            "name": "old_delhi_markets_north",
-            "description": "A collection of traditional wholesale markets, dealing in everything from textiles to hardware."
-        },
-        {
-            "id": 20,
-            "name": "lothian_road_area",
-            "description": "A commercial street near Kashmere Gate, with shops and businesses."
-        },
-        {
-            "id": 21,
-            "name": "tis_hazari_courts",
-            "description": "The district courts complex, a hub of legal activity."
-        },
-        {
-            "id": 22,
-            "name": "sadar_bazar_wholesale",
-            "description": "A large wholesale market, one of the busiest in Delhi."
-        },
-        {
-            "id": 23,
-            "name": "qutub_road_industrial",
-            "description": "An older industrial area along Qutub Road with smaller factories."
-        },
-        {
-            "id": 24,
-            "name": "karol_bagh_shopping",
-            "description": "A popular shopping district known for its mid-range clothing and electronics."
-        },
-        {
-            "id": 25,
-            "name": "jhandewalan_temple_area",
-            "description": "The area around the Jhandewalan Temple, a significant religious site."
-        },
-        {
-            "id": 26,
-            "name": "arya_nagar_residential",
-            "description": "A well-established residential area near Karol Bagh."
-        },
-        {
-            "id": 27,
-            "name": "shakti_nagar_industrial",
-            "description": "A mixed-use area with residential and small-scale industrial units."
-        },
-        {
-            "id": 28,
-            "name": "rohtak_road_highway",
-            "description": "A major road connecting Delhi to Rohtak and other towns in Haryana."
-        },
-        {
-            "id": 29,
-            "name": "punjabi_bagh_residential",
-            "description": "An affluent residential area with spacious houses and parks."
-        },
-        {
-            "id": 30,
-            "name": "delhi_university_north_campus",
-            "description": "The north campus of Delhi University, a hub of academic activity."
-        },
-        {
-            "id": 31,
-            "name": "gtk_road_industrial_corridor",
-            "description": "An industrial corridor along the Grand Trunk Karnal Road, with factories and warehouses."
-        },
-        {
-            "id": 32,
-            "name": "narela_industrial_estate",
-            "description": "A large industrial estate on the outskirts of Delhi."
-        },
-        {
-            "id": 33,
-            "name": "bawana_industrial_area",
-            "description": "An expansive industrial zone located further from the city center."
-        },
-        {
-            "id": 34,
-            "name": "rohini_residential_sector",
-            "description": "A planned residential area in North Delhi with sector-based divisions."
-        },
-        {
-            "id": 35,
-            "name": "pitampura_commercial_hub",
-            "description": "A commercial hub with shopping malls, offices, and entertainment venues."
-        },
-        {
-            "id": 36,
-            "name": "netaji_subhash_place",
-            "description": "A popular shopping and food destination in Pitampura."
-        },
-        {
-            "id": 37,
-            "name": "mangolpuri_resettlement_colony",
-            "description": "A resettlement colony with densely packed housing."
-        },
-        {
-            "id": 38,
-            "name": "sultanpuri_area",
-            "description": "A residential area with local markets and small businesses."
-        },
-        {
-            "id": 39,
-            "name": "nangloi_jat_town",
-            "description": "A town on the outskirts of Delhi, with agricultural land and urban development."
-        },
-        {
-            "id": 40,
-            "name": "mundka_industrial_area",
-            "description": "An industrial area with manufacturing units and warehouses."
-        },
-        {
-            "id": 41,
-            "name": "tikri_border_area",
-            "description": "The border area between Delhi and Haryana, known for agricultural activity."
-        },
-        {
-            "id": 42,
-            "name": "bahadurgarh_town",
-            "description": "A town in Haryana, bordering Delhi, with industrial and residential areas."
-        },
-        {
-            "id": 43,
-            "name": "kundli_industrial_area",
-            "description": "A large industrial area in Haryana, near the Delhi border."
-        },
-        {
-            "id": 44,
-            "name": "sonipat_district",
-            "description": "The agricultural heartland of Sonipat, a district bordering Delhi."
-        },
-        {
-            "id": 45,
-            "name": "murthal_dhaba_highway",
-            "description": "The highway stretch known for its roadside dhabas (restaurants) offering North Indian cuisine."
-        },
-        {
-            "id": 46,
-            "name": "singhu_border_area",
-            "description": "The Delhi-Haryana border known for agricultural activity and occasional protests."
-        },
-        {
-            "id": 47,
-            "name": "alipur_rural_belt",
-            "description": "A rural area with agricultural fields and small villages."
-        },
-        {
-            "id": 48,
-            "name": "burari_area",
-            "description": "A rapidly urbanizing area with a mix of residential and commercial development."
-        },
-        {
-            "id": 49,
-            "name": "gtb_nagar_market",
-            "description": "A popular market near Delhi University, known for its street food and affordable shopping."
-        },
-        {
-            "id": 50,
-            "name": "wazirabad_bridge_area",
-            "description": "The area around the Wazirabad Bridge, connecting Delhi to Ghaziabad."
-        },
-                {
-            "id": 51,
-            "name": "khajuri_khas_residential",
-            "description": "A densely populated residential neighborhood in North East Delhi."
-        },
-        {
-            "id": 52,
-            "name": "bhajanpura_market",
-            "description": "A bustling market in North East Delhi, offering a variety of goods and services."
-        },
-        {
-            "id": 53,
-            "name": "ghonda_area",
-            "description": "A residential area with a mix of planned and unplanned development."
-        },
-        {
-            "id": 54,
-            "name": "karawal_nagar_region",
-            "description": "A rapidly growing residential area in the outskirts of Delhi."
-        },
-        {
-            "id": 55,
-            "name": "trilokpuri_resettlement",
-            "description": "One of Delhi's largest resettlement colonies, densely populated and economically diverse."
-        },
-        {
-            "id": 56,
-            "name": "kalyanpuri_area",
-            "description": "A residential area with local markets and commercial activity."
-        },
-        {
-            "id": 57,
-            "name": "vasundhara_enclave",
-            "description": "A planned residential area with apartments and green spaces."
-        },
-        {
-            "id": 58,
-            "name": "laxmi_nagar_market",
-            "description": "A commercial and residential hub with a vibrant market and coaching centers."
-        },
-        {
-            "id": 59,
-            "name": "preet_vihar_residential",
-            "description": "An affluent residential area with parks and shopping complexes."
-        },
-        {
-            "id": 60,
-            "name": "anand_vihar_terminal",
-            "description": "A major transportation hub with an ISBT and railway station."
-        },
-        {
-            "id": 61,
-            "name": "mayur_vihar_residential",
-            "description": "A well-planned residential area with different phases and sectors."
-        },
-        {
-            "id": 62,
-            "name": "noida_sector_18",
-            "description": "A commercial hub in Noida with shopping malls, offices, and restaurants."
-        },
-        {
-            "id": 63,
-            "name": "noida_expressway",
-            "description": "A major expressway connecting Delhi and Noida."
-        },
-        {
-            "id": 64,
-            "name": "greater_noida_region",
-            "description": "A planned city with residential, commercial, and industrial zones."
-        },
-        {
-            "id": 65,
-            "name": "ghaziabad_industrial_area",
-            "description": "An industrial zone with factories and manufacturing units."
-        },
-        {
-            "id": 66,
-            "name": "indirapuram_residential",
-            "description": "A large residential area in Ghaziabad with high-rise apartments."
-        },
-        {
-            "id": 67,
-            "name": "vaishali_metro_station",
-            "description": "A busy metro station connecting Delhi to Ghaziabad."
-        },
-        {
-            "id": 68,
-            "name": "hapur_road_area",
-            "description": "The area along Hapur Road, connecting Ghaziabad to Hapur."
-        },
-        {
-            "id": 69,
-            "name": "dasna_town",
-            "description": "A town on the outskirts of Ghaziabad, with a mix of urban and rural elements."
-        },
-        {
-            "id": 70,
-            "name": "lal_kuaan_industrial",
-            "description": "An industrial area in Ghaziabad with diverse manufacturing units."
-        },
-        {
-            "id": 71,
-            "name": "tughlakabad_fort",
-            "description": "The ruins of Tughlakabad Fort, a historical site in South Delhi."
-        },
-        {
-            "id": 72,
-            "name": "badarpur_border_area",
-            "description": "The border area between Delhi and Haryana on the southern side."
-        },
-        {
-            "id": 73,
-            "name": "faridabad_industrial_area",
-            "description": "A major industrial city in Haryana, bordering Delhi."
-        },
-        {
-            "id": 74,
-            "name": "gurgaon_mg_road",
-            "description": "The famous MG Road in Gurgaon, lined with shopping malls and businesses."
-        },
-        {
-            "id": 75,
-            "name": "gurugram_cyber_hub",
-            "description": "A commercial and entertainment hub in Gurgaon with offices and restaurants."
-        },
-        {
-            "id": 76,
-            "name": "dwarka_expressway",
-            "description": "A major expressway connecting Delhi and Gurgaon."
-        },
-        {
-            "id": 77,
-            "name": "palam_vihar_residential",
-            "description": "A residential area near the Delhi-Gurgaon border."
-        },
-        {
-            "id": 78,
-            "name": "rajokri_farms",
-            "description": "Farmhouses and rural properties on the outskirts of Delhi and Gurgaon."
-        },
-        {
-            "id": 79,
-            "name": "imt_manesar_industrial",
-            "description": "A large industrial area in Manesar, near Gurgaon."
-        },
-        {
-            "id": 80,
-            "name": "sohna_road_area",
-            "description": "The area along Sohna Road, connecting Gurgaon to Sohna."
-        },
-        {
-            "id": 81,
-            "name": "mahipalpur_hotel_zone",
-            "description": "An area near the airport with many hotels and guesthouses."
-        },
-        {
-            "id": 82,
-            "name": "vasant_kunj_residential",
-            "description": "An upscale residential area in South Delhi with parks and green spaces."
-        },
-        {
-            "id": 83,
-            "name": "mehrauli_archaeological_park",
-            "description": "A historical site with ancient ruins and tombs."
-        },
-        {
-            "id": 84,
-            "name": "saket_district_center",
-            "description": "A commercial hub with shopping malls and office buildings."
-        },
-        {
-            "id": 85,
-            "name": "hauz_khas_village",
-            "description": "A trendy urban village with cafes, boutiques, and historical monuments."
-        },
-        {
-            "id": 86,
-            "name": "siri_fort_area",
-            "description": "The area around Siri Fort, a historical fortification in Delhi."
-        },
-        {
-            "id": 87,
-            "name": "greater_kailash",
-            "description": "An affluent residential neighborhood with upscale markets and restaurants."
-        },
-        {
-            "id": 88,
-            "name": "nehru_place_electronics",
-            "description": "A large electronics market known for its affordable prices and variety."
-        },
-        {
-            "id": 89,
-            "name": "lajpat_nagar_market",
-            "description": "A bustling market with clothing, textiles, and street food."
-        },
-        {
-            "id": 90,
-            "name": "defence_colony_residential",
-            "description": "An upscale residential area with parks and shopping complexes."
-        },
-        {
-            "id": 91,
-            "name": "india_gate_memorial",
-            "description": "An iconic war memorial and popular gathering place."
-        },
-        {
-            "id": 92,
-            "name": "lodhi_garden_park",
-            "description": "A historical garden with tombs and monuments from the Lodhi dynasty."
-        },
-        {
-            "id": 93,
-            "name": "khan_market_shopping",
-            "description": "An upscale shopping market with designer stores and cafes."
-        },
-        {
-            "id": 94,
-            "name": "golf_links_residential",
-            "description": "An exclusive residential area near the Delhi Golf Club."
-        },
-        {
-            "id": 95,
-            "name": "sunder_nagar_area",
-            "description": "A residential area known for its proximity to India Gate and Purana Qila."
-        },
-        {
-            "id": 96,
-            "name": "purana_qila_fort",
-            "description": "The Purana Qila (Old Fort), a historical site believed to be built on the ancient city of Indraprastha."
-        },
-        {
-            "id": 97,
-            "name": "zoological_park_delhi",
-            "description": "Delhi's zoo, home to a variety of animals and birds."
-        },
-        {
-            "id": 98,
-            "name": "pragati_maidan_exhibition",
-            "description": "A large exhibition ground used for trade fairs and events."
-        },
-        {
-            "id": 99,
-            "name": "mathura_road_industrial",
-            "description": "A stretch of Mathura Road with factories and industrial units."
-        },
-        {
-            "id": 100,
-            "name": "sarai_kale_khan_isbt",
-            "description": "A major inter-state bus terminal connecting Delhi to southern states."
-        }
-    ]
+  "map_width": 10,
+  "map_height": 10,
+  "tiles": [
+    {
+      "id": 1,
+      "name": "crimsonwing_mesa",
+      "description": "A high mesa overlooking the scrubland, favored by Crimsonwings for nesting and strategic advantage."
+    },
+    {
+      "id": 2,
+      "name": "sagebrush_plains_east",
+      "description": "Expansive plains dominated by sagebrush, providing cover for small creatures and foraging opportunities."
+    },
+    {
+      "id": 3,
+      "name": "dusty_ravine",
+      "description": "A deep ravine carved by wind and erosion, offering shelter from the elements and a hidden pathway."
+    },
+    {
+      "id": 4,
+      "name": "abandoned_mining_outpost",
+      "description": "A derelict outpost, a relic of the city's expansion, now haunted by memories and scavenging birds."
+    },
+    {
+      "id": 5,
+      "name": "irradiated_wastelands",
+      "description": "Lands rendered desolate by toxic runoffs, a testament to the city's destructive practices; few dare to venture here."
+    },
+    {
+      "id": 6,
+      "name": "scavenger_market_perimeter",
+      "description": "The outer reaches of the sprawling market where scavengers sell their reclaimed goods."
+    },
+    {
+      "id": 7,
+      "name": "scrubland_farms_suburb",
+      "description": "A network of small, family-owned farms struggling to survive amidst the encroaching city sprawl."
+    },
+    {
+      "id": 8,
+      "name": "industrial_outskirts",
+      "description": "A gritty landscape of factories, warehouses, and refineries, churning out the city's needs at a cost."
+    },
+    {
+      "id": 9,
+      "name": "highway_connector_east",
+      "description": "A major highway connecting the city center to the eastern suburbs, a constant stream of automated vehicles."
+    },
+    {
+      "id": 10,
+      "name": "the_gilded_spires",
+      "description": "A district of opulent skyscrapers, the heart of corporate power and extravagant wealth, barely visible from scrubland."
+    },
+    {
+      "id": 11,
+      "name": "arid_mesa_foothills",
+      "description": "The rocky foothills of the Crimsonwing Mesa, where hardy shrubs cling to the slopes."
+    },
+    {
+      "id": 12,
+      "name": "sagebrush_plains_west",
+      "description": "The Western expanse of the Sagebrush Plains, known for its occasional flash floods."
+    },
+    {
+      "id": 13,
+      "name": "joshua_tree_grove",
+      "description": "A protected grove of ancient Joshua trees, a reminder of the scrubland's past glory."
+    },
+    {
+      "id": 14,
+      "name": "collapsed_skyway_section",
+      "description": "A crumbling section of a once-grand skyway, a hazardous reminder of failed infrastructure projects."
+    },
+    {
+      "id": 15,
+      "name": "the_slag_heaps",
+      "description": "Towering slag heaps, a toxic legacy of mining operations, where only the toughest scavengers dare to tread."
+    },
+    {
+      "id": 16,
+      "name": "scavenger_market_center",
+      "description": "The bustling heart of the market, a chaotic mix of vendors, traders, and curious onlookers."
+    },
+    {
+      "id": 17,
+      "name": "suburban_solar_fields",
+      "description": "Vast solar fields providing energy to the city, replacing the natural landscape with rows of panels."
+    },
+    {
+      "id": 18,
+      "name": "industrial_canal_district",
+      "description": "A network of canals used for transporting industrial materials, often polluted and dangerous."
+    },
+    {
+      "id": 19,
+      "name": "the_gridlocked_bypass",
+      "description": "A constantly congested bypass around the city, choked with traffic and exhaust fumes."
+    },
+    {
+      "id": 20,
+      "name": "corporate_plaza_district",
+      "description": "A district dominated by gleaming corporate headquarters, symbols of wealth and influence."
+    },
+    {
+      "id": 21,
+      "name": "scrubland_canyons",
+      "description": "A network of narrow canyons, home to elusive creatures and hidden springs."
+    },
+    {
+      "id": 22,
+      "name": "abandoned_reservoir_site",
+      "description": "A dried-up reservoir, a stark reminder of the city's water shortages and mismanagement."
+    },
+    {
+      "id": 23,
+      "name": "scrubland_clearing_joshua_tree",
+      "description": "The neutral ground marked by the gnarled Joshua tree, a meeting place for avian clans, like KiraKira's, amidst the sagebrush."
+    },
+    {
+      "id": 24,
+      "name": "broken_aqueduct_section",
+      "description": "A ruined section of an old aqueduct, a testament to the city's constant need for resources."
+    },
+    {
+      "id": 25,
+      "name": "toxic_filtration_plant",
+      "description": "A facility struggling to clean up the city's toxic waste, releasing foul odors into the surrounding area."
+    },
+    {
+      "id": 26,
+      "name": "scavenger_guild_hall",
+      "description": "The headquarters of the Scavenger's Guild, a powerful organization that controls the flow of salvaged goods."
+    },
+    {
+      "id": 27,
+      "name": "automated_farm_complex",
+      "description": "A massive automated farming complex, providing a portion of the city's food supply."
+    },
+    {
+      "id": 28,
+      "name": "industrial_drone_depot",
+      "description": "A storage and maintenance facility for industrial drones, buzzing with activity and heavy machinery."
+    },
+    {
+      "id": 29,
+      "name": "orbital_freight_terminal",
+      "description": "The district surrounding a key Orbital Freight Terminal where goods are delivered from space."
+    },
+    {
+      "id": 30,
+      "name": "residential_spire_bottom",
+      "description": "The lower residential tiers of the city's tallest spires, densely populated and vertically-oriented."
+    },
+    {
+      "id": 31,
+      "name": "wind_turbine_valley",
+      "description": "A valley filled with towering wind turbines, harnessing the power of the desert winds."
+    },
+    {
+      "id": 32,
+      "name": "dry_riverbed_crossing",
+      "description": "A dry riverbed that occasionally floods during heavy rains, a treacherous path for travelers."
+    },
+    {
+      "id": 33,
+      "name": "ancient_avian_burial_grounds",
+      "description": "A sacred burial ground for the ancestors of the avian clans, a place of respect and remembrance."
+    },
+    {
+      "id": 34,
+      "name": "water_rationing_checkpoint",
+      "description": "A heavily guarded checkpoint where water is strictly rationed to the population."
+    },
+    {
+      "id": 35,
+      "name": "landfill_methane_collector",
+      "description": "A network of collectors extracting methane gas from the city's vast landfill."
+    },
+    {
+      "id": 36,
+      "name": "scavenger_training_grounds",
+      "description": "A training area where aspiring scavengers learn the skills needed to survive in the wasteland."
+    },
+    {
+      "id": 37,
+      "name": "recycled_housing_block",
+      "description": "Housing built from recycled materials, a sign of the city's commitment to sustainability."
+    },
+    {
+      "id": 38,
+      "name": "autonomous_logistics_center",
+      "description": "A highly automated center for sorting and distributing goods throughout the region."
+    },
+    {
+      "id": 39,
+      "name": "entertainment_dome_district",
+      "description": "Domed districts dedicated to virtual reality and other immersive entertainment experiences."
+    },
+    {
+      "id": 40,
+      "name": "corporate_research_park",
+      "description": "A cluster of research facilities focused on advanced technologies, shrouded in secrecy."
+    },
+    {
+      "id": 41,
+      "name": "scrubland_rock_outcrops",
+      "description": "Scattered rock outcrops, offering vantage points and shelter from the harsh sun."
+    },
+    {
+      "id": 42,
+      "name": "underground_aquifer_taps",
+      "description": "Secret taps into underground aquifers, a source of water for those who dare to steal it."
+    },
+    {
+      "id": 43,
+      "name": "crimsonwing_training_grounds",
+      "description": "Where the Crimsonwings hone their aerial skills and strategic thinking; KiraKira likely trained here."
+    },
+    {
+      "id": 44,
+      "name": "black_market_water_trade",
+      "description": "A hidden marketplace where water is traded illegally, a risky but lucrative endeavor."
+    },
+    {
+      "id": 45,
+      "name": "decontamination_zone",
+      "description": "A sterile zone designed to remove toxins from people and equipment entering the city."
+    },
+    {
+      "id": 46,
+      "name": "mutant_creature_habitat",
+      "description": "A desolate region where mutant creatures roam, a consequence of the city's pollution."
+    },
+    {
+      "id": 47,
+      "name": "verti_farm_sky_gardens",
+      "description": "Vertical farms attached to skyscrapers, providing fresh produce for the city's elite."
+    },
+    {
+      "id": 48,
+      "name": "automated_freight_drone_hub",
+      "description": "A high-traffic area where freight drones deliver goods to businesses and residents."
+    },
+    {
+      "id": 49,
+      "name": "high_speed_maglev_station",
+      "description": "A transportation hub where high-speed maglev trains connect to distant cities."
+    },
+    {
+      "id": 50,
+      "name": "arcology_living_quarter",
+      "description": "A self-contained living quarter within a massive arcology, providing everything residents need."
+    },
+    {
+      "id": 51,
+      "name": "desert_wash_creek",
+      "description": "A seasonal creek bed, providing a temporary oasis for wildlife after rare rainfalls."
+    },
+    {
+      "id": 52,
+      "name": "abandoned_irrigation_system",
+      "description": "The remains of an irrigation system, a failed attempt to cultivate the arid land."
+    },
+    {
+      "id": 53,
+      "name": "avian_clan_observatory",
+      "description": "A high vantage point used by avian clans to observe the surrounding territory and track movements."
+    },
+    {
+      "id": 54,
+      "name": "contaminated_groundwater_source",
+      "description": "A source of contaminated groundwater, a health hazard for those who rely on it."
+    },
+    {
+      "id": 55,
+      "name": "reclamation_process_center",
+      "description": "A facility focused on reclaiming valuable resources from the city's waste stream."
+    },
+    {
+      "id": 56,
+      "name": "outcast_settlement_edge",
+      "description": "The edge of a settlement for outcasts and refugees, struggling to survive on the fringes of society."
+    },
+    {
+      "id": 57,
+      "name": "bio_dome_experimental_site",
+      "description": "An experimental site for growing food in a controlled environment, part of the city's sustainability efforts."
+    },
+    {
+      "id": 58,
+      "name": "autonomous_taxi_network",
+      "description": "A transportation network of autonomous taxis, providing convenient transportation within the city."
+    },
+    {
+      "id": 59,
+      "name": "theatrical_virtual_reality_arcade",
+      "description": "A district where residents can explore virtual worlds and experience simulated adventures."
+    },
+    {
+      "id": 60,
+      "name": "university_research_labs",
+      "description": "A hub for scientific research and technological innovation, driving the city's economy."
+    },
+    {
+      "id": 61,
+      "name": "thorny_scrub_patch",
+      "description": "A dense patch of thorny scrub, providing refuge for small animals but difficult to navigate."
+    },
+    {
+      "id": 62,
+      "name": "derelict_comm_relay_station",
+      "description": "An abandoned communications relay station, a relic of a bygone era."
+    },
+    {
+      "id": 63,
+      "name": "the_great_avian_nesting_site",
+      "description": "A protected nesting site for various avian species, a symbol of the scrubland's natural heritage."
+    },
+    {
+      "id": 64,
+      "name": "underground_sewer_access",
+      "description": "A dangerous access point to the city's underground sewer system, a haven for criminals and outcasts."
+    },
+    {
+      "id": 65,
+      "name": "chemical_processing_facility",
+      "description": "A facility that processes chemical waste from the city, releasing potentially harmful emissions."
+    },
+    {
+      "id": 66,
+      "name": "outcast_settlement_market",
+      "description": "A bustling marketplace where outcasts trade goods and services, a community of survivors."
+    },
+    {
+      "id": 67,
+      "name": "vertical_hydroponics_system",
+      "description": "A system for growing plants without soil, a sustainable way to produce food in the city."
+    },
+    {
+      "id": 68,
+      "name": "railway_freight_yard",
+      "description": "A large railway yard where goods are transferred between trains and trucks."
+    },
+    {
+      "id": 69,
+      "name": "hologram_projection_district",
+      "description": "Where the City projects vibrant 3d advertisements across entire districts."
+    },
+    {
+      "id": 70,
+      "name": "advanced_robotics_factory",
+      "description": "A cutting-edge factory that produces robots for various industries, driving the city's technological advancement."
+    },
+    {
+      "id": 71,
+      "name": "sun_baked_mesa",
+      "description": "A flat mesa baked by the desert sun, offering a panoramic view of the surrounding landscape."
+    },
+    {
+      "id": 72,
+      "name": "eroded_cliffside",
+      "description": "A steep cliffside eroded by wind and rain, a dangerous but scenic location."
+    },
+    {
+      "id": 73,
+      "name": "avian_ancient_ruins",
+      "description": "Ruins of structures built by avian clans long ago, a reminder of their rich history."
+    },
+    {
+      "id": 74,
+      "name": "contaminated_groundwater_lake",
+      "description": "A body of stagnant groundwater, a breeding ground for disease and environmental hazards."
+    },
+    {
+      "id": 75,
+      "name": "metal_salvage_yard",
+      "description": "Area where metals are melted down in a chaotic melting facility; scavenged metal is melted down and reformed into new items."
+    },
+    {
+      "id": 76,
+      "name": "refugee_camp_outer_edge",
+      "description": "The outer reaches of the Refugee Camp, living in tents and converted cars."
+    },
+    {
+      "id": 77,
+      "name": "algae_purification_ponds",
+      "description": "The Ponds filter and purify water using algae."
+    },
+    {
+      "id": 78,
+      "name": "automated_highway_interchange",
+      "description": "A complex network of highways all managed by Automated Systems."
+    },
+    {
+      "id": 79,
+      "name": "VR_arena",
+      "description": "The virtual reality arena where users compete using real-world hardware and virtual landscapes."
+    },
+    {
+      "id": 80,
+      "name": "Data_Harvesting_Center",
+      "description": "Where personal data is collected and sold."
+    },
+    {
+      "id": 81,
+      "name": "Overlook Cliffside",
+      "description": "The best place to view the entire city below."
+    },
+    {
+      "id": 82,
+      "name": "Desert_Road",
+      "description": "A deserted area that has had roads built on it at one point."
+    },
+    {
+      "id": 83,
+      "name": "The_Great_Chasm",
+      "description": "A large, 100-foot-wide chasm runs through this part of the city."
+    },
+    {
+      "id": 84,
+      "name": "The_Forgotten_Ruins",
+      "description": "A part of the city that has been abandoned due to toxic materials being released."
+    },
+    {
+      "id": 85,
+      "name": "Waste_Processing_Plant",
+      "description": "The location of where waste is broken down and repurposed into building materials."
+    },
+    {
+      "id": 86,
+      "name": "The_Ghetto",
+      "description": "Where people of little means are forced to live."
+    },
+    {
+      "id": 87,
+      "name": "Hydroponic_Farms",
+      "description": "Where food is produced year-round using water and light, no land."
+    },
+    {
+      "id": 88,
+      "name": "Rail_Depot",
+      "description": "The rail depot for transports that are going long distance."
+    },
+    {
+      "id": 89,
+      "name": "entertainment_district",
+      "description": "Where people spend money for entertainment purposes."
+    },
+    {
+      "id": 90,
+      "name": "City_College",
+      "description": "The center of all city education."
+    },
+    {
+      "id": 91,
+      "name": "The_Badlands",
+      "description": "Where bandits and rouges live."
+    },
+    {
+      "id": 92,
+      "name": "Old_Road",
+      "description": "An old broken road with debris throughout."
+    },
+    {
+      "id": 93,
+      "name": "Tunnel_Entrance",
+      "description": "A hole in the side of the mountain with a tunnel running through."
+    },
+    {
+      "id": 94,
+      "name": "Abandoned_Town",
+      "description": "A city that had to be abandoned due to toxic levels."
+    },
+    {
+      "id": 95,
+      "name": "Industrial_district",
+      "description": "Factories, warehouses and plants."
+    },
+    {
+      "id": 96,
+      "name": "Low_Income_Housing",
+      "description": "Where the city's poor spend their lives."
+    },
+    {
+      "id": 97,
+      "name": "Fish_Farms",
+      "description": "Farms where fish are bread in an indoor setting."
+    },
+    {
+      "id": 98,
+      "name": "Highway_Check_Point",
+      "description": "Vehicles checked for what they are carrying on the automated highway."
+    },
+    {
+      "id": 99,
+      "name": "The_Theater",
+      "description": "A place where holograms are created."
+    },
+    {
+      "id": 100,
+      "name": "Goverment_Offices",
+      "description": "Where all official buisness is preformed."
+    }
+  ]
 }

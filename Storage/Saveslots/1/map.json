@@ -1,506 +1,506 @@
 {
-    "map_width": 10,
-    "map_height": 10,
-    "tiles": [
-        {
-            "id": 1,
-            "name": "old_delhi_north",
-            "description": "The northern section of Old Delhi, a labyrinth of narrow streets and crowded bazaars, known for its street food and historical monuments."
-        },
-        {
-            "id": 2,
-            "name": "jama_masjid_district",
-            "description": "Centered around the Jama Masjid mosque, a bustling area with Islamic architecture, kebab stalls, and a vibrant cultural atmosphere."
-        },
-        {
-            "id": 3,
-            "name": "red_fort_vicinity",
-            "description": "The area surrounding the Red Fort, a UNESCO World Heritage Site, filled with historical significance and tourist attractions."
-        },
-        {
-            "id": 4,
-            "name": "chandni_chowk_central",
-            "description": "The heart of Chandni Chowk, overflowing with spice markets, textiles, and a symphony of sights, sounds, and smells. Shreyansh's home and livelihood."
-        },
-        {
-            "id": 5,
-            "name": "khari_baoli_spice_market",
-            "description": "Asia's largest spice market, a sensory overload of exotic aromas and vibrant colors, where Shreyansh's family shop thrives."
-        },
-        {
-            "id": 6,
-            "name": "daryaganj_book_market",
-            "description": "A Sunday book market stretching along Daryaganj road, offering a wide selection of new and used books."
-        },
-        {
-            "id": 7,
-            "name": "new_delhi_railway_station_area",
-            "description": "The chaotic area around New Delhi Railway Station, a major transportation hub connecting Delhi to the rest of India."
-        },
-        {
-            "id": 8,
-            "name": "paharganj_backpacker_district",
-            "description": "A popular backpacker district near the railway station, known for its budget hotels, restaurants, and lively atmosphere."
-        },
-        {
-            "id": 9,
-            "name": "kashmere_gate_isbt",
-            "description": "Kashmere Gate Inter-State Bus Terminal, a major bus station connecting Delhi to neighboring states."
-        },
-        {
-            "id": 10,
-            "name": "civil_lines_residential_area",
-            "description": "A relatively quieter residential area north of Old Delhi, characterized by colonial-era bungalows and tree-lined streets."
-        },
-        {
-            "id": 11,
-            "name": "tis_hazari_courts_complex",
-            "description": "The location of the Tis Hazari Courts, one of the major district courts in Delhi."
-        },
-        {
-            "id": 12,
-            "name": "ajmeri_gate_area",
-            "description": "The area surrounding Ajmeri Gate, a historical gate and bustling commercial zone."
-        },
-        {
-            "id": 13,
-            "name": "connaught_place_outer_circle",
-            "description": "The outer circle of Connaught Place, a major commercial and financial hub of Delhi, known for its colonial architecture."
-        },
-        {
-            "id": 14,
-            "name": "gole_market_area",
-            "description": "A market area known for its food stalls and street vendors, offering a variety of local delicacies."
-        },
-        {
-            "id": 15,
-            "name": "karol_bagh_shopping_district",
-            "description": "A popular shopping district known for its textiles, clothing, and electronic goods."
-        },
-        {
-            "id": 16,
-            "name": "rajinder_nagar_residential",
-            "description": "A densely populated residential area close to Karol Bagh, mostly housing middle-class families."
-        },
-        {
-            "id": 17,
-            "name": "delhi_university_north_campus",
-            "description": "The North Campus of Delhi University, a hub of academic activity and student life."
-        },
-        {
-            "id": 18,
-            "name": "model_town_residential",
-            "description": "A planned residential area with relatively wide streets and green spaces."
-        },
-        {
-            "id": 19,
-            "name": "wazirabad_industrial_area",
-            "description": "An industrial area located in North Delhi, with factories and manufacturing units."
-        },
-        {
-            "id": 20,
-            "name": "yamuna_river_northern_stretch",
-            "description": "The northern stretch of the Yamuna River flowing through Delhi, often polluted but still vital for the region."
-        },
-        {
-            "id": 21,
-            "name": "old_delhi_south",
-            "description": "The southern part of Old Delhi, characterized by its historical buildings and traditional markets."
-        },
-        {
-            "id": 22,
-            "name": "delhi_gate_area",
-            "description": "An area marked by the historical Delhi Gate, connecting Old Delhi to New Delhi."
-        },
-        {
-            "id": 23,
-            "name": "feroz_shah_kotla_fort_ruins",
-            "description": "The ruins of Feroz Shah Kotla Fort, a historical site with ancient structures and legends."
-        },
-        {
-            "id": 24,
-            "name": "raj_ghat_memorial",
-            "description": "The memorial to Mahatma Gandhi, a serene and reflective space."
-        },
-        {
-            "id": 25,
-            "name": "sri_digambar_jain_lal_mandir",
-            "description": "The oldest Jain temple in Delhi, located opposite the Red Fort, known for its charity bird hospital."
-        },
-        {
-            "id": 26,
-            "name": "netaji_subhash_marg",
-            "description": "A major arterial road connecting the Red Fort to Daryaganj and beyond."
-        },
-        {
-            "id": 27,
-            "name": "delhi_stock_exchange_area",
-            "description": "The location of the Delhi Stock Exchange, representing the financial activities of the region."
-        },
-        {
-            "id": 28,
-            "name": "parliament_street_area",
-            "description": "The area around Parliament Street in New Delhi, with government buildings and historical architecture."
-        },
-        {
-            "id": 29,
-            "name": "india_gate_vicinity",
-            "description": "The area surrounding India Gate, a war memorial and popular gathering place."
-        },
-        {
-            "id": 30,
-            "name": "national_museum_area",
-            "description": "The location of the National Museum, housing a vast collection of Indian art and artifacts."
-        },
-        {
-            "id": 31,
-            "name": "turkman_gate_area",
-            "description": "An older part of Delhi, known for its historical significance and congested lanes."
-        },
-        {
-            "id": 32,
-            "name": "ramlila_ground",
-            "description": "A large open ground used for festivals and public gatherings, notably the Ramlila performance."
-        },
-        {
-            "id": 33,
-            "name": "shanti_vana_memorial_park",
-            "description": "A memorial park dedicated to Jawaharlal Nehru, India's first Prime Minister."
-        },
-        {
-            "id": 34,
-            "name": "supreme_court_area",
-            "description": "The location of the Supreme Court of India, the highest judicial body in the country."
-        },
-        {
-            "id": 35,
-            "name": "presidential_palace_area",
-            "description": "The area around the Rashtrapati Bhavan, the official residence of the President of India."
-        },
-        {
-            "id": 36,
-            "name": "janpath_market",
-            "description": "A street market known for its handicrafts, clothing, and souvenirs."
-        },
-        {
-            "id": 37,
-            "name": "lodhi_garden",
-            "description": "A historical garden with tombs and monuments from the Lodhi dynasty."
-        },
-        {
-            "id": 38,
-            "name": "khan_market",
-            "description": "An upscale market known for its boutiques, restaurants, and cafes."
-        },
-        {
-            "id": 39,
-            "name": "sunder_nursery_heritage_park",
-            "description": "A restored heritage park with Mughal-era monuments and gardens."
-        },
-        {
-            "id": 40,
-            "name": "nizamuddin_dargah",
-            "description": "The shrine of Sufi saint Nizamuddin Auliya, a place of pilgrimage and spiritual significance."
-        },
-        {
-            "id": 41,
-            "name": "ddu_marg_institutional_area",
-            "description": "An area with various government and institutional buildings along Deen Dayal Upadhyaya Marg."
-        },
-        {
-            "id": 42,
-            "name": "minto_road_government_housing",
-            "description": "An area with government housing complexes and administrative offices."
-        },
-        {
-            "id": 43,
-            "name": "africa_avenue_diplomatic_area",
-            "description": "An area with embassies and diplomatic missions from various African countries."
-        },
-        {
-            "id": 44,
-            "name": "south_extension_market",
-            "description": "A popular market known for its clothing, jewelry, and restaurants."
-        },
-        {
-            "id": 45,
-            "name": "INA_market",
-            "description": "A market known for its international food products and seafood."
-        },
-        {
-            "id": 46,
-            "name": "hauz_khas_village",
-            "description": "An urban village with historical ruins, cafes, and boutiques."
-        },
-        {
-            "id": 47,
-            "name": "green_park_residential_area",
-            "description": "An upscale residential area with parks and green spaces."
-        },
-        {
-            "id": 48,
-            "name": "aiims_hospital_complex",
-            "description": "The location of the All India Institute of Medical Sciences, a major hospital and research institution."
-        },
-        {
-            "id": 49,
-            "name": "safdarjung_tomb_area",
-            "description": "The area surrounding Safdarjung's Tomb, a late Mughal-era mausoleum."
-        },
-        {
-            "id": 50,
-            "name": "ambedkar_nagar_slum_area",
-            "description": "A densely populated slum area reflecting the socio-economic disparities of the city."
-        },
-        {
-            "id": 51,
-            "name": "yamuna_vihar_residential",
-            "description": "A residential area across the Yamuna River, characterized by planned housing and local markets."
-        },
-        {
-            "id": 52,
-            "name": "dilshad_garden_industrial",
-            "description": "An industrial area with factories and workshops located in East Delhi."
-        },
-        {
-            "id": 53,
-            "name": "ghaziabad_border_area",
-            "description": "The border area between Delhi and Ghaziabad, a city in Uttar Pradesh."
-        },
-        {
-            "id": 54,
-            "name": "sahibabad_industrial_belt",
-            "description": "An industrial belt in Ghaziabad, with various factories and manufacturing plants."
-        },
-        {
-            "id": 55,
-            "name": "noida_sector_62_institutional",
-            "description": "An institutional area in Noida, with universities, colleges, and IT parks."
-        },
-        {
-            "id": 56,
-            "name": "mayur_vihar_residential",
-            "description": "A residential area with apartment complexes and shopping centers."
-        },
-        {
-            "id": 57,
-            "name": "vasundhara_enclave_upscale",
-            "description": "An upscale residential enclave in East Delhi with gated communities and amenities."
-        },
-        {
-            "id": 58,
-            "name": "akshardham_temple_complex",
-            "description": "A sprawling Hindu temple complex with intricate carvings and exhibits."
-        },
-        {
-            "id": 59,
-            "name": "sarai_kale_khan_bus_terminus",
-            "description": "A major bus terminus connecting Delhi to destinations in Uttar Pradesh and other states."
-        },
-        {
-            "id": 60,
-            "name": "okhla_industrial_area",
-            "description": "An industrial area with factories and workshops, contributing to Delhi's manufacturing sector."
-        },
-        {
-            "id": 61,
-            "name": "dwarka_expressway_construction",
-            "description": "The under-construction Dwarka Expressway, aimed at easing traffic congestion between Delhi and Gurgaon."
-        },
-        {
-            "id": 62,
-            "name": "gurgaon_cyber_city_it_hub",
-            "description": "A major IT hub in Gurgaon, with offices of multinational corporations and technology companies."
-        },
-        {
-            "id": 63,
-            "name": "manesar_industrial_model_town",
-            "description": "A planned industrial model town in Haryana, with factories and residential areas."
-        },
-        {
-            "id": 64,
-            "name": "rajiv_chowk_metro_station",
-            "description": "One of the busiest metro stations in Delhi, connecting various lines of the Delhi Metro."
-        },
-        {
-            "id": 65,
-            "name": "haryana_border_farmlands",
-            "description": "Agricultural land bordering Delhi and Haryana, supplying fresh produce to the city."
-        },
-        {
-            "id": 66,
-            "name": "dhaula_kuan_military_area",
-            "description": "An area with military establishments and cantonment areas."
-        },
-        {
-            "id": 67,
-            "name": "palam_airport_vicinity",
-            "description": "The area around the old Palam Airport, now used for cargo and VIP flights."
-        },
-        {
-            "id": 68,
-            "name": "vasant_kunj_residential",
-            "description": "An affluent residential area in South Delhi with parks and shopping malls."
-        },
-        {
-            "id": 69,
-            "name": "mehrauli_archaeological_park",
-            "description": "An archaeological park with historical ruins and tombs dating back to different eras."
-        },
-        {
-            "id": 70,
-            "name": "saket_district_center",
-            "description": "A district center with shopping malls, multiplexes, and corporate offices."
-        },
-        {
-            "id": 71,
-            "name": "munirka_student_accommodation",
-            "description": "An area known for affordable accommodation for students studying at nearby universities."
-        },
-        {
-            "id": 72,
-            "name": "sanjay_van_reserve_forest",
-            "description": "A dense urban forest providing green space and a natural habitat within the city."
-        },
-        {
-            "id": 73,
-            "name": "jnu_university_campus",
-            "description": "The campus of Jawaharlal Nehru University, a renowned center for social sciences and humanities."
-        },
-        {
-            "id": 74,
-            "name": "qutub_minar_historical_site",
-            "description": "The area surrounding the Qutub Minar, a UNESCO World Heritage Site and historical landmark."
-        },
-        {
-            "id": 75,
-            "name": "badarpur_border_crossing",
-            "description": "A border crossing between Delhi and Haryana on the southern edge of the city."
-        },
-        {
-            "id": 76,
-            "name": "faridabad_industrial_hub",
-            "description": "A major industrial hub in Haryana, bordering Delhi, with factories and manufacturing units."
-        },
-        {
-            "id": 77,
-            "name": "surajkund_lake_area",
-            "description": "The area surrounding Surajkund Lake, known for its crafts mela and historical significance."
-        },
-        {
-            "id": 78,
-            "name": "tughlaqabad_fort_ruins",
-            "description": "The ruins of Tughlaqabad Fort, a massive stone fortress built by the Tughlaq dynasty."
-        },
-        {
-            "id": 79,
-            "name": "greater_noida_expressway",
-            "description": "A major expressway connecting Delhi to Greater Noida, facilitating faster travel."
-        },
-        {
-            "id": 80,
-            "name": "dnd_flyway",
-            "description": "The Delhi-Noida-Delhi Flyway, a toll road connecting Delhi and Noida across the Yamuna River."
-        },
-        {
-            "id": 81,
-            "name": "outer_ring_road_north",
-            "description": "The northern section of the Outer Ring Road, a major arterial road encircling Delhi."
-        },
-        {
-            "id": 82,
-            "name": "mukherjee_nagar_coaching_center",
-            "description": "An area known for its coaching centers preparing students for competitive exams."
-        },
-        {
-            "id": 83,
-            "name": "rohini_residential_area",
-            "description": "A large planned residential area in North Delhi with parks and markets."
-        },
-        {
-            "id": 84,
-            "name": "pitampura_commercial_hub",
-            "description": "A commercial hub with shopping malls, offices, and restaurants."
-        },
-        {
-            "id": 85,
-            "name": "mangolpuri_resettlement_colony",
-            "description": "A large resettlement colony created for relocated populations."
-        },
-        {
-            "id": 86,
-            "name": "sultanpuri_industrial_belt",
-            "description": "An industrial belt with small-scale factories and workshops."
-        },
-        {
-            "id": 87,
-            "name": "nangloi_jat_rural_area",
-            "description": "A semi-rural area on the outskirts of Delhi, with agricultural land and villages."
-        },
-        {
-            "id": 88,
-            "name": "mundka_industrial_area",
-            "description": "An industrial area with factories and warehouses."
-        },
-        {
-            "id": 89,
-            "name": "bahadurgarh_border_town",
-            "description": "A border town in Haryana, adjacent to Delhi, with industrial and residential areas."
-        },
-        {
-            "id": 90,
-            "name": "najafgarh_drainage_basin",
-            "description": "A low-lying area susceptible to flooding during the monsoon season."
-        },
-        {
-            "id": 91,
-            "name": "outer_ring_road_south",
-            "description": "The southern section of the Outer Ring Road, a major arterial road encircling Delhi."
-        },
-        {
-            "id": 92,
-            "name": "south_delhi_greenbelt",
-            "description": "A greenbelt area providing a buffer between urban development and natural landscapes."
-        },
-        {
-            "id": 93,
-            "name": "chattarpur_farms_area",
-            "description": "An area known for its farmhouses and green spaces, popular for weddings and events."
-        },
-        {
-            "id": 94,
-            "name": "sultanpur_national_park",
-            "description": "A national park known for its bird sanctuary and migratory bird populations (a bit further afield). "
-        },
-        {
-            "id": 95,
-            "name": "bijwasan_railway_station",
-            "description": "A railway station connecting Delhi to other parts of the country."
-        },
-        {
-            "id": 96,
-            "name": "palwal_agricultural_region",
-            "description": "An agricultural region beyond Delhi, providing food supplies to the city."
-        },
-        {
-            "id": 97,
-            "name": "gurgaon_faridabad_road",
-            "description": "A road connecting Gurgaon and Faridabad, passing through industrial and residential areas."
-        },
-        {
-            "id": 98,
-            "name": "sohna_hills_region",
-            "description": "A hilly region near Gurgaon, known for its scenic beauty and hot springs (further from the city)."
-        },
-        {
-            "id": 99,
-            "name": "ghaziabad_upper_ganga_canal",
-            "description": "A canal providing irrigation water to agricultural areas in Ghaziabad."
-        },
-        {
-            "id": 100,
-            "name": "kundli_manesar_palwal_expressway",
-            "description": "A major expressway connecting Kundli, Manesar, and Palwal, bypassing Delhi."
-        }
-    ]
+  "map_width": 10,
+  "map_height": 10,
+  "tiles": [
+    {
+      "id": 1,
+      "name": "whispering_crags_peak",
+      "description": "The highest point of the Crags, perpetually wreathed in swirling winds and often struck by lightning. A place of raw elemental power."
+    },
+    {
+      "id": 2,
+      "name": "stormking_ruins_lower_slopes",
+      "description": "Weathered ruins of an ancient Storm King's fortress, now inhabited only by hardy mountain goats and the echoes of forgotten rituals."
+    },
+    {
+      "id": 3,
+      "name": "zephyrs_hidden_cave_entrance",
+      "description": "A discreet opening on the mountainside, leading to Zephyr's secluded laboratory and library, filled with arcane knowledge and alchemical tools."
+    },
+    {
+      "id": 4,
+      "name": "lightning_scarred_valley",
+      "description": "A valley frequently ravaged by thunderstorms, the ground scarred with lightning strikes and the air thick with ozone."
+    },
+    {
+      "id": 5,
+      "name": "altitude_research_weather_station",
+      "description": "A lone weather station, manned by researchers studying the Crags' unique meteorological phenomena and the lingering magical energies."
+    },
+    {
+      "id": 6,
+      "name": "crag_foothills_shepherd_outpost",
+      "description": "A remote outpost used by shepherds who graze their flocks on the rugged slopes, their lives intertwined with the unpredictable weather."
+    },
+    {
+      "id": 7,
+      "name": "ancient_windstone_circle",
+      "description": "A circle of standing stones, believed to amplify the Crags' natural winds, used by the Storm Kings for weather manipulation."
+    },
+    {
+      "id": 8,
+      "name": "ravaged_mountain_forest_edge",
+      "description": "The border of a once-lush forest, now twisted and broken by the Crags' violent storms, a testament to nature's power."
+    },
+    {
+      "id": 9,
+      "name": "zeriouan_hermit_order_retreat",
+      "description": "The hermetic order's secluded mountain retreat, where Zephyr was raised, dedicated to studying the elemental forces of Zerioua."
+    },
+    {
+      "id": 10,
+      "name": "storm_ravaged_pass",
+      "description": "A mountain pass frequently blocked by landslides and blizzards, a perilous route for travelers seeking to cross the Crags."
+    },
+    {
+      "id": 11,
+      "name": "foothills_river_crossing",
+      "description": "A shallow river crossing that serves as a vital trade route for the small villages at the base of the Whispering Crags."
+    },
+    {
+      "id": 12,
+      "name": "isolated_farming_village",
+      "description": "A community of resilient farmers who have learned to coexist with the unpredictable storms and harsh conditions of the Crags' foothills."
+    },
+    {
+      "id": 13,
+      "name": "lightning_struck_orchard",
+      "description": "An orchard where many of the trees show burn scars from past lightning strikes, but still produce hardy, tangy fruit."
+    },
+    {
+      "id": 14,
+      "name": "mountain_road_to_lower_valley",
+      "description": "A winding, treacherous road that connects the Crags' heights to the more sheltered valleys below, offering stunning views and perilous turns."
+    },
+    {
+      "id": 15,
+      "name": "trading_post_crossroads",
+      "description": "A bustling trading post where travelers and merchants exchange goods, rumors, and tall tales of the Crags and beyond."
+    },
+    {
+      "id": 16,
+      "name": "sheltered_pasture_land",
+      "description": "A rare area of relatively calm pastureland, used to graze livestock during the brief periods of good weather."
+    },
+    {
+      "id": 17,
+      "name": "abandoned_weather_artifact_site",
+      "description": "The ruins of a research site experimenting with weather modification abandoned after a failed ritual, now said to be haunted."
+    },
+    {
+      "id": 18,
+      "name": "storm_warden_shrine",
+      "description": "A small shrine dedicated to appeasing the storms and winds of the Crags, adorned with talismans and offerings."
+    },
+    {
+      "id": 19,
+      "name": "mineral_rich_quarry",
+      "description": "A quarry where valuable minerals are extracted from the Crags' rocky heart, providing resources for alchemists and artisans alike."
+    },
+    {
+      "id": 20,
+      "name": "valley_river_source",
+      "description": "The source of the river that flows through the valley, fed by melting snow and the Crags' abundant rainfall."
+    },
+    {
+      "id": 21,
+      "name": "foothills_rocky_outcrops",
+      "description": "Rocky terrain leading up to the steeper slopes of the Whispering Crags. Sparse vegetation clings to the uneven ground."
+    },
+    {
+      "id": 22,
+      "name": "abandoned_shack",
+      "description": "A derelict shack, likely abandoned due to the unpredictability of the surrounding weather and dangerous wildlife. Serves as a temporary shelter for weary travelers."
+    },
+    {
+      "id": 23,
+      "name": "lightning_charred_tree",
+      "description": "A large, solitary tree that bears the scars of multiple lightning strikes. A stark reminder of the potent storms that rage through the region."
+    },
+    {
+      "id": 24,
+      "name": "cragstone_strewn_path",
+      "description": "A path almost covered over by loose stone fallen from the mountains. Only passable for sure-footed travellers."
+    },
+    {
+      "id": 25,
+      "name": "hidden_medicinal_herb_patch",
+      "description": "A secluded area where rare medicinal herbs grow, sheltered from the worst of the weather. Known only to local healers."
+    },
+    {
+      "id": 26,
+      "name": "mountain_goat_trail",
+      "description": "A narrow, precarious trail used primarily by mountain goats. Not recommended for those with a fear of heights."
+    },
+    {
+      "id": 27,
+      "name": "old_stormking_watchtower_ruins",
+      "description": "The crumbling remains of a watchtower once used by the Storm Kings to monitor the weather patterns. Now home to nesting birds."
+    },
+    {
+      "id": 28,
+      "name": "echoing_wind_canyon",
+      "description": "A deep canyon where the wind howls incessantly, creating eerie echoes that can disorient travelers."
+    },
+    {
+      "id": 29,
+      "name": "streamfed_valley_farms",
+      "description": "Small farms in the valley are watered by a mountain steam. Prone to flooding after heavy rains."
+    },
+    {
+      "id": 30,
+      "name": "storm_damaged_bridge",
+      "description": "An old bridge, partially collapsed by a previous storm. Passable, but with extreme caution."
+    },
+    {
+      "id": 31,
+      "name": "town_of_aerilon",
+      "description": "The closest town of aerilon, built near the mountains to draw power and wisdom from them."
+    },
+    {
+      "id": 32,
+      "name": "aerilon_farmers_market",
+      "description": "In Aerilon, the farmers market offers fresh foods and alchemical ingredients."
+    },
+    {
+      "id": 33,
+      "name": "aerilon_arcane_academy",
+      "description": "An Academy where young mages can learn and master their magic in Aerilon."
+    },
+    {
+      "id": 34,
+      "name": "aerilon_inn_the_storms_rest",
+      "description": "A popular inn that provides weary travellers with a place to relax in Aerilon."
+    },
+    {
+      "id": 35,
+      "name": "aerilon_town_square",
+      "description": "The bustling center of Aerilon, where merchants trade and locals gather."
+    },
+    {
+      "id": 36,
+      "name": "aerilon_residential_district",
+      "description": "Quiet residential neighborhoods where many aerilon citizens live."
+    },
+    {
+      "id": 37,
+      "name": "aerilon_watchtower_center",
+      "description": "A central watchtower that protects aerilon against danger."
+    },
+    {
+      "id": 38,
+      "name": "aerilon_apothecary_shop",
+      "description": "A small local shop which has various magical herbs and reagents from around the region, located in Aerilon."
+    },
+    {
+      "id": 39,
+      "name": "aerilon_temple_of_winds",
+      "description": "A temple dedicated to the stormkings who once protected the region."
+    },
+    {
+      "id": 40,
+      "name": "aerilon_gate_east",
+      "description": "The east gate of Aerilon, used to connect the city to the world outside."
+    },
+    {
+      "id": 41,
+      "name": "eastern_trade_route",
+      "description": "A major trade route leading east from Aerilon. Many dangerous animals and monsters stalk this route."
+    },
+    {
+      "id": 42,
+      "name": "overgrown_forest_trail",
+      "description": "An overgrown path through a forest, now dangerous to travel through due to fallen trees and lack of use."
+    },
+    {
+      "id": 43,
+      "name": "haunted_old_battlefield",
+      "description": "An old battlefield where a major battle was fought long ago. It is said to be haunted by the ghosts of the fallen."
+    },
+    {
+      "id": 44,
+      "name": "abandoned_farmers_village",
+      "description": "A village that was abandoned due to lack of crops and resources."
+    },
+    {
+      "id": 45,
+      "name": "bandit_hideout_camp",
+      "description": "A camp where bandits hide out in secrecy and rob travellers."
+    },
+    {
+      "id": 46,
+      "name": "isolated_fishing_pond",
+      "description": "An isolated area of water perfect for finding fish if you're willing to make the hike."
+    },
+    {
+      "id": 47,
+      "name": "monster_filled_caves",
+      "description": "A cave system that is now filled with dangerous monsters."
+    },
+    {
+      "id": 48,
+      "name": "collapsed_mine_shaft",
+      "description": "An old mineshaft that has collapsed and is now inaccessible."
+    },
+    {
+      "id": 49,
+      "name": "ancient_elf_rune_stones",
+      "description": "Mysterious old rune stones that were placed long ago by elves."
+    },
+    {
+      "id": 50,
+      "name": "secret_druid_grove",
+      "description": "A secret grove hidden deep within the forest where druids can study nature and wildlife."
+    },
+    {
+      "id": 51,
+      "name": "northern_mountaintop",
+      "description": "The top of the range north of the Whispering Crags."
+    },
+    {
+      "id": 52,
+      "name": "wind_elemental_nest",
+      "description": "The nesting place for a group of wind elementals."
+    },
+    {
+      "id": 53,
+      "name": "abandoned_altar_of_storms",
+      "description": "A very old ruin where the ancient Stormkings would make sacrifices to the gods."
+    },
+    {
+      "id": 54,
+      "name": "old_hermit_hut",
+      "description": "A old small hut where a local hermit used to live, but now he is long gone."
+    },
+    {
+      "id": 55,
+      "name": "monster_patrolled_trail",
+      "description": "A path often patrolled by monsters, making it dangerous to travel."
+    },
+    {
+      "id": 56,
+      "name": "abandoned_orc_village",
+      "description": "A village that was abandoned long ago when the local orcs were driven out."
+    },
+    {
+      "id": 57,
+      "name": "highlands_springs",
+      "description": "Warm waters spring from this mountain source year round."
+    },
+    {
+      "id": 58,
+      "name": "ancient_druid_circle",
+      "description": "A place where the Druids would come to worship on the winter solstice."
+    },
+    {
+      "id": 59,
+      "name": "secret_treasure_cache",
+      "description": "A spot well-hidden in the mountains where old treasure used to be kept, but most of it's been robbed by now."
+    },
+    {
+      "id": 60,
+      "name": "rare_metal_deposit",
+      "description": "A cave deposit of rare metal once mined by the dwarves long ago."
+    },
+    {
+      "id": 61,
+      "name": "aerilon_gate_west",
+      "description": "The Western gate to Aerilon, often patrolled."
+    },
+    {
+      "id": 62,
+      "name": "western_farming_districts",
+      "description": "The local farming districts West of the City."
+    },
+    {
+      "id": 63,
+      "name": "abandoned_goblin_warrens",
+      "description": "A network of underground tunnels that was once home to a large group of goblins."
+    },
+    {
+      "id": 64,
+      "name": "rare_mushroom_grove",
+      "description": "A small part of the forest that produces rare mushrooms."
+    },
+    {
+      "id": 65,
+      "name": "abandoned_wizard_tower",
+      "description": "A tower abandoned after a great tragedy long ago. Said to contain valuable magical items."
+    },
+    {
+      "id": 66,
+      "name": "large_oak_forest",
+      "description": "A old and vast oak forest."
+    },
+    {
+      "id": 67,
+      "name": "wolf_pack_territory",
+      "description": "The area of the forest often prowled by a large wolf pack."
+    },
+    {
+      "id": 68,
+      "name": "beehive_hive_territory",
+      "description": "The domain of a hive of giant bees."
+    },
+    {
+      "id": 69,
+      "name": "ancient_fort_ruins",
+      "description": "Remains of an old mountain fort."
+    },
+    {
+      "id": 70,
+      "name": "dangerous_cliffside_path",
+      "description": "An old, dangerous path that runs along a cliff."
+    },
+    {
+      "id": 71,
+      "name": "aerilon_residential_estates",
+      "description": "The home of the wealthy merchants of Aerilon."
+    },
+    {
+      "id": 72,
+      "name": "aerilon_town_hall",
+      "description": "The main government building for Aerilon."
+    },
+    {
+      "id": 73,
+      "name": "aerilon_mages_guild",
+      "description": "A guild that houses many of the local mages in Aerilon."
+    },
+    {
+      "id": 74,
+      "name": "aerilon_old_town",
+      "description": "The oldest parts of Aerilon, featuring run-down buildings and cobblestone streets."
+    },
+    {
+      "id": 75,
+      "name": "monster_attacked_caravan",
+      "description": "The remains of a merchant caravan that was attacked by monsters."
+    },
+    {
+      "id": 76,
+      "name": "aerilon_northern_barracks",
+      "description": "The city barracks to the north, where soldiers are trained."
+    },
+    {
+      "id": 77,
+      "name": "northern_watch_tower",
+      "description": "A northern guard tower that overlooks the mountain pass."
+    },
+    {
+      "id": 78,
+      "name": "long_forgotten_graveyard",
+      "description": "An old graveyard that is no longer maintained."
+    },
+    {
+      "id": 79,
+      "name": "storm_scarred_hills",
+      "description": "Hills that show signs of frequent lightning and storms."
+    },
+    {
+      "id": 80,
+      "name": "mountain_spring_trail",
+      "description": "A trail leading to a clear mountain spring."
+    },
+    {
+      "id": 81,
+      "name": "aerilon_docks_area",
+      "description": "The part of the river docks located near the town center."
+    },
+    {
+      "id": 82,
+      "name": "aerilon_trading_company",
+      "description": "A trading company office near the docks that exports and imports goods to the town."
+    },
+    {
+      "id": 83,
+      "name": "aerilon_fishermens_guild",
+      "description": "A guild of fishermen working on the river."
+    },
+    {
+      "id": 84,
+      "name": "aerilon_boatwright_shop",
+      "description": "A shop where skilled craftsmen repair boats, or make new ones."
+    },
+    {
+      "id": 85,
+      "name": "aerilon_river_crossing",
+      "description": "A shallow river crossing that serves as a quick route across the water."
+    },
+    {
+      "id": 86,
+      "name": "shipwreck_remnants",
+      "description": "Debris from an old ship that washed up."
+    },
+    {
+      "id": 87,
+      "name": "swampy_lowlands",
+      "description": "The lands near the river are swampy from the heavy rainfall."
+    },
+    {
+      "id": 88,
+      "name": "dangerous_crocodile_territory",
+      "description": "The swamp is home to a large crocodile population."
+    },
+    {
+      "id": 89,
+      "name": "bandit_lumber_camp",
+      "description": "The town's supply of wood is constantly stolen by a bandit lumber camp."
+    },
+    {
+      "id": 90,
+      "name": "aerilon_southern_gate",
+      "description": "A large gate that leads south from Aerilon."
+    },
+    {
+      "id": 91,
+      "name": "southern_farmlands",
+      "description": "Vast, open farmland where Aerilon harvests much of its food."
+    },
+    {
+      "id": 92,
+      "name": "aerilon_grain_mills",
+      "description": "Mills near the farmlands that process the towns supply of grain."
+    },
+    {
+      "id": 93,
+      "name": "ruined_temple_of_the_fields",
+      "description": "A monument to agriculture lost in the sands of time."
+    },
+    {
+      "id": 94,
+      "name": "old_scarecrow_field",
+      "description": "Fields populated only by old and broken scarecrows."
+    },
+    {
+      "id": 95,
+      "name": "deserted_farmhouse",
+      "description": "A farmhouse where the residents vanished without a trace."
+    },
+    {
+      "id": 96,
+      "name": "farming_supply_store",
+      "description": "A shop to supply the area farmers with tools."
+    },
+    {
+      "id": 97,
+      "name": "farming_guild",
+      "description": "An organization where all the town's farmers meet."
+    },
+    {
+      "id": 98,
+      "name": "harvest_storage_barns",
+      "description": "Large barns used to store the autumn harvest."
+    },
+    {
+      "id": 99,
+      "name": "trade_route_marker",
+      "description": "A marker that guides merchants on a trail through the countryside."
+    },
+    {
+      "id": 100,
+      "name": "plowed_fields",
+      "description": "Massive tracts of land that is plowed in preparation for planting."
+    }
+  ]
 }

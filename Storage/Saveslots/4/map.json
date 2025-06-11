@@ -1,1 +1,506 @@
-"{\n    \"map_width\": 10,\n    \"map_height\": 10,\n    \"tiles\": [\n        {\n            \"id\": 1,\n            \"name\": \"north_delhi_industrial_area\",\n            \"description\": \"A sprawling industrial district on the northern edge of Delhi, filled with factories, warehouses, and the constant hum of machinery.\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"civil_lines_residential_district\",\n            \"description\": \"A quiet, tree-lined residential area with colonial-era bungalows and manicured gardens, a stark contrast to the bustling old city.\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"yamuna_river_floodplains\",\n            \"description\": \"The fertile floodplains along the Yamuna River, prone to seasonal flooding and dotted with small farms and fishing villages.\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"kashmere_gate_isbt\",\n            \"description\": \"The chaotic Kashmere Gate Inter-State Bus Terminal, a major transportation hub connecting Delhi to the rest of India.\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"red_fort_historical_site\",\n            \"description\": \"The iconic Red Fort, a magnificent Mughal-era fortress and a UNESCO World Heritage site, now a popular tourist destination.\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"chandni_chowk_marketplace\",\n            \"description\": \"The heart of Old Delhi, a vibrant and chaotic marketplace filled with narrow lanes, bustling crowds, and the aroma of spices.\"\n        },\n        {\n            \"id\": 7,\n            \"name\": \"jama_masjid_prayer_ground\",\n            \"description\": \"The sprawling courtyard of Jama Masjid, one of India's largest mosques, filled with the faithful during prayer times.\"\n        },\n        {\n            \"id\": 8,\n            \"name\": \"daryaganj_book_market\",\n            \"description\": \"A haven for book lovers, Daryaganj is known for its Sunday book market where you can find rare and affordable books.\"\n        },\n        {\n            \"id\": 9,\n            \"name\": \"raj_ghat_memorial_site\",\n            \"description\": \"A solemn memorial dedicated to Mahatma Gandhi, a place of quiet reflection amidst the city's hustle and bustle.\"\n        },\n        {\n            \"id\": 10,\n            \"name\": \"delhi_gate_intersection\",\n            \"description\": \"A busy intersection where major roads converge, marked by the historic Delhi Gate monument.\"\n        },\n        {\n            \"id\": 11,\n            \"name\": \"paharganj_backpacker_district\",\n            \"description\": \"A budget-friendly district popular with backpackers, known for its cheap guesthouses, restaurants, and vibrant street life.\"\n        },\n        {\n            \"id\": 12,\n            \"name\": \"connaught_place_commercial_hub\",\n            \"description\": \"A circular commercial hub with colonial-era architecture, home to upscale shops, restaurants, and offices.\"\n        },\n        {\n            \"id\": 13,\n            \"name\": \"jantar_mantar_astronomical_observatory\",\n            \"description\": \"An 18th-century astronomical observatory with massive stone instruments, a testament to ancient scientific knowledge.\"\n        },\n        {\n            \"id\": 14,\n            \"name\": \"bangla_sahib_gurudwara\",\n            \"description\": \"A prominent Sikh temple known for its golden dome and its community kitchen that serves free meals to all.\"\n        },\n        {\n            \"id\": 15,\n            \"name\": \"lodhi_garden_historical_park\",\n            \"description\": \"A sprawling garden with historical tombs and ruins, a popular spot for picnics and leisurely strolls.\"\n        },\n        {\n            \"id\": 16,\n            \"name\": \"india_gate_war_memorial\",\n            \"description\": \"A towering war memorial arch, surrounded by gardens and fountains, a symbol of national pride.\"\n        },\n        {\n            \"id\": 17,\n            \"name\": \"national_museum_of_india\",\n            \"description\": \"A repository of Indian art and history, showcasing artifacts from across the country's rich past.\"\n        },\n        {\n            \"id\": 18,\n            \"name\": \"paragati_maidan_exhibition_ground\",\n            \"description\": \"A large exhibition ground that hosts trade fairs, cultural events, and conferences throughout the year.\"\n        },\n        {\n            \"id\": 19,\n            \"name\": \"humayun_tomb_mughal_era_mausoleum\",\n            \"description\": \"A magnificent Mughal-era mausoleum, a precursor to the Taj Mahal, set amidst lush gardens.\"\n        },\n        {\n            \"id\": 20,\n            \"name\": \"nizamuddin_dargah_sufi_shrine\",\n            \"description\": \"A revered Sufi shrine, a place of pilgrimage and spiritual solace, known for its qawwalis (Sufi devotional music).\"\n        },\n        {\n            \"id\": 21,\n            \"name\": \"defence_colony_residential_area\",\n            \"description\": \"An upscale residential colony with well-maintained houses, parks, and local markets.\"\n        },\n        {\n            \"id\": 22,\n            \"name\": \"hauz_khas_village_urban_village\",\n            \"description\": \"An urban village blending historic ruins with trendy cafes, boutiques, and art galleries.\"\n        },\n        {\n            \"id\": 23,\n            \"name\": \"siri_fort_sports_complex\",\n            \"description\": \"A large sports complex built around the ruins of Siri Fort, offering various sports facilities.\"\n        },\n        {\n            \"id\": 24,\n            \"name\": \"select_citywalk_shopping_mall\",\n            \"description\": \"A sprawling shopping mall with international brands, restaurants, and entertainment options.\"\n        },\n        {\n            \"id\": 25,\n            \"name\": \"saket_district_court\",\n            \"description\": \"The Saket District Court, a prominent legal center in South Delhi, dealing with a wide range of cases.\"\n        },\n        {\n            \"id\": 26,\n            \"name\": \"mehrauli_archaeological_park\",\n            \"description\": \"A park with ancient ruins spanning centuries of Delhi's history, from the Delhi Sultanate to the Mughal era.\"\n        },\n        {\n            \"id\": 27,\n            \"name\": \"qutub_minar_historical_tower\",\n            \"description\": \"The towering Qutub Minar, a UNESCO World Heritage site and a symbol of Delhi's rich history.\"\n        },\n        {\n            \"id\": 28,\n            \"name\": \"gurgaon_expressway\",\n            \"description\": \"A major expressway connecting Delhi to Gurgaon, a bustling satellite city and corporate hub.\"\n        },\n        {\n            \"id\": 29,\n            \"name\": \"dwarka_sub_city_residential_area\",\n            \"description\": \"A planned sub-city with wide roads, apartment complexes, and a growing population.\"\n        },\n        {\n            \"id\": 30,\n            \"name\": \"delhi_international_airport\",\n            \"description\": \"Indira Gandhi International Airport, a major aviation hub connecting Delhi to destinations around the world.\"\n        },\n        {\n            \"id\": 31,\n            \"name\": \"north_campus_delhi_university\",\n            \"description\": \"Home to many prestigious colleges of Delhi University, brimming with student life and intellectual energy.\"\n        },\n        {\n            \"id\": 32,\n            \"name\": \"karol_bagh_shopping_district\",\n            \"description\": \"A popular shopping destination known for its affordable clothing, electronics, and household goods.\"\n        },\n        {\n            \"id\": 33,\n            \"name\": \"old_delhi_railway_station\",\n            \"description\": \"A historical railway station serving as a major rail transport hub for Old Delhi.\"\n        },\n        {\n            \"id\": 34,\n            \"name\": \"tis_hazari_court_complex\",\n            \"description\": \"One of the largest court complexes in Delhi, dealing with a wide range of legal matters.\"\n        },\n        {\n            \"id\": 35,\n            \"name\": \"yamuna_bank_metro_station\",\n            \"description\": \"A bustling metro station that connects Old Delhi to the rest of the city.\"\n        },\n        {\n            \"id\": 36,\n            \"name\": \"itimad-ud-daulah_tomb\",\n            \"description\": \"A beautiful mughal era tomb along the banks of Yamuna river known as Baby Taj.\"\n        },\n        {\n            \"id\": 37,\n            \"name\": \"south_extension_market\",\n            \"description\": \"An upscale market known for branded outlets and designer boutiques.\"\n        },\n        {\n            \"id\": 38,\n            \"name\": \"INA_market\",\n            \"description\": \"The Delhi Haat, a vibrant showcase of Indian handicrafts and cuisine.\"\n        },\n        {\n            \"id\": 39,\n            \"name\": \"green_park\",\n            \"description\": \"A relaxed residential area surrounded by parks and green spaces.\"\n        },\n        {\n            \"id\": 40,\n            \"name\": \"vasant_vihar\",\n            \"description\": \"An affluent residential colony with tree-lined streets and diplomatic enclaves.\"\n        },\n        {\n            \"id\": 41,\n            \"name\": \"gurgaon_cyber_city\",\n            \"description\": \"A modern corporate hub in Gurgaon, home to multinational companies and technology firms.\"\n        },\n        {\n            \"id\": 42,\n            \"name\": \"sohna_road\",\n            \"description\": \"A developing commercial and residential corridor connecting Gurgaon to Sohna.\"\n        },\n        {\n            \"id\": 43,\n            \"name\": \"manesar_industrial_area\",\n            \"description\": \"An industrial hub known for automobile manufacturing and related industries.\"\n        },\n        {\n            \"id\": 44,\n            \"name\": \"kundli_industrial_area\",\n            \"description\": \"An industrial area located on the outskirts of Delhi bordering Haryana.\"\n        },\n        {\n            \"id\": 45,\n            \"name\": \"noida_expressway\",\n            \"description\": \"A high-speed expressway connecting Delhi to Noida, an industrial and residential suburb.\"\n        },\n        {\n            \"id\": 46,\n            \"name\": \"greater_noida\",\n            \"description\": \"A planned city with wide roads and modern infrastructure located near Noida.\"\n        },\n        {\n            \"id\": 47,\n            \"name\": \"ghaziabad_industrial_area\",\n            \"description\": \"A major industrial area on the outskirts of Delhi in Uttar Pradesh.\"\n        },\n        {\n            \"id\": 48,\n            \"name\": \"sahibabad_industrial_area\",\n            \"description\": \"An industrial area near Ghaziabad that houses various factories and manufacturing units.\"\n        },\n        {\n            \"id\": 49,\n            \"name\": \"hauz_rani_market\",\n            \"description\": \"A street market bustling with stalls and shops selling a variety of goods, from clothing to electronics.\"\n        },\n        {\n            \"id\": 50,\n            \"name\": \"pushp_vihar_residential_area\",\n            \"description\": \"A residential colony dotted with parks and local amenities.\"\n        },\n        {\n            \"id\": 51,\n            \"name\": \"laxmi_nagar\",\n            \"description\": \"A bustling residential and commercial area known for its coaching centers and street food.\"\n        },\n        {\n            \"id\": 52,\n            \"name\": \"preet_vihar\",\n            \"description\": \"A primarily residential area, with parks and local shops, known for its organized layout.\"\n        },\n        {\n            \"id\": 53,\n            \"name\": \"vivek_vihar\",\n            \"description\": \"An established residential district with schools and parks.\"\n        },\n        {\n            \"id\": 54,\n            \"name\": \"dilshad_garden\",\n            \"description\": \"A large residential area with a mix of housing options and local markets.\"\n        },\n        {\n            \"id\": 55,\n            \"name\": \"narela_industrial_area\",\n            \"description\": \"An industrial area located in the northwest of Delhi.\"\n        },\n        {\n            \"id\": 56,\n            \"name\": \"rohini_residential_area\",\n            \"description\": \"A large residential area with distinct sectors and self-contained communities.\"\n        },\n        {\n            \"id\": 57,\n            \"name\": \"pitampura_commercial_area\",\n            \"description\": \"A thriving commercial hub known for its shopping malls and business establishments.\"\n        },\n        {\n            \"id\": 58,\n            \"name\": \"punjabi_bagh\",\n            \"description\": \"An upscale residential colony known for its well-maintained parks and leafy streets.\"\n        },\n        {\n            \"id\": 59,\n            \"name\": \"rajouri_garden_market\",\n            \"description\": \"A bustling market with shops, restaurants, and a vibrant atmosphere.\"\n        },\n        {\n            \"id\": 60,\n            \"name\": \"janakpuri_district_center\",\n            \"description\": \"A major commercial and business area with shopping centers and office buildings.\"\n        },\n        {\n            \"id\": 61,\n            \"name\": \"uttam_nagar\",\n            \"description\": \"A densely populated residential and commercial area with shops and local businesses.\"\n        },\n        {\n            \"id\": 62,\n            \"name\": \"najafgarh\",\n            \"description\": \"A town located on the outskirts of Delhi, mainly an agriculture-based district with emerging suburban areas.\"\n        },\n        {\n            \"id\": 63,\n            \"name\": \"bijwasan\",\n            \"description\": \"A village with a mix of rural and urban elements on the outskirts of Delhi, in route to the airport.\"\n        },\n        {\n            \"id\": 64,\n            \"name\": \"palam_vihar\",\n            \"description\": \"A residential area close to Delhi's international airport.\"\n        },\n        {\n            \"id\": 65,\n            \"name\": \"mahipalpur_hotel_district\",\n            \"description\": \"An area known for its concentration of budget hotels, mainly catering to airport travelers.\"\n        },\n        {\n            \"id\": 66,\n            \"name\": \"vasant_kunj\",\n            \"description\": \"A well-planned residential area with gated communities and lush green spaces.\"\n        },\n        {\n            \"id\": 67,\n            \"name\": \"fortis_hospital_gurgaon\",\n            \"description\": \"A large hospital, part of Fortis Healthcare, providing specialist and general medical services.\"\n        },\n        {\n            \"id\": 68,\n            \"name\": \"dlf_phase_5\",\n            \"description\": \"A residential and commercial district known for its high-end apartments and business facilities.\"\n        },\n        {\n            \"id\": 69,\n            \"name\": \"golf_course_road\",\n            \"description\": \"An area primarily known for its large golf course facilities, as well as some high-end residential buildings.\"\n        },\n        {\n            \"id\": 70,\n            \"name\": \"sector_29_gurgaon\",\n            \"description\": \"A commercial district packed with restaurants, bars, and office buildings.\"\n        },\n        {\n            \"id\": 71,\n            \"name\": \"old_gurgaon\",\n            \"description\": \"The older, more traditional part of Gurgaon with narrow streets, local markets and temples.\"\n        },\n        {\n            \"id\": 72,\n            \"name\": \"ambience_mall_gurgaon\",\n            \"description\": \"A retail and entertainment center popular among residents and tourists.\"\n        },\n        {\n            \"id\": 73,\n            \"name\": \"subhash_nagar_metro_station\",\n            \"description\": \"One of the busiest metro stations connecting central Delhi with western part of Delhi.\"\n        },\n        {\n            \"id\": 74,\n            \"name\": \"west_delhi_residential_area\",\n            \"description\": \"A densely populated residential area, dotted with middle-class apartments.\"\n        },\n        {\n            \"id\": 75,\n            \"name\": \"naraina_industrial_area\",\n            \"description\": \"Industrial zone specializing in machinery and manufacturing.\"\n        },\n        {\n            \"id\": 76,\n            \"name\": \"patel_nagar\",\n            \"description\": \"An organized neighborhood of houses and flats, an excellent location.\"\n        },\n        {\n            \"id\": 77,\n            \"name\": \"pragati_vihar\",\n            \"description\": \"An urban village with rich agriculture. It includes farms and greenhouses growing a variety of fresh produce.\"\n        },\n         {\n            \"id\": 78,\n            \"name\": \"motibagh\",\n            \"description\": \"A primarily residential location.It also includes commercial spaces and gardens.\"\n        },\n        {\n            \"id\": 79,\n            \"name\": \"safdarjung\",\n            \"description\": \"Also known as the Airport area. A significant landmark of the area is Safdarjung Tomb.\"\n        },\n        {\n            \"id\": 80,\n            \"name\": \"sarojini_nagar\",\n            \"description\": \"An open market with a mix of shopping, entertainment and residential facilities.\"\n        },\n        {\n            \"id\": 81,\n            \"name\": \"dhaula_kuan\",\n            \"description\": \"Important traffic junction. It connects Delhi with airport and the NCR region.\"\n        },\n         {\n            \"id\": 82,\n            \"name\": \"r_k_puram\",\n            \"description\": \"Known as Rama Krishna Puram. A major residential colony for central government employees.\"\n        },\n        {\n            \"id\": 83,\n            \"name\": \"south_campus_delhi_university\",\n            \"description\": \"Another campus which caters to other specific specialized studies. A hot spot for student hangout.\"\n        },\n        {\n            \"id\": 84,\n            \"name\": \"munirka\",\n            \"description\": \"Close to Jawaharlal Nehru University, known for its food scene. Also has a village that caters for the low cost budget student living.\"\n        },\n        {\n            \"id\": 85,\n            \"name\": \"fortis_hospital_noida\",\n            \"description\": \"Leading multispeciality hospital in sector 62, Noida.\"\n        },\n        {\n            \"id\": 86,\n            \"name\": \"noida_sector_18\",\n            \"description\": \"Large commercial area with a good food scene and retail destination.\"\n        },\n         {\n            \"id\": 87,\n            \"name\": \"film_city\",\n            \"description\": \"Major hub for TV and Bollywood film shoots. Many media houses set up offices and studio here.\"\n        },\n        {\n            \"id\": 88,\n            \"name\": \"noida_city_center\",\n            \"description\": \"An IT hub with business and retail district.\"\n        },\n        {\n            \"id\": 89,\n            \"name\": \"vasundhara\",\n            \"description\": \"Considered to be one of Ghaziabad's most well-planned sectors.\"\n        },\n        {\n            \"id\": 90,\n            \"name\": \"indrapuram\",\n            \"description\": \"An elevated residential area with a large mix of apartments.\"\n        },\n        {\n            \"id\": 91,\n            \"name\": \"vaishali\",\n            \"description\": \"Considered to be more affordable suburb of Delhi that's easily accessible.\"\n        },\n        {\n            \"id\": 92,\n            \"name\": \"mayur_vihar\",\n            \"description\": \"The heart of East Delhi, a residential district full of cultural influences.\"\n        },\n        {\n            \"id\": 93,\n            \"name\": \"akshardham_temple\",\n            \"description\": \"A modern, intricately carved complex dedicated to Swaminarayan.\"\n        },\n        {\n            \"id\": 94,\n            \"name\": \"old_faridabad\",\n            \"description\": \"Old historical city of Faridabad, now a developed industrial and agricultural center.\"\n        },\n        {\n            \"id\": 95,\n            \"name\": \"ballabgarh\",\n            \"description\": \"A major part of Faridabad district known for manufacturing and commercial business.\"\n        },\n        {\n            \"id\": 96,\n            \"name\": \"greater_faridabad\",\n            \"description\": \"A new, urbanized district of Faridabad with contemporary amenities.\"\n        },\n        {\n            \"id\": 97,\n            \"name\": \"palwal\",\n            \"description\": \"An agricultural region in Haryana with significant historical value.\"\n        },\n        {\n            \"id\": 98,\n            \"name\": \"hathin\",\n            \"description\": \"A community on the edge of Mewat district of Haryana with strong local traditions.\"\n        },\n        {\n            \"id\": 99,\n            \"name\": \"sohna\",\n            \"description\": \"Well known for hot springs and ancient shrines and history.\"\n        },\n        {\n            \"id\": 100,\n            \"name\": \"nuh\",\n            \"description\": \"The central district of Mewat, a region known for its cultural heritage.\"\n        }\n    ]\n}"
+{
+  "map_width": 10,
+  "map_height": 10,
+  "tiles": [
+    {
+      "id": 1,
+      "name": "aegis_7_surface_crust",
+      "description": "The outer layer of Aegis-7, scarred by eons of cosmic radiation and micrometeoroid impacts. Mineral composition indicates potential energy sources below."
+    },
+    {
+      "id": 2,
+      "name": "irradiated_regolith_field",
+      "description": "A vast expanse of loose rock and dust on Aegis-7's surface, heavily bombarded by solar radiation. Few organisms can survive here."
+    },
+    {
+      "id": 3,
+      "name": "the_cradle_fissure_entrance",
+      "description": "A narrow opening leading down into 'The Cradle', a water-filled fissure where life originated on Aegis-7. Bioluminescent bacteria are visible near the entrance."
+    },
+    {
+      "id": 4,
+      "name": "mineral_rich_vein_outcrop",
+      "description": "A prominent vein of rare minerals exposed on the asteroid's surface. A potential source of energy for chemoautotrophic organisms like Axion."
+    },
+    {
+      "id": 5,
+      "name": "shadowed_crater_basin",
+      "description": "A deep crater shielded from direct sunlight, offering a slightly more protected environment on Aegis-7's surface."
+    },
+    {
+      "id": 6,
+      "name": "biofilm_covered_rockface",
+      "description": "A section of Aegis-7's surface coated in a thin layer of biofilm, evidence of microbial colonization."
+    },
+    {
+      "id": 7,
+      "name": "the_great_divide_ridge",
+      "description": "A prominent ridge running along Aegis-7, splitting the asteroid into two distinct regions. The southern side is more irradiated."
+    },
+    {
+      "id": 8,
+      "name": "subsurface_ice_pocket",
+      "description": "A small pocket of frozen water located beneath the surface, a vital resource for life on Aegis-7."
+    },
+    {
+      "id": 9,
+      "name": "microbial_garden_patch",
+      "description": "A concentrated area of microbial growth on Aegis-7's surface, forming a complex ecosystem."
+    },
+    {
+      "id": 10,
+      "name": "equatorial_radiation_belt",
+      "description": "The most heavily irradiated region of Aegis-7, located along its equator. Few organisms can survive unprotected here."
+    },
+    {
+      "id": 11,
+      "name": "southern_mineral_deposit",
+      "description": "A rich deposit of rare minerals on the southern hemisphere of Aegis-7, accessible via several small fissures."
+    },
+    {
+      "id": 12,
+      "name": "northern_ice_field",
+      "description": "A larger field of ice near the northern pole, possibly connected to the subsurface ice pocket."
+    },
+    {
+      "id": 13,
+      "name": "the_cradle_interior_zone_1",
+      "description": "The upper regions of the Cradle fissure, closest to the surface. Exhibits higher radiation levels and less stable conditions."
+    },
+    {
+      "id": 14,
+      "name": "the_cradle_central_pool",
+      "description": "The central water pool in the Cradle, teeming with microbial life and bioluminescent bacteria. Axion resides here."
+    },
+    {
+      "id": 15,
+      "name": "the_cradle_fissure_wall_west",
+      "description": "The western wall of the Cradle, rich in mineral deposits that Axion helps to process."
+    },
+    {
+      "id": 16,
+      "name": "the_cradle_fissure_wall_east",
+      "description": "The eastern wall of the Cradle, known for its unique bioluminescent bacteria strains."
+    },
+    {
+      "id": 17,
+      "name": "hydrothermal_vent_alpha",
+      "description": "A small hydrothermal vent within the Cradle, releasing heat and chemicals into the water pool."
+    },
+    {
+      "id": 18,
+      "name": "the_cradle_lower_chamber",
+      "description": "A deeper chamber within the Cradle, with slightly different mineral composition and microbial lifeforms."
+    },
+    {
+      "id": 19,
+      "name": "stable_water_pocket",
+      "description": "A stable region of water in the Cradle, crucial for sustaining life, despite outer forces."
+    },
+    {
+      "id": 20,
+      "name": "mineral_flow_delta",
+      "description": "Where a mineral-rich flow from the surface meets the water of the cradle."
+    },
+    {
+      "id": 21,
+      "name": "the_void_gulf",
+      "description": "Vast emptiness of space, a pathway to the other planets."
+    },
+    {
+      "id": 22,
+      "name": "the_astral_scar",
+      "description": "Cosmic trails of asteroids that have passed Aegis-7."
+    },
+    {
+      "id": 23,
+      "name": "aegis_7_gravitational_field_edge",
+      "description": "The point at which Aegis-7's gravity loses strength."
+    },
+    {
+      "id": 24,
+      "name": "the_sun_facing_surface",
+      "description": "The scorching surface of Aegis-7, directly exposed to sun's radiation."
+    },
+    {
+      "id": 25,
+      "name": "hidden_rock_crevice",
+      "description": "A small, rock enclosed crevice that can be used to gain vantage on Aegis-7."
+    },
+    {
+      "id": 26,
+      "name": "chemical_trail",
+      "description": "A trial leading away from Aegis-7, likely left by an organism."
+    },
+    {
+      "id": 27,
+      "name": "mineral_enriched_ice_patch",
+      "description": "Ice patch that has captured some minerals."
+    },
+    {
+      "id": 28,
+      "name": "aegis_7_rock_core",
+      "description": "The inner rock of Aegis-7's core."
+    },
+    {
+      "id": 29,
+      "name": "aegis_7_shadowed_surface",
+      "description": "The shadowed side of Aegis-7. Safe from the harsh rays of the sun."
+    },
+    {
+      "id": 30,
+      "name": "empty_air_pocket",
+      "description": "An empty air pocket within Aegis-7."
+    },
+    {
+      "id": 31,
+      "name": "the_irradiated_cove",
+      "description": "Cove with high radiation levels."
+    },
+    {
+      "id": 32,
+      "name": "chemical_signal_trace",
+      "description": "Trace of chemical signals."
+    },
+    {
+      "id": 33,
+      "name": "biofilm_dense_patch",
+      "description": "A dense biofilm location."
+    },
+    {
+      "id": 34,
+      "name": "the_mineral_garden",
+      "description": "Where mineral's grow within Aegis-7."
+    },
+    {
+      "id": 35,
+      "name": "the_bio_luminescent_river",
+      "description": "A river of bioluminescence."
+    },
+    {
+      "id": 36,
+      "name": "aegis_7_cold_north_end",
+      "description": "The coldest end of the planet."
+    },
+    {
+      "id": 37,
+      "name": "chemical_signal_intersection",
+      "description": "The main chemical signal intersection point."
+    },
+    {
+      "id": 38,
+      "name": "the_cradle_mineral_heart",
+      "description": "The core of the planet is filled with minerals."
+    },
+    {
+      "id": 39,
+      "name": "solar_flare_hotspot",
+      "description": "Where solar flares have left there mark."
+    },
+    {
+      "id": 40,
+      "name": "microbial_nest_zone",
+      "description": "Area where many microbial's live in close vicinity."
+    },
+    {
+      "id": 41,
+      "name": "asteroid_belt_passage",
+      "description": "Direct path through the asteroid belt."
+    },
+    {
+      "id": 42,
+      "name": "gamma_ray_hotspot",
+      "description": "Hot spot of gamma ray exposure."
+    },
+    {
+      "id": 43,
+      "name": "ancient_impact_site",
+      "description": "Ancient asteroid impact site."
+    },
+    {
+      "id": 44,
+      "name": "mineral_enriched_pool",
+      "description": "Rich in minerals water pool."
+    },
+    {
+      "id": 45,
+      "name": "aegis_7_eastern_rim",
+      "description": "The eastern rim of Aegis-7."
+    },
+    {
+      "id": 46,
+      "name": "the_proto_nucleus",
+      "description": "An area that is believed to of started everything."
+    },
+    {
+      "id": 47,
+      "name": "energy_pulse_echo",
+      "description": "The lingering effects of the planets energy pulse."
+    },
+    {
+      "id": 48,
+      "name": "bioluminescent_cascade",
+      "description": "A waterfall of bioluminescence."
+    },
+    {
+      "id": 49,
+      "name": "northern_chemical_pool",
+      "description": "A northern chemcial rich water pool."
+    },
+    {
+      "id": 50,
+      "name": "aegis_7_southern_pole",
+      "description": "The southern most tip of Aegis-7."
+    },
+    {
+      "id": 51,
+      "name": "microbial_communication_hub",
+      "description": "Where microbial communication occurs."
+    },
+    {
+      "id": 52,
+      "name": "aegis_7_the_eye",
+      "description": "A spot on Aegis-7 that looks like an eye."
+    },
+    {
+      "id": 53,
+      "name": "energy_rich_field",
+      "description": "Strong field of energy."
+    },
+    {
+      "id": 54,
+      "name": "the_cold_spring",
+      "description": "The planets coldest spring."
+    },
+    {
+      "id": 55,
+      "name": "mineral_path",
+      "description": "A well walked/traveled mineral path."
+    },
+    {
+      "id": 56,
+      "name": "solar_radiance_peak",
+      "description": "The peak of solar radiation exposure."
+    },
+    {
+      "id": 57,
+      "name": "chemical_cloud",
+      "description": "Small chemical cloud in space around the planet."
+    },
+    {
+      "id": 58,
+      "name": "microbial_burrow",
+      "description": "A microbial underground burrow."
+    },
+    {
+      "id": 59,
+      "name": "aegis_7_hot_cove",
+      "description": "Very hot location on Aegis-7."
+    },
+    {
+      "id": 60,
+      "name": "the_bioluminescent_forest",
+      "description": "Forest that is lit up by bioluminescence."
+    },
+    {
+      "id": 61,
+      "name": "aegis_7_surface_lake",
+      "description": "Main lake on Aegis-7."
+    },
+    {
+      "id": 62,
+      "name": "the_great_ravine",
+      "description": "Large ravine in the Aegis-7 surface."
+    },
+    {
+      "id": 63,
+      "name": "radioactive_wasteland",
+      "description": "Wasteland that has been exposed to a massive amount of radiation."
+    },
+    {
+      "id": 64,
+      "name": "the_mineral_mines",
+      "description": "Aegis-7's mineral mines."
+    },
+    {
+      "id": 65,
+      "name": "aegis_7_western_edge",
+      "description": "The most western point of Aegis-7."
+    },
+    {
+      "id": 66,
+      "name": "the_nutrient_springs",
+      "description": "Springs with a high concentration of nutrients."
+    },
+    {
+      "id": 67,
+      "name": "dark_matter_cloud",
+      "description": "Dark matter cloud lingers just outside Aegis-7."
+    },
+    {
+      "id": 68,
+      "name": "the_eternal_eclipse",
+      "description": "An always shaded area on Aegis-7."
+    },
+    {
+      "id": 69,
+      "name": "aegis_7_orbital_track",
+      "description": "The orbital track of Aegis-7."
+    },
+    {
+      "id": 70,
+      "name": "microbial_bloom_area",
+      "description": "A dense area of microbial growth."
+    },
+    {
+      "id": 71,
+      "name": "the_chemical_falls",
+      "description": "Chemical runoff waterfalls."
+    },
+    {
+      "id": 72,
+      "name": "aegis_7_the_deep",
+      "description": "The deepest part of Aegis-7."
+    },
+    {
+      "id": 73,
+      "name": "comet_debris_field",
+      "description": "A debris field from a past comet encounter."
+    },
+    {
+      "id": 74,
+      "name": "the_silent_grotto",
+      "description": "A quiet and calm location on Aegis-7."
+    },
+    {
+      "id": 75,
+      "name": "aegis_7_the_surface",
+      "description": "The outer most surface of Aegis-7."
+    },
+    {
+      "id": 76,
+      "name": "cosmic_dust_gathering",
+      "description": "Dust gathers in this location."
+    },
+    {
+      "id": 77,
+      "name": "aegis_7_hot_air_vent",
+      "description": "Hot air erupts from this location."
+    },
+    {
+      "id": 78,
+      "name": "the_eternal_dawn",
+      "description": "A point of light on Aegis-7."
+    },
+    {
+      "id": 79,
+      "name": "aegis_7_radioactive_decay_zone",
+      "description": "Area that is radioactive and is decaying rapidly."
+    },
+    {
+      "id": 80,
+      "name": "microbial_city",
+      "description": "A dense area of microbial habitation."
+    },
+    {
+      "id": 81,
+      "name": "aegis_7_ice_spire",
+      "description": "A spire of ice on Aegis-7's surface."
+    },
+    {
+      "id": 82,
+      "name": "the_heart_of_darkness",
+      "description": "A darker than usual location on Aegis-7."
+    },
+    {
+      "id": 83,
+      "name": "solar_eclipse_zone",
+      "description": "Where solar eclipses are most frequent."
+    },
+    {
+      "id": 84,
+      "name": "aegis_7_chemical_river",
+      "description": "Chemical river leading to the Cradle."
+    },
+    {
+      "id": 85,
+      "name": "energy_surge_point",
+      "description": "Frequent energy surges."
+    },
+    {
+      "id": 86,
+      "name": "microbial_algae_bloom",
+      "description": "Area with algae blooms."
+    },
+    {
+      "id": 87,
+      "name": "aegis_7_frozen_crater",
+      "description": "Crater filled with ice."
+    },
+    {
+      "id": 88,
+      "name": "the_great_divide",
+      "description": "Divides Aegis-7's surface."
+    },
+    {
+      "id": 89,
+      "name": "aegis_7_nutrient_run_off",
+      "description": "Where nutrients runoff to."
+    },
+    {
+      "id": 90,
+      "name": "the_cradle_origin_point",
+      "description": "Point of origins for the Cradle."
+    },
+    {
+      "id": 91,
+      "name": "aegis_7_radioactive_pool",
+      "description": "Pool of radiation."
+    },
+    {
+      "id": 92,
+      "name": "the_cold_descent",
+      "description": "Descent point into Aegis-7's underbelly."
+    },
+    {
+      "id": 93,
+      "name": "aegis_7_chemical_cloud_path",
+      "description": "Path of chemcial clouds."
+    },
+    {
+      "id": 94,
+      "name": "the_microbial_oasis",
+      "description": "Microbial oasis area."
+    },
+    {
+      "id": 95,
+      "name": "aegis_7_ancient_ruins",
+      "description": "Ancients runes on Aegis-7's surface."
+    },
+    {
+      "id": 96,
+      "name": "the_bio_dome",
+      "description": "Domed structure filled with bioluminescence."
+    },
+    {
+      "id": 97,
+      "name": "aegis_7_frozen_cave",
+      "description": "Cave filled with ice."
+    },
+    {
+      "id": 98,
+      "name": "the_solar_panel_field",
+      "description": "An area of solar panels in use."
+    },
+    {
+      "id": 99,
+      "name": "aegis_7_microbial_pathway",
+      "description": "The path that most microbial's take."
+    },
+    {
+      "id": 100,
+      "name": "the_lost_lake",
+      "description": "An area of lost lakes in Aegis-7's underground."
+    }
+  ]
+}
