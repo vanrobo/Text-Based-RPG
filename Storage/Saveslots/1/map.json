@@ -4,503 +4,503 @@
   "tiles": [
     {
       "id": 1,
-      "name": "crag_peak_summit",
-      "description": "The highest point of the Whispering Crags, perpetually wreathed in mist and echoing with the memory of ancient Storm Kings."
+      "name": "storm_king_peak",
+      "description": "The highest peak in the Whispering Crags, perpetually wreathed in storm clouds. Legend says the Storm Kings once communed with the elements here."
     },
     {
       "id": 2,
       "name": "zephyrs_hidden_cave",
-      "description": "The entrance to Zephyr's hidden laboratory, carved into the mountainside. Visible only to those who know where to look."
+      "description": "Hidden halfway up Storm King Peak, Zephyr's cave laboratory is filled with arcane equipment and weather-worn maps."
     },
     {
       "id": 3,
-      "name": "storm_valley_floor",
-      "description": "The valley below the Crags, frequently struck by sudden and violent thunderstorms. The air crackles with latent energy."
+      "name": "crag_wind_tunnel",
+      "description": "A narrow pass through the Crags, known for its powerful winds and echoing whispers. Difficult passage even in good weather."
     },
     {
       "id": 4,
-      "name": "ancient_storm_altar",
-      "description": "A crumbling stone altar, once used by the Storm Kings for weather manipulation rituals. Now, a ruin haunted by echoes of power."
+      "name": "lightning_ravaged_forest",
+      "description": "A charred forest valley, scarred by frequent lightning strikes. The wood is brittle and the air crackles with residual energy."
     },
     {
       "id": 5,
-      "name": "hermetic_order_ruins",
-      "description": "The remains of the hermetic order's monastery, where Zephyr learned the elemental arts. Partially destroyed by a lightning strike years ago."
+      "name": "forgotten_storm_altar",
+      "description": "An ancient altar carved into the rock face, long abandoned but still radiating a faint elemental power. Once used in storm rituals."
     },
     {
       "id": 6,
-      "name": "skyfire_river_source",
-      "description": "The source of the Skyfire River, fed by glacial meltwater and said to have healing properties. Revered by the local villages."
+      "name": "skybreak_vista_plateau",
+      "description": "A plateau offering a panoramic view, frequently experiencing clear skies even when the Crags are storm-ridden. A point of relative calm."
     },
     {
       "id": 7,
-      "name": "cragside_fishing_village",
-      "description": "A small village nestled at the foot of the Crags, known for its hardy fishermen and their knowledge of the mountain weather."
+      "name": "eagle_nest_ridge",
+      "description": "A rocky ridge, home to a colony of giant eagles. The eagles are territorial and protective of their nests."
     },
     {
       "id": 8,
-      "name": "windswept_farmlands",
-      "description": "Terraced farmlands clinging to the hillsides, their crops struggling against the harsh winds and unpredictable storms."
+      "name": "shattered_staff_gully",
+      "description": "A deep gully where, according to local legend, a shard of the Lightning Staff once landed. Unstable terrain and strange energies."
     },
     {
       "id": 9,
-      "name": "broken_lightning_bridge",
-      "description": "A shattered bridge, once a vital trade route. Destroyed during the Great Tempest, now a treacherous crossing."
+      "name": "hermetic_order_ruins",
+      "description": "The crumbling ruins of the hermetic order's monastery, where Zephyr was raised. A place of lost knowledge and forgotten magic."
     },
     {
       "id": 10,
-      "name": "abandoned_weather_station",
-      "description": "A disused weather station, built by the Storm Kings to predict and control storms. Now overgrown and haunted by whispers of the past."
+      "name": "storm_watch_outpost",
+      "description": "A small watchtower on the edge of the Crags, used to monitor approaching storms. Now abandoned and in disrepair."
     },
     {
       "id": 11,
-      "name": "echoing_canyon",
-      "description": "A deep canyon known for its strange acoustics, where the wind carries whispers of forgotten languages and ancient prophecies."
+      "name": "westwind_trade_route",
+      "description": "A winding trade route skirting the western edge of the Whispering Crags, vital for commerce despite the weather dangers."
     },
     {
       "id": 12,
-      "name": "storm_scarred_forest",
-      "description": "A forest bearing the marks of countless lightning strikes, with charred trees and an eerie silence."
+      "name": "thunderhead_river_source",
+      "description": "The headwaters of the Thunderhead River, fed by snowmelt and frequent thunderstorms. Prone to flash floods."
     },
     {
       "id": 13,
-      "name": "mineral_rich_mines",
-      "description": "A mine known for its unique minerals, used in crafting powerful lightning-based artifacts."
+      "name": "amber_fields_farmlands",
+      "description": "Fertile farmland watered by the Thunderhead River, producing amber-colored grains. The fields are vulnerable to hail and wind."
     },
     {
       "id": 14,
-      "name": "ancient_watcher_tower",
-      "description": "A ruined tower, built to watch for approaching storms and warn the populace. Now a haven for bandits and wild creatures."
+      "name": "cloudhaven_village_outskirts",
+      "description": "The humble outer fields of the village that Zephyr originated from."
     },
     {
       "id": 15,
-      "name": "skyfire_river_bend",
-      "description": "A sharp bend in the Skyfire River, where the water flows swiftly and powerfully. Home to rare fish and dangerous currents."
+      "name": "cloudhaven_village_center",
+      "description": "The humble town center of Zephyr's home, the village of Cloudhaven, with simple buildings and a central well."
     },
     {
       "id": 16,
-      "name": "hidden_druid_grove",
-      "description": "A secluded grove, where druids once communed with the spirits of the storm. Now a place of quiet reflection and natural power."
+      "name": "old_mill_district",
+      "description": "Near Cloudhaven, an overgrown but crucial mill that grinds the amber grain."
     },
     {
       "id": 17,
-      "name": "pilgrim_trail_entrance",
-      "description": "The start of a trail leading to a holy site atop the mountains, attracting pilgrims seeking enlightenment and spiritual strength."
+      "name": "riverbend_bridge",
+      "description": "A sturdy stone bridge crossing the Thunderhead River, connecting Cloudhaven and the main trade road."
     },
     {
       "id": 18,
-      "name": "windswept_wheat_fields",
-      "description": "Vast wheat fields that stretch as far as the eye can see. These fields are often affected by lightning strikes, which affects the crops"
+      "name": "eastwood_lumber_camp",
+      "description": "A lumber camp exploiting the forests east of the Crags. A vital resource but also a source of deforestation."
     },
     {
       "id": 19,
-      "name": "thunderclap_gorge",
-      "description": "A steep gorge prone to thunderclaps that echo throughout the region. It is a beautiful yet very dangerous region."
+      "name": "iron_mine_quarry",
+      "description": "An active iron mine gouged into the mountainside. Provides valuable ore but also scarring the landscape."
     },
     {
       "id": 20,
-      "name": "isolated_sheep_herding_camp",
-      "description": "An isolated camp for sheep herders. This area is frequently affected by the whims of the mountain weather."
+      "name": "blackrock_smelting_furnaces",
+      "description": "A cluster of smelting furnaces processing the iron ore. Polluted air and a constant glow."
     },
     {
       "id": 21,
-      "name": "cragside_quarry",
-      "description": "The quarry provides stone for many villages. It is a site where many workers work to obtain materials from the Crags."
+      "name": "windswept_graveyard",
+      "description": "An old graveyard located on a windswept hill, overlooking Cloudhaven and the surrounding valley. Many headstones are weathered and worn."
     },
     {
       "id": 22,
-      "name": "abandoned_logging_camp",
-      "description": "A site where many lumberjacks cut lumber for wood. This logging camp was abandoned after too many lightning strikes."
+      "name": "stone_quarry_site",
+      "description": "An abandoned stone quarry where the stones to build the village were taken from."
     },
     {
       "id": 23,
-      "name": "ruined_elemental_academy",
-      "description": "Once a center of learning for elemental magic. This structure was destroyed during the Great Tempest, causing untold damage."
+      "name": "lone_shepherds_watchtower",
+      "description": "A dilapidated watchtower where shepherds kept an eye on the surrounding flocks."
     },
     {
       "id": 24,
-      "name": "ancient_gargoyle_statue",
-      "description": "This statue is very worn, but remains as a lasting monument to the past."
+      "name": "wildflower_meadow",
+      "description": "A meadow covered in an array of wildflowers, located near the base of the Whispering Crags."
     },
     {
       "id": 25,
-      "name": "overlook_of_broken_city",
-      "description": "The city below fell to ruin after the Great Tempest. The area is plagued by storms and bandits."
+      "name": "overgrown_trail",
+      "description": "A trail covered in weeds and shrubs that leads towards the Whispering Crags."
     },
     {
       "id": 26,
-      "name": "shrine_to_skyfire",
-      "description": "This shrine brings spiritual enlightenment to pilgrims seeking spiritual strength."
+      "name": "ancient_stone_monolith",
+      "description": "An ancient stone monolith standing in the middle of a field, its origin and purpose unknown."
     },
     {
       "id": 27,
-      "name": "desolate_watchtower",
-      "description": "This watchtower sits abandoned and desolated. It overlooks many zones around the crags, offering a vantage point."
+      "name": "campsite_remnants",
+      "description": "The remnants of an old campsite, indicating that travelers once frequented this area."
     },
     {
       "id": 28,
-      "name": "bandit_hideout",
-      "description": "This hideout is home to many bandits. The bandits harass local populations and create trouble."
+      "name": "rocky_outcrop",
+      "description": "A rocky outcrop overlooking the valley, providing a vantage point to spot distant storms."
     },
     {
       "id": 29,
-      "name": "small_farming_town",
-      "description": "This town is home to many farmers. They help to feed local populations with their agriculture."
+      "name": "dense_thicket",
+      "description": "A dense thicket of trees and bushes, making it difficult to traverse."
     },
     {
       "id": 30,
-      "name": "skyfire_tavern",
-      "description": "The tavern serves food and ale to weary travelers."
+      "name": "abandoned_farmstead",
+      "description": "An abandoned farmstead with a dilapidated house and overgrown fields."
     },
     {
       "id": 31,
-      "name": "cragside_trading_outpost",
-      "description": "Traders arrive to sell and trade exotic wares and materials. They come from far and wide to visit the crags."
+      "name": "merchants_way_crossroads",
+      "description": "A major crossroads where merchants from neighboring lands meet to trade their wares."
     },
     {
       "id": 32,
-      "name": "temple_to_storm_kings",
-      "description": "This temple pays tribute to the storm kings."
+      "name": "caravan_resting_grounds",
+      "description": "Resting grounds for caravans, offering basic amenities and protection."
     },
     {
       "id": 33,
-      "name": "ancient_magical_barrier",
-      "description": "A magical barrier protects the region from storms."
+      "name": "northgate_town_walls",
+      "description": "Town walls protecting the northern entrance from external threats."
     },
     {
       "id": 34,
-      "name": "haunted_meteorite_crater",
-      "description": "A crater where a meteorite crashed long ago. The area is now haunted."
+      "name": "market_square_merchants_way",
+      "description": "The bustling market square where merchants display and sell their goods."
     },
     {
       "id": 35,
-      "name": "secret_underground_lab",
-      "description": "An underground lab where secrets abound and are hidden."
+      "name": "cobblestone_street_shops",
+      "description": "A cobblestone street lined with shops, selling everything from textiles to tools."
     },
     {
       "id": 36,
-      "name": "abandoned_military_fort",
-      "description": "Long ago, the military resided here. It now sits desolated."
+      "name": "grand_guildhall_merchants_way",
+      "description": "The impressive guildhall where merchants and artisans gather to discuss trade and regulations."
     },
     {
       "id": 37,
-      "name": "forgotten_graveyard",
-      "description": "A lost and forgotten graveyard."
+      "name": "town_guard_barracks",
+      "description": "Barracks housing the town guard responsible for maintaining law and order."
     },
     {
       "id": 38,
-      "name": "warlock_lair",
-      "description": "An evil warlock lurks here."
+      "name": "healing_temple",
+      "description": "A healing temple dedicated to the art of medicine and divine intervention."
     },
     {
       "id": 39,
-      "name": "monster_infested_caverns",
-      "description": "These caverns are home to monsters. Only the brave travel here."
+      "name": "well_fountain",
+      "description": "A peaceful place in the town's center, surrounded by greenery."
     },
     {
       "id": 40,
-      "name": "ancient_ruins",
-      "description": "Remnants of the past remind the present of what came before."
+      "name": "southgate_guardhouse",
+      "description": "A heavily fortified southgate guardhouse."
     },
     {
       "id": 41,
-      "name": "cragside_prison",
-      "description": "A prison for criminals and ne'er-do-wells."
+      "name": "merchants_way_gate",
+      "description": "A huge gate on merchants' way."
     },
     {
       "id": 42,
-      "name": "library_of_secrets",
-      "description": "This library contains tomes and forbidden texts from the past."
+      "name": "south_farm_land",
+      "description": "The huge lands to the south where most farmers of merchant's way reside."
     },
     {
       "id": 43,
-      "name": "ancient_treasure_vault",
-      "description": "A chamber full of gold and treasure. It is a very dangerous place."
+      "name": "lone_house_near_farms",
+      "description": "A lone house near a major farming plot."
     },
     {
       "id": 44,
-      "name": "desecrated_chapel",
-      "description": "This chapel was once holy, now it is desecrated and profane."
+      "name": "farming_path_entrance",
+      "description": "The entrance path to the farming lands south."
     },
     {
       "id": 45,
-      "name": "dragon_lair",
-      "description": "A lair of a sleeping dragon."
+      "name": "lake_serene_waters",
+      "description": "A huge lake that provides most of merchant's way drinking water."
     },
     {
       "id": 46,
-      "name": "ancient_battlefield",
-      "description": "A battlefield where many fought and died long ago."
+      "name": "fishing_huts_lakeside",
+      "description": "Small fishing huts along the lake."
     },
     {
       "id": 47,
-      "name": "cragside_armory",
-      "description": "A site where weapons are forged."
+      "name": "path_along_lake",
+      "description": "A path along the east lake-side."
     },
     {
       "id": 48,
-      "name": "magical_shop",
-      "description": "A shop to buy and sell rare materials."
+      "name": "small_lake_entrance",
+      "description": "A small entrance where lake visitors can visit."
     },
     {
       "id": 49,
-      "name": "elemental_conflux",
-      "description": "A convergence of the elements creates strange effects."
+      "name": "forest_trail",
+      "description": "A dense, mostly-unvisited forest trail."
     },
     {
       "id": 50,
-      "name": "monk_sanctuary",
-      "description": "A sanctuary for monks to meditate."
+      "name": "cave_entrance",
+      "description": "A dark cave where wild beasts are often said to reside."
     },
     {
       "id": 51,
-      "name": "hidden_elven_city",
-      "description": "The elves reside here."
+      "name": "isolated_dwelling_near_crags",
+      "description": "A lone dwelling nestled near the base of the Whispering Crags."
     },
     {
       "id": 52,
-      "name": "dwarven_outpost",
-      "description": "The dwarves sell their wares here."
+      "name": "cragside_stream_crossing",
+      "description": "A shallow stream flowing down the slopes of the Crags."
     },
     {
       "id": 53,
-      "name": "halfling_farms",
-      "description": "The halflings farm the fields and raise animals."
+      "name": "shadowfen_marsh",
+      "description": "A murky marshland shrouded in mist."
     },
     {
       "id": 54,
-      "name": "gnomish_town",
-      "description": "The gnomes reside here."
+      "name": "mistwood_grove",
+      "description": "A grove of ancient trees, perpetually shrouded in mist."
     },
     {
       "id": 55,
-      "name": "undead_infested_town",
-      "description": "A town besieged by the undead."
+      "name": "ruined_circle_of_stones",
+      "description": "The remains of a circle of standing stones, their purpose long forgotten."
     },
     {
       "id": 56,
-      "name": "ogre_camp",
-      "description": "The ogres reside in this camp."
+      "name": "hermit_shack",
+      "description": "A small, secluded shack inhabited by a reclusive hermit."
     },
     {
       "id": 57,
-      "name": "goblin_village",
-      "description": "Goblins gather here."
+      "name": "blackfeather_hunting_grounds",
+      "description": "The hunting grounds of the reclusive Blackfeather Clan."
     },
     {
       "id": 58,
-      "name": "kobold_campsite",
-      "description": "Kobolds plot and plan in this area."
+      "name": "ominous_shadowed_gulch",
+      "description": "A dark and foreboding gulch, rumored to be haunted."
     },
     {
       "id": 59,
-      "name": "lizardfolk_swamp",
-      "description": "The lizardfolk lie in wait here."
+      "name": "ravens_perch",
+      "description": "A rocky outcrop where ravens gather, watching the landscape below."
     },
     {
       "id": 60,
-      "name": "murloc_fishing_hole",
-      "description": "Murlocs fish for their food here."
+      "name": "echoing_canyon",
+      "description": "A narrow canyon where sounds reverberate and amplify."
     },
     {
       "id": 61,
-      "name": "quarryside_traveler_camp",
-      "description": "A camp to rest and sell supplies before continuing their trip."
+      "name": "stone_ridge_lookout",
+      "description": "A high stone ridge offering a panoramic view of the surrounding lands."
     },
     {
       "id": 62,
-      "name": "ancient_skyfire_battery",
-      "description": "An artifact that once manipulated the weather."
+      "name": "crag_shadow_path",
+      "description": "A treacherous path winding through the shadow of the Crags."
     },
     {
       "id": 63,
-      "name": "flooded_fishing_village",
-      "description": "Devastated by the Skyfire River."
+      "name": "withered_bog",
+      "description": "A desolate bog, its plant life withered and decayed."
     },
     {
       "id": 64,
-      "name": "highway_to_distant_lands",
-      "description": "A highway to travel to new locations."
+      "name": "phantom_falls",
+      "description": "A waterfall that appears and disappears with the shifting mists."
     },
     {
       "id": 65,
-      "name": "old_railway_station",
-      "description": "A railway station that services local cities."
+      "name": "forgotten_warriors_burial_ground",
+      "description": "The burial ground of fallen warriors, their identities lost to time."
     },
     {
       "id": 66,
-      "name": "ancient_airfield",
-      "description": "An airfield to launch and land planes."
+      "name": "old_hunters_cabin",
+      "description": "The run-down cabin where old hunters reside."
     },
     {
       "id": 67,
-      "name": "docks_for_sailors",
-      "description": "A place for sailors to rest and reload cargo."
+      "name": "broken_watchers_gate",
+      "description": "The broken watcher's gate where an observer kept watch."
     },
     {
       "id": 68,
-      "name": "skyfire_river_delta",
-      "description": "The delta of the river."
+      "name": "shady_dealers_den",
+      "description": "A shady dealer's den hidden in the forest."
     },
     {
       "id": 69,
-      "name": "cragside_industrial_complex",
-      "description": "An area of industry."
+      "name": "northmost_point_lake",
+      "description": "The lake's northmost point."
     },
     {
       "id": 70,
-      "name": "central_cragside",
-      "description": "A large city."
+      "name": "fishing_contest_spot",
+      "description": "A secluded lakeside fishing contest spot."
     },
     {
       "id": 71,
-      "name": "suburban_residential",
-      "description": "Residential area."
+      "name": "trading_post_north",
+      "description": "The north trading post where deals are usually made."
     },
     {
       "id": 72,
-      "name": "market_square",
-      "description": "A square where merchants trade and sell."
+      "name": "bandit_hideout",
+      "description": "A bandit hideout deep in the woods."
     },
     {
       "id": 73,
-      "name": "downtown_district",
-      "description": "The downtown part of the city."
+      "name": "treasure_cache",
+      "description": "A treasure cache buried underground."
     },
     {
       "id": 74,
-      "name": "financial_district",
-      "description": "The banks are here."
+      "name": "travelers_stop_point",
+      "description": "A resting stop for travels."
     },
     {
       "id": 75,
-      "name": "commercial_center",
-      "description": "An area for the commerce."
+      "name": "mining_guild_post",
+      "description": "The local mining guild post."
     },
     {
       "id": 76,
-      "name": "government_district",
-      "description": "An area for the government."
+      "name": "old_mining_grounds",
+      "description": "The local mining grounds."
     },
     {
       "id": 77,
-      "name": "entertainment_zone",
-      "description": "For leisure and entertainment."
+      "name": "deep_forest_stream",
+      "description": "The deep forest stream."
     },
     {
       "id": 78,
-      "name": "historical_museum",
-      "description": "To learn about the past."
+      "name": "north_river",
+      "description": "The north river that feeds off the lake."
     },
     {
       "id": 79,
-      "name": "university",
-      "description": "A learning facility."
+      "name": "fishermans_trail",
+      "description": "The fisherman's trail."
     },
     {
       "id": 80,
-      "name": "central_hospital",
-      "description": "For medical care."
+      "name": "abandoned_hunters_trail",
+      "description": "Abandoned hunter's trail."
     },
     {
       "id": 81,
-      "name": "cragside_park",
-      "description": "A park for leisure activities."
+      "name": "trade_bridge",
+      "description": "A small bridge that traders always cross."
     },
     {
       "id": 82,
-      "name": "cragside_beach",
-      "description": "A sandy coastline."
+      "name": "forest_tunnel_path",
+      "description": "A forest path."
     },
     {
       "id": 83,
-      "name": "military_training_facility",
-      "description": "To practice combat."
+      "name": "forest_hunters_path",
+      "description": "Forest hunter's path."
     },
     {
       "id": 84,
-      "name": "shopping_mall",
-      "description": "Shopping and commerce."
+      "name": "ruined_guard_tower",
+      "description": "An abandoned guard tower."
     },
     {
       "id": 85,
-      "name": "residential_suburb",
-      "description": "Suburbs with residences."
+      "name": "northgate_entrance",
+      "description": "A heavily guarded entrance."
     },
     {
       "id": 86,
-      "name": "school",
-      "description": "An elementary school."
+      "name": "secret_river_passage",
+      "description": "A secret river passage."
     },
     {
       "id": 87,
-      "name": "restaurant",
-      "description": "A place to eat."
+      "name": "lake_tunnel_passage",
+      "description": "A tunnel to enter the lake."
     },
     {
       "id": 88,
-      "name": "apartment_complex",
-      "description": "An apartment complex."
+      "name": "farmers_main_stop",
+      "description": "The farmer's main stop."
     },
     {
       "id": 89,
-      "name": "farm_fields",
-      "description": "Fields to farm."
+      "name": "trading_stop",
+      "description": "Where traders conduct their business."
     },
     {
       "id": 90,
-      "name": "forested_woodland",
-      "description": "An area full of trees."
+      "name": "miners_camp",
+      "description": "Local miners camp."
     },
     {
       "id": 91,
-      "name": "river_valley",
-      "description": "A valley where the Skyfire River flows through."
+      "name": "lumber_outpost",
+      "description": "Local lumber outpost"
     },
     {
       "id": 92,
-      "name": "mountain_ridge",
-      "description": "A mountain ridge line."
+      "name": "north_mountain_passage",
+      "description": "Where merchants walk along the steep mountains."
     },
     {
       "id": 93,
-      "name": "cave_system",
-      "description": "A system of caves."
+      "name": "secret_meeting_ground",
+      "description": "A secluded mountain where a secret meeting is held."
     },
     {
       "id": 94,
-      "name": "mountain_pass",
-      "description": "A mountain pass to travel through."
+      "name": "northgate_passage",
+      "description": "A gate to passage near the mountains."
     },
     {
       "id": 95,
-      "name": "hilltop_viewpoint",
-      "description": "A hill to overlook the cities."
+      "name": "cave_passage",
+      "description": "A cave that leads passage."
     },
     {
       "id": 96,
-      "name": "lake",
-      "description": "A large body of water."
+      "name": "hidden_cave_area",
+      "description": "A hidden area where Zephyr resided, a long time ago."
     },
     {
       "id": 97,
-      "name": "abandoned_cabin",
-      "description": "An abandoned cabin."
+      "name": "farmers_route",
+      "description": "A route farmers use to enter farmlands."
     },
     {
       "id": 98,
-      "name": "crater",
-      "description": "A large impact crater."
+      "name": "hunters_area",
+      "description": "An area where hunters reside."
     },
     {
       "id": 99,
-      "name": "cemetery",
-      "description": "A graveyard."
+      "name": "lumber_area",
+      "description": "An area that lumber camps usually traverse."
     },
     {
       "id": 100,
-      "name": "small_lake_town",
-      "description": "Town next to a beautiful lake."
+      "name": "miners_path",
+      "description": "Path miners follow."
     }
   ]
 }

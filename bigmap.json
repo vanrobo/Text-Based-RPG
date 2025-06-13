@@ -1,0 +1,878 @@
+{
+  "mapName": "The World of Triad",
+  "description": "A world divided into nine distinct regions, a mix of vast continents and expansive oceans. Each continent is a mosaic of nations, and each ocean dotted with islands, forming a tapestry of diverse cultures and environments.",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "regions": [
+    {
+      "id": "1",
+      "type": "Continent",
+      "name": "Atheria",
+      "coordinates": [0, 0],
+      "nations": [
+        {
+          "id": "1.1",
+          "name": "Eldoria",
+          "coordinates": [0, 0],
+          "cities": [
+            { "id": "1.1.1", "name": "Silverhaven", "coordinates": [0, 0] },
+            { "id": "1.1.2", "name": "Oakhaven", "coordinates": [0, 1] },
+            { "id": "1.1.3", "name": "Riverton", "coordinates": [0, 2] },
+            { "id": "1.1.4", "name": "Grimstone", "coordinates": [1, 0] },
+            { "id": "1.1.5", "name": "Eldoria Central", "coordinates": [1, 1] },
+            { "id": "1.1.6", "name": "Sunstone", "coordinates": [1, 2] },
+            { "id": "1.1.7", "name": "Shadowfen", "coordinates": [2, 0] },
+            { "id": "1.1.8", "name": "Oldtown", "coordinates": [2, 1] },
+            { "id": "1.1.9", "name": "Irongate", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Northwood",
+          "coordinates": [0, 1],
+          "cities": [
+            { "id": "1.2.1", "name": "Winterhold", "coordinates": [0, 0] },
+            { "id": "1.2.2", "name": "Frostpeak", "coordinates": [0, 1] },
+            { "id": "1.2.3", "name": "Snowdrift", "coordinates": [0, 2] },
+            { "id": "1.2.4", "name": "Icewind", "coordinates": [1, 0] },
+            { "id": "1.2.5", "name": "Northwood Central", "coordinates": [1, 1] },
+            { "id": "1.2.6", "name": "Glacier's Edge", "coordinates": [1, 2] },
+            { "id": "1.2.7", "name": "Timberline", "coordinates": [2, 0] },
+            { "id": "1.2.8", "name": "Raven's Pass", "coordinates": [2, 1] },
+            { "id": "1.2.9", "name": "Whitepeak", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Sunhaven",
+          "coordinates": [0, 2],
+          "cities": [
+            { "id": "1.3.1", "name": "Goldensands", "coordinates": [0, 0] },
+            { "id": "1.3.2", "name": "Sunstone City", "coordinates": [0, 1] },
+            { "id": "1.3.3", "name": "Riverbend", "coordinates": [0, 2] },
+            { "id": "1.3.4", "name": "Harveston", "coordinates": [1, 0] },
+            { "id": "1.3.5", "name": "Sunhaven Central", "coordinates": [1, 1] },
+            { "id": "1.3.6", "name": "Emberglow", "coordinates": [1, 2] },
+            { "id": "1.3.7", "name": "Stonefield", "coordinates": [2, 0] },
+            { "id": "1.3.8", "name": "Whispering Dunes", "coordinates": [2, 1] },
+            { "id": "1.3.9", "name": "Azure Bay", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "name": "Stormcoast",
+          "coordinates": [1, 0],
+          "cities": [
+            { "id": "1.4.1", "name": "Cliffside", "coordinates": [0, 0] },
+            { "id": "1.4.2", "name": "Stormwatch", "coordinates": [0, 1] },
+            { "id": "1.4.3", "name": "Seabreeze", "coordinates": [0, 2] },
+            { "id": "1.4.4", "name": "Ironclad", "coordinates": [1, 0] },
+            { "id": "1.4.5", "name": "Stormcoast Central", "coordinates": [1, 1] },
+            { "id": "1.4.6", "name": "Windswept", "coordinates": [1, 2] },
+            { "id": "1.4.7", "name": "Blackrock", "coordinates": [2, 0] },
+            { "id": "1.4.8", "name": "Coastal End", "coordinates": [2, 1] },
+            { "id": "1.4.9", "name": "Deepsea", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.5",
+          "name": "Ironwood",
+          "coordinates": [1, 1],
+          "cities": [
+            { "id": "1.5.1", "name": "Timberline", "coordinates": [0, 0] },
+            { "id": "1.5.2", "name": "Forestheart", "coordinates": [0, 1] },
+            { "id": "1.5.3", "name": "Greenleaf", "coordinates": [0, 2] },
+            { "id": "1.5.4", "name": "Oakhaven", "coordinates": [1, 0] },
+            { "id": "1.5.5", "name": "Ironwood Central", "coordinates": [1, 1] },
+            { "id": "1.5.6", "name": "Riverside", "coordinates": [1, 2] },
+            { "id": "1.5.7", "name": "Silent Hollow", "coordinates": [2, 0] },
+            { "id": "1.5.8", "name": "Whisperwind", "coordinates": [2, 1] },
+            { "id": "1.5.9", "name": "Elderwood", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.6",
+          "name": "Shadowfen",
+          "coordinates": [1, 2],
+          "cities": [
+            { "id": "1.6.1", "name": "Grimhollow", "coordinates": [0, 0] },
+            { "id": "1.6.2", "name": "Blackwater", "coordinates": [0, 1] },
+            { "id": "1.6.3", "name": "Murkwood", "coordinates": [0, 2] },
+            { "id": "1.6.4", "name": "Silent Marsh", "coordinates": [1, 0] },
+            { "id": "1.6.5", "name": "Shadowfen Central", "coordinates": [1, 1] },
+            { "id": "1.6.6", "name": "Bogwood", "coordinates": [1, 2] },
+            { "id": "1.6.7", "name": "Crooked Mire", "coordinates": [2, 0] },
+            { "id": "1.6.8", "name": "Whispering Reeds", "coordinates": [2, 1] },
+            { "id": "1.6.9", "name": "Ghostlight", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.7",
+          "name": "Stonepeak",
+          "coordinates": [2, 0],
+          "cities": [
+            { "id": "1.7.1", "name": "Grimstone", "coordinates": [0, 0] },
+            { "id": "1.7.2", "name": "Ironforge", "coordinates": [0, 1] },
+            { "id": "1.7.3", "name": "Granitehold", "coordinates": [0, 2] },
+            { "id": "1.7.4", "name": "Stonehaven", "coordinates": [1, 0] },
+            { "id": "1.7.5", "name": "Stonepeak Central", "coordinates": [1, 1] },
+            { "id": "1.7.6", "name": "Ember Peak", "coordinates": [1, 2] },
+            { "id": "1.7.7", "name": "Frostfang", "coordinates": [2, 0] },
+            { "id": "1.7.8", "name": "Obsidian", "coordinates": [2, 1] },
+            { "id": "1.7.9", "name": "Silver Mine", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.8",
+          "name": "Whispering Dunes",
+          "coordinates": [2, 1],
+          "cities": [
+            { "id": "1.8.1", "name": "Sandspire", "coordinates": [0, 0] },
+            { "id": "1.8.2", "name": "Mirage", "coordinates": [0, 1] },
+            { "id": "1.8.3", "name": "Oasis", "coordinates": [0, 2] },
+            { "id": "1.8.4", "name": "Sunstone", "coordinates": [1, 0] },
+            { "id": "1.8.5", "name": "Whispering Dunes Central", "coordinates": [1, 1] },
+            { "id": "1.8.6", "name": "Shadowrift", "coordinates": [1, 2] },
+            { "id": "1.8.7", "name": "Dunecrest", "coordinates": [2, 0] },
+            { "id": "1.8.8", "name": "Sandswept", "coordinates": [2, 1] },
+            { "id": "1.8.9", "name": "Cinderfall", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "1.9",
+          "name": "Emberfell",
+          "coordinates": [2, 2],
+          "cities": [
+            { "id": "1.9.1", "name": "Cinderfall", "coordinates": [0, 0] },
+            { "id": "1.9.2", "name": "Emberglow", "coordinates": [0, 1] },
+            { "id": "1.9.3", "name": "Shadowrift", "coordinates": [0, 2] },
+            { "id": "1.9.4", "name": "Magmaflow", "coordinates": [1, 0] },
+            { "id": "1.9.5", "name": "Emberfell Central", "coordinates": [1, 1] },
+            { "id": "1.9.6", "name": "Stonefall", "coordinates": [1, 2] },
+            { "id": "1.9.7", "name": "Ashwood", "coordinates": [2, 0] },
+            { "id": "1.9.8", "name": "Dragon's Peak", "coordinates": [2, 1] },
+            { "id": "1.9.9", "name": "Obsidian Fields", "coordinates": [2, 2] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "Ocean",
+      "name": "The Azure Sea",
+      "coordinates": [0, 1],
+      "locations": [
+        { "id": "2.1", "type": "Water", "description": "Open water" , "coordinates":[0,0]},
+        { "id": "2.2", "type": "Water", "description": "Open water" , "coordinates":[0,1]},
+        { "id": "2.3", "type": "Water", "description": "Open water" , "coordinates":[0,2]},
+        { "id": "2.4", "type": "Water", "description": "Open water" , "coordinates":[1,0]},
+        { "id": "2.5", "type": "Island", "name": "Coral Isle" , "coordinates":[1,1], "locations": [
+          { "id": "2.5.1", "name": "Coral Reefs", "coordinates": [0, 0] },
+          { "id": "2.5.2", "name": "Sandy Beach", "coordinates": [0, 1] },
+          { "id": "2.5.3", "name": "Hidden Cove", "coordinates": [0, 2] },
+          { "id": "2.5.4", "name": "Palm Grove", "coordinates": [1, 0] },
+          { "id": "2.5.5", "name": "Coral Isle Peak", "coordinates": [1, 1] },
+          { "id": "2.5.6", "name": "Jungle Trail", "coordinates": [1, 2] },
+          { "id": "2.5.7", "name": "Sea Caves", "coordinates": [2, 0] },
+          { "id": "2.5.8", "name": "Ruined Shrine", "coordinates": [2, 1] },
+          { "id": "2.5.9", "name": "Crystal Spring", "coordinates": [2, 2] }
+        ]},
+        { "id": "2.6", "type": "Water", "description": "Open water" , "coordinates":[1,2]},
+        { "id": "2.7", "type": "Water", "description": "Open water" , "coordinates":[2,0]},
+        { "id": "2.8", "type": "Water", "description": "Open water" , "coordinates":[2,1]},
+        { "id": "2.9", "type": "Water", "description": "Open water" , "coordinates":[2,2]}
+      ]
+    },
+{
+      "id": "3",
+      "type": "Continent",
+      "name": "Zenith",
+      "coordinates": [0, 2],
+      "nations": [
+        {
+          "id": "3.1",
+          "name": "Aetheria",
+          "coordinates": [0, 0],
+          "cities": [
+            { "id": "3.1.1", "name": "Silverhaven", "coordinates": [0, 0] },
+            { "id": "3.1.2", "name": "Oakhaven", "coordinates": [0, 1] },
+            { "id": "3.1.3", "name": "Riverton", "coordinates": [0, 2] },
+            { "id": "3.1.4", "name": "Grimstone", "coordinates": [1, 0] },
+            { "id": "3.1.5", "name": "Aetheria Central", "coordinates": [1, 1] },
+            { "id": "3.1.6", "name": "Sunstone", "coordinates": [1, 2] },
+            { "id": "3.1.7", "name": "Shadowfen", "coordinates": [2, 0] },
+            { "id": "3.1.8", "name": "Oldtown", "coordinates": [2, 1] },
+            { "id": "3.1.9", "name": "Irongate", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Northpoint",
+          "coordinates": [0, 1],
+          "cities": [
+            { "id": "3.2.1", "name": "Winterwatch", "coordinates": [0, 0] },
+            { "id": "3.2.2", "name": "Frostpeak", "coordinates": [0, 1] },
+            { "id": "3.2.3", "name": "Snowdrift", "coordinates": [0, 2] },
+            { "id": "3.2.4", "name": "Icewind", "coordinates": [1, 0] },
+            { "id": "3.2.5", "name": "Northpoint Central", "coordinates": [1, 1] },
+            { "id": "3.2.6", "name": "Glacier's Edge", "coordinates": [1, 2] },
+            { "id": "3.2.7", "name": "Timberline", "coordinates": [2, 0] },
+            { "id": "3.2.8", "name": "Raven's Pass", "coordinates": [2, 1] },
+            { "id": "3.2.9", "name": "Whitepeak", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Sun Haven",
+          "coordinates": [0, 2],
+          "cities": [
+            { "id": "3.3.1", "name": "Goldensands", "coordinates": [0, 0] },
+            { "id": "3.3.2", "name": "Sunstone City", "coordinates": [0, 1] },
+            { "id": "3.3.3", "name": "Riverbend", "coordinates": [0, 2] },
+            { "id": "3.3.4", "name": "Harveston", "coordinates": [1, 0] },
+            { "id": "3.3.5", "name": "Sun Haven Central", "coordinates": [1, 1] },
+            { "id": "3.3.6", "name": "Emberglow", "coordinates": [1, 2] },
+            { "id": "3.3.7", "name": "Stonefield", "coordinates": [2, 0] },
+            { "id": "3.3.8", "name": "Whispering Dunes", "coordinates": [2, 1] },
+            { "id": "3.3.9", "name": "Azure Bay", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "name": "Stormhold",
+          "coordinates": [1, 0],
+          "cities": [
+            { "id": "3.4.1", "name": "Cliffside", "coordinates": [0, 0] },
+            { "id": "3.4.2", "name": "Stormwatch", "coordinates": [0, 1] },
+            { "id": "3.4.3", "name": "Seabreeze", "coordinates": [0, 2] },
+            { "id": "3.4.4", "name": "Ironclad", "coordinates": [1, 0] },
+            { "id": "3.4.5", "name": "Stormhold Central", "coordinates": [1, 1] },
+            { "id": "3.4.6", "name": "Windswept", "coordinates": [1, 2] },
+            { "id": "3.4.7", "name": "Blackrock", "coordinates": [2, 0] },
+            { "id": "3.4.8", "name": "Coastal End", "coordinates": [2, 1] },
+            { "id": "3.4.9", "name": "Deepsea", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.5",
+          "name": "Ember",
+          "coordinates": [1, 1],
+          "cities": [
+            { "id": "3.5.1", "name": "Timberline", "coordinates": [0, 0] },
+            { "id": "3.5.2", "name": "Forestheart", "coordinates": [0, 1] },
+            { "id": "3.5.3", "name": "Greenleaf", "coordinates": [0, 2] },
+            { "id": "3.5.4", "name": "Oakhaven", "coordinates": [1, 0] },
+            { "id": "3.5.5", "name": "Ember Central", "coordinates": [1, 1] },
+            { "id": "3.5.6", "name": "Riverside", "coordinates": [1, 2] },
+            { "id": "3.5.7", "name": "Silent Hollow", "coordinates": [2, 0] },
+            { "id": "3.5.8", "name": "Whisperwind", "coordinates": [2, 1] },
+            { "id": "3.5.9", "name": "Elderwood", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.6",
+          "name": "Land",
+          "coordinates": [1, 2],
+          "cities": [
+            { "id": "3.6.1", "name": "Grimhollow", "coordinates": [0, 0] },
+            { "id": "3.6.2", "name": "Blackwater", "coordinates": [0, 1] },
+            { "id": "3.6.3", "name": "Murkwood", "coordinates": [0, 2] },
+            { "id": "3.6.4", "name": "Silent Marsh", "coordinates": [1, 0] },
+            { "id": "3.6.5", "name": "Land Central", "coordinates": [1, 1] },
+            { "id": "3.6.6", "name": "Bogwood", "coordinates": [1, 2] },
+            { "id": "3.6.7", "name": "Crooked Mire", "coordinates": [2, 0] },
+            { "id": "3.6.8", "name": "Whispering Reeds", "coordinates": [2, 1] },
+            { "id": "3.6.9", "name": "Ghostlight", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.7",
+          "name": "The Mountains",
+          "coordinates": [2, 0],
+          "cities": [
+            { "id": "3.7.1", "name": "Grimstone", "coordinates": [0, 0] },
+            { "id": "3.7.2", "name": "Ironforge", "coordinates": [0, 1] },
+            { "id": "3.7.3", "name": "Granitehold", "coordinates": [0, 2] },
+            { "id": "3.7.4", "name": "Stonehaven", "coordinates": [1, 0] },
+            { "id": "3.7.5", "name": "Central", "coordinates": [1, 1] },
+            { "id": "3.7.6", "name": "Ember Peak", "coordinates": [1, 2] },
+            { "id": "3.7.7", "name": "Frostfang", "coordinates": [2, 0] },
+            { "id": "3.7.8", "name": "Obsidian", "coordinates": [2, 1] },
+            { "id": "3.7.9", "name": "Silver Mine", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.8",
+          "name": "Whispering",
+          "coordinates": [2, 1],
+          "cities": [
+            { "id": "3.8.1", "name": "Sandspire", "coordinates": [0, 0] },
+            { "id": "3.8.2", "name": "Mirage", "coordinates": [0, 1] },
+            { "id": "3.8.3", "name": "Oasis", "coordinates": [0, 2] },
+            { "id": "3.8.4", "name": "Sunstone", "coordinates": [1, 0] },
+            { "id": "3.8.5", "name": "Whispering Central", "coordinates": [1, 1] },
+            { "id": "3.8.6", "name": "Shadowrift", "coordinates": [1, 2] },
+            { "id": "3.8.7", "name": "Dunecrest", "coordinates": [2, 0] },
+            { "id": "3.8.8", "name": "Sandswept", "coordinates": [2, 1] },
+            { "id": "3.8.9", "name": "Cinderfall", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "3.9",
+          "name": "Final",
+          "coordinates": [2, 2],
+          "cities": [
+            { "id": "3.9.1", "name": "Cinderfall", "coordinates": [0, 0] },
+            { "id": "3.9.2", "name": "Emberglow", "coordinates": [0, 1] },
+            { "id": "3.9.3", "name": "Shadowrift", "coordinates": [0, 2] },
+            { "id": "3.9.4", "name": "Magmaflow", "coordinates": [1, 0] },
+            { "id": "3.9.5", "name": "Final Central", "coordinates": [1, 1] },
+            { "id": "3.9.6", "name": "Stonefall", "coordinates": [1, 2] },
+            { "id": "3.9.7", "name": "Ashwood", "coordinates": [2, 0] },
+            { "id": "3.9.8", "name": "Dragon's Peak", "coordinates": [2, 1] },
+            { "id": "3.9.9", "name": "Obsidian Fields", "coordinates": [2, 2] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "Ocean",
+      "name": "The Dark Sea",
+      "coordinates": [1, 0],
+      "locations": [
+        { "id": "4.1", "type": "Water", "description": "Open water" , "coordinates":[0,0]},
+        { "id": "4.2", "type": "Water", "description": "Open water" , "coordinates":[0,1]},
+        { "id": "4.3", "type": "Water", "description": "Open water" , "coordinates":[0,2]},
+        { "id": "4.4", "type": "Water", "description": "Open water" , "coordinates":[1,0]},
+        { "id": "4.5", "type": "Island", "name": "Dead Men's Isle" , "coordinates":[1,1], "locations": [
+          { "id": "4.5.1", "name": "Rocky Beach", "coordinates": [0, 0] },
+          { "id": "4.5.2", "name": "Shipwreck", "coordinates": [0, 1] },
+          { "id": "4.5.3", "name": "Graveyard", "coordinates": [0, 2] },
+          { "id": "4.5.4", "name": "Dark Grove", "coordinates": [1, 0] },
+          { "id": "4.5.5", "name": "Skull Rock", "coordinates": [1, 1] },
+          { "id": "4.5.6", "name": "Cursed Cave", "coordinates": [1, 2] },
+          { "id": "4.5.7", "name": "Haunted Cliffs", "coordinates": [2, 0] },
+          { "id": "4.5.8", "name": "Fallen Watchtower", "coordinates": [2, 1] },
+          { "id": "4.5.9", "name": "Ritual Site", "coordinates": [2, 2] }
+        ]},
+        { "id": "4.6", "type": "Water", "description": "Open water" , "coordinates":[1,2]},
+        { "id": "4.7", "type": "Water", "description": "Open water" , "coordinates":[2,0]},
+        { "id": "4.8", "type": "Water", "description": "Open water" , "coordinates":[2,1]},
+        { "id": "4.9", "type": "Water", "description": "Open water" , "coordinates":[2,2]}
+      ]
+    },
+    {
+      "id": "5",
+      "type": "Continent",
+      "name": "Solaria",
+      "coordinates": [1, 1],
+      "nations": [
+        {
+          "id": "5.1",
+          "name": "Eastaria",
+          "coordinates": [0, 0],
+          "cities": [
+            { "id": "5.1.1", "name": "Silverhaven", "coordinates": [0, 0] },
+            { "id": "5.1.2", "name": "Oakhaven", "coordinates": [0, 1] },
+            { "id": "5.1.3", "name": "Riverton", "coordinates": [0, 2] },
+            { "id": "5.1.4", "name": "Grimstone", "coordinates": [1, 0] },
+            { "id": "5.1.5", "name": "Eastaria Central", "coordinates": [1, 1] },
+            { "id": "5.1.6", "name": "Sunstone", "coordinates": [1, 2] },
+            { "id": "5.1.7", "name": "Shadowfen", "coordinates": [2, 0] },
+            { "id": "5.1.8", "name": "Oldtown", "coordinates": [2, 1] },
+            { "id": "5.1.9", "name": "Irongate", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "name": "Northaria",
+          "coordinates": [0, 1],
+          "cities": [
+            { "id": "5.2.1", "name": "Winterhold", "coordinates": [0, 0] },
+            { "id": "5.2.2", "name": "Frostpeak", "coordinates": [0, 1] },
+            { "id": "5.2.3", "name": "Snowdrift", "coordinates": [0, 2] },
+            { "id": "5.2.4", "name": "Icewind", "coordinates": [1, 0] },
+            { "id": "5.2.5", "name": "Northaria Central", "coordinates": [1, 1] },
+            { "id": "5.2.6", "name": "Glacier's Edge", "coordinates": [1, 2] },
+            { "id": "5.2.7", "name": "Timberline", "coordinates": [2, 0] },
+            { "id": "5.2.8", "name": "Raven's Pass", "coordinates": [2, 1] },
+            { "id": "5.2.9", "name": "Whitepeak", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "name": "South aria",
+          "coordinates": [0, 2],
+          "cities": [
+            { "id": "5.3.1", "name": "Goldensands", "coordinates": [0, 0] },
+            { "id": "5.3.2", "name": "Sunstone City", "coordinates": [0, 1] },
+            { "id": "5.3.3", "name": "Riverbend", "coordinates": [0, 2] },
+            { "id": "5.3.4", "name": "Harveston", "coordinates": [1, 0] },
+            { "id": "5.3.5", "name": "South Aria Central", "coordinates": [1, 1] },
+            { "id": "5.3.6", "name": "Emberglow", "coordinates": [1, 2] },
+            { "id": "5.3.7", "name": "Stonefield", "coordinates": [2, 0] },
+            { "id": "5.3.8", "name": "Whispering Dunes", "coordinates": [2, 1] },
+            { "id": "5.3.9", "name": "Azure Bay", "coordinates" :[2, 2] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "name": "Wisteria",
+          "coordinates": [1, 0],
+          "cities": [
+            { "id": "5.4.1", "name": "Cliffside", "coordinates": [0, 0] },
+            { "id": "5.4.2", "name": "Stormwatch", "coordinates": [0, 1] },
+            { "id": "5.4.3", "name": "Seabreeze", "coordinates": [0, 2] },
+            { "id": "5.4.4", "name": "Ironclad", "coordinates": [1, 0] },
+            { "id": "5.4.5", "name": "Wisteria Central", "coordinates": [1, 1] },
+            { "id": "5.4.6", "name": "Windswept", "coordinates": [1, 2] },
+            { "id": "5.4.7", "name": "Blackrock", "coordinates": [2, 0] },
+            { "id": "5.4.8", "name": "Coastal End", "coordinates": [2, 1] },
+            { "id": "5.4.9", "name": "Deepsea", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.5",
+          "name": "Zanzaria",
+          "coordinates": [1, 1],
+          "cities": [
+            { "id": "5.5.1", "name": "Timberline", "coordinates": [0, 0] },
+            { "id": "5.5.2", "name": "Forestheart", "coordinates": [0, 1] },
+            { "id": "5.5.3", "name": "Greenleaf", "coordinates": [0, 2] },
+            { "id": "5.5.4", "name": "Oakhaven", "coordinates": [1, 0] },
+            { "id": "5.5.5", "name": "Zanzaria Central", "coordinates": [1, 1] },
+            { "id": "5.5.6", "name": "Riverside", "coordinates": [1, 2] },
+            { "id": "5.5.7", "name": "Silent Hollow", "coordinates": [2, 0] },
+            { "id": "5.5.8", "name": "Whisperwind", "coordinates": [2, 1] },
+            { "id": "5.5.9", "name": "Elderwood", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.6",
+          "name": "Pondaria",
+          "coordinates": [1, 2],
+          "cities": [
+            { "id": "5.6.1", "name": "Grimhollow", "coordinates": [0, 0] },
+            { "id": "5.6.2", "name": "Blackwater", "coordinates": [0, 1] },
+            { "id": "5.6.3", "name": "Murkwood", "coordinates": [0, 2] },
+            { "id": "5.6.4", "name": "Silent Marsh", "coordinates": [1, 0] },
+            { "id": "5.6.5", "name": "Pondaria Central", "coordinates": [1, 1] },
+            { "id": "5.6.6", "name": "Bogwood", "coordinates": [1, 2] },
+            { "id": "5.6.7", "name": "Crooked Mire", "coordinates": [2, 0] },
+            { "id": "5.6.8", "name": "Whispering Reeds", "coordinates": [2, 1] },
+            { "id": "5.6.9", "name": "Ghostlight", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.7",
+          "name": "Lesteria",
+          "coordinates": [2, 0],
+          "cities": [
+            { "id": "5.7.1", "name": "Grimstone", "coordinates": [0, 0] },
+            { "id": "5.7.2", "name": "Ironforge", "coordinates": [0, 1] },
+            { "id": "5.7.3", "name": "Granitehold", "coordinates": [0, 2] },
+            { "id": "5.7.4", "name": "Stonehaven", "coordinates": [1, 0] },
+            { "id": "5.7.5", "name": "Lesteria Central", "coordinates": [1, 1] },
+            { "id": "5.7.6", "name": "Ember Peak", "coordinates": [1, 2] },
+            { "id": "5.7.7", "name": "Frostfang", "coordinates": [2, 0] },
+            { "id": "5.7.8", "name": "Obsidian", "coordinates": [2, 1] },
+            { "id": "5.7.9", "name": "Silver Mine", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.8",
+          "name": "Sonderia",
+          "coordinates": [2, 1],
+          "cities": [
+            { "id": "5.8.1", "name": "Sandspire", "coordinates": [0, 0] },
+            { "id": "5.8.2", "name": "Mirage", "coordinates": [0, 1] },
+            { "id": "5.8.3", "name": "Oasis", "coordinates": [0, 2] },
+            { "id": "5.8.4", "name": "Sunstone", "coordinates": [1, 0] },
+            { "id": "5.8.5", "name": "Sonderia Central", "coordinates": [1, 1] },
+            { "id": "5.8.6", "name": "Shadowrift", "coordinates": [1, 2] },
+            { "id": "5.8.7", "name": "Dunecrest", "coordinates": [2, 0] },
+            { "id": "5.8.8", "name": "Sandswept", "coordinates": [2, 1] },
+            { "id": "5.8.9", "name": "Cinderfall", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "5.9",
+          "name": "Mondaria",
+          "coordinates": [2, 2],
+          "cities": [
+            { "id": "5.9.1", "name": "Cinderfall", "coordinates": [0, 0] },
+            { "id": "5.9.2", "name": "Emberglow", "coordinates": [0, 1] },
+            { "id": "5.9.3", "name": "Shadowrift", "coordinates": [0, 2] },
+            { "id": "5.9.4", "name": "Magmaflow", "coordinates": [1, 0] },
+            { "id": "5.9.5", "name": "Mondaria Central", "coordinates": [1, 1] },
+            { "id": "5.9.6", "name": "Stonefall", "coordinates": [1, 2] },
+            { "id": "5.9.7", "name": "Ashwood", "coordinates": [2, 0] },
+            { "id": "5.9.8", "name": "Dragon's Peak", "coordinates": [2, 1] },
+            { "id": "5.9.9", "name": "Obsidian Fields", "coordinates": [2, 2] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "Ocean",
+      "name": "The Venom Sea",
+      "coordinates": [1, 2],
+      "locations": [
+        { "id": "6.1", "type": "Water", "description": "Open water" , "coordinates":[0,0]},
+        { "id": "6.2", "type": "Water", "description": "Open water" , "coordinates":[0,1]},
+        { "id": "6.3", "type": "Water", "description": "Open water" , "coordinates":[0,2]},
+        { "id": "6.4", "type": "Water", "description": "Open water" , "coordinates":[1,0]},
+        { "id": "6.5", "type": "Island", "name": "Venomtooth Isle" , "coordinates":[1,1], "locations": [
+          { "id": "6.5.1", "name": "Murky Lagoon", "coordinates": [0, 0] },
+          { "id": "6.5.2", "name": "Swamp Mire", "coordinates": [0, 1] },
+          { "id": "6.5.3", "name": "Venomous Springs", "coordinates": [0, 2] },
+          { "id": "6.5.4", "name": "Serpent's Trail", "coordinates": [1, 0] },
+          { "id": "6.5.5", "name": "Spire of Thorns", "coordinates": [1, 1] },
+          { "id": "6.5.6", "name": "Haunted Marsh", "coordinates": [1, 2] },
+          { "id": "6.5.7", "name": "Lizard Den", "coordinates": [2, 0] },
+          { "id": "6.5.8", "name": "Witch's Hut", "coordinates": [2, 1] },
+          { "id": "6.5.9", "name": "Lost Altar", "coordinates": [2, 2] }
+        ]},
+        { "id": "6.6", "type": "Water", "description": "Open water" , "coordinates":[1,2]},
+        { "id": "6.7", "type": "Water", "description": "Open water" , "coordinates":[2,0]},
+        { "id": "6.8", "type": "Water", "description": "Open water" , "coordinates":[2,1]},
+        { "id": "6.9", "type": "Water", "description": "Open water" , "coordinates":[2,2]}
+      ]
+    },
+{
+      "id": "7",
+      "type": "Continent",
+      "name": "Atheriaa",
+      "coordinates": [2, 0],
+      "nations": [
+        {
+          "id": "7.1",
+          "name": "Eldoriaa",
+          "coordinates": [0, 0],
+          "cities": [
+            { "id": "7.1.1", "name": "Silverhaven", "coordinates": [0, 0] },
+            { "id": "7.1.2", "name": "Oakhaven", "coordinates": [0, 1] },
+            { "id": "7.1.3", "name": "Riverton", "coordinates": [0, 2] },
+            { "id": "7.1.4", "name": "Grimstone", "coordinates": [1, 0] },
+            { "id": "7.1.5", "name": "Eldoriaa Central", "coordinates": [1, 1] },
+            { "id": "7.1.6", "name": "Sunstone", "coordinates": [1, 2] },
+            { "id": "7.1.7", "name": "Shadowfen", "coordinates": [2, 0] },
+            { "id": "7.1.8", "name": "Oldtown", "coordinates": [2, 1] },
+            { "id": "7.1.9", "name": "Irongate", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.2",
+          "name": "Northwooda",
+          "coordinates": [0, 1],
+          "cities": [
+            { "id": "7.2.1", "name": "Winterhold", "coordinates": [0, 0] },
+            { "id": "7.2.2", "name": "Frostpeak", "coordinates": [0, 1] },
+            { "id": "7.2.3", "name": "Snowdrift", "coordinates": [0, 2] },
+            { "id": "7.2.4", "name": "Icewind", "coordinates": [1, 0] },
+            { "id": "7.2.5", "name": "Northwooda Central", "coordinates": [1, 1] },
+            { "id": "7.2.6", "name": "Glacier's Edge", "coordinates": [1, 2] },
+            { "id": "7.2.7", "name": "Timberline", "coordinates": [2, 0] },
+            { "id": "7.2.8", "name": "Raven's Pass", "coordinates": [2, 1] },
+            { "id": "7.2.9", "name": "Whitepeak", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.3",
+          "name": "Sunhavena",
+          "coordinates": [0, 2],
+          "cities": [
+            { "id": "7.3.1", "name": "Goldensands", "coordinates": [0, 0] },
+            { "id": "7.3.2", "name": "Sunstone City", "coordinates": [0, 1] },
+            { "id": "7.3.3", "name": "Riverbend", "coordinates": [0, 2] },
+            { "id": "7.3.4", "name": "Harveston", "coordinates": [1, 0] },
+            { "id": "7.3.5", "name": "Sunhavena Central", "coordinates": [1, 1] },
+            { "id": "7.3.6", "name": "Emberglow", "coordinates": [1, 2] },
+            { "id": "7.3.7", "name": "Stonefield", "coordinates": [2, 0] },
+            { "id": "7.3.8", "name": "Whispering Dunes", "coordinates": [2, 1] },
+            { "id": "7.3.9", "name": "Azure Bay", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.4",
+          "name": "Stormcoasta",
+          "coordinates": [1, 0],
+          "cities": [
+            { "id": "7.4.1", "name": "Cliffside", "coordinates": [0, 0] },
+            { "id": "7.4.2", "name": "Stormwatch", "coordinates": [0, 1] },
+            { "id": "7.4.3", "name": "Seabreeze", "coordinates": [0, 2] },
+            { "id": "7.4.4", "name": "Ironclad", "coordinates": [1, 0] },
+            { "id": "7.4.5", "name": "Stormcoasta Central", "coordinates": [1, 1] },
+            { "id": "7.4.6", "name": "Windswept", "coordinates": [1, 2] },
+            { "id": "7.4.7", "name": "Blackrock", "coordinates": [2, 0] },
+            { "id": "7.4.8", "name": "Coastal End", "coordinates": [2, 1] },
+            { "id": "7.4.9", "name": "Deepsea", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.5",
+          "name": "Ironwooda",
+          "coordinates": [1, 1],
+          "cities": [
+            { "id": "7.5.1", "name": "Timberline", "coordinates": [0, 0] },
+            { "id": "7.5.2", "name": "Forestheart", "coordinates": [0, 1] },
+            { "id": "7.5.3", "name": "Greenleaf", "coordinates": [0, 2] },
+            { "id": "7.5.4", "name": "Oakhaven", "coordinates": [1, 0] },
+            { "id": "7.5.5", "name": "Ironwooda Central", "coordinates": [1, 1] },
+            { "id": "7.5.6", "name": "Riverside", "coordinates": [1, 2] },
+            { "id": "7.5.7", "name": "Silent Hollow", "coordinates": [2, 0] },
+            { "id": "7.5.8", "name": "Whisperwind", "coordinates": [2, 1] },
+            { "id": "7.5.9", "name": "Elderwood", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.6",
+          "name": "Shadowfena",
+          "coordinates": [1, 2],
+          "cities": [
+            { "id": "7.6.1", "name": "Grimhollow", "coordinates": [0, 0] },
+            { "id": "7.6.2", "name": "Blackwater", "coordinates": [0, 1] },
+            { "id": "7.6.3", "name": "Murkwood", "coordinates": [0, 2] },
+            { "id": "7.6.4", "name": "Silent Marsh", "coordinates": [1, 0] },
+            { "id": "7.6.5", "name": "Shadowfena Central", "coordinates": [1, 1] },
+            { "id": "7.6.6", "name": "Bogwood", "coordinates": [1, 2] },
+            { "id": "7.6.7", "name": "Crooked Mire", "coordinates": [2, 0] },
+            { "id": "7.6.8", "name": "Whispering Reeds", "coordinates": [2, 1] },
+            { "id": "7.6.9", "name": "Ghostlight", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.7",
+          "name": "Stonepeaka",
+          "coordinates": [2, 0],
+          "cities": [
+            { "id": "7.7.1", "name": "Grimstone", "coordinates": [0, 0] },
+            { "id": "7.7.2", "name": "Ironforge", "coordinates": [0, 1] },
+            { "id": "7.7.3", "name": "Granitehold", "coordinates": [0, 2] },
+            { "id": "7.7.4", "name": "Stonehaven", "coordinates": [1, 0] },
+            { "id": "7.7.5", "name": "Stonepeaka Central", "coordinates": [1, 1] },
+            { "id": "7.7.6", "name": "Ember Peak", "coordinates": [1, 2] },
+            { "id": "7.7.7", "name": "Frostfang", "coordinates": [2, 0] },
+            { "id": "7.7.8", "name": "Obsidian", "coordinates": [2, 1] },
+            { "id": "7.7.9", "name": "Silver Mine", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.8",
+          "name": "Whispering Dunesa",
+          "coordinates": [2, 1],
+          "cities": [
+            { "id": "7.8.1", "name": "Sandspire", "coordinates": [0, 0] },
+            { "id": "7.8.2", "name": "Mirage", "coordinates": [0, 1] },
+            { "id": "7.8.3", "name": "Oasis", "coordinates": [0, 2] },
+            { "id": "7.8.4", "name": "Sunstone", "coordinates": [1, 0] },
+            { "id": "7.8.5", "name": "Whispering Dunesa Central", "coordinates": [1, 1] },
+            { "id": "7.8.6", "name": "Shadowrift", "coordinates": [1, 2] },
+            { "id": "7.8.7", "name": "Dunecrest", "coordinates": [2, 0] },
+            { "id": "7.8.8", "name": "Sandswept", "coordinates": [2, 1] },
+            { "id": "7.8.9", "name": "Cinderfall", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "7.9",
+          "name": "Emberfella",
+          "coordinates": [2, 2],
+          "cities": [
+            { "id": "7.9.1", "name": "Cinderfall", "coordinates": [0, 0] },
+            { "id": "7.9.2", "name": "Emberglow", "coordinates": [0, 1] },
+            { "id": "7.9.3", "name": "Shadowrift", "coordinates": [0, 2] },
+            { "id": "7.9.4", "name": "Magmaflow", "coordinates": [1, 0] },
+            { "id": "7.9.5", "name": "Emberfella Central", "coordinates": [1, 1] },
+            { "id": "7.9.6", "name": "Stonefall", "coordinates": [1, 2] },
+            { "id": "7.9.7", "name": "Ashwood", "coordinates": [2, 0] },
+            { "id": "7.9.8", "name": "Dragon's Peak", "coordinates": [2, 1] },
+            { "id": "7.9.9", "name": "Obsidian Fields", "coordinates": [2, 2] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "Ocean",
+      "name": "The Abyss Sea",
+      "coordinates": [2, 1],
+      "locations": [
+        { "id": "8.1", "type": "Water", "description": "Open water" , "coordinates":[0,0]},
+        { "id": "8.2", "type": "Water", "description": "Open water" , "coordinates":[0,1]},
+        { "id": "8.3", "type": "Water", "description": "Open water" , "coordinates":[0,2]},
+        { "id": "8.4", "type": "Water", "description": "Open water" , "coordinates":[1,0]},
+        { "id": "8.5", "type": "Island", "name": "Kraken's Crown" , "coordinates":[1,1], "locations": [
+          { "id": "8.5.1", "name": "Blacksand Beach", "coordinates": [0, 0] },
+          { "id": "8.5.2", "name": "Abyssal Trench", "coordinates": [0, 1] },
+          { "id": "8.5.3", "name": "Coral Garden", "coordinates": [0, 2] },
+          { "id": "8.5.4", "name": "Kraken's Eye", "coordinates": [1, 0] },
+          { "id": "8.5.5", "name": "Barnacle Rock", "coordinates": [1, 1] },
+          { "id": "8.5.6", "name": "Sunken Temple", "coordinates": [1, 2] },
+          { "id": "8.5.7", "name": "Whirlpool's Edge", "coordinates": [2, 0] },
+          { "id": "8.5.8", "name": "Sea Serpent Nest", "coordinates": [2, 1] },
+          { "id": "8.5.9", "name": "Lightless Cave", "coordinates": [2, 2] }
+        ]},
+        { "id": "8.6", "type": "Water", "description": "Open water" , "coordinates":[1,2]},
+        { "id": "8.7", "type": "Water", "description": "Open water" , "coordinates":[2,0]},
+        { "id": "8.8", "type": "Water", "description": "Open water" , "coordinates":[2,1]},
+        { "id": "8.9", "type": "Water", "description": "Open water" , "coordinates":[2,2]}
+      ]
+    },
+{
+      "id": "9",
+      "type": "Continent",
+      "name": "The Plains",
+      "coordinates": [2, 2],
+      "nations": [
+        {
+          "id": "9.1",
+          "name": "Westeria",
+          "coordinates": [0, 0],
+          "cities": [
+            { "id": "9.1.1", "name": "Silverhaven", "coordinates": [0, 0] },
+            { "id": "9.1.2", "name": "Oakhaven", "coordinates": [0, 1] },
+            { "id": "9.1.3", "name": "Riverton", "coordinates": [0, 2] },
+            { "id": "9.1.4", "name": "Grimstone", "coordinates": [1, 0] },
+            { "id": "9.1.5", "name": "Westeria Central", "coordinates": [1, 1] },
+            { "id": "9.1.6", "name": "Sunstone", "coordinates": [1, 2] },
+            { "id": "9.1.7", "name": "Shadowfen", "coordinates": [2, 0] },
+            { "id": "9.1.8", "name": "Oldtown", "coordinates": [2, 1] },
+            { "id": "9.1.9", "name": "Irongate", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.2",
+          "name": "Norther",
+          "coordinates": [0, 1],
+          "cities": [
+            { "id": "9.2.1", "name": "Winterhold", "coordinates": [0, 0] },
+            { "id": "9.2.2", "name": "Frostpeak", "coordinates": [0, 1] },
+            { "id": "9.2.3", "name": "Snowdrift", "coordinates": [0, 2] },
+            { "id": "9.2.4", "name": "Icewind", "coordinates": [1, 0] },
+            { "id": "9.2.5", "name": "Norther Central", "coordinates": [1, 1] },
+            { "id": "9.2.6", "name": "Glacier's Edge", "coordinates": [1, 2] },
+            { "id": "9.2.7", "name": "Timberline", "coordinates": [2, 0] },
+            { "id": "9.2.8", "name": "Raven's Pass", "coordinates": [2, 1] },
+            { "id": "9.2.9", "name": "Whitepeak", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.3",
+          "name": "Sunvale",
+          "coordinates": [0, 2],
+          "cities": [
+            { "id": "9.3.1", "name": "Goldensands", "coordinates": [0, 0] },
+            { "id": "9.3.2", "name": "Sunstone City", "coordinates": [0, 1] },
+            { "id": "9.3.3", "name": "Riverbend", "coordinates": [0, 2] },
+            { "id": "9.3.4", "name": "Harveston", "coordinates": [1, 0] },
+            { "id": "9.3.5", "name": "Sunvale Central", "coordinates": [1, 1] },
+            { "id": "9.3.6", "name": "Emberglow", "coordinates": [1, 2] },
+            { "id": "9.3.7", "name": "Stonefield", "coordinates": [2, 0] },
+            { "id": "9.3.8", "name": "Whispering Dunes", "coordinates": [2, 1] },
+            { "id": "9.3.9", "name": "Azure Bay", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.4",
+          "name": "Stormwield",
+          "coordinates": [1, 0],
+          "cities": [
+            { "id": "9.4.1", "name": "Cliffside", "coordinates": [0, 0] },
+            { "id": "9.4.2", "name": "Stormwatch", "coordinates": [0, 1] },
+            { "id": "9.4.3", "name": "Seabreeze", "coordinates": [0, 2] },
+            { "id": "9.4.4", "name": "Ironclad", "coordinates": [1, 0] },
+            { "id": "9.4.5", "name": "Stormwield Central", "coordinates": [1, 1] },
+            { "id": "9.4.6", "name": "Windswept", "coordinates": [1, 2] },
+            { "id": "9.4.7", "name": "Blackrock", "coordinates": [2, 0] },
+            { "id": "9.4.8", "name": "Coastal End", "coordinates": [2, 1] },
+            { "id": "9.4.9", "name": "Deepsea", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.5",
+          "name": "Iron",
+          "coordinates": [1, 1],
+          "cities": [
+            { "id": "9.5.1", "name": "Timberline", "coordinates": [0, 0] },
+            { "id": "9.5.2", "name": "Forestheart", "coordinates": [0, 1] },
+            { "id": "9.5.3", "name": "Greenleaf", "coordinates": [0, 2] },
+            { "id": "9.5.4", "name": "Oakhaven", "coordinates": [1, 0] },
+            { "id": "9.5.5", "name": "Iron Central", "coordinates": [1, 1] },
+            { "id": "9.5.6", "name": "Riverside", "coordinates": [1, 2] },
+            { "id": "9.5.7", "name": "Silent Hollow", "coordinates": [2, 0] },
+            { "id": "9.5.8", "name": "Whisperwind", "coordinates": [2, 1] },
+            { "id": "9.5.9", "name": "Elderwood", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.6",
+          "name": "Wasteland",
+          "coordinates": [1, 2],
+          "cities": [
+            { "id": "9.6.1", "name": "Grimhollow", "coordinates": [0, 0] },
+            { "id": "9.6.2", "name": "Blackwater", "coordinates": [0, 1] },
+            { "id": "9.6.3", "name": "Murkwood", "coordinates": [0, 2] },
+            { "id": "9.6.4", "name": "Silent Marsh", "coordinates": [1, 0] },
+            { "id": "9.6.5", "name": "Wasteland Central", "coordinates": [1, 1] },
+            { "id": "9.6.6", "name": "Bogwood", "coordinates": [1, 2] },
+            { "id": "9.6.7", "name": "Crooked Mire", "coordinates": [2, 0] },
+            { "id": "9.6.8", "name": "Whispering Reeds", "coordinates": [2, 1] },
+            { "id": "9.6.9", "name": "Ghostlight", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.7",
+          "name": "Stonegate",
+          "coordinates": [2, 0],
+          "cities": [
+            { "id": "9.7.1","name": "Grimstone", "coordinates": [0, 0] },
+            { "id": "9.7.2", "name": "Ironforge", "coordinates": [0, 1] },
+            { "id": "9.7.3", "name": "Granitehold", "coordinates": [0, 2] },
+            { "id": "9.7.4", "name": "Stonehaven", "coordinates": [1, 0] },
+            { "id": "9.7.5", "name": "Stonegate Central", "coordinates": [1, 1] },
+            { "id": "9.7.6", "name": "Ember Peak", "coordinates": [1, 2] },
+            { "id": "9.7.7", "name": "Frostfang", "coordinates": [2, 0] },
+            { "id": "9.7.8", "name": "Obsidian", "coordinates": [2, 1] },
+            { "id": "9.7.9", "name": "Silver Mine", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.8",
+          "name": "Sand",
+          "coordinates": [2, 1],
+          "cities": [
+            { "id": "9.8.1", "name": "Sandspire", "coordinates": [0, 0] },
+            { "id": "9.8.2", "name": "Mirage", "coordinates": [0, 1] },
+            { "id": "9.8.3", "name": "Oasis", "coordinates": [0, 2] },
+            { "id": "9.8.4", "name": "Sunstone", "coordinates": [1, 0] },
+            { "id": "9.8.5", "name": "Sand Central", "coordinates": [1, 1] },
+            { "id": "9.8.6", "name": "Shadowrift", "coordinates": [1, 2] },
+            { "id": "9.8.7", "name": "Dunecrest", "coordinates": [2, 0] },
+            { "id": "9.8.8", "name": "Sandswept", "coordinates": [2, 1] },
+            { "id": "9.8.9", "name": "Cinderfall", "coordinates": [2, 2] }
+          ]
+        },
+        {
+          "id": "9.9",
+          "name": "Oasis Valley",
+          "coordinates": [2, 2],
+          "cities": [
+            { "id": "9.9.1", "name": "Cinderfall", "coordinates": [0, 0] },
+            { "id": "9.9.2", "name": "Emberglow", "coordinates": [0, 1] },
+            { "id": "9.9.3", "name": "Shadowrift", "coordinates": [0, 2] },
+            { "id": "9.9.4", "name": "Magmaflow", "coordinates": [1, 0] },
+            { "id": "9.9.5", "name": "Oasis Valley Central", "coordinates": [1, 1] },
+            { "id": "9.9.6", "name": "Stonefall", "coordinates": [1, 2] },
+            { "id": "9.9.7", "name": "Ashwood", "coordinates": [2, 0] },
+            { "id": "9.9.8", "name": "Dragon's Peak", "coordinates": [2, 1] },
+            { "id": "9.9.9", "name": "Obsidian Fields", "coordinates": [2, 2] }
+          ]
+        }
+      ]
+    }
+  ]
+}
