@@ -74,7 +74,7 @@ def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the promp
     generate_event = threading.Event()
 
     def _internal_loader_animation():
-        animation_chars = ["◜", "◝", "◞", "◟"]
+        animation_chars = ["Loading", "Loading.", "Loading..", "Loading..."]
         idx = 0
         sys.stdout.flush()
 
