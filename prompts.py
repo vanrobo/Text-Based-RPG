@@ -76,15 +76,30 @@ map_width: (integer) The width of the map in tiles. This MUST always be 3.
 map_height: (integer) The height of the map in tiles. This MUST always be 3.
 tiles: (array of objects) An array where each object represents a tile in the map. Each tile object must have the following keys:
 id: (integer, 1-based) A unique numerical ID for the tile, starting from 1 in the top-left corner and incrementing sequentially row by row. Example: for a 3x3 map, the IDs would be 1 through 9.
+category: this field will be provided to you. 
+However if the category provided is continental, you shall put the category as continent or ocean. If the category provided is ocean, you shall put the category as waters or island. If the category provided is district, you shall put the category as shop or dungeon.
+
+If the category is continent, give it a fantasy like name which has to BE ONE WORD. Each of them should also be different 
+If the category is nation, the name should sound like its of a country. Some may include titles like kingdom, duchy, canton etc, but some must also exist without such prefixes. It should NOT contain prefixes/suffixes which could give the idea of a larger location like Realm
+If the category is ocean, the name should include ocean.
+If the category is island, it should include island in the name.
+If the category is city, it should be the name of a city rather than a location within the city.
+If the category is shop, it must have a name which gives clear idea of what it is, like a shop, a residential complex, forest etc.
+If the category is dungeon, the names should be dungeon like
+
 name: (string) A descriptive name of the tile type. This name should be relevant to the map's theme and should be easily understandable (e.g., 'forest_tree', 'city_street', 'sand_beach'). Use underscore naming conventions for the name. Avoid overly generic names like "grass" unless specific instructions state otherwise. Be as specific and descriptive as possible with the tile names.
-coordinates: (a list of 2 integers) It  should contain the locations coordinate in the form [x,y] where x and y are integers ranging from 1 to 3. Their values should correspond with their ids. For example - id 1 would have coordinates [1,1], id 2 would have [2,1] id 3 would have [3,1], id 4 would have [1,2] and so on and so forth till id 9 which will have [3,3]
-locations: this must be an empty dictionary that can be filled up later with additional maps if necessary
+coordinates: (a list of 2 integers) It  should contain the locations coordinate in the form [x,y] where x and y are integers ranging from 1 to 3. Their values should correspond with their ids. For example - id 1 would have coordinates [1,1], id 2 would have [2,1] id 3 would have [3,1], id 4 would have [1,2] and so on and so forth till id 9 which will have [3,3].
+
+locations: this must be an empty dictionary that can be filled up later with additional maps if necessary. 
+
+If and only if the category is places, it should not have a locations key
 
 Follow these rules STRICTLY:
 The JSON output MUST be valid and parsable. 
 map_width and map_height MUST BOTH always be 3, regardless of the input theme.
 The tiles array MUST contain exactly 9 elements.
-The id values in the tiles array MUST be sequential and start from 1, row by row, ending at 100.
+The id values in the tiles array MUST be sequential and start from 1, row by row, ending at 9.
+The category must always be the one provided unless the category is continental in which case you should randomly decide between continent and ocean
 The name values MUST be descriptive and relevant to the specified theme. The tile names should be different and capture the visual and gameplay variety you might expect.
 The coordinates MUST be a list with 2 elements occupying ONE LINE inside the JSON. The coordinates should look like [1,2]
       "coordinates": [
@@ -97,9 +112,10 @@ The coordinates MUST be a list with 2 elements occupying ONE LINE inside the JSO
       "coordinates: [1,1]
 
 
-      
+
 The locations must always remain an empty dictionary which can be filled with values later as required
-Even if the theme implies a different size, you MUST generate a 3x3 map. For example, even if I asked for "a tiny village," the generated map still must be 3x3."""
+Even if the theme implies a different size, you MUST generate a 3x3 map. For example, even if I asked for "a tiny village," the generated map still must be 3x3.
+Each tile must contain an id, category, name, coordinates and locations"""
 
 def specification_worldgen(world_type, backstory, location, protagonist, theme_description):
     specifications_worldgen = f"""
@@ -145,15 +161,12 @@ def specification_backstory(name, location, ):
 
 
 
-def specification_map_generation (world_type, backstory, location, protagonist, theme_description):
+def specification_map_generation (world_type, backstory, location, protagonist, theme_description, category):
     specifications_map_generation  = f""" Everything after this is a description of the map theme and specific requirements:
 
     CONTEXT:
-    World Type:  {world_type}
-    Backstory: {backstory}
-    Protagonist Details: {protagonist}
-    Protagonist's Starting Location: {location} (This specific place is the protagonist's origin or current point, but the map should depict a broader regional area surrounding it.)
-    General Map Area: The region surrounding and including {location}."""
+    category: {category}
+    setting: Fantasy"""
 
 
     return specifications_map_generation

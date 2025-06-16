@@ -4,55 +4,64 @@
   "tiles": [
     {
       "id": 1,
-      "name": "medieval_stone_wall",
+      "category": "continent",
+      "name": "Narnia_mountains",
       "coordinates": [1,1],
       "locations": {}
     },
     {
       "id": 2,
-      "name": "medieval_cobblestone_street",
+      "category": "continent",
+      "name": "Essos_plains",
       "coordinates": [2,1],
       "locations": {}
     },
     {
       "id": 3,
-      "name": "medieval_wooden_house",
+      "category": "continent",
+      "name": "Tamriel_forests",
       "coordinates": [3,1],
       "locations": {}
     },
     {
       "id": 4,
-      "name": "medieval_cobblestone_street",
+      "category": "continent",
+      "name": "Azeroth_shores",
       "coordinates": [1,2],
       "locations": {}
     },
     {
       "id": 5,
-      "name": "medieval_town_square",
+      "category": "continent",
+      "name": "Alagasia_hills",
       "coordinates": [2,2],
       "locations": {}
     },
     {
       "id": 6,
-      "name": "medieval_blacksmith",
+      "category": "continent",
+      "name": "Prydain_deserts",
       "coordinates": [3,2],
       "locations": {}
     },
     {
       "id": 7,
-      "name": "medieval_stone_wall",
+      "category": "continent",
+      "name": "Hyrule_swamps",
       "coordinates": [1,3],
       "locations": {}
     },
     {
       "id": 8,
-      "name": "medieval_cobblestone_street",
+      "category": "continent",
+      "name": "Elantris_canyons",
       "coordinates": [2,3],
       "locations": {}
     },
     {
       "id": 9,
-      "name": "medieval_inn",
+      "category": "continent",
+      "name": "Thedas_valleys",
       "coordinates": [3,3],
       "locations": {}
     }

@@ -4,55 +4,64 @@
   "tiles": [
     {
       "id": 1,
-      "name": "temple_entrance",
+      "category": "city",
+      "name": "city_market_square",
       "coordinates": [1,1],
       "locations": {}
     },
     {
       "id": 2,
-      "name": "temple_courtyard",
+      "category": "city",
+      "name": "city_residential_district",
       "coordinates": [2,1],
       "locations": {}
     },
     {
       "id": 3,
-      "name": "temple_statue",
+      "category": "city",
+      "name": "city_grand_palace",
       "coordinates": [3,1],
       "locations": {}
     },
     {
       "id": 4,
-      "name": "temple_hallway",
+      "category": "city",
+      "name": "city_cobblestone_street",
       "coordinates": [1,2],
       "locations": {}
     },
     {
       "id": 5,
-      "name": "temple_altar",
+      "category": "city",
+      "name": "city_tavern_golden_barrel",
       "coordinates": [2,2],
       "locations": {}
     },
     {
       "id": 6,
-      "name": "temple_secret_room",
+      "category": "city",
+      "name": "city_library_archives",
       "coordinates": [3,2],
       "locations": {}
     },
     {
       "id": 7,
-      "name": "temple_library",
+      "category": "city",
+      "name": "city_canal_district",
       "coordinates": [1,3],
       "locations": {}
     },
     {
       "id": 8,
-      "name": "temple_garden",
+      "category": "city",
+      "name": "city_blacksmith_forge",
       "coordinates": [2,3],
       "locations": {}
     },
     {
       "id": 9,
-      "name": "temple_exit",
+      "category": "city",
+      "name": "city_temple_of_light",
       "coordinates": [3,3],
       "locations": {}
     }

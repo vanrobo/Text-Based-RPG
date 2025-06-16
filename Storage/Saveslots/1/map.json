@@ -1,506 +1,69 @@
 {
-  "map_width": 10,
-  "map_height": 10,
+  "map_width": 3,
+  "map_height": 3,
   "tiles": [
     {
       "id": 1,
-      "name": "storm_king_peak",
-      "description": "The highest peak in the Whispering Crags, perpetually wreathed in storm clouds. Legend says the Storm Kings once communed with the elements here."
+      "category": "continent",
+      "name": "Eldoria_plains",
+      "coordinates": [1,1],
+      "locations": {}
     },
     {
       "id": 2,
-      "name": "zephyrs_hidden_cave",
-      "description": "Hidden halfway up Storm King Peak, Zephyr's cave laboratory is filled with arcane equipment and weather-worn maps."
+      "category": "continent",
+      "name": "Solara_mountains",
+      "coordinates": [2,1],
+      "locations": {}
     },
     {
       "id": 3,
-      "name": "crag_wind_tunnel",
-      "description": "A narrow pass through the Crags, known for its powerful winds and echoing whispers. Difficult passage even in good weather."
+      "category": "continent",
+      "name": "Veridian_forest",
+      "coordinates": [3,1],
+      "locations": {}
     },
     {
       "id": 4,
-      "name": "lightning_ravaged_forest",
-      "description": "A charred forest valley, scarred by frequent lightning strikes. The wood is brittle and the air crackles with residual energy."
+      "category": "continent",
+      "name": "Atheria_swamps",
+      "coordinates": [1,2],
+      "locations": {}
     },
     {
       "id": 5,
-      "name": "forgotten_storm_altar",
-      "description": "An ancient altar carved into the rock face, long abandoned but still radiating a faint elemental power. Once used in storm rituals."
+      "category": "continent",
+      "name": "Lunara_desert",
+      "coordinates": [2,2],
+      "locations": {}
     },
     {
       "id": 6,
-      "name": "skybreak_vista_plateau",
-      "description": "A plateau offering a panoramic view, frequently experiencing clear skies even when the Crags are storm-ridden. A point of relative calm."
+      "category": "continent",
+      "name": "Cinderfall_volcano",
+      "coordinates": [3,2],
+      "locations": {}
     },
     {
       "id": 7,
-      "name": "eagle_nest_ridge",
-      "description": "A rocky ridge, home to a colony of giant eagles. The eagles are territorial and protective of their nests."
+      "category": "continent",
+      "name": "Celestia_lakes",
+      "coordinates": [1,3],
+      "locations": {}
     },
     {
       "id": 8,
-      "name": "shattered_staff_gully",
-      "description": "A deep gully where, according to local legend, a shard of the Lightning Staff once landed. Unstable terrain and strange energies."
+      "category": "continent",
+      "name": "Zephyria_hills",
+      "coordinates": [2,3],
+      "locations": {}
     },
     {
       "id": 9,
-      "name": "hermetic_order_ruins",
-      "description": "The crumbling ruins of the hermetic order's monastery, where Zephyr was raised. A place of lost knowledge and forgotten magic."
-    },
-    {
-      "id": 10,
-      "name": "storm_watch_outpost",
-      "description": "A small watchtower on the edge of the Crags, used to monitor approaching storms. Now abandoned and in disrepair."
-    },
-    {
-      "id": 11,
-      "name": "westwind_trade_route",
-      "description": "A winding trade route skirting the western edge of the Whispering Crags, vital for commerce despite the weather dangers."
-    },
-    {
-      "id": 12,
-      "name": "thunderhead_river_source",
-      "description": "The headwaters of the Thunderhead River, fed by snowmelt and frequent thunderstorms. Prone to flash floods."
-    },
-    {
-      "id": 13,
-      "name": "amber_fields_farmlands",
-      "description": "Fertile farmland watered by the Thunderhead River, producing amber-colored grains. The fields are vulnerable to hail and wind."
-    },
-    {
-      "id": 14,
-      "name": "cloudhaven_village_outskirts",
-      "description": "The humble outer fields of the village that Zephyr originated from."
-    },
-    {
-      "id": 15,
-      "name": "cloudhaven_village_center",
-      "description": "The humble town center of Zephyr's home, the village of Cloudhaven, with simple buildings and a central well."
-    },
-    {
-      "id": 16,
-      "name": "old_mill_district",
-      "description": "Near Cloudhaven, an overgrown but crucial mill that grinds the amber grain."
-    },
-    {
-      "id": 17,
-      "name": "riverbend_bridge",
-      "description": "A sturdy stone bridge crossing the Thunderhead River, connecting Cloudhaven and the main trade road."
-    },
-    {
-      "id": 18,
-      "name": "eastwood_lumber_camp",
-      "description": "A lumber camp exploiting the forests east of the Crags. A vital resource but also a source of deforestation."
-    },
-    {
-      "id": 19,
-      "name": "iron_mine_quarry",
-      "description": "An active iron mine gouged into the mountainside. Provides valuable ore but also scarring the landscape."
-    },
-    {
-      "id": 20,
-      "name": "blackrock_smelting_furnaces",
-      "description": "A cluster of smelting furnaces processing the iron ore. Polluted air and a constant glow."
-    },
-    {
-      "id": 21,
-      "name": "windswept_graveyard",
-      "description": "An old graveyard located on a windswept hill, overlooking Cloudhaven and the surrounding valley. Many headstones are weathered and worn."
-    },
-    {
-      "id": 22,
-      "name": "stone_quarry_site",
-      "description": "An abandoned stone quarry where the stones to build the village were taken from."
-    },
-    {
-      "id": 23,
-      "name": "lone_shepherds_watchtower",
-      "description": "A dilapidated watchtower where shepherds kept an eye on the surrounding flocks."
-    },
-    {
-      "id": 24,
-      "name": "wildflower_meadow",
-      "description": "A meadow covered in an array of wildflowers, located near the base of the Whispering Crags."
-    },
-    {
-      "id": 25,
-      "name": "overgrown_trail",
-      "description": "A trail covered in weeds and shrubs that leads towards the Whispering Crags."
-    },
-    {
-      "id": 26,
-      "name": "ancient_stone_monolith",
-      "description": "An ancient stone monolith standing in the middle of a field, its origin and purpose unknown."
-    },
-    {
-      "id": 27,
-      "name": "campsite_remnants",
-      "description": "The remnants of an old campsite, indicating that travelers once frequented this area."
-    },
-    {
-      "id": 28,
-      "name": "rocky_outcrop",
-      "description": "A rocky outcrop overlooking the valley, providing a vantage point to spot distant storms."
-    },
-    {
-      "id": 29,
-      "name": "dense_thicket",
-      "description": "A dense thicket of trees and bushes, making it difficult to traverse."
-    },
-    {
-      "id": 30,
-      "name": "abandoned_farmstead",
-      "description": "An abandoned farmstead with a dilapidated house and overgrown fields."
-    },
-    {
-      "id": 31,
-      "name": "merchants_way_crossroads",
-      "description": "A major crossroads where merchants from neighboring lands meet to trade their wares."
-    },
-    {
-      "id": 32,
-      "name": "caravan_resting_grounds",
-      "description": "Resting grounds for caravans, offering basic amenities and protection."
-    },
-    {
-      "id": 33,
-      "name": "northgate_town_walls",
-      "description": "Town walls protecting the northern entrance from external threats."
-    },
-    {
-      "id": 34,
-      "name": "market_square_merchants_way",
-      "description": "The bustling market square where merchants display and sell their goods."
-    },
-    {
-      "id": 35,
-      "name": "cobblestone_street_shops",
-      "description": "A cobblestone street lined with shops, selling everything from textiles to tools."
-    },
-    {
-      "id": 36,
-      "name": "grand_guildhall_merchants_way",
-      "description": "The impressive guildhall where merchants and artisans gather to discuss trade and regulations."
-    },
-    {
-      "id": 37,
-      "name": "town_guard_barracks",
-      "description": "Barracks housing the town guard responsible for maintaining law and order."
-    },
-    {
-      "id": 38,
-      "name": "healing_temple",
-      "description": "A healing temple dedicated to the art of medicine and divine intervention."
-    },
-    {
-      "id": 39,
-      "name": "well_fountain",
-      "description": "A peaceful place in the town's center, surrounded by greenery."
-    },
-    {
-      "id": 40,
-      "name": "southgate_guardhouse",
-      "description": "A heavily fortified southgate guardhouse."
-    },
-    {
-      "id": 41,
-      "name": "merchants_way_gate",
-      "description": "A huge gate on merchants' way."
-    },
-    {
-      "id": 42,
-      "name": "south_farm_land",
-      "description": "The huge lands to the south where most farmers of merchant's way reside."
-    },
-    {
-      "id": 43,
-      "name": "lone_house_near_farms",
-      "description": "A lone house near a major farming plot."
-    },
-    {
-      "id": 44,
-      "name": "farming_path_entrance",
-      "description": "The entrance path to the farming lands south."
-    },
-    {
-      "id": 45,
-      "name": "lake_serene_waters",
-      "description": "A huge lake that provides most of merchant's way drinking water."
-    },
-    {
-      "id": 46,
-      "name": "fishing_huts_lakeside",
-      "description": "Small fishing huts along the lake."
-    },
-    {
-      "id": 47,
-      "name": "path_along_lake",
-      "description": "A path along the east lake-side."
-    },
-    {
-      "id": 48,
-      "name": "small_lake_entrance",
-      "description": "A small entrance where lake visitors can visit."
-    },
-    {
-      "id": 49,
-      "name": "forest_trail",
-      "description": "A dense, mostly-unvisited forest trail."
-    },
-    {
-      "id": 50,
-      "name": "cave_entrance",
-      "description": "A dark cave where wild beasts are often said to reside."
-    },
-    {
-      "id": 51,
-      "name": "isolated_dwelling_near_crags",
-      "description": "A lone dwelling nestled near the base of the Whispering Crags."
-    },
-    {
-      "id": 52,
-      "name": "cragside_stream_crossing",
-      "description": "A shallow stream flowing down the slopes of the Crags."
-    },
-    {
-      "id": 53,
-      "name": "shadowfen_marsh",
-      "description": "A murky marshland shrouded in mist."
-    },
-    {
-      "id": 54,
-      "name": "mistwood_grove",
-      "description": "A grove of ancient trees, perpetually shrouded in mist."
-    },
-    {
-      "id": 55,
-      "name": "ruined_circle_of_stones",
-      "description": "The remains of a circle of standing stones, their purpose long forgotten."
-    },
-    {
-      "id": 56,
-      "name": "hermit_shack",
-      "description": "A small, secluded shack inhabited by a reclusive hermit."
-    },
-    {
-      "id": 57,
-      "name": "blackfeather_hunting_grounds",
-      "description": "The hunting grounds of the reclusive Blackfeather Clan."
-    },
-    {
-      "id": 58,
-      "name": "ominous_shadowed_gulch",
-      "description": "A dark and foreboding gulch, rumored to be haunted."
-    },
-    {
-      "id": 59,
-      "name": "ravens_perch",
-      "description": "A rocky outcrop where ravens gather, watching the landscape below."
-    },
-    {
-      "id": 60,
-      "name": "echoing_canyon",
-      "description": "A narrow canyon where sounds reverberate and amplify."
-    },
-    {
-      "id": 61,
-      "name": "stone_ridge_lookout",
-      "description": "A high stone ridge offering a panoramic view of the surrounding lands."
-    },
-    {
-      "id": 62,
-      "name": "crag_shadow_path",
-      "description": "A treacherous path winding through the shadow of the Crags."
-    },
-    {
-      "id": 63,
-      "name": "withered_bog",
-      "description": "A desolate bog, its plant life withered and decayed."
-    },
-    {
-      "id": 64,
-      "name": "phantom_falls",
-      "description": "A waterfall that appears and disappears with the shifting mists."
-    },
-    {
-      "id": 65,
-      "name": "forgotten_warriors_burial_ground",
-      "description": "The burial ground of fallen warriors, their identities lost to time."
-    },
-    {
-      "id": 66,
-      "name": "old_hunters_cabin",
-      "description": "The run-down cabin where old hunters reside."
-    },
-    {
-      "id": 67,
-      "name": "broken_watchers_gate",
-      "description": "The broken watcher's gate where an observer kept watch."
-    },
-    {
-      "id": 68,
-      "name": "shady_dealers_den",
-      "description": "A shady dealer's den hidden in the forest."
-    },
-    {
-      "id": 69,
-      "name": "northmost_point_lake",
-      "description": "The lake's northmost point."
-    },
-    {
-      "id": 70,
-      "name": "fishing_contest_spot",
-      "description": "A secluded lakeside fishing contest spot."
-    },
-    {
-      "id": 71,
-      "name": "trading_post_north",
-      "description": "The north trading post where deals are usually made."
-    },
-    {
-      "id": 72,
-      "name": "bandit_hideout",
-      "description": "A bandit hideout deep in the woods."
-    },
-    {
-      "id": 73,
-      "name": "treasure_cache",
-      "description": "A treasure cache buried underground."
-    },
-    {
-      "id": 74,
-      "name": "travelers_stop_point",
-      "description": "A resting stop for travels."
-    },
-    {
-      "id": 75,
-      "name": "mining_guild_post",
-      "description": "The local mining guild post."
-    },
-    {
-      "id": 76,
-      "name": "old_mining_grounds",
-      "description": "The local mining grounds."
-    },
-    {
-      "id": 77,
-      "name": "deep_forest_stream",
-      "description": "The deep forest stream."
-    },
-    {
-      "id": 78,
-      "name": "north_river",
-      "description": "The north river that feeds off the lake."
-    },
-    {
-      "id": 79,
-      "name": "fishermans_trail",
-      "description": "The fisherman's trail."
-    },
-    {
-      "id": 80,
-      "name": "abandoned_hunters_trail",
-      "description": "Abandoned hunter's trail."
-    },
-    {
-      "id": 81,
-      "name": "trade_bridge",
-      "description": "A small bridge that traders always cross."
-    },
-    {
-      "id": 82,
-      "name": "forest_tunnel_path",
-      "description": "A forest path."
-    },
-    {
-      "id": 83,
-      "name": "forest_hunters_path",
-      "description": "Forest hunter's path."
-    },
-    {
-      "id": 84,
-      "name": "ruined_guard_tower",
-      "description": "An abandoned guard tower."
-    },
-    {
-      "id": 85,
-      "name": "northgate_entrance",
-      "description": "A heavily guarded entrance."
-    },
-    {
-      "id": 86,
-      "name": "secret_river_passage",
-      "description": "A secret river passage."
-    },
-    {
-      "id": 87,
-      "name": "lake_tunnel_passage",
-      "description": "A tunnel to enter the lake."
-    },
-    {
-      "id": 88,
-      "name": "farmers_main_stop",
-      "description": "The farmer's main stop."
-    },
-    {
-      "id": 89,
-      "name": "trading_stop",
-      "description": "Where traders conduct their business."
-    },
-    {
-      "id": 90,
-      "name": "miners_camp",
-      "description": "Local miners camp."
-    },
-    {
-      "id": 91,
-      "name": "lumber_outpost",
-      "description": "Local lumber outpost"
-    },
-    {
-      "id": 92,
-      "name": "north_mountain_passage",
-      "description": "Where merchants walk along the steep mountains."
-    },
-    {
-      "id": 93,
-      "name": "secret_meeting_ground",
-      "description": "A secluded mountain where a secret meeting is held."
-    },
-    {
-      "id": 94,
-      "name": "northgate_passage",
-      "description": "A gate to passage near the mountains."
-    },
-    {
-      "id": 95,
-      "name": "cave_passage",
-      "description": "A cave that leads passage."
-    },
-    {
-      "id": 96,
-      "name": "hidden_cave_area",
-      "description": "A hidden area where Zephyr resided, a long time ago."
-    },
-    {
-      "id": 97,
-      "name": "farmers_route",
-      "description": "A route farmers use to enter farmlands."
-    },
-    {
-      "id": 98,
-      "name": "hunters_area",
-      "description": "An area where hunters reside."
-    },
-    {
-      "id": 99,
-      "name": "lumber_area",
-      "description": "An area that lumber camps usually traverse."
-    },
-    {
-      "id": 100,
-      "name": "miners_path",
-      "description": "Path miners follow."
+      "category": "continent",
+      "name": "Ignis_cliffs",
+      "coordinates": [3,3],
+      "locations": {}
     }
   ]
 }
