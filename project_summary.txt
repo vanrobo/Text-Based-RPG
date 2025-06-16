@@ -1,0 +1,3 @@
+This project is a text-based RPG/adventure game.
+The core concept is to provide an interactive storytelling experience where player choices influence the game's progression. Players navigate a text-described world, make decisions, and work towards a goal within the generated narrative.
+A unique feature is its reliance on AI, specifically Google's Gemini models, for content generation. This includes dynamically generating the game world (maps) based on inputs like backstory, theme, and location, suggesting a potentially unique and replayable experience with each playthrough.
