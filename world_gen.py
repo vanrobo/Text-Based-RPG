@@ -7,9 +7,28 @@ import ai
 import time
 
 
-sno= int(input("Enter a number from 1-4: "))
 
-def map_generation(sno):
+
+def map_generation():
+    while True:
+        try:
+            sno = int(input("Enter a number from 1-4: "))
+        
+        except ValueError:
+            print("Please try again")
+            continue
+
+        if sno < 1:
+            print("Please try again")
+            continue
+
+        if sno > 4:
+            print("Please try again")
+            continue
+
+        else:
+            break
+
     with open(rf"Storage\Saveslots\{sno}\backstory.json") as backstory: 
         info = json.load(backstory)
         backstory = info["backstory"]
@@ -18,9 +37,11 @@ def map_generation(sno):
         location = info["location"]
         theme_description = info["theme"]
         world_type = None
-    world_generation = prompts.world_gen + "\n\n" + prompts.specification_worldgen(world_type,backstory,location,protagonist,theme_description) 
+    world_generation = prompts.big_map + "\n\n" + prompts.specification_map_generation(world_type,backstory,location,protagonist,theme_description)
 
-    generation = ai.generatelite(world_generation, rf"Storage\Saveslots\{sno}\map.json")
+    minworld_gen = prompts.big_map 
+
+    generation = ai.generatelite(minworld_gen, rf"Storage\Saveslots\{sno}\map.json")
     for i in generation:
         print(i, end = '', flush=True)
         time.sleep(0.02)
@@ -30,5 +51,5 @@ def map_generation(sno):
 
 
 
-map_generation(sno)
+map_generation()
 

@@ -1,506 +1,60 @@
 {
-  "map_width": 10,
-  "map_height": 10,
+  "map_width": 3,
+  "map_height": 3,
   "tiles": [
     {
       "id": 1,
-      "name": "aegis_7_surface_crust",
-      "description": "The outer layer of Aegis-7, scarred by eons of cosmic radiation and micrometeoroid impacts. Mineral composition indicates potential energy sources below."
+      "name": "volcano_peak",
+      "coordinates": [1,1],
+      "locations": {}
     },
     {
       "id": 2,
-      "name": "irradiated_regolith_field",
-      "description": "A vast expanse of loose rock and dust on Aegis-7's surface, heavily bombarded by solar radiation. Few organisms can survive here."
+      "name": "lava_river",
+      "coordinates": [2,1],
+      "locations": {}
     },
     {
       "id": 3,
-      "name": "the_cradle_fissure_entrance",
-      "description": "A narrow opening leading down into 'The Cradle', a water-filled fissure where life originated on Aegis-7. Bioluminescent bacteria are visible near the entrance."
+      "name": "ash_plains",
+      "coordinates": [3,1],
+      "locations": {}
     },
     {
       "id": 4,
-      "name": "mineral_rich_vein_outcrop",
-      "description": "A prominent vein of rare minerals exposed on the asteroid's surface. A potential source of energy for chemoautotrophic organisms like Axion."
+      "name": "cinder_field",
+      "coordinates": [1,2],
+      "locations": {}
     },
     {
       "id": 5,
-      "name": "shadowed_crater_basin",
-      "description": "A deep crater shielded from direct sunlight, offering a slightly more protected environment on Aegis-7's surface."
+      "name": "volcano_mouth",
+      "coordinates": [2,2],
+      "locations": {}
     },
     {
       "id": 6,
-      "name": "biofilm_covered_rockface",
-      "description": "A section of Aegis-7's surface coated in a thin layer of biofilm, evidence of microbial colonization."
+      "name": "sulfur_vent",
+      "coordinates": [3,2],
+      "locations": {}
     },
     {
       "id": 7,
-      "name": "the_great_divide_ridge",
-      "description": "A prominent ridge running along Aegis-7, splitting the asteroid into two distinct regions. The southern side is more irradiated."
+      "name": "molten_rock",
+      "coordinates": [1,3],
+      "locations": {}
     },
     {
       "id": 8,
-      "name": "subsurface_ice_pocket",
-      "description": "A small pocket of frozen water located beneath the surface, a vital resource for life on Aegis-7."
+      "name": "dark_cave_entrance",
+      "coordinates": [2,3],
+      "locations": {}
     },
     {
       "id": 9,
-      "name": "microbial_garden_patch",
-      "description": "A concentrated area of microbial growth on Aegis-7's surface, forming a complex ecosystem."
-    },
-    {
-      "id": 10,
-      "name": "equatorial_radiation_belt",
-      "description": "The most heavily irradiated region of Aegis-7, located along its equator. Few organisms can survive unprotected here."
-    },
-    {
-      "id": 11,
-      "name": "southern_mineral_deposit",
-      "description": "A rich deposit of rare minerals on the southern hemisphere of Aegis-7, accessible via several small fissures."
-    },
-    {
-      "id": 12,
-      "name": "northern_ice_field",
-      "description": "A larger field of ice near the northern pole, possibly connected to the subsurface ice pocket."
-    },
-    {
-      "id": 13,
-      "name": "the_cradle_interior_zone_1",
-      "description": "The upper regions of the Cradle fissure, closest to the surface. Exhibits higher radiation levels and less stable conditions."
-    },
-    {
-      "id": 14,
-      "name": "the_cradle_central_pool",
-      "description": "The central water pool in the Cradle, teeming with microbial life and bioluminescent bacteria. Axion resides here."
-    },
-    {
-      "id": 15,
-      "name": "the_cradle_fissure_wall_west",
-      "description": "The western wall of the Cradle, rich in mineral deposits that Axion helps to process."
-    },
-    {
-      "id": 16,
-      "name": "the_cradle_fissure_wall_east",
-      "description": "The eastern wall of the Cradle, known for its unique bioluminescent bacteria strains."
-    },
-    {
-      "id": 17,
-      "name": "hydrothermal_vent_alpha",
-      "description": "A small hydrothermal vent within the Cradle, releasing heat and chemicals into the water pool."
-    },
-    {
-      "id": 18,
-      "name": "the_cradle_lower_chamber",
-      "description": "A deeper chamber within the Cradle, with slightly different mineral composition and microbial lifeforms."
-    },
-    {
-      "id": 19,
-      "name": "stable_water_pocket",
-      "description": "A stable region of water in the Cradle, crucial for sustaining life, despite outer forces."
-    },
-    {
-      "id": 20,
-      "name": "mineral_flow_delta",
-      "description": "Where a mineral-rich flow from the surface meets the water of the cradle."
-    },
-    {
-      "id": 21,
-      "name": "the_void_gulf",
-      "description": "Vast emptiness of space, a pathway to the other planets."
-    },
-    {
-      "id": 22,
-      "name": "the_astral_scar",
-      "description": "Cosmic trails of asteroids that have passed Aegis-7."
-    },
-    {
-      "id": 23,
-      "name": "aegis_7_gravitational_field_edge",
-      "description": "The point at which Aegis-7's gravity loses strength."
-    },
-    {
-      "id": 24,
-      "name": "the_sun_facing_surface",
-      "description": "The scorching surface of Aegis-7, directly exposed to sun's radiation."
-    },
-    {
-      "id": 25,
-      "name": "hidden_rock_crevice",
-      "description": "A small, rock enclosed crevice that can be used to gain vantage on Aegis-7."
-    },
-    {
-      "id": 26,
-      "name": "chemical_trail",
-      "description": "A trial leading away from Aegis-7, likely left by an organism."
-    },
-    {
-      "id": 27,
-      "name": "mineral_enriched_ice_patch",
-      "description": "Ice patch that has captured some minerals."
-    },
-    {
-      "id": 28,
-      "name": "aegis_7_rock_core",
-      "description": "The inner rock of Aegis-7's core."
-    },
-    {
-      "id": 29,
-      "name": "aegis_7_shadowed_surface",
-      "description": "The shadowed side of Aegis-7. Safe from the harsh rays of the sun."
-    },
-    {
-      "id": 30,
-      "name": "empty_air_pocket",
-      "description": "An empty air pocket within Aegis-7."
-    },
-    {
-      "id": 31,
-      "name": "the_irradiated_cove",
-      "description": "Cove with high radiation levels."
-    },
-    {
-      "id": 32,
-      "name": "chemical_signal_trace",
-      "description": "Trace of chemical signals."
-    },
-    {
-      "id": 33,
-      "name": "biofilm_dense_patch",
-      "description": "A dense biofilm location."
-    },
-    {
-      "id": 34,
-      "name": "the_mineral_garden",
-      "description": "Where mineral's grow within Aegis-7."
-    },
-    {
-      "id": 35,
-      "name": "the_bio_luminescent_river",
-      "description": "A river of bioluminescence."
-    },
-    {
-      "id": 36,
-      "name": "aegis_7_cold_north_end",
-      "description": "The coldest end of the planet."
-    },
-    {
-      "id": 37,
-      "name": "chemical_signal_intersection",
-      "description": "The main chemical signal intersection point."
-    },
-    {
-      "id": 38,
-      "name": "the_cradle_mineral_heart",
-      "description": "The core of the planet is filled with minerals."
-    },
-    {
-      "id": 39,
-      "name": "solar_flare_hotspot",
-      "description": "Where solar flares have left there mark."
-    },
-    {
-      "id": 40,
-      "name": "microbial_nest_zone",
-      "description": "Area where many microbial's live in close vicinity."
-    },
-    {
-      "id": 41,
-      "name": "asteroid_belt_passage",
-      "description": "Direct path through the asteroid belt."
-    },
-    {
-      "id": 42,
-      "name": "gamma_ray_hotspot",
-      "description": "Hot spot of gamma ray exposure."
-    },
-    {
-      "id": 43,
-      "name": "ancient_impact_site",
-      "description": "Ancient asteroid impact site."
-    },
-    {
-      "id": 44,
-      "name": "mineral_enriched_pool",
-      "description": "Rich in minerals water pool."
-    },
-    {
-      "id": 45,
-      "name": "aegis_7_eastern_rim",
-      "description": "The eastern rim of Aegis-7."
-    },
-    {
-      "id": 46,
-      "name": "the_proto_nucleus",
-      "description": "An area that is believed to of started everything."
-    },
-    {
-      "id": 47,
-      "name": "energy_pulse_echo",
-      "description": "The lingering effects of the planets energy pulse."
-    },
-    {
-      "id": 48,
-      "name": "bioluminescent_cascade",
-      "description": "A waterfall of bioluminescence."
-    },
-    {
-      "id": 49,
-      "name": "northern_chemical_pool",
-      "description": "A northern chemcial rich water pool."
-    },
-    {
-      "id": 50,
-      "name": "aegis_7_southern_pole",
-      "description": "The southern most tip of Aegis-7."
-    },
-    {
-      "id": 51,
-      "name": "microbial_communication_hub",
-      "description": "Where microbial communication occurs."
-    },
-    {
-      "id": 52,
-      "name": "aegis_7_the_eye",
-      "description": "A spot on Aegis-7 that looks like an eye."
-    },
-    {
-      "id": 53,
-      "name": "energy_rich_field",
-      "description": "Strong field of energy."
-    },
-    {
-      "id": 54,
-      "name": "the_cold_spring",
-      "description": "The planets coldest spring."
-    },
-    {
-      "id": 55,
-      "name": "mineral_path",
-      "description": "A well walked/traveled mineral path."
-    },
-    {
-      "id": 56,
-      "name": "solar_radiance_peak",
-      "description": "The peak of solar radiation exposure."
-    },
-    {
-      "id": 57,
-      "name": "chemical_cloud",
-      "description": "Small chemical cloud in space around the planet."
-    },
-    {
-      "id": 58,
-      "name": "microbial_burrow",
-      "description": "A microbial underground burrow."
-    },
-    {
-      "id": 59,
-      "name": "aegis_7_hot_cove",
-      "description": "Very hot location on Aegis-7."
-    },
-    {
-      "id": 60,
-      "name": "the_bioluminescent_forest",
-      "description": "Forest that is lit up by bioluminescence."
-    },
-    {
-      "id": 61,
-      "name": "aegis_7_surface_lake",
-      "description": "Main lake on Aegis-7."
-    },
-    {
-      "id": 62,
-      "name": "the_great_ravine",
-      "description": "Large ravine in the Aegis-7 surface."
-    },
-    {
-      "id": 63,
-      "name": "radioactive_wasteland",
-      "description": "Wasteland that has been exposed to a massive amount of radiation."
-    },
-    {
-      "id": 64,
-      "name": "the_mineral_mines",
-      "description": "Aegis-7's mineral mines."
-    },
-    {
-      "id": 65,
-      "name": "aegis_7_western_edge",
-      "description": "The most western point of Aegis-7."
-    },
-    {
-      "id": 66,
-      "name": "the_nutrient_springs",
-      "description": "Springs with a high concentration of nutrients."
-    },
-    {
-      "id": 67,
-      "name": "dark_matter_cloud",
-      "description": "Dark matter cloud lingers just outside Aegis-7."
-    },
-    {
-      "id": 68,
-      "name": "the_eternal_eclipse",
-      "description": "An always shaded area on Aegis-7."
-    },
-    {
-      "id": 69,
-      "name": "aegis_7_orbital_track",
-      "description": "The orbital track of Aegis-7."
-    },
-    {
-      "id": 70,
-      "name": "microbial_bloom_area",
-      "description": "A dense area of microbial growth."
-    },
-    {
-      "id": 71,
-      "name": "the_chemical_falls",
-      "description": "Chemical runoff waterfalls."
-    },
-    {
-      "id": 72,
-      "name": "aegis_7_the_deep",
-      "description": "The deepest part of Aegis-7."
-    },
-    {
-      "id": 73,
-      "name": "comet_debris_field",
-      "description": "A debris field from a past comet encounter."
-    },
-    {
-      "id": 74,
-      "name": "the_silent_grotto",
-      "description": "A quiet and calm location on Aegis-7."
-    },
-    {
-      "id": 75,
-      "name": "aegis_7_the_surface",
-      "description": "The outer most surface of Aegis-7."
-    },
-    {
-      "id": 76,
-      "name": "cosmic_dust_gathering",
-      "description": "Dust gathers in this location."
-    },
-    {
-      "id": 77,
-      "name": "aegis_7_hot_air_vent",
-      "description": "Hot air erupts from this location."
-    },
-    {
-      "id": 78,
-      "name": "the_eternal_dawn",
-      "description": "A point of light on Aegis-7."
-    },
-    {
-      "id": 79,
-      "name": "aegis_7_radioactive_decay_zone",
-      "description": "Area that is radioactive and is decaying rapidly."
-    },
-    {
-      "id": 80,
-      "name": "microbial_city",
-      "description": "A dense area of microbial habitation."
-    },
-    {
-      "id": 81,
-      "name": "aegis_7_ice_spire",
-      "description": "A spire of ice on Aegis-7's surface."
-    },
-    {
-      "id": 82,
-      "name": "the_heart_of_darkness",
-      "description": "A darker than usual location on Aegis-7."
-    },
-    {
-      "id": 83,
-      "name": "solar_eclipse_zone",
-      "description": "Where solar eclipses are most frequent."
-    },
-    {
-      "id": 84,
-      "name": "aegis_7_chemical_river",
-      "description": "Chemical river leading to the Cradle."
-    },
-    {
-      "id": 85,
-      "name": "energy_surge_point",
-      "description": "Frequent energy surges."
-    },
-    {
-      "id": 86,
-      "name": "microbial_algae_bloom",
-      "description": "Area with algae blooms."
-    },
-    {
-      "id": 87,
-      "name": "aegis_7_frozen_crater",
-      "description": "Crater filled with ice."
-    },
-    {
-      "id": 88,
-      "name": "the_great_divide",
-      "description": "Divides Aegis-7's surface."
-    },
-    {
-      "id": 89,
-      "name": "aegis_7_nutrient_run_off",
-      "description": "Where nutrients runoff to."
-    },
-    {
-      "id": 90,
-      "name": "the_cradle_origin_point",
-      "description": "Point of origins for the Cradle."
-    },
-    {
-      "id": 91,
-      "name": "aegis_7_radioactive_pool",
-      "description": "Pool of radiation."
-    },
-    {
-      "id": 92,
-      "name": "the_cold_descent",
-      "description": "Descent point into Aegis-7's underbelly."
-    },
-    {
-      "id": 93,
-      "name": "aegis_7_chemical_cloud_path",
-      "description": "Path of chemcial clouds."
-    },
-    {
-      "id": 94,
-      "name": "the_microbial_oasis",
-      "description": "Microbial oasis area."
-    },
-    {
-      "id": 95,
-      "name": "aegis_7_ancient_ruins",
-      "description": "Ancients runes on Aegis-7's surface."
-    },
-    {
-      "id": 96,
-      "name": "the_bio_dome",
-      "description": "Domed structure filled with bioluminescence."
-    },
-    {
-      "id": 97,
-      "name": "aegis_7_frozen_cave",
-      "description": "Cave filled with ice."
-    },
-    {
-      "id": 98,
-      "name": "the_solar_panel_field",
-      "description": "An area of solar panels in use."
-    },
-    {
-      "id": 99,
-      "name": "aegis_7_microbial_pathway",
-      "description": "The path that most microbial's take."
-    },
-    {
-      "id": 100,
-      "name": "the_lost_lake",
-      "description": "An area of lost lakes in Aegis-7's underground."
+      "name": "obsidian_deposit",
+      "coordinates": [3,3],
+      "locations": {}
     }
   ]
 }

@@ -1,506 +1,60 @@
 {
-    "map_width": 10,
-    "map_height": 10,
-    "tiles": [
-        {
-            "id": 1,
-            "name": "Gamma_7_Underlevels",
-            "description": "The heart of the Underlevels, a warren of decaying infrastructure and makeshift dwellings. The air hangs thick with pollution and the scent of nutrient paste. Home to Vansh Rishi and the hidden resistance."
-        },
-        {
-            "id": 2,
-            "name": "Underlevel_Market_District",
-            "description": "A bustling black market where scavenged tech, outdated machinery, and illicit goods are traded. The lifeblood of the Underlevels, always filled with shadowy figures and hidden deals."
-        },
-        {
-            "id": 3,
-            "name": "Conglomerate_Skyport_Alpha",
-            "description": "A gleaming landing platform for the elite, towering above the Underlevels. A stark contrast to the poverty below, patrolled by heavily armed Enforcers."
-        },
-        {
-            "id": 4,
-            "name": "Central_Processing_Plant",
-            "description": "A massive, heavily guarded facility responsible for processing waste and supplying the Underlevels with recycled resources. A critical but dangerous location."
-        },
-        {
-            "id": 5,
-            "name": "Neo_Mumbai_Industrial_Zone",
-            "description": "A sprawling complex of factories and power plants that feed the city. The air is thick with noxious fumes and the constant thrum of machinery. The source of much of the pollution plaguing the underlevels."
-        },
-        {
-            "id": 6,
-            "name": "Overpass_Highway_Network",
-            "description": "A complex network of elevated roadways that connect the city sectors, a symbol of the Conglomerates' control and the citizens' forced segregation."
-        },
-        {
-            "id": 7,
-            "name": "Sky_City_Elysium",
-            "description": "The heart of the Neo-Tech Conglomerates power base, a shining beacon of wealth and technology, seemingly untouched by the problems of the surface."
-        },
-        {
-            "id": 8,
-            "name": "Residential_Sector_Beta",
-            "description": "Suburban housing blocks that serve as temporary housing for the vast workforce. Lacking basic utilities and rife with crime."
-        },
-        {
-            "id": 9,
-            "name": "Rishi_Family_Apartment_Complex",
-            "description": "A dilapidated apartment building where Vansh Rishi resides, a forgotten building that symbolizes the hope of the Rishi family and the potential for a better future."
-        },
-        {
-            "id": 10,
-            "name": "Abandoned_Research_Facility",
-            "description": "A hidden location rumored to hold pre-Collapse technology, drawing curious minds, and a frequent target of the Conglomerate Enforcers. Could it hold the answers Vansh seeks?"
-        },
-        {
-            "id": 11,
-            "name": "Gamma_6_Underlevels",
-            "description": "Another sector of the Underlevels, mirroring the conditions of Gamma-7 with its decay and hardship. Home to other desperate souls and potential allies or adversaries."
-        },
-        {
-            "id": 12,
-            "name": "Underlevel_Scrapyard",
-            "description": "A sprawling wasteland of discarded machinery and broken tech, the perfect place for Vansh to scavenge for components and knowledge of the past."
-        },
-        {
-            "id": 13,
-            "name": "Conglomerate_Headquarters",
-            "description": "The central command of the Neo-Tech Conglomerates, a fortress of power and surveillance, shrouded in secrecy."
-        },
-        {
-            "id": 14,
-            "name": "Underlevel_Water_Purification_Plant",
-            "description": "A vital facility for the Underlevels, providing water to its inhabitants and crucial for survival. A key target for the resistance."
-        },
-        {
-            "id": 15,
-            "name": "Power_Grid_Substation",
-            "description": "A substation responsible for supplying the power to the industrial zone, where the Conglomerates keep their control. A vital point for the resistance."
-        },
-        {
-            "id": 16,
-            "name": "Highway_Overpass_Maintenance_Depot",
-            "description": "A depot located near the highway, an important location for the Conglomerates' transport and maintenance. A prime location for an ambush."
-        },
-        {
-            "id": 17,
-            "name": "Sky_City_Observation_Deck",
-            "description": "A public observation deck overlooking the Underlevels, a display of the city's wealth and power. A good location to spot any movements or dangers."
-        },
-        {
-            "id": 18,
-            "name": "Residential_Sector_Alpha",
-            "description": "The residential sector next to Beta, filled with similar living conditions and problems as Beta, an easy target for crime and gang violence."
-        },
-        {
-            "id": 19,
-            "name": "Hidden_Resistance_Bunker",
-            "description": "A secret base for the resistance, hidden deep beneath the surface, where Vansh can learn and gather with other sympathizers."
-        },
-        {
-            "id": 20,
-            "name": "Pre_Collapse_Museum",
-            "description": "A dilapidated museum showcasing remnants of the pre-Collapse world, housing forgotten relics of history and science. A possible location to seek knowledge and clues to the past."
-        },
-        {
-            "id": 21,
-            "name": "Gamma_8_Underlevels",
-            "description": "A region similar to the previous Underlevels, a testament to the widespread poverty and hardship imposed by the Conglomerates. Often overlooked and forgotten."
-        },
-        {
-            "id": 22,
-            "name": "Underlevel_Data_Center",
-            "description": "A data storage facility located in the Underlevels, where valuable data of the Conglomerates is kept, making it a prime target for hackers and saboteurs."
-        },
-        {
-            "id": 23,
-            "name": "Conglomerate_Research_Lab",
-            "description": "A secret lab, home to the sinister technological advancements and unethical experiments undertaken by the Conglomerates. A good place to uncover hidden truths."
-        },
-        {
-            "id": 24,
-            "name": "Underlevel_Waste_Processing_Station",
-            "description": "A station where the waste of the surface is processed, a health hazard for the workers employed there and another target for the resistance."
-        },
-        {
-            "id": 25,
-            "name": "Neo_Mumbai_Energy_Plant",
-            "description": "The primary energy source of the city, a vital target for the resistance and a location where Vansh can discover hidden technology."
-        },
-        {
-            "id": 26,
-            "name": "Highway_Security_Checkpoint",
-            "description": "A checkpoint used by the Conglomerates to control movement on the highway and prevent access to certain areas. A challenging obstacle for any rebel group."
-        },
-        {
-            "id": 27,
-            "name": "Sky_City_Commercial_District",
-            "description": "A district filled with shops, entertainment venues, and upscale housing for the elite of the city. A symbol of the disparity between the citizens of the city."
-        },
-        {
-            "id": 28,
-            "name": "Suburban_Residential_Area",
-            "description": "A somewhat more pleasant residential district, not as impoverished as Beta, but still under the control of the Conglomerates. A location Vansh's family could have been a part of before."
-        },
-        {
-            "id": 29,
-            "name": "Vansh's_Workshop",
-            "description": "A secluded workshop where Vansh spends his time experimenting with technology, a safe haven and starting place for adventure."
-        },
-        {
-            "id": 30,
-            "name": "Hidden_Storage_Facility",
-            "description": "A concealed facility rumored to hold valuable pre-Collapse artifacts, sought by both the resistance and the Conglomerates."
-        },
-        {
-            "id": 31,
-            "name": "Neo_Mumbai_Sewers",
-            "description": "A network of tunnels beneath the city, providing access to restricted areas. Often filled with refuse and polluted water, dangerous but useful for those seeking secrecy."
-        },
-        {
-            "id": 32,
-            "name": "Underlevel_Factory_District",
-            "description": "A district dedicated to manufacturing and resource gathering, where workers toil in harsh conditions, exploited by the Conglomerates."
-        },
-        {
-            "id": 33,
-            "name": "Conglomerate_Security_Headquarters",
-            "description": "The central control point for the Conglomerates' security forces, controlling every area in the city."
-        },
-        {
-            "id": 34,
-            "name": "Underlevel_Medical_Clinic",
-            "description": "A clinic in the underlevels offering treatments for the numerous ailments caused by pollution, the location of some of Vansh's ancestors."
-        },
-        {
-            "id": 35,
-            "name": "Military_Base",
-            "description": "A base for the military, the protectors of the Conglomerates, a highly guarded area."
-        },
-        {
-            "id": 36,
-            "name": "Highway_Toll_Plaza",
-            "description": "A toll station on the highway network, generating revenue for the Conglomerates."
-        },
-        {
-            "id": 37,
-            "name": "Sky_City_Entertainment_District",
-            "description": "The location of bars, clubs, and other forms of entertainment for the elite. A showcase of power and wealth."
-        },
-        {
-            "id": 38,
-            "name": "Suburban_Industrial_Area",
-            "description": "A region where industrial and commercial enterprises are located within proximity to the residential zones, exposing the citizens to pollutants."
-        },
-        {
-            "id": 39,
-            "name": "Black_Market_Arsenal",
-            "description": "A location where various weapons can be bought and sold, and Vansh can seek out dangerous tools and companions."
-        },
-        {
-            "id": 40,
-            "name": "Lost_Pre_Collapse_Library",
-            "description": "A library rumored to have survived the Collapse, with invaluable knowledge for Vansh to seek out."
-        },
-        {
-            "id": 41,
-            "name": "Neo_Mumbai_River",
-            "description": "A polluted river that flows through the city, serving as a source of water and a conduit for the resistance."
-        },
-        {
-            "id": 42,
-            "name": "Underlevel_Freight_Depot",
-            "description": "A depot handling goods transported into the Underlevels, another target for the resistance."
-        },
-        {
-            "id": 43,
-            "name": "Conglomerate_Finance_District",
-            "description": "The financial center of the city, a hub of wealth and power, where the Conglomerates' funds are managed and controlled."
-        },
-        {
-            "id": 44,
-            "name": "Underlevel_Community_Center",
-            "description": "A place where the community can gather for support, even in the darkest of times. A good place for Vansh to find allies."
-        },
-        {
-            "id": 45,
-            "name": "Military_Training_Ground",
-            "description": "A highly guarded area used for training the military. Vansh will encounter many enemies here."
-        },
-        {
-            "id": 46,
-            "name": "Highway_Service_Station",
-            "description": "A place for travelers to recharge or get food, but often frequented by gangs."
-        },
-        {
-            "id": 47,
-            "name": "Sky_City_Government_Building",
-            "description": "The heart of the city's governance, home to the leaders and decision-makers of the Conglomerates."
-        },
-        {
-            "id": 48,
-            "name": "Suburban_Park",
-            "description": "A public park in the suburbs, a rare glimpse of green space. A place for relaxing and meeting potential allies."
-        },
-        {
-            "id": 49,
-            "name": "Vansh's_Childhood_Home",
-            "description": "A rundown place in the Underlevels, where Vansh first began to learn and dream of a better future."
-        },
-        {
-            "id": 50,
-            "name": "Old_Tech_Warehouse",
-            "description": "A large warehouse where Vansh can seek out forgotten technology or hide from enemies."
-        },
-        {
-            "id": 51,
-            "name": "Neo_Mumbai_Park",
-            "description": "A park, a break from the city's pollution, where some form of plant life is maintained."
-        },
-        {
-            "id": 52,
-            "name": "Underlevel_Power_Station",
-            "description": "A station providing energy to the Underlevels, but also a site ripe with dangers."
-        },
-        {
-            "id": 53,
-            "name": "Conglomerate_Media_Center",
-            "description": "A place where the media is controlled by the Conglomerates, disseminating propaganda and shaping public opinion."
-        },
-        {
-            "id": 54,
-            "name": "Underlevel_Hospital",
-            "description": "A hospital in the underlevels, where sick and wounded citizens receive treatment. A potential safe haven."
-        },
-        {
-            "id": 55,
-            "name": "Military_Barracks",
-            "description": "Where the military reside, a well-guarded facility with several enemies for Vansh to face."
-        },
-        {
-            "id": 56,
-            "name": "Highway_Rest_Area",
-            "description": "An area for travelers to get rest along the highway, though these are often taken over by gangs."
-        },
-        {
-            "id": 57,
-            "name": "Sky_City_Shopping_District",
-            "description": "A shopping center for the upper class, where Vansh could potentially seek out tools and weapons."
-        },
-        {
-            "id": 58,
-            "name": "Suburban_School",
-            "description": "A school in the suburbs, a place where Vansh can gain valuable knowledge."
-        },
-        {
-            "id": 59,
-            "name": "Rishi_Family_Research_Lab",
-            "description": "A secluded lab where Vansh can seek out knowledge of the past."
-        },
-        {
-            "id": 60,
-            "name": "Black_Market_Safehouse",
-            "description": "A safehouse for buying and selling weapons and illegal items. A place of danger and opportunity."
-        },
-        {
-            "id": 61,
-            "name": "Neo_Mumbai_Forest",
-            "description": "A rare patch of forest in the city, a place for hope to thrive."
-        },
-        {
-            "id": 62,
-            "name": "Underlevel_Food_Processing_Plant",
-            "description": "A factory where food is processed, an integral part of the city that can be used by Vansh as a target."
-        },
-        {
-            "id": 63,
-            "name": "Conglomerate_Prison",
-            "description": "A prison for enemies of the Conglomerates."
-        },
-        {
-            "id": 64,
-            "name": "Underlevel_Library",
-            "description": "A library in the underlevels, a good place for Vansh to seek knowledge and find allies."
-        },
-        {
-            "id": 65,
-            "name": "Military_Headquarters",
-            "description": "Headquarters for the military, a very important place to defend."
-        },
-        {
-            "id": 66,
-            "name": "Highway_Control_Tower",
-            "description": "A control tower for the highways, allowing Vansh to navigate through the city."
-        },
-        {
-            "id": 67,
-            "name": "Sky_City_University",
-            "description": "A university for the upper class, where Vansh can seek out knowledge and find allies."
-        },
-        {
-            "id": 68,
-            "name": "Suburban_Cafe",
-            "description": "A cafe in the suburbs, where Vansh can meet potential allies or enemies."
-        },
-        {
-            "id": 69,
-            "name": "Vansh's_Hideout",
-            "description": "Where Vansh can hide from enemies and plan his next moves."
-        },
-        {
-            "id": 70,
-            "name": "Pre_Collapse_Research_Facility",
-            "description": "A facility left over from before the Collapse, an excellent place to seek out clues."
-        },
-        {
-            "id": 71,
-            "name": "Neo_Mumbai_Lake",
-            "description": "A lake to seek refuge and meet new people."
-        },
-        {
-            "id": 72,
-            "name": "Underlevel_Bunker",
-            "description": "A place to hide from enemies and allies. A potential spot to seek out support."
-        },
-        {
-            "id": 73,
-            "name": "Conglomerate_Laboratory",
-            "description": "A laboratory where the Conglomerates conduct experiments."
-        },
-        {
-            "id": 74,
-            "name": "Underlevel_Warehouse",
-            "description": "A warehouse for smuggling and hiding out."
-        },
-        {
-            "id": 75,
-            "name": "Military_Fortress",
-            "description": "A fortress for the military."
-        },
-        {
-            "id": 76,
-            "name": "Highway_Rest_Stop",
-            "description": "A place for travelers to rest."
-        },
-        {
-            "id": 77,
-            "name": "Sky_City_Nightclub",
-            "description": "A place to dance and have fun for the wealthy."
-        },
-        {
-            "id": 78,
-            "name": "Suburban_Grocery_Store",
-            "description": "A grocery store where citizens can buy supplies."
-        },
-        {
-            "id": 79,
-            "name": "Vansh's_Sister's_Home",
-            "description": "Where Vansh can meet his sister, a potential place to meet new allies."
-        },
-        {
-            "id": 80,
-            "name": "Black_Market_Clinic",
-            "description": "A clinic offering medicine to the citizens."
-        },
-        {
-            "id": 81,
-            "name": "Neo_Mumbai_Mountains",
-            "description": "Mountains in the city where people can seek refuge."
-        },
-        {
-            "id": 82,
-            "name": "Underlevel_Train_Station",
-            "description": "A train station connecting different areas of the city."
-        },
-        {
-            "id": 83,
-            "name": "Conglomerate_Theater",
-            "description": "A place for entertainment run by the Conglomerates."
-        },
-        {
-            "id": 84,
-            "name": "Underlevel_Training_Center",
-            "description": "Where the resistance trains for combat."
-        },
-        {
-            "id": 85,
-            "name": "Military_Outpost",
-            "description": "An outpost controlled by the military."
-        },
-        {
-            "id": 86,
-            "name": "Highway_Bridge",
-            "description": "A bridge to get around the city."
-        },
-        {
-            "id": 87,
-            "name": "Sky_City_Apartments",
-            "description": "Where the rich live."
-        },
-        {
-            "id": 88,
-            "name": "Suburban_Hospital",
-            "description": "A hospital for the residents."
-        },
-        {
-            "id": 89,
-            "name": "Vansh's_Friend's_House",
-            "description": "A house where Vansh can get help."
-        },
-        {
-            "id": 90,
-            "name": "Black_Market_Garage",
-            "description": "A garage for the underground."
-        },
-        {
-            "id": 91,
-            "name": "Neo_Mumbai_Plaza",
-            "description": "A plaza for the residents."
-        },
-        {
-            "id": 92,
-            "name": "Underlevel_Factory",
-            "description": "A factory in the Underlevels."
-        },
-        {
-            "id": 93,
-            "name": "Conglomerate_Museum",
-            "description": "A museum run by the Conglomerates."
-        },
-        {
-            "id": 94,
-            "name": "Underlevel_Bar",
-            "description": "A bar for the residents."
-        },
-        {
-            "id": 95,
-            "name": "Military_Base",
-            "description": "A military base for the Conglomerates."
-        },
-        {
-            "id": 96,
-            "name": "Highway_Tunnel",
-            "description": "A tunnel to travel safely."
-        },
-        {
-            "id": 97,
-            "name": "Sky_City_Bank",
-            "description": "A bank run by the Conglomerates."
-        },
-        {
-            "id": 98,
-            "name": "Suburban_Shop",
-            "description": "A shop to buy supplies."
-        },
-        {
-            "id": 99,
-            "name": "Vansh's_Mentor's_Home",
-            "description": "Where Vansh can seek out help."
-        },
-        {
-            "id": 100,
-            "name": "Black_Market_Street",
-            "description": "A street for the underground."
-        }
-    ]
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "name": "medieval_stone_wall",
+      "coordinates": [1,1],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "name": "medieval_cobblestone_street",
+      "coordinates": [2,1],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "name": "medieval_wooden_house",
+      "coordinates": [3,1],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "name": "medieval_cobblestone_street",
+      "coordinates": [1,2],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "name": "medieval_town_square",
+      "coordinates": [2,2],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "name": "medieval_blacksmith",
+      "coordinates": [3,2],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "name": "medieval_stone_wall",
+      "coordinates": [1,3],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "name": "medieval_cobblestone_street",
+      "coordinates": [2,3],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "name": "medieval_inn",
+      "coordinates": [3,3],
+      "locations": {}
+    }
+  ]
 }

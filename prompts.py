@@ -67,26 +67,46 @@ Desired JSON Output Structure (showing only a few tiles for brevity,note these d
 
 main_story =  f""" """
 
-big_map = """You are a map generator. Your task is to create a 3x3 (3 tiles wide by 3 tiles high) 2D map represented in JSON format. You will be given a description of the desired map theme/setting (e.g., 'medieval forest', 'sci-fi city', 'tropical island'). You will then generate a JSON object containing the following keys:
+big_map = """YOU MUST RESPOND WITH ONLY THE JSON OBJECT. DO NOT INCLUDE ANY TEXT BEFORE OR AFTER THE JSON. DO NOT WRAP THE JSON IN MARKDOWN CODE BLOCKS (I.E., NO ```JSON OR ```).
+
+Prompt:
+
+You are a map generator. Your task is to create a 3x3 (3 tiles wide by 3 tiles high) 2D map represented in JSON format. You will be given a description of the desired map theme/setting (e.g., 'medieval forest', 'sci-fi city', 'tropical island'). You will then generate a JSON object containing the following keys:
 map_width: (integer) The width of the map in tiles. This MUST always be 3.
 map_height: (integer) The height of the map in tiles. This MUST always be 3.
 tiles: (array of objects) An array where each object represents a tile in the map. Each tile object must have the following keys:
-id: (integer, 1-based) A unique numerical ID for the tile, starting from 1 in the top-left corner and incrementing sequentially row by row. Example: for a 10x10 map, the IDs would be 1 through 100.
+id: (integer, 1-based) A unique numerical ID for the tile, starting from 1 in the top-left corner and incrementing sequentially row by row. Example: for a 3x3 map, the IDs would be 1 through 9.
 name: (string) A descriptive name of the tile type. This name should be relevant to the map's theme and should be easily understandable (e.g., 'forest_tree', 'city_street', 'sand_beach'). Use underscore naming conventions for the name. Avoid overly generic names like "grass" unless specific instructions state otherwise. Be as specific and descriptive as possible with the tile names.
+coordinates: (a list of 2 integers) It  should contain the locations coordinate in the form [x,y] where x and y are integers ranging from 1 to 3. Their values should correspond with their ids. For example - id 1 would have coordinates [1,1], id 2 would have [2,1] id 3 would have [3,1], id 4 would have [1,2] and so on and so forth till id 9 which will have [3,3]
+locations: this must be an empty dictionary that can be filled up later with additional maps if necessary
+
 Follow these rules STRICTLY:
 The JSON output MUST be valid and parsable. 
-map_width and map_height MUST BOTH always be 10, regardless of the input theme.
-The tiles array MUST contain exactly 100 elements.
+map_width and map_height MUST BOTH always be 3, regardless of the input theme.
+The tiles array MUST contain exactly 9 elements.
 The id values in the tiles array MUST be sequential and start from 1, row by row, ending at 100.
 The name values MUST be descriptive and relevant to the specified theme. The tile names should be different and capture the visual and gameplay variety you might expect.
-Even if the theme implies a different size, you MUST generate a 10x10 map. For example, even if I asked for "a tiny village," the generated map still must be 10x10."""
+The coordinates MUST be a list with 2 elements occupying ONE LINE inside the JSON. The coordinates should look like [1,2]
+      "coordinates": [
+        1,
+        1
+      ],
+
+      but rather SHOULD BE like
+
+      "coordinates: [1,1]
+
+
+      
+The locations must always remain an empty dictionary which can be filled with values later as required
+Even if the theme implies a different size, you MUST generate a 3x3 map. For example, even if I asked for "a tiny village," the generated map still must be 3x3."""
 
 def specification_worldgen(world_type, backstory, location, protagonist, theme_description):
     specifications_worldgen = f"""
     Everything after this is a description of the map theme and specific requirements:
 
     CONTEXT:
-    World Type:  b
+    World Type:  {world_type}
     Backstory: {backstory}
     Protagonist Details: {protagonist}
     Protagonist's Starting Location: {location} (This specific place is the protagonist's origin or current point, but the map should depict a broader regional area surrounding it.)
@@ -121,3 +141,19 @@ def specification_worldgen(world_type, backstory, location, protagonist, theme_d
 
 def specification_backstory(name, location, ):
     print(name)
+
+
+
+
+def specification_map_generation (world_type, backstory, location, protagonist, theme_description):
+    specifications_map_generation  = f""" Everything after this is a description of the map theme and specific requirements:
+
+    CONTEXT:
+    World Type:  {world_type}
+    Backstory: {backstory}
+    Protagonist Details: {protagonist}
+    Protagonist's Starting Location: {location} (This specific place is the protagonist's origin or current point, but the map should depict a broader regional area surrounding it.)
+    General Map Area: The region surrounding and including {location}."""
+
+
+    return specifications_map_generation
