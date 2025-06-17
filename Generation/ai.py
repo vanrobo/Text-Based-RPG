@@ -24,8 +24,8 @@ def generate(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fe
     client = genai.Client(api_key=api)
     generate_event = threading.Event()
 
-    def _internal_loader_animation():
-        animation_chars = ["◜", "◝", "◞", "◟"]
+    def _internal_loader_animation():   
+        animation_chars = ["Loading", "Loading.", "Loading..", "Loading..."]
         idx = 0
         sys.stdout.flush()
 
@@ -66,7 +66,7 @@ def generate(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fe
         if loader_thread and loader_thread.is_alive():
             generate_event.set()
             loader_thread.join(timeout=1)
-            print("")
+            print("", end='\r')
 
 
 def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fed in, the 2nd is the storage location, and the *extra is for any extra arguments that may be needed in the future.
@@ -114,5 +114,5 @@ def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the promp
         if loader_thread and loader_thread.is_alive():
             generate_event.set()
             loader_thread.join(timeout=1)
-            print("")
+            print("", end='')
 

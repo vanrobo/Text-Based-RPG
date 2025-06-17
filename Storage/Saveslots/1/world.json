@@ -1,0 +1,105 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "Rocky Mountain",
+      "name": "Western Foothills",
+      "description": "Rocky terrain with sparse vegetation, marking the beginning of the mountain range. Temperate climate, but prone to sudden thunderstorms.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "Rocky Mountain",
+      "name": "Winding Ascent",
+      "description": "A steep, rocky path leading higher into the mountains. Hidden paths may exist. Notable for its wind-swept areas.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "Snowy Peak",
+      "name": "Lightning-Struck Peak",
+      "description": "One of the higher peaks, frequently struck by lightning during thunderstorms. The area shows signs of arcane infusion from past strikes.",
+      "coordinates": [
+        1,
+        3
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "Rocky Mountain",
+      "name": "Scree Slope",
+      "description": "A treacherous scree slope leading down from the higher peaks. Dangerous cliffs are a constant threat.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "Cave Interior",
+      "name": "Hidden Cave Entrance",
+      "description": "The concealed entrance to a cave system, possibly leading to Zephyr's hideout. The entrance is located within a rocky outcrop.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "category": "Snowy Peak",
+      "name": "The Tallest Peak",
+      "description": "The highest peak in the range, often shrouded in mist and snow. A location affected by ancient magic.",
+      "coordinates": [
+        2,
+        3
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "Forest",
+      "name": "Valley Entrance",
+      "description": "Marks the transition to the forest in the valley below. The trees offer some shelter from the wind. The valley holds rare alchemical ingredients.",
+      "coordinates": [
+        3,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "category": "Forest",
+      "name": "The Whispering Crags",
+      "description": "A forest surrounding tall, whispering crags, known for its volatile and mysterious atmosphere. These peaks are part of the larger mountain range.",
+      "coordinates": [
+        3,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "Forest",
+      "name": "Valley Bottom",
+      "description": "The heart of the valley, dense with trees and potentially hiding ancient ruins or Zephyr's secondary lab/library.",
+      "coordinates": [
+        3,
+        3
+      ],
+      "locations": {}
+    }
+  ]
+}

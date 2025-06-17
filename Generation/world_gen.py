@@ -41,15 +41,16 @@ def map_generation():
         Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/temp.json", specifications)
         map = ai.generate(prompts.map3x3, rf"Storage\Saveslots\{sno}\world.json", Specifications3x3) # generates the world map
         
-        generationcontinue = input("\nGenerate further:") # waits for the user to press enter before continuing
+        generationcontinue = input("Generate further:") # waits for the user to press enter before continuing
 
         if generationcontinue.lower() == "yes" or generationcontinue.lower() == "y":
             with open(rf"Storage/Saveslots/{sno}/world.json", "r") as data:
                 map_data = json.load(data)
-                map_tiles = []
+                map_tiles = ""
                 for tile in map_data['tiles']:
                     map_tiles += f"Tile ID: {tile['id']}, Category: {tile['category']}, Description: {tile['description']}\n)"
-            
+                print(map_tiles)
+
         
         else:
             return

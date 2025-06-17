@@ -1,0 +1,117 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "Residential",
+      "name": "Rishi Block",
+      "description": "Dilapidated apartment complex, Rishi family residence. Concrete and makeshift dwellings. Hot, humid, and polluted. Crowded corridors, graffiti.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {
+        "landmark": "Dilapidated apartment complex (Rishi family residence)"
+      }
+    },
+    {
+      "id": 2,
+      "category": "Marketplace",
+      "name": "Black Market Sector",
+      "description": "Illicit marketplace. Metal grating and accumulated garbage. Hot, humid, and polluted. Crowded corridors, illicit marketplaces.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {
+        "landmark": "Black market marketplace"
+      }
+    },
+    {
+      "id": 3,
+      "category": "Infrastructure",
+      "name": "Waste Disposal Zone",
+      "description": "Waste disposal chutes. Concrete and pipes. Hot, humid, and polluted. Accumulation of garbage and debris.",
+      "coordinates": [
+        3,
+        1
+      ],
+      "locations": {
+        "landmark": "Waste disposal chutes"
+      }
+    },
+    {
+      "id": 4,
+      "category": "Infrastructure",
+      "name": "Collapsed Tunnel Section",
+      "description": "Collapsed section of infrastructure. Concrete, pipes and wires, debris. Hot, humid, and polluted. Forgotten technology caches.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {
+        "landmark": "Collapsed sections of infrastructure"
+      }
+    },
+    {
+      "id": 5,
+      "category": "Residential",
+      "name": "Grimy Skylight Block",
+      "description": "Apartments with grimy skylights. Concrete, makeshift dwellings. Hot, humid, and polluted. Graffiti and propaganda.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {
+        "landmark": "Grimy skylights allowing artificial sunlight"
+      }
+    },
+    {
+      "id": 6,
+      "category": "Infrastructure",
+      "name": "Power Generator Hub",
+      "description": "Makeshift power generators. Metal grating, pipes and wires. Hot, humid, and polluted. Makeshift power generators.",
+      "coordinates": [
+        3,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "Residential",
+      "name": "Resistance Hideout Block",
+      "description": "Block of makeshift dwellings. Concrete and metal grating. Hot, humid, and polluted. Resistance cell hideouts (hidden rooms/tunnels).",
+      "coordinates": [
+        1,
+        3
+      ],
+      "locations": {
+        "feature": "Resistance cell hideouts"
+      }
+    },
+    {
+      "id": 8,
+      "category": "Technology",
+      "name": "Omni-Net Terminal Area",
+      "description": "Area with broken Omni-Net surveillance cameras and terminals. Metal grating and pipes. Hot, humid, and polluted. Omni-Net surveillance cameras and terminals (broken/partially functional).",
+      "coordinates": [
+        2,
+        3
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "Infrastructure",
+      "name": "Water Leak Junction",
+      "description": "Junction with leaking pipes and wires. Concrete, metal grating. Hot, humid, and polluted. Limited access to clean water.",
+      "coordinates": [
+        3,
+        3
+      ],
+      "locations": {}
+    }
+  ]
+}

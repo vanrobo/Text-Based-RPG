@@ -1,33 +1,30 @@
 {
-  "map_type": "village",
-  "genre": "fantasy",
+  "map_type": "Scrubland Clearing",
+  "genre": "Fantasy (Anthropomorphic)",
   "oceans": false,
-  "water_presence": "glacial_melt, mountain_streams",
-  "scale_chunk_description": "Each chunk represents a grouping of several buildings or natural features within the village or immediate surroundings.",
-  "scale_tile_description": "Each tile represents a single structure (house, part of the monastery), a small section of the terrain (rocks, snow patch), or a small detail within a building.",
+  "water_presence": "Scarce, limited to potential small watering holes or underground sources not immediately apparent.",
+  "scale_chunk_description": "Each chunk represents a significant area within the scrubland clearing, about the size of a large gathering space or a small group of clustered cacti.",
+  "scale_tile_description": "Each tile represents a single bush, a patch of bare earth, a small rock, or a detail within the Joshua tree.",
   "landmarks": [
-    "Kyzyl-Suu Monastery",
-    "Central Prayer Wheel",
-    "Glaciers",
-    "Snow-capped Peaks"
+    "Lone, gnarled Joshua tree",
+    "Sagebrush patches",
+    "Cacti clusters",
+    "Scrubland Clearing border"
   ],
   "terrain_types": [
-    "mountain",
-    "snow",
-    "rock",
-    "ice",
-    "glacial streams",
-    "sparse vegetation"
+    "Dusty earth",
+    "Sagebrush",
+    "Cacti",
+    "Rocky outcrops"
   ],
-  "climate": "alpine",
+  "climate": "Arid",
   "features": [
-    "stone and yak hide houses",
-    "mountain paths",
-    "icy ledges",
-    "prayer flags",
-    "avalanche zones"
+    "Avian Clan Meeting Ground",
+    "Hidden Watering Holes (potential)",
+    "Territorial markers (subtle, avian)",
+    "Dusty trails (avian paths)"
   ],
-  "tone_and_atmosphere": "isolated, spiritual, harsh, ancient, ominous",
-  "era_or_tech_level": "pre-industrial",
-  "magic_presence": "low_magic"
+  "tone_and_atmosphere": "Desolate, dwindling, tension between tradition and change.",
+  "era_or_tech_level": "Tribal/Pre-Industrial (with elements of environmental decline suggesting a recent industrial impact).",
+  "magic_presence": "Low_magic (suggested through 'ancestral songs' and connection to the land; subtle influence)"
 }

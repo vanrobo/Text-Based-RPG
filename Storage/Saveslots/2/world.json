@@ -1,0 +1,113 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "Scrubland",
+      "name": "Western Border",
+      "description": "Edge of the scrubland clearing. Dusty earth mixed with sagebrush.",
+      "coordinates": [
+        0,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "Scrubland",
+      "name": "Northern Sagebrush",
+      "description": "Patch of dense sagebrush, a common sight in this arid climate.",
+      "coordinates": [
+        1,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "Scrubland",
+      "name": "Eastern Outcrops",
+      "description": "Rocky outcrops jutting from the dusty earth, marking the clearing's edge.",
+      "coordinates": [
+        2,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "Scrubland",
+      "name": "Central West Cacti",
+      "description": "A cluster of cacti provides sparse shade in the desolate landscape.",
+      "coordinates": [
+        0,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "Landmark",
+      "name": "Gnarled Joshua Tree",
+      "description": "A lone, ancient Joshua tree stands as a central landmark. Likely used for avian clan meetings.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {
+        "feature": "Avian Clan Meeting Ground"
+      }
+    },
+    {
+      "id": 6,
+      "category": "Scrubland",
+      "name": "Central East Dust",
+      "description": "Open expanse of dusty earth. Subtle avian territorial markers are present.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {
+        "feature": "Territorial markers"
+      }
+    },
+    {
+      "id": 7,
+      "category": "Scrubland",
+      "name": "South West Trails",
+      "description": "Dusty trails cross this part of the scrubland, possibly avian paths.",
+      "coordinates": [
+        0,
+        2
+      ],
+      "locations": {
+        "feature": "Dusty trails"
+      }
+    },
+    {
+      "id": 8,
+      "category": "Scrubland",
+      "name": "South Central Watering Hole (Potential)",
+      "description": "A slight depression in the earth might indicate a hidden watering hole.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {
+        "feature": "Hidden Watering Holes"
+      }
+    },
+    {
+      "id": 9,
+      "category": "Scrubland",
+      "name": "Southern Border",
+      "description": "The clearing's southern border, mainly composed of dusty earth and sparse cacti.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    }
+  ]
+}
