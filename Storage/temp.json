@@ -1,0 +1,33 @@
+{
+  "map_type": "village",
+  "genre": "fantasy",
+  "oceans": false,
+  "water_presence": "glacial_melt, mountain_streams",
+  "scale_chunk_description": "Each chunk represents a grouping of several buildings or natural features within the village or immediate surroundings.",
+  "scale_tile_description": "Each tile represents a single structure (house, part of the monastery), a small section of the terrain (rocks, snow patch), or a small detail within a building.",
+  "landmarks": [
+    "Kyzyl-Suu Monastery",
+    "Central Prayer Wheel",
+    "Glaciers",
+    "Snow-capped Peaks"
+  ],
+  "terrain_types": [
+    "mountain",
+    "snow",
+    "rock",
+    "ice",
+    "glacial streams",
+    "sparse vegetation"
+  ],
+  "climate": "alpine",
+  "features": [
+    "stone and yak hide houses",
+    "mountain paths",
+    "icy ledges",
+    "prayer flags",
+    "avalanche zones"
+  ],
+  "tone_and_atmosphere": "isolated, spiritual, harsh, ancient, ominous",
+  "era_or_tech_level": "pre-industrial",
+  "magic_presence": "low_magic"
+}

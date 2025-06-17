@@ -115,3 +115,4 @@ def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the promp
             generate_event.set()
             loader_thread.join(timeout=1)
             print("")
+

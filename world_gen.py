@@ -37,19 +37,33 @@ def map_generation():
         location = info["location"]
         theme_description = info["theme"]
         world_type = None
-    world_generation = prompts.big_map + "\n\n" + prompts.specification_map_generation(world_type,backstory,location,protagonist,theme_description,"city")
+        specifications = f"world_type: {world_type} backstory: {backstory}, location: {location}, protagonist: {protagonist}, theme_description: {theme_description}"
+        Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/temp.json", specifications)
+        map = ai.generate(prompts.map3x3, rf"Storage\Saveslots\{sno}\world.json", Specifications3x3) # generates the world map
+        
+        generationcontinue = input("\nGenerate further:") # waits for the user to press enter before continuing
 
-    minworld_gen = prompts.big_map 
+        if generationcontinue.lower() == "yes" or generationcontinue.lower() == "y":
+            with open(rf"Storage/Saveslots/{sno}/world.json", "r") as data:
+                map_data = json.load(data)
+                map_tiles = []
+                for tile in map_data['tiles']:
+                    map_tiles += f"Tile ID: {tile['id']}, Category: {tile['category']}, Description: {tile['description']}\n)"
+            
+        
+        else:
+            return
+#    thinking
 
-    generation = ai.generatelite(world_generation, rf"Storage\Saveslots\{sno}\map.json")
-    for i in generation:
-        print(i, end = '', flush=True)
-        time.sleep(0.02)
+
+#    world_generation = prompts.big_map + "\n\n" + prompts.specification_map_generation(world_type,backstory,location,protagonist,theme_description,"city")
+
+#   minworld_gen = prompts.big_map 
 
     
+#    for i in generation:
+#       print(i, end = '', flush=True)
+#       time.sleep(0.02)
 
-
-
-
+    
 map_generation()
-

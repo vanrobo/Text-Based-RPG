@@ -67,106 +67,113 @@ Desired JSON Output Structure (showing only a few tiles for brevity,note these d
 
 main_story =  f""" """
 
-big_map = """YOU MUST RESPOND WITH ONLY THE JSON OBJECT. DO NOT INCLUDE ANY TEXT BEFORE OR AFTER THE JSON. DO NOT WRAP THE JSON IN MARKDOWN CODE BLOCKS (I.E., NO ```JSON OR ```).
 
-Prompt:
-
-You are a map generator. Your task is to create a 3x3 (3 tiles wide by 3 tiles high) 2D map represented in JSON format. You will be given a description of the desired map theme/setting (e.g., 'medieval forest', 'sci-fi city', 'tropical island'). You will then generate a JSON object containing the following keys:
-map_width: (integer) The width of the map in tiles. This MUST always be 3.
-map_height: (integer) The height of the map in tiles. This MUST always be 3.
-tiles: (array of objects) An array where each object represents a tile in the map. Each tile object must have the following keys:
-id: (integer, 1-based) A unique numerical ID for the tile, starting from 1 in the top-left corner and incrementing sequentially row by row. Example: for a 3x3 map, the IDs would be 1 through 9.
-category: this field will be provided to you. 
-However if the category provided is continental, you shall put the category as continent or ocean. If the category provided is ocean, you shall put the category as waters or island. If the category provided is district, you shall put the category as shop or dungeon.
-
-If the category is continent, give it a fantasy like name which has to BE ONE WORD. Each of them should also be different 
-If the category is nation, the name should sound like its of a country. Some may include titles like kingdom, duchy, canton etc, but some must also exist without such prefixes. It should NOT contain prefixes/suffixes which could give the idea of a larger location like Realm
-If the category is ocean, the name should include ocean.
-If the category is island, it should include island in the name.
-If the category is city, it should be the name of a city rather than a location within the city.
-If the category is shop, it must have a name which gives clear idea of what it is, like a shop, a residential complex, forest etc.
-If the category is dungeon, the names should be dungeon like
-
-name: (string) A descriptive name of the tile type. This name should be relevant to the map's theme and should be easily understandable (e.g., 'forest_tree', 'city_street', 'sand_beach'). Use underscore naming conventions for the name. Avoid overly generic names like "grass" unless specific instructions state otherwise. Be as specific and descriptive as possible with the tile names.
-coordinates: (a list of 2 integers) It  should contain the locations coordinate in the form [x,y] where x and y are integers ranging from 1 to 3. Their values should correspond with their ids. For example - id 1 would have coordinates [1,1], id 2 would have [2,1] id 3 would have [3,1], id 4 would have [1,2] and so on and so forth till id 9 which will have [3,3].
-
-locations: this must be an empty dictionary that can be filled up later with additional maps if necessary. 
-
-If and only if the category is places, it should not have a locations key
-
-Follow these rules STRICTLY:
-The JSON output MUST be valid and parsable. 
-map_width and map_height MUST BOTH always be 3, regardless of the input theme.
-The tiles array MUST contain exactly 9 elements.
-The id values in the tiles array MUST be sequential and start from 1, row by row, ending at 9.
-The category must always be the one provided unless the category is continental in which case you should randomly decide between continent and ocean
-The name values MUST be descriptive and relevant to the specified theme. The tile names should be different and capture the visual and gameplay variety you might expect.
-The coordinates MUST be a list with 2 elements occupying ONE LINE inside the JSON. The coordinates should look like [1,2]
-      "coordinates": [
-        1,
-        1
-      ],
-
-      but rather SHOULD BE like
-
-      "coordinates: [1,1]
-
-
-
-The locations must always remain an empty dictionary which can be filled with values later as required
-Even if the theme implies a different size, you MUST generate a 3x3 map. For example, even if I asked for "a tiny village," the generated map still must be 3x3.
-Each tile must contain an id, category, name, coordinates and locations"""
 
 def specification_worldgen(world_type, backstory, location, protagonist, theme_description):
     specifications_worldgen = f"""
-    Everything after this is a description of the map theme and specific requirements:
+Everything after this is a description of the map theme and specific requirements for a HIERARCHICAL 3x3 MAP SYSTEM.
 
-    CONTEXT:
-    World Type:  {world_type}
-    Backstory: {backstory}
-    Protagonist Details: {protagonist}
-    Protagonist's Starting Location: {location} (This specific place is the protagonist's origin or current point, but the map should depict a broader regional area surrounding it.)
-    General Map Area: The region surrounding and including {location}.
+CONTEXT:
+World Type: {world_type}
+Backstory: {backstory}
+Protagonist Details: {protagonist}
+Protagonist's Starting Location: {location} (This specific place is the protagonist's origin or current point, but the map should depict the broader 3x3 region surrounding it.)
+General Map Area: The region surrounding and including {location}.
+NARRATIVE THEME (for overall context): {theme_description}
 
-    MAP GENERATION TASK:
-    Create a 10x10 map strictly following all previously defined JSON rules (map_width: 10, map_height: 10, 100 tiles with sequential IDs 1-100, each tile having id, name, and description).
+MAP GENERATION TASK:
+Create the TOP-LEVEL 3x3 regional map. This map acts as a container for more detailed 3x3 maps. Your output MUST be a valid JSON object following this structure:
+{{
+    "map_width": 3,
+    "map_height": 3,
+    "tiles": [
+        // Array of exactly 9 tile objects, representing large regions or "chunks"
+    ]
+}}
 
-    NARRATIVE THEME (for overall context): {theme_description}
-    MAP THEME (for tile generation - Visual/Structural): Generate a regional map. Each tile should represent a significant zone, district, geographical feature, or major transport route in and around the area described by '{location}'.
-    If '{location}' refers to a specific part of a city (e.g., a district or sector), the map should include other parts of that main city and also depict the transition to its surrounding environment (e.g., suburbs, countryside, other nearby towns/cities, industrial zones, as appropriate for the type of place '{location}' describes).
+Each of the 9 tile objects in the 'tiles' array MUST have the following keys:
+- "id": (integer) A unique ID from 1 to 9.
+- "category": (string) A classification for the region (e.g., 'urban_district', 'forest_region', 'mountain_pass', 'farmland', 'coastal_area').
+- "name": (string) A descriptive name for this large chunk (e.g., "The Merchant's Quarter", "Whispering Woods North", "Ironpeak Foothills").
+- "description": (string) A summary of what this region contains and its general atmosphere.
+- "coordinates": (list of 2 integers) The [x,y] position of this chunk in the 3x3 grid, from [1,1] to [3,3].
+- "locations": (dictionary) This MUST be an empty dictionary `{{}}`. It is a placeholder to be filled later with a nested 3x3 map detailing this specific region.
 
-    TILE NAMING AND CONTENT - VERY IMPORTANT:
-    1.  **Regional Scope & Relevance to '{location}':** The `name` and `description` for each tile MUST reflect a broader, regional scale. Tile names should be specific to the types of zones and features one would expect to find in and around an area like '{location}'. Avoid overly generic names.
-    2.  **Generate NEW Tile Names for Regional Scale:**
-        *   Consider '{location}' as a central point of reference.
-        *   Tiles should represent distinct districts of the main city implied by '{location}', larger geographical features (rivers, large parks, hills if applicable), major highways, and representative zones of surrounding towns or rural areas.
-        *   For example, if '{location}' is 'Sector X, MainCity, Country', tiles could be 'MainCity_downtown_core', 'Sector_X_overview_tile', 'highway_north_of_MainCity', 'rural_farmland_west_of_MainCity', 'neighboring_town_alpha'.
-        *   The specific place mentioned in '{location}' should be represented as one or a few tiles showing its general character within the larger regional map, not a hyper-detailed layout of it.
-    3.  **Distribution of Tiles:**
-        *   A good portion of the map (e.g., 50-60 tiles) should represent different key areas and aspects of the main city or urban conglomeration implied by '{location}'.
-        *   The remaining tiles (e.g., 30-40 tiles) should depict the surrounding environment, such as satellite towns, industrial areas, agricultural land, natural landscapes, or other connecting regions relevant to '{location}'.
-    4.  **Variety at Regional Scale:** Show appropriate variety for a region surrounding '{location}'. This could include dense urban areas, suburban residential zones, commercial centers, industrial parks, transportation networks (roads, railways, airports if applicable), and natural elements (rivers, forests, coastlines, etc., if consistent with '{location}').
-    5.  **Logical Flow (Approximate):** Try to arrange tiles to suggest a plausible geographical relationship between different zones, even if it's a simplification.
-    6.  **Granularity:** Tiles represent zones or large areas. Avoid detailing individual small buildings from '{location}' unless it's a landmark so significant it would define an entire regional map tile.
-    7.  **NO Unrelated Global Tiles:** Focus exclusively on the region suggested by '{location}' and its plausible surroundings. Do not include tiles from distant, unrelated countries or continents.
-    8.  **Descriptions are Mandatory:** Each tile must have a `description` field providing concise, flavorful text that reflects its character within the regional map themed around '{location}'.
-
-    When generating the map, interpret '{location}' to understand the type of environment (urban, suburban, rural, etc.) and generate a believable regional map for that kind of setting. The protagonist details (provided as {protagonist}) can add flavor to descriptions where appropriate.
-    """
+TILE NAMING AND CONTENT - VERY IMPORTANT:
+1.  **Regional Scope:** The 9 tiles represent large, distinct regions. One tile should represent the area containing the protagonist's specific '{location}', and the other 8 should represent the surrounding regions (e.g., other city districts, nearby forests, mountains, farmlands, etc.).
+2.  **Variety:** Ensure the 9 regions are varied and logical for the area. If '{location}' is a capital city, the map should include core urban districts, suburbs, and surrounding natural or rural lands.
+3.  **Logical Flow:** Arrange the 9 regions to suggest a plausible geography. A coastal region should be on an edge, mountains might be clustered, etc.
+4.  **Flavor:** Use the `Protagonist Details` and `Narrative Theme` to add flavor to the 'description' of each of the 9 regions.
+"""
     return specifications_worldgen
 
-def specification_backstory(name, location, ):
-    print(name)
+reasoning = """
+You are a reasoning engine for a map creator. Your task is to analyze the provided map generation prompt and generate a JSON object that contains the reasoning behind the map creation process. The JSON object should include the following, note the size of the map is always in 3x3 chunks, which have further 3x3 inside of them:
+{
+"map_type": "The type of map being created (e.g., 'city', 'forest', 'desert', 'house', etc.)",
+"genre": "The genre of the map (e.g., 'fantasy', 'sci-fi', 'modern', etc.)",
+"oceans": "A boolean value indicating whether the map includes oceans or large bodies of water.",
+"water_presence": "Describes the significant water bodies present (e.g., 'abundant_rivers', 'large_lakes', 'coastal_region', 'underground_aquifers', 'isolated_oases', 'oceanic'). More nuanced than a simple boolean.",
+"scale_chunk_description": "A concise description of what a single 3x3 'chunk' represents on this map (e.g., 'Each chunk is a city block', 'Each chunk is a small forest clearing', 'Each chunk is a section of a dungeon level'). This directly addresses the nested structure.",
+"scale_tile_description": "A concise description of what a single tile *within* a 3x3 chunk represents (e.g., 'Each tile is a specific building', 'Each tile is a detailed natural feature like a rock formation or stream segment', 'Each tile is a room or corridor'). This ensures granularity.",
+"landmarks": "A list of notable landmarks or features that should be included in the map (e.g., 'castle', 'mountain range', 'river', etc.)",
+"terrain_types": "A list of terrain types that should be represented in the map (e.g., 'forest', 'desert', 'mountain', 'plains', etc.)",
+"climate": "The climate of the map (e.g., 'tropical', 'arid', 'temperate', etc.)",
+"features": "A list of additional features that should be included in the map (e.g., 'roads', 'villages', 'dungeons', etc.)",
+"tone_and_atmosphere": "The overall mood or atmosphere of the map (e.g., 'mysterious', 'ominous', 'bustling', 'peaceful', 'desolate', 'vibrant')."
+"era_or_tech_level": "The approximate technological or historical era (e.g., 'medieval', 'renaissance', 'industrial', 'futuristic', 'stone_age', 'magitech'). Influences structures and features.",
+"magic_presence": "Describes the role of magic (e.g., 'high_magic', 'low_magic', 'no_magic', 'wild_magic_zones', 'arcane_infused')."
+}
+
+Everything after this is the specifications for the map generation prompt:
 
 
+"""
 
+map3x3 = """
+Role: You are a Hierarchical Map Generator. Your task is to take a detailed "Reasoning & Specification JSON" as input and use it as a strict blueprint to generate the corresponding top-level 3x3 map for a nested map system.
+Task:
+Analyze the Input JSON: You will be provided with a JSON object containing the complete reasoning and specifications for the map.
+Generate the Map JSON: Based exclusively on the provided input JSON, construct the top-level 3x3 map. Every decision you make about the map's content must be directly justified by the fields in the input JSON.
+Strict Adherence: Follow all rules and interpretations specified below to translate the reasoning into a concrete map. Your output MUST be ONLY the final map JSON object.
 
-def specification_map_generation (world_type, backstory, location, protagonist, theme_description, category):
-    specifications_map_generation  = f""" Everything after this is a description of the map theme and specific requirements:
+You will receive an input JSON with the following structure. You must use all of these fields to guide your output.
+Generated json
 
-    CONTEXT:
-    category: {category}
-    setting: Fantasy"""
+{
+  "map_type": "string",
+  "genre": "string",
+  "oceans": "boolean",
+  "water_presence": "string",
+  "scale_chunk_description": "string",
+  "scale_tile_description": "string",
+  "landmarks": ["string"],
+  "terrain_types": ["string"],
+  "climate": "string",
+  "features": ["string"],
+  "tone_and_atmosphere": "string",
+  "era_or_tech_level": "string",
+  "magic_presence": "string"
+}
 
+Your final output MUST be a single, valid JSON object following this structure, with no extra text.
 
-    return specifications_map_generation
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "string",
+      "name": "string",
+      "description": "string",
+      "coordinates": [1, 1],
+      "locations": {}
+    }
+    // ... exactly 8 more tile objects, for a total of 9
+  ]
+}
+
+Here is the json you must use to generate the map:
+
+"""

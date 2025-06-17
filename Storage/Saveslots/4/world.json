@@ -1,0 +1,105 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "Monastery Outskirts",
+      "name": "Icy Ledge",
+      "description": "A treacherous icy ledge overlooking a glacial stream. Prayer flags flutter in the wind. Part of the mountain path leading to the Kyzyl-Suu Monastery.",
+      "coordinates": [
+        0,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "Mountainside",
+      "name": "Snowy Slope",
+      "description": "A steep, snow-covered slope. Sparse vegetation clings to the rock beneath. High avalanche risk.",
+      "coordinates": [
+        1,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "Mountainside",
+      "name": "Glacial Stream Source",
+      "description": "The origin of a glacial stream, fed by melting ice. A small patch of rock is exposed nearby.",
+      "coordinates": [
+        2,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "Monastery Grounds",
+      "name": "Stone Pathway",
+      "description": "A stone pathway leading towards the Central Prayer Wheel. The path is worn smooth by centuries of use.",
+      "coordinates": [
+        0,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "Monastery Core",
+      "name": "Central Prayer Wheel",
+      "description": "The heart of the Kyzyl-Suu Monastery. A massive, ornate prayer wheel constantly spun by monks. The center of spiritual activity.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "category": "Monastery Grounds",
+      "name": "Yak Hide Shelter",
+      "description": "A simple shelter constructed from stone and yak hides, providing refuge from the harsh alpine climate. Used for storage and rest.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "Village Outskirts",
+      "name": "Rocky Outcrop",
+      "description": "A rocky outcrop providing a vantage point over the valley. A few scattered prayer flags mark the spot.",
+      "coordinates": [
+        0,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "category": "Village Residences",
+      "name": "Stone House",
+      "description": "A typical stone house in the village, built into the side of the mountain. Smoke rises from the chimney, indicating a fire within.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "Village Outskirts",
+      "name": "Glacial Stream Crossing",
+      "description": "A precarious crossing point over a fast-flowing glacial stream. Icy rocks provide a slippery foothold.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    }
+  ]
+}
