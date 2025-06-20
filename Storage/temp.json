@@ -1,30 +1,31 @@
 {
-  "map_type": "Scrubland Clearing",
-  "genre": "Fantasy (Anthropomorphic)",
+  "map_type": "Scrubland",
+  "genre": "Fantasy",
   "oceans": false,
-  "water_presence": "Scarce, limited to potential small watering holes or underground sources not immediately apparent.",
-  "scale_chunk_description": "Each chunk represents a significant area within the scrubland clearing, about the size of a large gathering space or a small group of clustered cacti.",
-  "scale_tile_description": "Each tile represents a single bush, a patch of bare earth, a small rock, or a detail within the Joshua tree.",
+  "water_presence": "Sparse; primarily reliant on underground sources and infrequent rainfall, maybe a small watering hole",
+  "scale_chunk_description": "Each chunk represents a small area of the scrubland, roughly equivalent to a gathering of large bushes and cacti, or a small section of the clearing.",
+  "scale_tile_description": "Each tile represents a single, significant element of the scrubland environment like a large cactus, a specific grouping of sagebrush, a particular rock, or a patch of bare earth",
   "landmarks": [
     "Lone, gnarled Joshua tree",
-    "Sagebrush patches",
-    "Cacti clusters",
-    "Scrubland Clearing border"
+    "Scrubland Clearing"
   ],
   "terrain_types": [
-    "Dusty earth",
-    "Sagebrush",
-    "Cacti",
-    "Rocky outcrops"
+    "Scrubland",
+    "Dusty Clearing",
+    "Sagebrush patches",
+    "Cacti fields",
+    "Rocky outcrops",
+    "Barren earth"
   ],
   "climate": "Arid",
   "features": [
-    "Avian Clan Meeting Ground",
-    "Hidden Watering Holes (potential)",
-    "Territorial markers (subtle, avian)",
-    "Dusty trails (avian paths)"
+    "Avian clan gathering spots",
+    "Hidden watering holes (small)",
+    "Game trails (rabbit, rodents)",
+    "Nesting sites (cacti, rocky areas)",
+    "Territorial markers (visual)"
   ],
-  "tone_and_atmosphere": "Desolate, dwindling, tension between tradition and change.",
-  "era_or_tech_level": "Tribal/Pre-Industrial (with elements of environmental decline suggesting a recent industrial impact).",
-  "magic_presence": "Low_magic (suggested through 'ancestral songs' and connection to the land; subtle influence)"
+  "tone_and_atmosphere": "Desolate, dwindling, contemplative, desperate",
+  "era_or_tech_level": "Pre-industrial, avian tribal society",
+  "magic_presence": "Low_magic; environmental, tied to avian traditions/rituals. Perhaps some limited weather or plant manipulation."
 }

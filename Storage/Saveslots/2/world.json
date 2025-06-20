@@ -5,107 +5,99 @@
     {
       "id": 1,
       "category": "Scrubland",
-      "name": "Western Border",
-      "description": "Edge of the scrubland clearing. Dusty earth mixed with sagebrush.",
+      "name": "Rocky Outcrop",
+      "description": "A small rocky outcrop providing a slightly elevated view of the surrounding scrubland. Potential nesting site.",
       "coordinates": [
-        0,
-        0
+        1,
+        1
       ],
       "locations": {}
     },
     {
       "id": 2,
       "category": "Scrubland",
-      "name": "Northern Sagebrush",
-      "description": "Patch of dense sagebrush, a common sight in this arid climate.",
+      "name": "Sagebrush Patch",
+      "description": "A dense patch of sagebrush, providing cover and potential nesting material for small creatures.",
       "coordinates": [
-        1,
-        0
+        2,
+        1
       ],
       "locations": {}
     },
     {
       "id": 3,
       "category": "Scrubland",
-      "name": "Eastern Outcrops",
-      "description": "Rocky outcrops jutting from the dusty earth, marking the clearing's edge.",
+      "name": "Barren Earth",
+      "description": "A patch of barren earth, devoid of significant vegetation, marked with territorial markers.",
       "coordinates": [
-        2,
-        0
+        3,
+        1
       ],
       "locations": {}
     },
     {
       "id": 4,
       "category": "Scrubland",
-      "name": "Central West Cacti",
-      "description": "A cluster of cacti provides sparse shade in the desolate landscape.",
+      "name": "Cacti Field",
+      "description": "A small field of cacti, providing shelter and nesting sites for avian creatures. Limited water collection possible.",
       "coordinates": [
-        0,
-        1
+        1,
+        2
       ],
       "locations": {}
     },
     {
       "id": 5,
-      "category": "Landmark",
-      "name": "Gnarled Joshua Tree",
-      "description": "A lone, ancient Joshua tree stands as a central landmark. Likely used for avian clan meetings.",
+      "category": "Scrubland",
+      "name": "Scrubland Clearing",
+      "description": "A dusty clearing in the scrubland, potentially used as an avian gathering spot. The landmark of the scrubland is visible in the distance.",
       "coordinates": [
-        1,
-        1
+        2,
+        2
       ],
-      "locations": {
-        "feature": "Avian Clan Meeting Ground"
-      }
+      "locations": {}
     },
     {
       "id": 6,
       "category": "Scrubland",
-      "name": "Central East Dust",
-      "description": "Open expanse of dusty earth. Subtle avian territorial markers are present.",
+      "name": "Game Trail",
+      "description": "A narrow game trail winding through the scrubland, used by rabbits and rodents.",
       "coordinates": [
-        2,
-        1
+        3,
+        2
       ],
-      "locations": {
-        "feature": "Territorial markers"
-      }
+      "locations": {}
     },
     {
       "id": 7,
       "category": "Scrubland",
-      "name": "South West Trails",
-      "description": "Dusty trails cross this part of the scrubland, possibly avian paths.",
+      "name": "Watering Hole",
+      "description": "A small, hidden watering hole providing a vital water source in the arid climate.",
       "coordinates": [
-        0,
-        2
+        1,
+        3
       ],
-      "locations": {
-        "feature": "Dusty trails"
-      }
+      "locations": {}
     },
     {
       "id": 8,
       "category": "Scrubland",
-      "name": "South Central Watering Hole (Potential)",
-      "description": "A slight depression in the earth might indicate a hidden watering hole.",
+      "name": "Lone Joshua Tree",
+      "description": "A lone, gnarled Joshua tree, a prominent landmark in the scrubland. Used as an avian lookout point.",
       "coordinates": [
-        1,
-        2
+        2,
+        3
       ],
-      "locations": {
-        "feature": "Hidden Watering Holes"
-      }
+      "locations": {}
     },
     {
       "id": 9,
       "category": "Scrubland",
-      "name": "Southern Border",
-      "description": "The clearing's southern border, mainly composed of dusty earth and sparse cacti.",
+      "name": "Sagebrush and Rock",
+      "description": "A small area of sagebrush and a small rock, where avian rituals are performed.",
       "coordinates": [
-        2,
-        2
+        3,
+        3
       ],
       "locations": {}
     }
