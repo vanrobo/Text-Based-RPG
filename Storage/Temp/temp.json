@@ -1,0 +1,30 @@
+{
+  "map_type": "Scrubland",
+  "genre": "Fantasy",
+  "oceans": false,
+  "water_presence": "Sparse; reliant on hidden springs and cacti adaptation.",
+  "scale_chunk_description": "Each chunk represents a large section of the scrubland, approximately 50ft x 50ft, encompassing multiple shrubs, cacti and micro-terrain features.",
+  "scale_tile_description": "Each tile within a chunk represents a detailed element of the terrain: a single large cactus, a specific cluster of scrub, a rocky outcrop, or a patch of bare earth.",
+  "landmarks": [
+    "Gnarled Joshua tree",
+    "Small, dusty clearing"
+  ],
+  "terrain_types": [
+    "Scrubland",
+    "Sagebrush",
+    "Cacti",
+    "Dusty Clearing",
+    "Arid earth"
+  ],
+  "climate": "Arid",
+  "features": [
+    "Avian Clan Territories (implied)",
+    "Hidden Springs (potentially)",
+    "Migration routes (avian)",
+    "Areas of resource scarcity",
+    "Ancient nesting sites"
+  ],
+  "tone_and_atmosphere": "Desolate, fading, with a glimmer of hope.",
+  "era_or_tech_level": "Pre-industrial/Tribal (avian civilization focus)",
+  "magic_presence": "Low_magic (natural adaptations considered innate abilities, not necessarily supernatural)"
+}

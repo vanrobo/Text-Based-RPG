@@ -47,12 +47,19 @@ def multi_map_generation(): #multilevel generation
                 world_info = json.load(world)
                 world_tiles = world_info["tiles"]
                 i = 0
-                Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/temp.json", specifications)
+                Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/Temp/temp.json", specifications)
 
-                while i<1:
+                while i<9:
                     world_places = world_tiles[i]
                     print("done till here x1")
-                    map = ai.mapgen(prompts.map3x3, Specifications3x3) # generates the world map
+                    map = ai.mapgen(prompts.map3x3, Specifications3x3)
+
+                    with open (r"Storage\Temp\temp2.json", "w") as temp: # generates the world map
+                        temp.write(map)
+
+                    with open (r"Storage\Temp\temp2.json", "r") as temp:
+                        map = json.load(temp)
+
                     print("done till here x2")
                     world_places["locations"] = map
                     print("done till here x3")
@@ -132,7 +139,7 @@ def map_generation():
         theme_description = info["theme"]
         world_type = None
         specifications = f"world_type: {world_type} backstory: {backstory}, location: {location}, protagonist: {protagonist}, theme_description: {theme_description}"
-        Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/temp.json", specifications)
+        Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/Temp/temp.json", specifications)
         map = ai.generate(prompts.map3x3, rf"Storage\Saveslots\{sno}\world.json", Specifications3x3) # generates the world map
         
         generationcontinue = input("Generate further:") # waits for the user to press enter before continuing
@@ -149,4 +156,4 @@ def map_generation():
         else:
             return
         
-map_generation()
+multi_map_generation()

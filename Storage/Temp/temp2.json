@@ -1,0 +1,105 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "Scrubland",
+      "name": "Gnarled Joshua Tree Grove",
+      "description": "A dense cluster of gnarled Joshua trees dominates this tile, providing limited shade. Features: Ancient nesting sites, avian territories.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "Dusty Clearing",
+      "name": "Dusty Clearing",
+      "description": "A small, dusty clearing with scattered scrub. Areas of resource scarcity are evident. Migration routes may cross this tile.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "Sagebrush",
+      "name": "Sagebrush Slope",
+      "description": "A gentle slope covered in sagebrush. The air is dry and the sun beats down. Water presence: Sparse.",
+      "coordinates": [
+        3,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "Cacti",
+      "name": "Cacti Cluster",
+      "description": "A dense cluster of cacti of various shapes and sizes.  Features: Hidden Springs (potentially).",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "Arid earth",
+      "name": "Arid Earth",
+      "description": "Bare earth with a few tenacious scrub plants clinging to life. The ground is cracked and dry. Tone: Desolate.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "category": "Scrubland",
+      "name": "Scrubland Vista",
+      "description": "A vista of scrubland stretching towards the horizon.  Implied avian clan territories.",
+      "coordinates": [
+        3,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "Sagebrush",
+      "name": "Sagebrush and Rock Outcrop",
+      "description": "A mix of sagebrush and rocky outcrops. Terrain: Arid. Tone: Fading, but with a glimmer of hope.",
+      "coordinates": [
+        1,
+        3
+      ],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "category": "Dusty Clearing",
+      "name": "Small Clearing with Faded Tracks",
+      "description": "A small clearing, possibly used by avian clans or other creatures. Areas of resource scarcity are apparent. Era: Pre-industrial/Tribal.",
+      "coordinates": [
+        2,
+        3
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "Cacti",
+      "name": "Cacti and Dusty Wash",
+      "description": "A cluster of cacti beside a dried-up wash. Water presence: Sparse. Magic: Low magic, considering adaptations.",
+      "coordinates": [
+        3,
+        3
+      ],
+      "locations": {}
+    }
+  ]
+}
