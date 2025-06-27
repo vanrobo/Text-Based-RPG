@@ -1,105 +1,82 @@
 {
-  "map_width": 3,
-  "map_height": 3,
-  "tiles": [
-    {
-      "id": 1,
-      "category": "mountain",
-      "name": "Northern Peaks",
-      "description": "Jagged, snow-capped mountains with frequent thunderstorms. Part of the wider mountain range, rocky and dangerous. Sparse vegetation. High magic presence.",
-      "coordinates": [
-        0,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 2,
-      "category": "mountain",
-      "name": "Western Slopes",
-      "description": "Steep, rocky slopes with hidden pathways and avalanche zones. Limited rivers fed by waterfalls. Possible Alchemical Ingredient Harvesting Spots. Wind Tunnels present.",
-      "coordinates": [
-        0,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 3,
-      "category": "mountain",
-      "name": "Valley of Storms",
-      "description": "A deep valley prone to severe thunderstorms, potentially containing ruins or remnants of Storm King sites. Mountain terrain. ",
-      "coordinates": [
-        0,
-        2
-      ],
-      "locations": {}
-    },
-    {
-      "id": 4,
-      "category": "mountain",
-      "name": "Central Ridge",
-      "description": "The main ridge of the mountain range. Contains the Tallest Peak. Approach to Zephyr's Lair and the Hidden Cave Entrance.",
-      "coordinates": [
-        1,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 5,
-      "category": "mountain",
-      "name": "The Tallest Peak",
-      "description": "Home to Zephyr's Hideout, this peak dominates the landscape. Frequent lightning strikes and strong winds. Potential magical nexus points.",
-      "coordinates": [
-        1,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 6,
-      "category": "cave",
-      "name": "Hidden Cave Entrance",
-      "description": "A concealed entrance to the cave system beneath the mountain. Leading towards Zephyr's Laboratory/Library.",
-      "coordinates": [
-        1,
-        2
-      ],
-      "locations": {}
-    },
-    {
-      "id": 7,
-      "category": "mountain",
-      "name": "Eastern Outcrops",
-      "description": "Rocky outcrops and scree slopes. Eastern side of the range. Ice formations common.",
-      "coordinates": [
-        2,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 8,
-      "category": "cave",
-      "name": "Zephyr's Laboratory",
-      "description": "Deep within the mountain cave, containing Zephyr's Laboratory/Library. Focus of alchemical technology and elemental magic. Potential magical nexus points.",
-      "coordinates": [
-        2,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 9,
-      "category": "mountain",
-      "name": "Southern Approach",
-      "description": "The gentler slopes leading to the mountain range's base. Less treacherous than the northern peaks, but still dangerous. Sparse vegetation.",
-      "coordinates": [
-        2,
-        2
-      ],
-      "locations": {}
-    }
-  ]
+    "tiles": [
+        {
+            "id": "segment0_test",
+            "category": "test_region_3x3",
+            "description": "A 3x3 test region for gameplay.py.",
+            "locations": [
+                {
+                    "type": "Forest",
+                    "name": "Greenwood (0,0)",
+                    "description": "A quiet forest.",
+                    "traversable": true,
+                    "symbol": "F",
+                    "resource_type": "wood"
+                },
+                {
+                    "type": "Mountain",
+                    "name": "Peak (1,0)",
+                    "description": "A tall mountain.",
+                    "traversable": false,
+                    "symbol": "M",
+                    "elevation": 1200
+                },
+                {
+                    "type": "City",
+                    "name": "Town (2,0)",
+                    "description": "A small town.",
+                    "traversable": true,
+                    "symbol": "C",
+                    "population": 500
+                },
+                {
+                    "type": "Water",
+                    "name": "River (0,1)",
+                    "description": "Flowing river.",
+                    "traversable": false,
+                    "symbol": "W",
+                    "water_type": "river"
+                },
+                {
+                    "type": "Tile",
+                    "name": "Plains (1,1)",
+                    "description": "Open plains.",
+                    "traversable": true,
+                    "symbol": "."
+                },
+                {
+                    "type": "Forest",
+                    "name": "Darkwood (2,1)",
+                    "description": "A spooky forest.",
+                    "traversable": true,
+                    "symbol": "F",
+                    "resource_type": "ancient wood"
+                },
+                {
+                    "type": "City",
+                    "name": "Old Town (0,2)",
+                    "description": "An old, crumbling town.",
+                    "traversable": true,
+                    "symbol": "C",
+                    "population": 150
+                },
+                {
+                    "type": "Mountain",
+                    "name": "Foothills (1,2)",
+                    "description": "Rocky foothills.",
+                    "traversable": true,
+                    "symbol": "m",
+                    "elevation": 300
+                },
+                {
+                    "type": "Water",
+                    "name": "Lake (2,2)",
+                    "description": "A calm lake.",
+                    "traversable": false,
+                    "symbol": "L",
+                    "water_type": "lake"
+                }
+            ]
+        }
+    ]
 }

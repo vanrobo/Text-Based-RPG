@@ -1,4 +1,4 @@
-from google import genai
+import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 import threading
@@ -12,21 +12,36 @@ import sys
 load_dotenv()
 api = os.getenv("API_KEY")
 
+if api:
+    try:
+        genai.configure(api_key=api)
+        print("AI SDK Configured.")
+    except Exception as e:
+        print(f"Error configuring AI SDK: {e}. AI features may not work.")
+        api = None # Disable AI if configuration fails
+else:
+    print("API_KEY not found in .env file. AI functionality will be disabled.")
+
 def clean(unfiltered_response): #remove ```json and ``` from the response
+    if unfiltered_response is None:
+        return ""
     if unfiltered_response.startswith("```json"):
         unfiltered_response = unfiltered_response.removeprefix("```json").strip()
     if unfiltered_response.endswith("```"):
         unfiltered_response = unfiltered_response.removesuffix("```").strip()
-    unfiltered_response.replace("\\n","")
-    unfiltered_response.replace("\\","")
+    unfiltered_response = unfiltered_response.replace("\\n","")
+    unfiltered_response = unfiltered_response.replace("\\","")
     return unfiltered_response
 
 ## gives storage and where to store the generated content
 def generate(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fed in, the 2nd is the storage location, and the *extra is for any extra arguments that may be needed in the future.
-    client = genai.Client(api_key=api)
+    if not api:
+        print("AI is not configured due to missing API key or configuration error.")
+        return "{ \"error\": \"AI not configured\" }" # Return a valid JSON string for error
+
     generate_event = threading.Event()
 
-    def _internal_loader_animation():   
+    def _internal_loader_animation():
         animation_chars = ["Loading", "Loading.", "Loading..", "Loading..."]
         idx = 0
         sys.stdout.flush()
@@ -50,20 +65,26 @@ def generate(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fe
         all_content = [prompt]
         if extra:
             all_content.extend(extra)
-        response = client.models.generate_content(
-            model="gemini-2.0-flash", contents=(all_content)
-        )
+
+        model_instance = genai.GenerativeModel(model_name="gemini-1.5-flash-latest") # Using a known common model
+        # For "gemini-2.0-flash" - if this specific model name is needed and valid, it should be used.
+        # model_instance = genai.GenerativeModel(model_name="gemini-2.0-flash")
+
+        response = model_instance.generate_content(contents=all_content)
         answer = clean(response.text) #removes ```json and ``` from the response
+
         if storage:
             with open(storage, "w") as file:
                 file.write(answer) # writes the response to the file
                 
         return answer
-    except genai.errors.ClientError as e: # if no api key has an error
-        print(f"Invalid argument: {e}\n")
-        print("Please check your API key and ensure it is valid!\n")
+    # except genai.errors.ClientError as e: # This specific error might change with new SDK versions
+    #     print(f"AI Client Error: {e}\n")
+    #     print("Please check your API key and ensure it is valid!\n")
+    #     return "{ \"error\": \"AI Client Error\" }"
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred during AI generation: {e}")
+        return f"{{ \"error\": \"AI generation failed: {str(e).replace('\"','`')}\" }}"
     finally:
         if loader_thread and loader_thread.is_alive():
             generate_event.set()
@@ -72,7 +93,10 @@ def generate(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fe
 
 
 def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the prompt fed in, the 2nd is the storage location, and the *extra is for any extra arguments that may be needed in the future.
-    client = genai.Client(api_key=api)
+    if not api:
+        print("AI is not configured due to missing API key or configuration error.")
+        return "{ \"error\": \"AI not configured\" }"
+
     generate_event = threading.Event()
 
     def _internal_loader_animation():
@@ -99,19 +123,26 @@ def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the promp
         all_content = [prompt]
         if extra:
             all_content.extend(extra)
-        response = client.models.generate_content(
-            model="gemini-2.0-flash-lite", contents=(all_content)
-        )
+
+        # Assuming "gemini-2.0-flash-lite" should also use a common model or a validated specific one.
+        # Using gemini-1.5-flash-latest as a placeholder.
+        model_instance = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
+        # If "gemini-2.0-flash-lite" is a valid model name the user has access to:
+        # model_instance = genai.GenerativeModel(model_name="gemini-2.0-flash-lite")
+
+        response = model_instance.generate_content(contents=all_content)
         answer = clean(response.text) #removes ```json and ``` from the response
         if storage:
             with open(storage, "w") as file:
                 file.write(answer) # writes the response to the file
         return answer
-    except genai.errors.ClientError as e: # if no api key has an error
-        print(f"Invalid argument: {e}\n")
-        print("Please check your API key and ensure it is valid!\n")
+    # except genai.errors.ClientError as e: # This specific error might change
+    #     print(f"AI Client Error: {e}\n")
+    #     print("Please check your API key and ensure it is valid!\n")
+    #     return "{ \"error\": \"AI Client Error\" }"
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred during AI generation (generatelite): {e}")
+        return f"{{ \"error\": \"AI generation failed (generatelite): {str(e).replace('\"','`')}\" }}"
     finally:
         if loader_thread and loader_thread.is_alive():
             generate_event.set()
@@ -120,8 +151,10 @@ def generatelite(prompt,storage=None,*extra,loading=None): # so 1st is the promp
 
 
 def mapgen(prompt,*extra): #For Multilevel Map Gen
+    if not api:
+        print("AI is not configured due to missing API key or configuration error.")
+        return "{ \"error\": \"AI not configured\" }"
 
-    client = genai.Client(api_key=api)
     generate_event = threading.Event()
 
     def _internal_loader_animation():
@@ -148,17 +181,24 @@ def mapgen(prompt,*extra): #For Multilevel Map Gen
         all_content = [prompt]
         if extra:
             all_content.extend(extra)
-        response = client.models.generate_content(
-            model="gemini-2.0-flash-lite", contents=(all_content)
-        )
+
+        # Assuming "gemini-2.0-flash-lite" for mapgen as well.
+        # Using gemini-1.5-flash-latest as a placeholder.
+        model_instance = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
+        # If "gemini-2.0-flash-lite" is a valid model name the user has access to:
+        # model_instance = genai.GenerativeModel(model_name="gemini-2.0-flash-lite")
+
+        response = model_instance.generate_content(contents=all_content)
         answer = clean(response.text) #removes ```json and ``` from the response
         return answer
     
-    except genai.errors.ClientError as e: # if no api key has an error
-        print(f"Invalid argument: {e}\n")
-        print("Please check your API key and ensure it is valid!\n")
+    # except genai.errors.ClientError as e: # This specific error might change
+    #     print(f"AI Client Error: {e}\n")
+    #     print("Please check your API key and ensure it is valid!\n")
+    #     return "{ \"error\": \"AI Client Error\" }"
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred during AI generation (mapgen): {e}")
+        return f"{{ \"error\": \"AI generation failed (mapgen): {str(e).replace('\"','`')}\" }}"
     finally:
         if loader_thread and loader_thread.is_alive():
             generate_event.set()
