@@ -1,30 +1,47 @@
 {
-  "map_type": "Scrubland",
-  "genre": "Fantasy",
+  "map_type": "Mountain Village",
+  "genre": "Realistic Fantasy/Adventure",
   "oceans": false,
-  "water_presence": "Sparse; reliant on hidden springs and cacti adaptation.",
-  "scale_chunk_description": "Each chunk represents a large section of the scrubland, approximately 50ft x 50ft, encompassing multiple shrubs, cacti and micro-terrain features.",
-  "scale_tile_description": "Each tile within a chunk represents a detailed element of the terrain: a single large cactus, a specific cluster of scrub, a rocky outcrop, or a patch of bare earth.",
+  "water_presence": "Mountain streams, glacial runoff, and potentially hidden underground aquifers",
+  "scale_chunk_description": "Each chunk represents a section of the cliff face and the buildings constructed on it, spanning approximately 30-50 meters in width/length.",
+  "scale_tile_description": "Each tile represents a small detail within the village, like a stone, portion of a building, or a step on a path.",
   "landmarks": [
-    "Gnarled Joshua tree",
-    "Small, dusty clearing"
+    "Cliff face",
+    "Rope bridge",
+    "Prayer flags",
+    "Stone dwellings",
+    "Mountain peaks",
+    "Deep chasm"
   ],
   "terrain_types": [
-    "Scrubland",
-    "Sagebrush",
-    "Cacti",
-    "Dusty Clearing",
-    "Arid earth"
+    "Rock",
+    "Ice",
+    "Snow",
+    "Sparse vegetation (shrubs, mosses)",
+    "Steep slopes",
+    "Rocky paths"
   ],
-  "climate": "Arid",
+  "climate": "Alpine/Arctic",
   "features": [
-    "Avian Clan Territories (implied)",
-    "Hidden Springs (potentially)",
-    "Migration routes (avian)",
-    "Areas of resource scarcity",
-    "Ancient nesting sites"
+    "Village structures (houses, possible temple/shrine)",
+    "Narrow, winding paths",
+    "Rope bridge",
+    "Avalanche zones (implied)",
+    "Yaks/other mountain animals",
+    "Campsites (near the village)"
   ],
-  "tone_and_atmosphere": "Desolate, fading, with a glimmer of hope.",
-  "era_or_tech_level": "Pre-industrial/Tribal (avian civilization focus)",
-  "magic_presence": "Low_magic (natural adaptations considered innate abilities, not necessarily supernatural)"
+  "tone_and_atmosphere": "Isolated, serene, dangerous, mystical, ancient",
+  "era_or_tech_level": "Modern with traditional elements (Sherpa culture)",
+  "magic_presence": "Low magic/spiritual (ancient energies, mountain spirits)",
+  "backstory_elements": [
+    "Hermits and mystics",
+    "Legends of hidden valleys",
+    "Sherpa culture and knowledge",
+    "Encroaching outsiders"
+  ],
+  "protagonist_implications": [
+    "Tenzin's knowledge of the mountains",
+    "Clash between tradition and modernity",
+    "Exploration of the unknown"
+  ]
 }

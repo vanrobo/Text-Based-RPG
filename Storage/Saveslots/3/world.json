@@ -1,0 +1,105 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "Mountain Peak",
+      "name": "Jagged Peak",
+      "description": "A towering mountain peak, covered in snow and ice. Difficult to traverse. Part of the 'Mountain peaks' landmark and reflects the 'Alpine/Arctic' climate.",
+      "coordinates": [
+        0,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "Cliff Face",
+      "name": "Western Cliff",
+      "description": "A sheer cliff face, part of the natural 'Cliff face' landmark, with sparse vegetation and steep slopes as specified in 'terrain_types'. Scale aligns with 'scale_chunk_description'.",
+      "coordinates": [
+        0,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "Rocky Path",
+      "name": "Western Ascent",
+      "description": "A winding rocky path leading up the mountain. Narrow, as indicated in 'features', and made of 'Rock' terrain. Connects lower elevations to the village.",
+      "coordinates": [
+        0,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "Village Dwelling",
+      "name": "Lower Dwellings",
+      "description": "A cluster of stone dwellings built into the cliff face, representing a part of 'Stone dwellings' landmark and village structure. Shows modern elements within the 'Modern with traditional elements (Sherpa culture)' era.",
+      "coordinates": [
+        1,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "Rope Bridge",
+      "name": "The Crossing",
+      "description": "A precarious rope bridge spanning a deep chasm, a key 'Rope bridge' landmark and perilous feature as described in 'features', contributing to the 'dangerous' tone.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "category": "Village Center",
+      "name": "Prayer Flag Plaza",
+      "description": "The heart of the mountain village, adorned with colorful 'Prayer flags'. Represents the 'mystical' atmosphere and blends with Sherpa Culture.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "Chasm Edge",
+      "name": "Southern Crevice",
+      "description": "The edge of a deep chasm, implying the 'Deep chasm' landmark and inherent danger. Influences the isolated tone. Includes traces of 'glacial runoff' from the 'water_presence' specification.",
+      "coordinates": [
+        2,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "category": "Mountain Slope",
+      "name": "Yak Trail",
+      "description": "A steep, snow-covered slope, potentially used by 'Yaks/other mountain animals'. Shows a mix of 'Snow' and 'Steep slopes' terrain types.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "Avalanche Zone",
+      "name": "Eastern Glade",
+      "description": "A treeless area prone to avalanches, implying the 'Avalanche zones' feature. Reflects the 'dangerous' atmosphere and risk present.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    }
+  ]
+}

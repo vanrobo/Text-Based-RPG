@@ -69,7 +69,7 @@ def multi_map_generation(): #multilevel generation
                     i+=1
                 
                 world_info["tiles"] = world_tiles #Saves the generated information
-         
+        
 
 
             with open(rf"Storage\Saveslots\{sno}\world.json", "w") as world:
@@ -156,4 +156,4 @@ def map_generation():
         else:
             return
         
-multi_map_generation()
+map_generation()
