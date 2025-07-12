@@ -1,30 +1,34 @@
 {
-  "map_type": "Scrubland",
-  "genre": "Fantasy",
+  "map_type": "mountain_hideout",
+  "genre": "fantasy",
   "oceans": false,
-  "water_presence": "Sparse; reliant on hidden springs and cacti adaptation.",
-  "scale_chunk_description": "Each chunk represents a large section of the scrubland, approximately 50ft x 50ft, encompassing multiple shrubs, cacti and micro-terrain features.",
-  "scale_tile_description": "Each tile within a chunk represents a detailed element of the terrain: a single large cactus, a specific cluster of scrub, a rocky outcrop, or a patch of bare earth.",
+  "water_presence": "abundant_rivers",
+  "scale_chunk_description": "Each chunk is a section of the mountain terrain, encompassing variations in elevation and prominent natural features.",
+  "scale_tile_description": "Each tile within a chunk represents a small area of the mountain terrain, such as a rocky outcrop, patch of vegetation, or section of the cave.",
   "landmarks": [
-    "Gnarled Joshua tree",
-    "Small, dusty clearing"
+    "tallest peak",
+    "hidden cave",
+    "valley",
+    "lightning-struck peaks"
   ],
   "terrain_types": [
-    "Scrubland",
-    "Sagebrush",
-    "Cacti",
-    "Dusty Clearing",
-    "Arid earth"
+    "mountain",
+    "rock",
+    "cave",
+    "valley",
+    "river"
   ],
-  "climate": "Arid",
+  "climate": "temperate",
   "features": [
-    "Avian Clan Territories (implied)",
-    "Hidden Springs (potentially)",
-    "Migration routes (avian)",
-    "Areas of resource scarcity",
-    "Ancient nesting sites"
+    "hidden cave entrance",
+    "Zephyr's laboratory",
+    "library",
+    "makeshift laboratory",
+     "alchemical ingredients",
+     "maps",
+     "scrolls"
   ],
-  "tone_and_atmosphere": "Desolate, fading, with a glimmer of hope.",
-  "era_or_tech_level": "Pre-industrial/Tribal (avian civilization focus)",
-  "magic_presence": "Low_magic (natural adaptations considered innate abilities, not necessarily supernatural)"
+  "tone_and_atmosphere": "mysterious",
+  "era_or_tech_level": "magitech",
+  "magic_presence": "high_magic"
 }

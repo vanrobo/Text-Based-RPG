@@ -51,7 +51,6 @@ def multi_map_generation(): #multilevel generation
 
                 while i<9:
                     world_places = world_tiles[i]
-                    print("done till here x1")
                     map = ai.mapgen(prompts.map3x3, Specifications3x3)
 
                     with open (r"Storage\Temp\temp2.json", "w") as temp: # generates the world map
@@ -60,9 +59,7 @@ def multi_map_generation(): #multilevel generation
                     with open (r"Storage\Temp\temp2.json", "r") as temp:
                         map = json.load(temp)
 
-                    print("done till here x2")
                     world_places["locations"] = map
-                    print("done till here x3")
                     world_tiles[i] = world_places
                     print(world_places)
                     print(world_tiles)
@@ -77,10 +74,9 @@ def multi_map_generation(): #multilevel generation
                 break
                 
         except Exception:
-            print(Exception)
-            print(i)
             print("Please try again")
             continue
+
     generationcontinue = input("Generate further:") # waits for the user to press enter before continuing
 
     if generationcontinue.lower() == "yes" or generationcontinue.lower() == "y":

@@ -1,105 +1,1121 @@
 {
-  "map_width": 3,
-  "map_height": 3,
-  "tiles": [
-    {
-      "id": 1,
-      "category": "mountain",
-      "name": "Northern Peaks",
-      "description": "Jagged, snow-capped mountains with frequent thunderstorms. Part of the wider mountain range, rocky and dangerous. Sparse vegetation. High magic presence.",
-      "coordinates": [
-        0,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 2,
-      "category": "mountain",
-      "name": "Western Slopes",
-      "description": "Steep, rocky slopes with hidden pathways and avalanche zones. Limited rivers fed by waterfalls. Possible Alchemical Ingredient Harvesting Spots. Wind Tunnels present.",
-      "coordinates": [
-        0,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 3,
-      "category": "mountain",
-      "name": "Valley of Storms",
-      "description": "A deep valley prone to severe thunderstorms, potentially containing ruins or remnants of Storm King sites. Mountain terrain. ",
-      "coordinates": [
-        0,
-        2
-      ],
-      "locations": {}
-    },
-    {
-      "id": 4,
-      "category": "mountain",
-      "name": "Central Ridge",
-      "description": "The main ridge of the mountain range. Contains the Tallest Peak. Approach to Zephyr's Lair and the Hidden Cave Entrance.",
-      "coordinates": [
-        1,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 5,
-      "category": "mountain",
-      "name": "The Tallest Peak",
-      "description": "Home to Zephyr's Hideout, this peak dominates the landscape. Frequent lightning strikes and strong winds. Potential magical nexus points.",
-      "coordinates": [
-        1,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 6,
-      "category": "cave",
-      "name": "Hidden Cave Entrance",
-      "description": "A concealed entrance to the cave system beneath the mountain. Leading towards Zephyr's Laboratory/Library.",
-      "coordinates": [
-        1,
-        2
-      ],
-      "locations": {}
-    },
-    {
-      "id": 7,
-      "category": "mountain",
-      "name": "Eastern Outcrops",
-      "description": "Rocky outcrops and scree slopes. Eastern side of the range. Ice formations common.",
-      "coordinates": [
-        2,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 8,
-      "category": "cave",
-      "name": "Zephyr's Laboratory",
-      "description": "Deep within the mountain cave, containing Zephyr's Laboratory/Library. Focus of alchemical technology and elemental magic. Potential magical nexus points.",
-      "coordinates": [
-        2,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 9,
-      "category": "mountain",
-      "name": "Southern Approach",
-      "description": "The gentler slopes leading to the mountain range's base. Less treacherous than the northern peaks, but still dangerous. Sparse vegetation.",
-      "coordinates": [
-        2,
-        2
-      ],
-      "locations": {}
-    }
-  ]
+    "map_width": 3,
+    "map_height": 3,
+    "tiles": [
+        {
+            "id": 1,
+            "category": "mountain",
+            "name": "Northern Peaks",
+            "description": "Jagged, snow-capped mountains with frequent thunderstorms. Part of the wider mountain range, rocky and dangerous. Sparse vegetation. High magic presence.",
+            "coordinates": [
+                0,
+                0
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "The Highest Peak",
+                        "description": "The tallest peak in the range, often shrouded in mist. The air is thin and the wind howls constantly. A lightning-struck peak.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 2,
+                        "category": "mountain",
+                        "name": "Rocky Outcrop",
+                        "description": "A rocky outcrop with views of the valley below. A good spot to see the hidden cave entrance.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 3,
+                        "category": "valley",
+                        "name": "The Whispering Valley",
+                        "description": "A lush valley nestled between the peaks, home to a winding river. A place of abundant resources.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "mountain",
+                        "name": "The Hidden Cave Entrance",
+                        "description": "A concealed entrance to a network of caves. The air is cool and carries the scent of damp earth. Leads to a hidden cave.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "cave",
+                        "name": "Zephyr's Laboratory",
+                        "description": "A cavern lit by glowing crystals. The space is filled with alchemical ingredients, maps, and scrolls. A magitech laboratory.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "river",
+                        "name": "The Crystal River",
+                        "description": "A fast-flowing river that carves through the valley, its waters shimmering with an unnatural glow. Provides access to the library.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "rock",
+                        "name": "Lightning-Struck Peaks",
+                        "description": "A collection of peaks that have been repeatedly struck by lightning, imbued with magical energies. The tallest peak can be seen here.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "cave",
+                        "name": "The Library",
+                        "description": "A cavern filled with ancient scrolls and tomes, the library is an archive of arcane knowledge. Provides information about the hidden cave.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "valley",
+                        "name": "Makeshift Laboratory",
+                        "description": "A makeshift laboratory where new experiments are conducted, filled with strange devices and an assortment of alchemical ingredients. The valley is visible here.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "category": "mountain",
+            "name": "Western Slopes",
+            "description": "Steep, rocky slopes with hidden pathways and avalanche zones. Limited rivers fed by waterfalls. Possible Alchemical Ingredient Harvesting Spots. Wind Tunnels present.",
+            "coordinates": [
+                0,
+                1
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "Rocky Outcrop",
+                        "description": "A section of the mountain with exposed rock faces, a testament to the mountain's age and the elements that have shaped it.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 2,
+                        "category": "cave",
+                        "name": "Hidden Cave Entrance",
+                        "description": "The entrance to a hidden cave, obscured by shadows and difficult to find. This area is known to be where Zephyr has set up their laboratory.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 3,
+                        "category": "mountain",
+                        "name": "Valley Outlook",
+                        "description": "A high vantage point overlooking a valley, offering a view of the surrounding mountain ranges.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "rock",
+                        "name": "Lightning-Struck Peaks",
+                        "description": "Jagged peaks, bearing the scars of countless lightning strikes, hinting at a powerful magical presence.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "cave",
+                        "name": "Zephyr's Laboratory",
+                        "description": "A makeshift laboratory filled with alchemical ingredients, scrolls, and maps. This is where Zephyr conducts their research.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "river",
+                        "name": "Rapid River",
+                        "description": "A fast-flowing river cuts through the landscape, sourced from the mountain's glaciers.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "mountain",
+                        "name": "Tallest Peak",
+                        "description": "The highest point in the mountain range, offering panoramic views. This area is know to have some form of hidden library.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "cave",
+                        "name": "Library",
+                        "description": "A secret library, containing numerous scrolls and maps. It also contains some alchemical ingredients.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "valley",
+                        "name": "Valley Floor",
+                        "description": "The valley floor, home to several hidden areas.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "category": "mountain",
+            "name": "Valley of Storms",
+            "description": "A deep valley prone to severe thunderstorms, potentially containing ruins or remnants of Storm King sites. Mountain terrain. ",
+            "coordinates": [
+                0,
+                2
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "Rocky Outcrop",
+                        "description": "A craggy area of exposed rock, typical of the high mountain terrain. Contains alchemical ingredients.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 2,
+                        "category": "cave",
+                        "name": "Hidden Cave Entrance",
+                        "description": "The entrance to a dark cave system. Contains maps and scrolls.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 3,
+                        "category": "mountain",
+                        "name": "Valley Pass",
+                        "description": "A valley that cuts through the mountain range. A river flows through it. Contains Zephyr's laboratory.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "mountain",
+                        "name": "Lightning-Struck Peaks",
+                        "description": "The highest peaks of the mountain range, frequently hit by lightning storms.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "cave",
+                        "name": "Zephyr's Laboratory",
+                        "description": "A hidden laboratory where research in magic and technology is conducted.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "mountain",
+                        "name": "River Bend",
+                        "description": "A bend in the river, with potential for a good viewpoint. Contains a makeshift laboratory.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "rock",
+                        "name": "Craggy Terrain",
+                        "description": "Rocky terrain, offering a difficult path. Contains the library.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "cave",
+                        "name": "Library",
+                        "description": "An area containing extensive knowledge, including scrolls and books.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "river",
+                        "name": "River's Edge",
+                        "description": "The edge of a river, with vegetation.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "category": "mountain",
+            "name": "Central Ridge",
+            "description": "The main ridge of the mountain range. Contains the Tallest Peak. Approach to Zephyr's Lair and the Hidden Cave Entrance.",
+            "coordinates": [
+                1,
+                0
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "The Whispering Crag",
+                        "description": "A section of the mountain with a hidden cave entrance, hinting at secrets within. The air is cool and the wind whispers through the jagged peaks.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 2,
+                        "category": "rock",
+                        "name": "Zephyr's Lookout",
+                        "description": "A rocky outcrop offering a panoramic view, possibly the location of Zephyr's laboratory. You can see the valley in the distance.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 3,
+                        "category": "cave",
+                        "name": "The Hidden Library",
+                        "description": "A hidden cave system housing an extensive library, filled with scrolls and maps of the surrounding areas. The air smells of old parchment and magic.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "valley",
+                        "name": "The Serpent's Pass",
+                        "description": "A valley where the river flows, surrounded by imposing mountains. Known for its alchemical ingredients.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "mountain",
+                        "name": "The Lightning Peaks",
+                        "description": "Peaks that have been struck by lightning. This is a dangerous area, but provides a great view of the surrounding area. Features include makeshift laboratories.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "rock",
+                        "name": "River's Edge",
+                        "description": "A rocky area bordering the river. The water presence is abundant due to the river. Features include scrolls.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "cave",
+                        "name": "The Alchemist's Den",
+                        "description": "A hidden cave filled with alchemical ingredients and evidence of extensive experiments. A makeshift laboratory.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "mountain",
+                        "name": "Summit's Approach",
+                        "description": "The path leading up to the tallest peak, a challenging climb with varying terrains.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "river",
+                        "name": "The Flowing River",
+                        "description": "A section of the river that cuts through the mountain range. The river adds the presence of water.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "category": "mountain",
+            "name": "The Tallest Peak",
+            "description": "Home to Zephyr's Hideout, this peak dominates the landscape. Frequent lightning strikes and strong winds. Potential magical nexus points.",
+            "coordinates": [
+                1,
+                1
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "Rocky Outcrop",
+                        "description": "A steep, rocky area with sparse vegetation. Part of the mountain.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 2,
+                        "category": "cave",
+                        "name": "Hidden Cave Entrance",
+                        "description": "A concealed entrance to a network of caves, rumored to lead to a secret hideout.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 3,
+                        "category": "valley",
+                        "name": "Valley of Whispers",
+                        "description": "A sheltered valley with a river running through it. A location of interest.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "mountain",
+                        "name": "Zephyr's Laboratory",
+                        "description": "A secluded area on the mountainside, near the peak, that has Zephyr's laboratory. ",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "mountain",
+                        "name": "Lightning-Struck Peaks",
+                        "description": "Jagged peaks that have been hit by lightning.  The highest point.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "river",
+                        "name": "Riverbend",
+                        "description": "A portion of the river as it winds through the valley.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "mountain",
+                        "name": "Makeshift Laboratory",
+                        "description": "A small alcove or cave repurposed as a laboratory.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "cave",
+                        "name": "Library of Old Scrolls",
+                        "description": "A hidden library filled with ancient scrolls and maps.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "valley",
+                        "name": "River Crossing",
+                        "description": "The river provides access and is a location of interest",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "category": "cave",
+            "name": "Hidden Cave Entrance",
+            "description": "A concealed entrance to the cave system beneath the mountain. Leading towards Zephyr's Laboratory/Library.",
+            "coordinates": [
+                1,
+                2
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "Rocky Outcrop",
+                        "description": "A steep, rocky area of the mountain. Features include a few scraggly plants.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 2,
+                        "category": "valley",
+                        "name": "Whispering Valley",
+                        "description": "A valley between the peaks, with a river running through it. Known for the faint whispers carried by the wind.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 3,
+                        "category": "mountain",
+                        "name": "Lightning-Struck Peak",
+                        "description": "The highest peak, frequently struck by lightning. The air crackles with residual energy.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "cave",
+                        "name": "Hidden Cave Entrance",
+                        "description": "A dark, concealed entrance to a network of caves. The entrance is hidden behind a waterfall.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "river",
+                        "name": "Serpentine River",
+                        "description": "A river flowing through the valley. Water is crystal clear with many rocks on the riverbed",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "cave",
+                        "name": "Zephyr's Laboratory",
+                        "description": "A lab, inside the hidden cave, filled with strange alchemical devices and ingredients.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "rock",
+                        "name": "Rocky Ledge",
+                        "description": "A rocky ledge offering views of the valley. Some maps and scrolls are stored here.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "mountain",
+                        "name": "Steep Cliffs",
+                        "description": "A steep area of the mountainside.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "cave",
+                        "name": "Library",
+                        "description": "A library with many scrolls and books. Has a bookshelf, the main feature.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "category": "mountain",
+            "name": "Eastern Outcrops",
+            "description": "Rocky outcrops and scree slopes. Eastern side of the range. Ice formations common.",
+            "coordinates": [
+                2,
+                0
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "Towering Peak",
+                        "description": "The tallest peak in the range, shrouded in mist. Home to a hidden cave.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {
+                            "hidden_cave": "entrance"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "category": "mountain",
+                        "name": "Rocky Outcrop",
+                        "description": "A rocky outcrop with sparse vegetation. Leads to the Zephyr's Laboratory.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {
+                            "zephyr's_laboratory": "entrance"
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "category": "rock",
+                        "name": "Lightning-Struck Peaks",
+                        "description": "Jagged peaks scarred by lightning, with signs of high magic.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 4,
+                        "category": "valley",
+                        "name": "Whispering Valley",
+                        "description": "A hidden valley with a meandering river, offering a passage to the hidden cave.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {
+                            "river": "present"
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "category": "cave",
+                        "name": "Hidden Cave Entrance",
+                        "description": "The entrance to a cave, filled with alchemical ingredients.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {
+                            "alchemical_ingredients": "present"
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "category": "mountain",
+                        "name": "Rockslide",
+                        "description": "A recent rockslide with maps and scrolls.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {
+                            "maps": "present",
+                            "scrolls": "present"
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "category": "river",
+                        "name": "Rushing River",
+                        "description": "A fast flowing river cutting through the mountains. This tile showcases the presence of water.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 8,
+                        "category": "cave",
+                        "name": "Makeshift Laboratory",
+                        "description": "A makeshift laboratory with signs of high magic.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "rock",
+                        "name": "Cliffside Library",
+                        "description": "A cliffside library, filled with knowledge, bathed in the glow of magical lights.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {
+                            "library": "present"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "category": "cave",
+            "name": "Zephyr's Laboratory",
+            "description": "Deep within the mountain cave, containing Zephyr's Laboratory/Library. Focus of alchemical technology and elemental magic. Potential magical nexus points.",
+            "coordinates": [
+                2,
+                1
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "The Crag",
+                        "description": "A rocky outcrop on the mountain, with a view of the valley below.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {
+                            "features": [
+                                "Zephyr's laboratory",
+                                "alchemical ingredients"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "category": "cave",
+                        "name": "Hidden Cave Entrance",
+                        "description": "The entrance to a hidden cave system, barely visible from the outside.",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {
+                            "landmarks": [
+                                "hidden cave"
+                            ],
+                            "features": [
+                                "hidden cave entrance"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "category": "mountain",
+                        "name": "The Summit",
+                        "description": "The tallest peak of the mountain range, battered by wind and lightning.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {
+                            "landmarks": [
+                                "tallest peak",
+                                "lightning-struck peaks"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "category": "valley",
+                        "name": "Whispering Valley",
+                        "description": "A lush valley carved by a river, with the sounds of wind whispering through the trees.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {
+                            "landmarks": [
+                                "valley"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "category": "river",
+                        "name": "Serpent's Coil",
+                        "description": "A fast-flowing river carving through the mountain terrain.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 6,
+                        "category": "mountain",
+                        "name": "Cinder Peaks",
+                        "description": "A cluster of peaks. Remnants of volcanic activity, with jagged rock formations.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 7,
+                        "category": "cave",
+                        "name": "The Library",
+                        "description": "A large cave system filled with scrolls and books.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {
+                            "features": [
+                                "library",
+                                "maps",
+                                "scrolls"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "category": "valley",
+                        "name": "River's End",
+                        "description": "Where the river flows through a section of the valley floor",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 9,
+                        "category": "rock",
+                        "name": "Makeshift Laboratory",
+                        "description": "A workshop within a sheltered alcove in the mountain face.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {
+                            "features": [
+                                "makeshift laboratory"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "category": "mountain",
+            "name": "Southern Approach",
+            "description": "The gentler slopes leading to the mountain range's base. Less treacherous than the northern peaks, but still dangerous. Sparse vegetation.",
+            "coordinates": [
+                2,
+                2
+            ],
+            "locations": {
+                "map_width": 3,
+                "map_height": 3,
+                "tiles": [
+                    {
+                        "id": 1,
+                        "category": "mountain",
+                        "name": "Peak of Whispers",
+                        "description": "The tallest peak, shrouded in mist, rumored to hold ancient secrets and a hidden cave entrance. The air crackles with barely contained magic.",
+                        "coordinates": [
+                            1,
+                            1
+                        ],
+                        "locations": {
+                            "landmarks": [
+                                "tallest peak",
+                                "hidden cave entrance"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "category": "mountain",
+                        "name": "Zephyr's Perch",
+                        "description": "A rocky outcrop where the legendary Zephyr has set up his laboratory, brimming with alchemical ingredients and half-finished inventions. The area has a faint, sweet smell.",
+                        "coordinates": [
+                            2,
+                            1
+                        ],
+                        "locations": {
+                            "features": [
+                                "Zephyr's laboratory",
+                                "alchemical ingredients"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "category": "rock",
+                        "name": "The Stone Library",
+                        "description": "A hidden cave within the mountain. Contains countless scrolls and maps detailing long-lost knowledge.",
+                        "coordinates": [
+                            3,
+                            1
+                        ],
+                        "locations": {
+                            "features": [
+                                "library",
+                                "maps",
+                                "scrolls"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "category": "cave",
+                        "name": "Echoing Caverns",
+                        "description": "A network of tunnels carved into the mountain, resonating with the sounds of underground rivers. Contains many rocky areas",
+                        "coordinates": [
+                            1,
+                            2
+                        ],
+                        "locations": {}
+                    },
+                    {
+                        "id": 5,
+                        "category": "valley",
+                        "name": "Whispering Valley",
+                        "description": "A narrow valley that cuts through the mountain range. The valley floor is lush and full of rivers.",
+                        "coordinates": [
+                            2,
+                            2
+                        ],
+                        "locations": {
+                            "landmarks": [
+                                "valley"
+                            ],
+                            "terrain_types": [
+                                "river"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "category": "mountain",
+                        "name": "The Lightning Peaks",
+                        "description": "The highest peaks struck by lightning with a strange magical energy. The tops of the peaks glow with an inner light.",
+                        "coordinates": [
+                            3,
+                            2
+                        ],
+                        "locations": {
+                            "landmarks": [
+                                "lightning-struck peaks"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "category": "rock",
+                        "name": "The Alchemist's Den",
+                        "description": "A rocky area that houses a makeshift laboratory. Evidence of experiments past can be found everywhere.",
+                        "coordinates": [
+                            1,
+                            3
+                        ],
+                        "locations": {
+                            "features": [
+                                "makeshift laboratory",
+                                "alchemical ingredients"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "category": "river",
+                        "name": "Sunken River",
+                        "description": "The river flows swiftly here, disappearing into the shadows of the mountain.",
+                        "coordinates": [
+                            2,
+                            3
+                        ],
+                        "locations": {
+                            "terrain_types": [
+                                "river"
+                            ]
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "category": "mountain",
+                        "name": "Hidden Passageway",
+                        "description": "A winding path carved into the mountain.",
+                        "coordinates": [
+                            3,
+                            3
+                        ],
+                        "locations": {}
+                    }
+                ]
+            }
+        }
+    ]
 }
