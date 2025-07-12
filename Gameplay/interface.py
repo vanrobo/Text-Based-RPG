@@ -4,7 +4,17 @@ import time
 import threading
 import os
 from dotenv import load_dotenv
+import sys 
+
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+project_root_dir = os.path.dirname(current_dir)
+generation_dir = os.path.join(project_root_dir, 'Generation')
+sys.path.append(generation_dir)
+
 import ai
+
+print("Ai Module Impo")
 
 load_dotenv()
 variable_value = os.getenv("API_KEY")
@@ -28,10 +38,7 @@ with open(r"Storage\data.json") as data:
     slot_3 = info["slot_3"]
     slot_4 = info["slot_4"]
     config = info["settings"]
-    print(slot_1, slot_2, slot_3, slot_4, config)
-
-
-
+    # print(slot_1, slot_2, slot_3, slot_4, config)
 
 def settings():
 
@@ -53,8 +60,6 @@ def settings():
                     f.write(f"API_KEY={api_key_new}\n")
                 print("API_KEY updated")
                 break
-
-            
         
         elif setting == "2":
             while True:

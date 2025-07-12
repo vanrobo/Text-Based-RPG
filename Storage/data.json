@@ -20,7 +20,6 @@
         "Character": "Villager"
     },
     "settings": {
-        
         "text_speed": 0.9,
         "text_to_speech": false,
         "font_size": 15,
