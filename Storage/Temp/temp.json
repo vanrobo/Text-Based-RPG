@@ -1,0 +1,30 @@
+{
+  "map_type": "office",
+  "genre": "modern",
+  "oceans": false,
+  "water_presence": "minimal",
+  "scale_chunk_description": "Each chunk represents a section of the strip mall encompassing multiple storefronts.",
+  "scale_tile_description": "Each tile represents a small area within the office, like a desk, a corner, or a section of the wall.",
+  "landmarks": [
+    "Saul Goodman's office (faux-Greek columns, questionable artwork)",
+    "Strip mall exterior"
+  ],
+  "terrain_types": [
+    "Pavement",
+    "Concrete",
+    "Office carpet",
+    "Drywall"
+  ],
+  "climate": "arid",
+  "features": [
+    "Parking lot",
+    "Other strip mall businesses (e.g., nail salon, laundromat)",
+    "Waiting area with cheap furniture",
+    "Saul's cluttered desk",
+    "Filing cabinets (potentially containing questionable documents)",
+    "Back room/storage area"
+  ],
+  "tone_and_atmosphere": "tacky, slightly sleazy, deceptively cheerful, desperate",
+  "era_or_tech_level": "modern",
+  "magic_presence": "no_magic"
+}

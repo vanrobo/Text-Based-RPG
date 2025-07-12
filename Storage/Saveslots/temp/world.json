@@ -1,0 +1,105 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "exterior",
+      "name": "Parking Lot Entrance",
+      "description": "The entrance to the strip mall parking lot. Pavement stretches towards the storefronts. Arid climate, minimal water presence reflected in the cracked asphalt.",
+      "coordinates": [
+        0,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "exterior",
+      "name": "Strip Mall Facade",
+      "description": "Exterior view of the strip mall. Saul Goodman's office is somewhere along this stretch. Tacky signs and concrete construction.",
+      "coordinates": [
+        1,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "exterior",
+      "name": "Adjacent Business (Nail Salon)",
+      "description": "The storefront of a nail salon, located next to Saul's office. Part of the strip mall chunk.",
+      "coordinates": [
+        2,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "interior",
+      "name": "Waiting Area",
+      "description": "The waiting area outside Saul Goodman's office. Cheap furniture and questionable artwork adorn the space.",
+      "coordinates": [
+        0,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "interior",
+      "name": "Saul's Office Entrance",
+      "description": "The entrance to Saul Goodman's office, marked by faux-Greek columns. Office carpet and drywall are the dominant materials.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "category": "interior",
+      "name": "Saul's Cluttered Desk",
+      "description": "Saul Goodman's desk, covered in paperwork and various items. Reflects the tone and atmosphere of desperation and slight sleaze.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "interior",
+      "name": "Filing Cabinets",
+      "description": "Filing cabinets containing potentially questionable documents. A key feature of Saul's office.",
+      "coordinates": [
+        0,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "category": "interior",
+      "name": "Back Room Entrance",
+      "description": "The entrance to a storage area in the back of the office.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "interior",
+      "name": "Back Room Storage",
+      "description": "Cluttered storage area, potentially containing evidence or supplies. The backroom reflects the 'tacky' atmosphere.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    }
+  ]
+}

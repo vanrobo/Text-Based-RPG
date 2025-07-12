@@ -6,9 +6,15 @@ import os
 from dotenv import load_dotenv
 import sys 
 
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+project_root_dir = os.path.dirname(current_dir)
+generation_dir = os.path.join(project_root_dir, 'Generation')
+sys.path.append(generation_dir)
 
-
-print("Ai Module Impo")
+import ai
+import back_story
+import world_gen 
 
 load_dotenv()
 variable_value = os.getenv("API_KEY")
@@ -32,10 +38,8 @@ with open (r"Storage\Saveslots\1\info.json") as slot:
 with open (r"Storage\Saveslots\2\info.json") as slot:
     slot_2 = json.load(slot)
 
-
 with open (r"Storage\Saveslots\3\info.json") as slot:
     slot_3 = json.load(slot)
-
 
 with open (r"Storage\Saveslots\4\info.json") as slot:
     slot_4 = json.load(slot)
@@ -43,7 +47,28 @@ with open (r"Storage\Saveslots\4\info.json") as slot:
 
     # print(slot_1, slot_2, slot_3, slot_4, config)
 
-def settings():
+def animate(*text, delay=0.01,sep="", end="\n",between=None):
+
+    combined_text = sep.join(map(str, text))
+
+    if between is not None:
+        for char in combined_text:
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(delay)
+            sys.stdout.write(between) # put stsuff between characters, maybe like spaces.
+            sys.stdout.flush()
+            time.sleep(delay)
+        print(end=end)
+    else:
+        for char in combined_text:
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(delay)
+        print(end=end)  # New line
+
+
+def settingsa():
 
     text_to_speech = settings["text_to_speech"]
     font_size = settings["font_size"]
@@ -208,13 +233,57 @@ def choose(saveslot_chosen):
         return
         
 
+def create_slot(sno=None):
+    if sno is None:
+        sno = input("Enter the saveslot number you want to create (1-4): ").strip()
+        create_slot(sno)
+    else:
+        line = "-" * 50
+        animate()
+        animate("Greetings, Traveller", end="")
+        animate("...", delay=0.5 )
+        time.sleep(0.5)
+
+        animate("Welcome to the world of Text-Based RPG")
+        animate("You are about to create a brand new world")
+        animate()
+        animate("choose wisely...", delay=0.2,between=" ")
+        animate()
+        animate("This world will be your playground, your adventure, and your story")
+        animate()
+        animate("Input the name for your new saveslot: ")
+        name = input("You: ").strip()
+        animate()
+        animate("Input the name of your character: ")
+        protag_name = input("You: ").strip()
+        animate()
+        animate("Do you want to input a custom backstory (Optional) Y/N: ")
+        backstory_choice = input("You: ").strip().lower()
+        if backstory_choice == "y" or backstory_choice == "yes":
+            animate("Enter your custom backstory in short: ")
+            animate()
+            backstory = input("You: ").strip()
+            back_story.generate_backstory(sno, backstory)
+            animate("Backstory saved successfully!")
+            world_gen.map_generation(sno)
+            animate("World generated successfully!")
+
+        else:
+            back_story.generate_backstory(sno)
+            animate("Random backstory generated successfully!")
+            world_gen.map_generation(sno)
+        animate("Saveslot created successfully!")
+        
+        
+    
+
 
 ## Saveslot selection
 def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
     while True: 
         if Saveslot1["saveslot_created"] == True:
 
-            print(f" \n\n\t\t Slot 1: {Saveslot1["saveslot_name"]} \n\t\t Character: {Saveslot1["protagonist_name"]} \n\t\t Class: {Saveslot1["protagonist_class"]} \n\t\t Location: {Saveslot1["location"]} \n\t\t level: {Saveslot1["level"]} ")
+            print(f' \n\n\t\t Slot 1: {Saveslot1["saveslot_name"]} \n\t\t Character: {Saveslot1["protagonist_name"]} \n\t\t Class: {Saveslot1["protagonist_class"]} \n\t\t Location: {Saveslot1["location"]} \n\t\t level: {Saveslot1["level"]} ')
         
         else:
             print("\n\n\t\t Slot 1: Create Slot")
@@ -222,7 +291,7 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
 
         if Saveslot2["saveslot_created"] == True:
 
-            print(f" \n\n\t\t Slot 2: {Saveslot2["saveslot_name"]} \n\t\t Character: {Saveslot2["protagonist_name"]} \n\t\t Class: {Saveslot2["protagonist_class"]} \n\t\t Location: {Saveslot2["location"]} \n\t\t level: {Saveslot2["level"]} ")
+            print(f' \n\n\t\t Slot 2: {Saveslot2["saveslot_name"]} \n\t\t Character: {Saveslot2["protagonist_name"]} \n\t\t Class: {Saveslot2["protagonist_class"]} \n\t\t Location: {Saveslot2["location"]} \n\t\t level: {Saveslot2["level"]} ')
         
         else:
             print("\n\n\t\t Slot 2: Create Slot")      
@@ -230,7 +299,7 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
 
         if Saveslot3["saveslot_created"] == True:
 
-            print(f" \n\n\t\t Slot 3: {Saveslot3["saveslot_name"]} \n\t\t Character: {Saveslot3["protagonist_name"]} \n\t\t Class: {Saveslot3["protagonist_class"]} \n\t\t Location: {Saveslot3["location"]} \n\t\t level: {Saveslot3["level"]} ")
+            print(f' \n\n\t\t Slot 3: {Saveslot3["saveslot_name"]} \n\t\t Character: {Saveslot3["protagonist_name"]} \n\t\t Class: {Saveslot3["protagonist_class"]} \n\t\t Location: {Saveslot3["location"]} \n\t\t level: {Saveslot3["level"]} ')
         
         else:
             print("\n\n\t\t Slot 3: Create Slot")
@@ -238,39 +307,40 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
 
         if Saveslot4["saveslot_created"] == True:
 
-            print(f"\n\n\t\t Slot 4: {Saveslot4["saveslot_name"]} \n\t\t Character: {Saveslot4["protagonist_name"]} \n\t\t Class: {Saveslot4["protagonist_class"]} \n\t\t Location: {Saveslot4["location"]} \n\t\t level: {Saveslot4["level"]} ")
+            print(f'\n\n\t\t Slot 4: {Saveslot4["saveslot_name"]} \n\t\t Character: {Saveslot4["protagonist_name"]} \n\t\t Class: {Saveslot4["protagonist_class"]} \n\t\t Location: {Saveslot4["location"]} \n\t\t level: {Saveslot4["level"]} ')
         
         else:
             print("\n\n\t\t Slot 4: Create Slot")
 
 
-        choice = int(input("\nTo choose a saveslot click a number 1-4 corresponding to your saveslot of choice.\nIf you wish to return press 5\nYou: "))
-        
-        if 0< choice < 6:
-                                
-            if choice == 1:
-                saveslot_chosen = Saveslot1
-            elif choice == 2:
-                saveslot_chosen = Saveslot2
-            elif choice == 3:
-                saveslot_chosen = Saveslot3
-            elif choice == 4:
-                saveslot_chosen = Saveslot4
-            else:
-                print("Returning to main menu........")
-                mainmenu()
+        choice = input("\nTo choose a saveslot click a number 1-4 corresponding to your saveslot of choice.\nIf you wish to return press 5\nYou: ").strip().lower()
 
-            choose(saveslot_chosen)
-
+        if choice == "temp":
+            saveslot_chosen = "temp"
+            animate("Temporary saveslot created")
+            sno="temp"
+            create_slot(sno)
+        elif int(choice) == 1:
+            saveslot_chosen = Saveslot1
+        elif int(choice) == 2:
+            saveslot_chosen = Saveslot2
+        elif int(choice) == 3:
+            saveslot_chosen = Saveslot3
+        elif int(choice) == 4:
+            saveslot_chosen = Saveslot4        
         else:
-            print("Please try again")
+            animate("Returning to main menu........")
+            mainmenu()
+
+    else:
+        print("Please try again")
                  
 
 
 ## base interface person sees when they load into the game
 def mainmenu():
  
-    print(r""" 
+    animate(r""" 
   _______        _      ____                     _   _____              
  |__   __|      | |    |  _ \                   | |  |  __ \             
     | | _____  _| |_   | |_) | __ _ ___  ___  __| |  | |__) | _ __   __ _ 
@@ -280,30 +350,30 @@ def mainmenu():
                                                              | |     __/ |
                                                              |_|    |___/
 
-""")
-    print("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
+""",delay=0.0001)
+    animate("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
    
     while True:
         mainOption = input("You: ").strip().lower()
     
         if mainOption == "1" or mainOption == "play" or mainOption == "p":
             saveslot(slot_1,slot_2,slot_3,slot_4)
-            break            
+            return            
             
         elif mainOption == "2" or mainOption == "setting" or mainOption == "settings" or mainOption == "s":
-            settings()
-            break
+            settingsa()
+            return
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
-            print("Made by: Vanrobo and Valt20_20shu")
-            break
+            animate("Made by: Vanrobo and Valt20_20shu")
+            mainmenu()
 
         elif mainOption == "4" or mainOption == "exit" or mainOption == "ex" or mainOption == "e":
-            print("Exiting the game...")
-            break
-        
+            animate("Exiting the game...")
+            sys.exit(0)
+            
         else:
-            print("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
+            animate("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
         
     return
 

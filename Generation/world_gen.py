@@ -106,25 +106,26 @@ def multi_map_generation(): #multilevel generation
 
 
 
-def map_generation():
-    while True:
-        try:
-            sno = int(input("Enter a number from 1-4: "))
-        
-        except ValueError:
-            print("Please try again")
-            continue
+def map_generation(sno=None):
+    if sno is None:
+        while True:
+            try:
+                sno = int(input("Enter a number from 1-4: "))
 
-        if sno < 1:
-            print("Please try again")
-            continue
-
-        if sno > 4:
-            print("Please try again")
-            continue
-
-        else:
-            break
+            except ValueError:
+                print("Please try again")
+                continue
+            
+            if sno < 1:
+                print("Please try again")
+                continue
+            
+            if sno > 4:
+                print("Please try again")
+                continue
+            
+            else:
+                break
 
     with open(rf"Storage\Saveslots\{sno}\backstory.json") as backstory: 
         info = json.load(backstory)
@@ -138,18 +139,18 @@ def map_generation():
         Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/Temp/temp.json", specifications)
         map = ai.generate(prompts.map3x3, rf"Storage\Saveslots\{sno}\world.json", Specifications3x3) # generates the world map
         
-        generationcontinue = input("Generate further:") # waits for the user to press enter before continuing
-
-        if generationcontinue.lower() == "yes" or generationcontinue.lower() == "y":
-            with open(rf"Storage/Saveslots/{sno}/world.json", "r") as data:
-                map_data = json.load(data)
-                map_tiles = ""
-                for tile in map_data['tiles']:
-                    map_tiles += f"Tile ID: {tile['id']}, Category: {tile['category']}, Description: {tile['description']}\n)"
-                print(map_tiles)
-
         
-        else:
+        #generationcontinue = input("Generate further:") # waits for the user to press enter before continuing
+#
+        #if generationcontinue.lower() == "yes" or generationcontinue.lower() == "y":
+        #    with open(rf"Storage/Saveslots/{sno}/world.json", "r") as data:
+        #        map_data = json.load(data)
+        #        map_tiles = ""
+        #        for tile in map_data['tiles']:
+        #            map_tiles += f"Tile ID: {tile['id']}, Category: {tile['category']}, Description: {tile['description']}\n)"
+        #        print(map_tiles)
+#
+        #
+        #else:
             return
         
-map_generation()

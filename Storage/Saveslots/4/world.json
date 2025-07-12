@@ -1,0 +1,105 @@
+{
+  "map_width": 3,
+  "map_height": 3,
+  "tiles": [
+    {
+      "id": 1,
+      "category": "mountain",
+      "name": "Snowy Peak Outskirts",
+      "description": "Rocky terrain with patches of snow. Marks the outer edge of the village, leading towards higher, more treacherous peaks. ",
+      "coordinates": [
+        0,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 2,
+      "category": "mountain",
+      "name": "Mountain Path Junction",
+      "description": "Where paths converge, connecting different parts of the village and leading up the mountain. Prayer flags adorn the trail.",
+      "coordinates": [
+        1,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 3,
+      "category": "village",
+      "name": "Yak Hide Tents Area",
+      "description": "A cluster of Yak Hide Tents. The nomadic dwellings of villagers that move from place to place.",
+      "coordinates": [
+        2,
+        0
+      ],
+      "locations": {}
+    },
+    {
+      "id": 4,
+      "category": "mountain",
+      "name": "Glacial River Source",
+      "description": "The starting point of one of the glacial rivers, fed by melting snow from the higher peaks.",
+      "coordinates": [
+        0,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 5,
+      "category": "village",
+      "name": "Central Prayer Wheel Plaza",
+      "description": "The heart of the village, dominated by a large central prayer wheel. A hub for religious activity and social gatherings. The Kyzyl-Suu Monastery is nearby.",
+      "coordinates": [
+        1,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 6,
+      "category": "village",
+      "name": "Stone House District",
+      "description": "An area consisting of tightly packed stone houses, forming the more permanent residential part of the village.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {}
+    },
+    {
+      "id": 7,
+      "category": "mountain",
+      "name": "Avalanche Zone Start",
+      "description": "Marked with warning signs, this area is prone to avalanches from the snow-capped peaks above.",
+      "coordinates": [
+        0,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 8,
+      "category": "village",
+      "name": "Kyzyl-Suu Monastery Outskirts",
+      "description": "Stone houses surrounding the Kyzyl-Suu Monastery",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {}
+    },
+    {
+      "id": 9,
+      "category": "river",
+      "name": "Glacial River Crossing",
+      "description": "A shallow section of the glacial river where villagers frequently cross. Stepping stones assist in traversing the icy water.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {}
+    }
+  ]
+}
