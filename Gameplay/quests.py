@@ -1,2 +1,2 @@
-import ai
-import prompts
+import Generation.ai
+import Generation.prompts

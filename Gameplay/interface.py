@@ -6,13 +6,7 @@ import os
 from dotenv import load_dotenv
 import sys 
 
-current_file_path = os.path.abspath(__file__)
-current_dir = os.path.dirname(current_file_path)
-project_root_dir = os.path.dirname(current_dir)
-generation_dir = os.path.join(project_root_dir, 'Generation')
-sys.path.append(generation_dir)
 
-import ai
 
 print("Ai Module Impo")
 
@@ -29,23 +23,32 @@ elif variable_value:
     pass
 
 #Loding player data
-with open(r"Storage\data.json") as data:
-    info = json.load(data)
+with open(r"Storage\settings.json") as data:
+    settings = json.load(data)
+
+with open (r"Storage\Saveslots\1\info.json") as slot:
+    slot_1 = json.load(slot)
+
+with open (r"Storage\Saveslots\2\info.json") as slot:
+    slot_2 = json.load(slot)
 
 
-    slot_1 = info["slot_1"]
-    slot_2 = info["slot_2"]
-    slot_3 = info["slot_3"]
-    slot_4 = info["slot_4"]
-    config = info["settings"]
+with open (r"Storage\Saveslots\3\info.json") as slot:
+    slot_3 = json.load(slot)
+
+
+with open (r"Storage\Saveslots\4\info.json") as slot:
+    slot_4 = json.load(slot)
+
+
     # print(slot_1, slot_2, slot_3, slot_4, config)
 
 def settings():
 
-    text_to_speech = config["text_to_speech"]
-    font_size = config["font_size"]
-    font_family = config["font_family"]
-    font_colour = config["font_colour"]
+    text_to_speech = settings["text_to_speech"]
+    font_size = settings["font_size"]
+    font_family = settings["font_family"]
+    font_colour = settings["font_colour"]
 
     while True:
         print(f"Which setting do you want to change: [enter a number] \
@@ -100,11 +103,10 @@ def settings():
 
                 if setting_saving == "yes" or setting_saving == 'y':
                     print("Saving settings..........")
-                    config["font_family"] = font_family
-                    config["font_size"] = font_size
-                    config["font_colour"] = font_colour
-                    config["text_to_speech"] = text_to_speech
-                    info["settings"] = config
+                    settings["font_family"] = font_family
+                    settings["font_size"] = font_size
+                    settings["font_colour"] = font_colour
+                    settings["text_to_speech"] = text_to_speech
                     print("Success")
                     return mainmenu()
                 elif setting_saving == "no" or setting_saving == 'n':
@@ -137,7 +139,7 @@ def deletion(saveslot_chosen):
                     
                     elif confirmation == "n" or confirmation == "no":
                         print("Deletion Cancelled \nReturning to saveslot selection")
-                        saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+                        saveslot(slot_1["saveslot_name"],slot_2["saveslot_name"],slot_3["saveslot_name"],slot_4["saveslot_name"])
 
                         return
                     
@@ -147,7 +149,7 @@ def deletion(saveslot_chosen):
 
             elif delete == 'n' or delete == "no":
                 print("Returning to saveslot selection")
-                saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+                saveslot(slot_1["saveslot_name"],slot_2["saveslot_name"],slot_3["saveslot_name"],slot_4["saveslot_name"])
 
                 return
 
@@ -157,7 +159,16 @@ def deletion(saveslot_chosen):
 
 
 ## Registiring player saveslot choice
-def choose(choice, saveslot_chosen):
+def choose(saveslot_chosen):
+    while saveslot_chosen["saveslot_created"] == True:
+        choice = int(input("What do you want to do: \
+                     \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
+        
+        if 0 < choice < 5:
+            break
+
+        else:
+            print("Please try again")
 
     if choice == 1:
         print("When it all began.........")
@@ -171,20 +182,71 @@ def choose(choice, saveslot_chosen):
         deletion(saveslot_chosen)
         return
     
-    else:
+    elif choice == 4:
         print("Returning to saveslot selection........")
-        saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])
+        saveslot(slot_1,slot_2,slot_3,slot_4)
         return
 
+    else:
+        while True:
+            continue_choice = input("Do you want to continue (Y/N): ").strip().lower()
+
+            if continue_choice == "y" or continue_choice == "yes":
+                name = input("Enter the name for your new saveslot: ")
+                protag_name = input("Enter the name of your character: ")
+                backstory_choice = input("Do you want to input a custom backstory (Optional) Y/N: ")
+                backstory = input("Enter your custom backstory in short: ")
+                break
+            
+            elif continue_choice == "n" or continue_choice == "no":
+                print("Returning to saveslot selection........")
+                saveslot(slot_1,slot_2,slot_3,slot_4)
+                break
+
+            else:
+                print("Please try again")          
+        return
+        
 
 
 ## Saveslot selection
 def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
-    while True:
-        choice = int(input(f"\nPlease select which saveslot that you want to choose: \
-                       \n\n\t(1) {Saveslot1}\n\t(2) {Saveslot2}\n\t(3) {Saveslot3}\n\t(4) {Saveslot4}\n\nYou: "))
+    while True: 
+        if Saveslot1["saveslot_created"] == True:
+
+            print(f" \n\n\t\t Slot 1: {Saveslot1["saveslot_name"]} \n\t\t Character: {Saveslot1["protagonist_name"]} \n\t\t Class: {Saveslot1["protagonist_class"]} \n\t\t Location: {Saveslot1["location"]} \n\t\t level: {Saveslot1["level"]} ")
         
-        if 0< choice < 5:
+        else:
+            print("\n\n\t\t Slot 1: Create Slot")
+
+
+        if Saveslot2["saveslot_created"] == True:
+
+            print(f" \n\n\t\t Slot 2: {Saveslot2["saveslot_name"]} \n\t\t Character: {Saveslot2["protagonist_name"]} \n\t\t Class: {Saveslot2["protagonist_class"]} \n\t\t Location: {Saveslot2["location"]} \n\t\t level: {Saveslot2["level"]} ")
+        
+        else:
+            print("\n\n\t\t Slot 2: Create Slot")      
+
+
+        if Saveslot3["saveslot_created"] == True:
+
+            print(f" \n\n\t\t Slot 3: {Saveslot3["saveslot_name"]} \n\t\t Character: {Saveslot3["protagonist_name"]} \n\t\t Class: {Saveslot3["protagonist_class"]} \n\t\t Location: {Saveslot3["location"]} \n\t\t level: {Saveslot3["level"]} ")
+        
+        else:
+            print("\n\n\t\t Slot 3: Create Slot")
+        
+
+        if Saveslot4["saveslot_created"] == True:
+
+            print(f"\n\n\t\t Slot 4: {Saveslot4["saveslot_name"]} \n\t\t Character: {Saveslot4["protagonist_name"]} \n\t\t Class: {Saveslot4["protagonist_class"]} \n\t\t Location: {Saveslot4["location"]} \n\t\t level: {Saveslot4["level"]} ")
+        
+        else:
+            print("\n\n\t\t Slot 4: Create Slot")
+
+
+        choice = int(input("\nTo choose a saveslot click a number 1-4 corresponding to your saveslot of choice.\nIf you wish to return press 5\nYou: "))
+        
+        if 0< choice < 6:
                                 
             if choice == 1:
                 saveslot_chosen = Saveslot1
@@ -192,19 +254,14 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
                 saveslot_chosen = Saveslot2
             elif choice == 3:
                 saveslot_chosen = Saveslot3
-            else:
+            elif choice == 4:
                 saveslot_chosen = Saveslot4
+            else:
+                print("Returning to main menu........")
+                mainmenu()
 
-            while True:
-                choice2 = int(input("What do you want to do: \
-                             \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
-                if 0 < choice2 < 5:
+            choose(saveslot_chosen)
 
-                    choose(choice2,saveslot_chosen)
-
-                    return
-                else:
-                    print("Please try again")
         else:
             print("Please try again")
                  
@@ -230,25 +287,27 @@ def mainmenu():
         mainOption = input("You: ").strip().lower()
     
         if mainOption == "1" or mainOption == "play" or mainOption == "p":
-            saveslot(slot_1["Name"],slot_2["Name"],slot_3["Name"],slot_4["Name"])            
+            saveslot(slot_1,slot_2,slot_3,slot_4)
+            break            
             
         elif mainOption == "2" or mainOption == "setting" or mainOption == "settings" or mainOption == "s":
             settings()
+            break
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
             print("Made by: Vanrobo and Valt20_20shu")
-            
+            break
+
         elif mainOption == "4" or mainOption == "exit" or mainOption == "ex" or mainOption == "e":
             print("Exiting the game...")
             break
         
         else:
             print("", "(1) Play", "(2) Settings", "(3) Credits", "(4) Exit", "Choose wisely...", sep = "\n\t", end = "\n\n\n")
+        
+    return
 
 
 mainmenu()
 
-
-with open(r"Storage\data.json", "w") as data:
-    json.dump(info, data, indent=4)
 
