@@ -28,7 +28,7 @@ How to setup in 2 easy steps:
 \
 and *voila!*
 
-*run the main.py or if not; then go to Gamepla / Interface, and run it!*
+*run the main.py or if not; then go to Gameplay / Interface, and run it!*
 
 # Note; save slots have not been implemented correctly as of this version, so in saveslot selection, write "temp" instead of any other number.
 
