@@ -21,16 +21,11 @@ How to install in 2 easy steps:
 - > You may get an API key from https://ai.google.dev/gemini-api/docs or https://aistudio.google.com/apikey and set it in the .env file.
 - > set it in the.ENV in API_KEY=the_apikey
 
+\
 and voila!
 
 *run the main.py or if not; then go to Gamepla / Interface, and run it!*
 
----
----
----
----
----
----
 ---
 ---
 ---
