@@ -7,8 +7,13 @@ All in a neat and tidy package within your terminal ***in the form of text***.
 No two adventures will be the same. Go on try it
 
 ---
+<br>
+- >install the package from github and extract it.
 
-How to install in 2 easy steps:
+<br>
+
+---
+How to setup in 2 easy steps:
 
 
 1. run: 
