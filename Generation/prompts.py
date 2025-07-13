@@ -10,6 +10,7 @@ The JSON object must have the following fields, and ALL content generated for th
 {
     "backstory": "A detailed and immersive backstory that introduces the world, its history, and key characters. This backstory MUST logically lead to or incorporate the protagonist and starting location described in the core information. If the core information implies a modern setting, the backstory should not contradict this unless it explicitly details a 'hidden world' element.",
     "location": "The specific starting location for the story, taken directly from or clearly based on the core information. Describe its significance and any notable features relevant to the protagonist and the unfolding narrative outlined in the core information.",
+    "about": "A brief overview of the world, its cultures, and any relevant lore that sets the stage for the protagonist's journey. This should be consistent with the core information and provide context for the protagonist's actions and motivations, make sure that you are talking as if you are the narrator of the story, not the AI.",
     "protagonist": {
         "name": "Protagonist's Name, based on the core information.",
         "background": "Their history and origin, elaborated from the core information.",

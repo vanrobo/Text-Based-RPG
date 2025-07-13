@@ -68,6 +68,8 @@ def animate(*text, delay=0.01,sep="", end="\n",between=None):
         print(end=end)  # New line
 
 
+
+
 def settingsa():
 
     text_to_speech = settings["text_to_speech"]
@@ -233,6 +235,76 @@ def choose(saveslot_chosen):
         return
         
 
+def saveslot_description(sno):
+    with open(f"Storage/Saveslots/{sno}/backstory.json") as slot:
+        slot_info = json.load(slot)
+        general_backstory = slot_info["about"]
+        backstory = slot_info["backstory"]
+        location = slot_info["location"]
+        protagonist_name = slot_info["protagonist"]["name"]
+        character_location = slot_info["protagonist"]["background"]
+        protagonist_motivations = slot_info["protagonist"]["motivations"]
+        unique_abilities = slot_info["protagonist"]["unique_abilities"]
+        theme = slot_info["theme"]
+        setting = slot_info["setting"]
+        conflict = slot_info["conflict"]
+        
+        print('\n')
+        animate("Press Enter to Continue...")
+        input()
+        animate("welcome to this world, ", end="\n")
+        animate("soul",delay=0.5, between=" ")
+        input()
+        animate(protagonist_motivations, end="\n")
+        input()
+        time.sleep(0.5)
+        animate( character_location, end="\n")
+        input()
+        time.sleep(0.5)
+        animate(location, end="\n")
+        input()
+        time.sleep(0.5)
+        animate("You have the following unique abilities: ", end="\n")
+        print()
+        for ability in unique_abilities:
+            animate(f"\t- {ability}", end="\n")
+        time.sleep(0.5)
+        input()
+        print()
+        animate("Your backstory is as follows: ", end="\n")
+        print()
+        animate(general_backstory, end="\n")
+        print()
+        input()
+        animate("And your detailed backstory is as follows: ", end="\n")
+        print()
+        animate(backstory, end="\n\n")
+        input()
+        time.sleep(2)
+        animate("Basically, you see...")
+        time.sleep(0.5)
+        animate("Your world is basically: ", theme, end="\n")
+        print()
+        input()
+        animate("The setting is: ", setting, end="\n")
+        time.sleep(0.5)
+        print()
+        input()
+        animate(conflict, end="\n")
+        time.sleep(5)
+        print()
+        input()
+        animate("Are you ready? ", end="\n")
+        animate("You: ", delay=0.5, end="")
+        input()
+        print()
+        animate("Let's begin your adventure!", end="\n")
+        time.sleep(0.5)
+        print("NOTE: THE GAMEPLAY HAS NOT YET BEEN IMPLEMENTED, SO THERE WILL BE AN ERROR IN 10 SECONDS")
+        time.sleep(10)
+
+    print(f'\n\n\t\t Slot {sno}: {slot_info["saveslot_name"]} \n\t\t Character: {slot_info["protagonist_name"]} \n\t\t Class: {slot_info["protagonist_class"]} \n\t\t Location: {slot_info["location"]} \n\t\t level: {slot_info["level"]} ')
+
 def create_slot(sno=None):
     if sno is None:
         sno = input("Enter the saveslot number you want to create (1-4): ").strip()
@@ -250,6 +322,7 @@ def create_slot(sno=None):
         animate("choose wisely...", delay=0.2,between=" ")
         animate()
         animate("This world will be your playground, your adventure, and your story")
+        time.sleep(1)
         animate()
         animate("Input the name for your new saveslot: ")
         name = input("You: ").strip()
@@ -260,20 +333,25 @@ def create_slot(sno=None):
         animate("Do you want to input a custom backstory (Optional) Y/N: ")
         backstory_choice = input("You: ").strip().lower()
         if backstory_choice == "y" or backstory_choice == "yes":
+            print()
             animate("Enter your custom backstory in short: ")
             animate()
+            
             backstory = input("You: ").strip()
-            back_story.generate_backstory(sno, backstory)
+            total_backstory = backstory + protag_name 
+            back_story.generate_backstory(sno, total_backstory)
             animate("Backstory saved successfully!")
             world_gen.map_generation(sno)
             animate("World generated successfully!")
 
         else:
+            print()
             back_story.generate_backstory(sno)
             animate("Random backstory generated successfully!")
             world_gen.map_generation(sno)
         animate("Saveslot created successfully!")
-        
+        saveslot_description(sno)
+
         
     
 

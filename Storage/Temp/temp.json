@@ -1,30 +1,33 @@
 {
-  "map_type": "office",
+  "map_type": "interior",
   "genre": "modern",
   "oceans": false,
-  "water_presence": "minimal",
-  "scale_chunk_description": "Each chunk represents a section of the strip mall encompassing multiple storefronts.",
-  "scale_tile_description": "Each tile represents a small area within the office, like a desk, a corner, or a section of the wall.",
+  "water_presence": "negligible",
+  "scale_chunk_description": "Each chunk represents a section of Saul Goodman's office and its immediate surroundings within the strip mall.",
+  "scale_tile_description": "Each tile is a specific object, piece of furniture, or detail within the office or surrounding area (e.g., a desk, a filing cabinet, a section of wall, a window, a part of the parking lot).",
   "landmarks": [
-    "Saul Goodman's office (faux-Greek columns, questionable artwork)",
+    "Saul Goodman's office (interior and exterior)",
+    "Blow-up Statue of Liberty",
     "Strip mall exterior"
   ],
   "terrain_types": [
-    "Pavement",
-    "Concrete",
-    "Office carpet",
-    "Drywall"
+    "tiled_floor",
+    "carpet",
+    "asphalt",
+    "dry_land",
+    "walls",
+    "glass"
   ],
   "climate": "arid",
   "features": [
-    "Parking lot",
-    "Other strip mall businesses (e.g., nail salon, laundromat)",
-    "Waiting area with cheap furniture",
-    "Saul's cluttered desk",
-    "Filing cabinets (potentially containing questionable documents)",
-    "Back room/storage area"
+    "Waiting room",
+    "Saul's desk",
+    "Filing cabinets",
+    "Strip mall parking lot",
+    "Neon sign (Better Call Saul)",
+    "Flickering fluorescent lights"
   ],
-  "tone_and_atmosphere": "tacky, slightly sleazy, deceptively cheerful, desperate",
+  "tone_and_atmosphere": "seedy",
   "era_or_tech_level": "modern",
   "magic_presence": "no_magic"
 }
