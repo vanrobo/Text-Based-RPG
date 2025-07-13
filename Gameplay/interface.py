@@ -254,7 +254,7 @@ def saveslot_description(sno):
         input()
         animate("welcome to this world, ", end="\n")
         animate("soul",delay=0.5, between=" ")
-        input()
+        input("Press Enter to continue... [you have to do this everytime]")
         animate(protagonist_motivations, end="\n")
         input()
         time.sleep(0.5)
