@@ -7,11 +7,8 @@ All in a neat and tidy package within your terminal ***in the form of text***.
 No two adventures will be the same. Go on try it
 
 ---
-<br>
 
 - >install the package from github and extract it.
-
-
 
 ---
 How to setup in 2 easy steps:
@@ -30,7 +27,7 @@ How to setup in 2 easy steps:
 \
 and voila!
 
-*run the main.py or if not; then go to Gamepla / Interface, and run it!*
+*run the main.py or if not; then go to Gameplay\Interface, and run it!*
 
 ---
 ---
