@@ -311,31 +311,31 @@ def create_slot(sno=None):
         create_slot(sno)
     else:
         line = "-" * 50
-        animate()
+        print()
         animate("Greetings, Traveller", end="")
         animate("...", delay=0.5 )
         time.sleep(0.5)
 
         animate("Welcome to the world of Text-Based RPG")
         animate("You are about to create a brand new world")
-        animate()
+        print()
         animate("choose wisely...", delay=0.2,between=" ")
-        animate()
+        print()
         animate("This world will be your playground, your adventure, and your story")
         time.sleep(1)
-        animate()
+        print()
         animate("Input the name for your new saveslot: ")
         name = input("You: ").strip()
-        animate()
+        print()
         animate("Input the name of your character: ")
         protag_name = input("You: ").strip()
-        animate()
+        print()
         animate("Do you want to input a custom backstory (Optional) Y/N: ")
         backstory_choice = input("You: ").strip().lower()
         if backstory_choice == "y" or backstory_choice == "yes":
             print()
             animate("Enter your custom backstory in short: ")
-            animate()
+            print()
             
             backstory = input("You: ").strip()
             total_backstory = backstory + protag_name 
@@ -406,9 +406,11 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
             saveslot_chosen = Saveslot3
         elif int(choice) == 4:
             saveslot_chosen = Saveslot4        
-        else:
+        elif int(choice) == 5:
             animate("Returning to main menu........")
             mainmenu()
+        else:
+            animate("Please try again")
 
     else:
         print("Please try again")
