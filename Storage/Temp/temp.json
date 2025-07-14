@@ -1,33 +1,35 @@
 {
-  "map_type": "interior",
-  "genre": "modern",
+  "map_type": "city",
+  "genre": "cyberpunk",
   "oceans": false,
-  "water_presence": "negligible",
-  "scale_chunk_description": "Each chunk represents a section of Saul Goodman's office and its immediate surroundings within the strip mall.",
-  "scale_tile_description": "Each tile is a specific object, piece of furniture, or detail within the office or surrounding area (e.g., a desk, a filing cabinet, a section of wall, a window, a part of the parking lot).",
+  "water_presence": "localized_sewage_and_polluted_waterways",
+  "scale_chunk_description": "Each chunk is a city block within the Ghost District, containing abandoned factories and tunnel entrances.",
+  "scale_tile_description": "Each tile is a section of a building, tunnel, or derelict structure, showing details like walls, machinery, or access points.",
   "landmarks": [
-    "Saul Goodman's office (interior and exterior)",
-    "Blow-up Statue of Liberty",
-    "Strip mall exterior"
+    "Abandoned Factories",
+    "Underground Tunnels",
+    "Whisper Network Headquarters (hidden)",
+    "Technological Dead Ends",
+    "Rooftop access points"
   ],
   "terrain_types": [
-    "tiled_floor",
-    "carpet",
-    "asphalt",
-    "dry_land",
-    "walls",
-    "glass"
+    "concrete",
+    "metal",
+    "rubble",
+    "dirt",
+    "sewage"
   ],
-  "climate": "arid",
+  "climate": "polluted",
   "features": [
-    "Waiting room",
-    "Saul's desk",
-    "Filing cabinets",
-    "Strip mall parking lot",
-    "Neon sign (Better Call Saul)",
-    "Flickering fluorescent lights"
+    "hidden_entrances",
+    "technological_dead_ends",
+    "security_cameras",
+    "makeshift_shelters",
+    "graffiti",
+    "holograms",
+    "Neon signs"
   ],
-  "tone_and_atmosphere": "seedy",
-  "era_or_tech_level": "modern",
+  "tone_and_atmosphere": "desolate, gritty, rebellious, mysterious",
+  "era_or_tech_level": "futuristic",
   "magic_presence": "no_magic"
 }

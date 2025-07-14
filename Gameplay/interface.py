@@ -26,7 +26,7 @@ if variable_value is None:
         f.write(f"API_KEY={api_key}\n")
 elif variable_value:
     print("key recognised\n\n")
-    pass
+    pass        
 
 #Loding player data
 with open(r"Storage\settings.json") as data:
@@ -346,7 +346,7 @@ def create_slot(sno=None):
 
         else:
             print()
-            back_story.generate_backstory(sno)
+            back_story.generate_backstory_lite(sno)
             animate("Random backstory generated successfully!")
             world_gen.map_generation(sno)
         animate("Saveslot created successfully!")

@@ -4,102 +4,126 @@
   "tiles": [
     {
       "id": 1,
-      "category": "office",
-      "name": "Waiting Area",
-      "description": "Small, seedy waiting area with worn carpet. Directly adjacent to the strip mall parking lot. Flickering fluorescent lights overhead.",
+      "category": "urban",
+      "name": "Abandoned Factory Sector",
+      "description": "Dilapidated factory complex; concrete and metal dominating the terrain. Features graffiti and hidden entrances.",
       "coordinates": [
         1,
         1
       ],
-      "locations": {}
+      "locations": {
+        "landmark": "Abandoned Factories",
+        "feature": "hidden_entrances"
+      }
     },
     {
       "id": 2,
-      "category": "office",
-      "name": "Saul's Desk Area",
-      "description": "Cluttered desk with files and a landline phone. Walls covered in questionable diplomas.",
+      "category": "urban",
+      "name": "Derelict Housing Block",
+      "description": "Rubble-strewn former housing. Makeshift shelters are visible. Security cameras are present but likely damaged.",
       "coordinates": [
-        1,
-        2
+        2,
+        1
       ],
-      "locations": {}
+      "locations": {
+        "feature": "makeshift_shelters",
+        "feature": "security_cameras"
+      }
     },
     {
       "id": 3,
-      "category": "office",
-      "name": "Filing Cabinet Row",
-      "description": "A row of filing cabinets, crammed with files. Some appear to be overflowing.",
+      "category": "urban",
+      "name": "Polluted Waterway Junction",
+      "description": "Convergence of sewage-filled canals. Metal walkways provide treacherous passage. Neon signs flicker dimly.",
+      "coordinates": [
+        3,
+        1
+      ],
+      "locations": {
+        "terrain": "sewage",
+        "feature": "Neon signs"
+      }
+    },
+    {
+      "id": 4,
+      "category": "urban",
+      "name": "Collapsed Tunnel Entrance",
+      "description": "Partially collapsed entrance to the Underground Tunnels. Concrete and dirt dominate. Technological dead end nearby.",
+      "coordinates": [
+        1,
+        2
+      ],
+      "locations": {
+        "landmark": "Underground Tunnels",
+        "feature": "technological_dead_ends"
+      }
+    },
+    {
+      "id": 5,
+      "category": "urban",
+      "name": "Central Plaza Ruins",
+      "description": "Rubble-covered plaza. Faint holographic advertisements flicker. Potential Whisper Network activity.",
+      "coordinates": [
+        2,
+        2
+      ],
+      "locations": {
+        "feature": "holograms",
+        "landmark": "Whisper Network Headquarters (hidden)"
+      }
+    },
+    {
+      "id": 6,
+      "category": "urban",
+      "name": "Rooftop Access Point",
+      "description": "Metal stairs leading to a rooftop. Offers vantage point overlooking the Ghost District.",
+      "coordinates": [
+        3,
+        2
+      ],
+      "locations": {
+        "landmark": "Rooftop access points"
+      }
+    },
+    {
+      "id": 7,
+      "category": "urban",
+      "name": "Forgotten Workshop",
+      "description": "Concrete and metal workshop with scattered tools and broken machinery. Strong scent of sewage.",
       "coordinates": [
         1,
         3
       ],
-      "locations": {}
-    },
-    {
-      "id": 4,
-      "category": "exterior",
-      "name": "Parking Lot (Front)",
-      "description": "Section of the strip mall parking lot directly in front of Saul's office. Asphalt cracking, some weeds growing through.",
-      "coordinates": [
-        2,
-        1
-      ],
-      "locations": {}
-    },
-    {
-      "id": 5,
-      "category": "exterior",
-      "name": "Blow-up Statue of Liberty",
-      "description": "The iconic, slightly deflated, blow-up Statue of Liberty. Its arm waves erratically in the arid breeze.",
-      "coordinates": [
-        2,
-        2
-      ],
-      "locations": {}
-    },
-    {
-      "id": 6,
-      "category": "exterior",
-      "name": "Parking Lot (Side)",
-      "description": "Asphalt. A view to the side of the parking lot. Dry land and sparse desert foliage visible beyond the parking area.",
-      "coordinates": [
-        2,
-        3
-      ],
-      "locations": {}
-    },
-    {
-      "id": 7,
-      "category": "office",
-      "name": "Entrance/Exit",
-      "description": "The entrance to Saul Goodman's office. A glass door with the neon sign 'Better Call Saul' visible. Tiled floor.",
-      "coordinates": [
-        3,
-        1
-      ],
-      "locations": {}
+      "locations": {
+        "terrain": "sewage"
+      }
     },
     {
       "id": 8,
-      "category": "office",
-      "name": "Back Wall",
-      "description": "The back wall of the office, separating it from the adjacent business. Covered in cheap wood paneling.",
+      "category": "urban",
+      "name": "Dilapidated Power Station",
+      "description": "Technological Dead End: Decayed power station. Metal and concrete structures are falling apart.",
       "coordinates": [
-        3,
-        2
+        2,
+        3
       ],
-      "locations": {}
+      "locations": {
+        "landmark": "Technological Dead Ends"
+      }
     },
     {
       "id": 9,
-      "category": "office",
-      "name": "Side Wall",
-      "description": "One of the side walls of the office, separating it from the adjacent unit. You can hear sounds from next door.",
+      "category": "urban",
+      "name": "Underground Entrance (Hidden)",
+      "description": "A hidden entrance leading into the underground tunnels, concealed by graffiti and rubble.",
       "coordinates": [
         3,
         3
       ],
-      "locations": {}
+      "locations": {
+        "landmark": "Underground Tunnels",
+        "feature": "hidden_entrances"
+      }
     }
   ]
 }
