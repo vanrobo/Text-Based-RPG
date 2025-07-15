@@ -68,6 +68,31 @@ def animate(*text, delay=0.01,sep="", end="\n",between=None):
         print(end=end)  # New line
 
 
+def input_animate(*text,delay=0.01,sep="", end="\n",between=None):
+
+    combined_text = sep.join(map(str, text))
+
+    if between is not None:
+        for char in combined_text:
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(delay)
+            sys.stdout.write(between) # put stsuff between characters, maybe like spaces.
+            sys.stdout.flush()
+            time.sleep(delay)
+        print()
+    else:
+        for char in combined_text:
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(delay)
+        print()  # New line
+    
+    val = input()
+
+    return val
+
+
 
 
 def settingsa():
@@ -78,72 +103,74 @@ def settingsa():
     font_colour = settings["font_colour"]
 
     while True:
-        print(f"Which setting do you want to change: [enter a number] \
+        animate(f"Which setting do you want to change: [enter a number] \
         \n\n\t(1) API_KEY \n\t(2) Text-To-Speech: {text_to_speech} \n\t(3) Font Size: {font_size} \n\t(4) Font Family: {font_family} \n\t(5) Font Colour: {font_colour} \n\t(6) Back \n\n")
 
         setting = input("You: ")
 
         if setting == "1":
             while True:
-                api_key_new = input("Enter new api_key: \n\nYou: ")
+                api_key_new = input_animate("Enter new api_key: \n\nYou: ")
                 with open(".env", "w") as f:
                     f.write(f"API_KEY={api_key_new}\n")
-                print("API_KEY updated")
+                animate("API_KEY updated")
                 break
         
         elif setting == "2":
             while True:
-                text_to_speech = input("Enable Text-To-Speech(Y/N): \n\nYou: ").lower().strip()
+                text_to_speech = input_animate("Enable Text-To-Speech(Y/N): \n\nYou: ").lower().strip()
 
                 if text_to_speech == "y" or text_to_speech == 'yes':
                     text_to_speech = True
-                    print("Text-To-Speech Enabled")
+                    animate("Text-To-Speech Enabled")
                     break
 
 
                 elif text_to_speech == 'n' or text_to_speech == "no":
                     text_to_speech = False
-                    print("Text-To-Speech disabled")
+                    animate("Text-To-Speech Disabled")
                     break 
 
                 else:
-                    print("Please try again")
+                    animate("Please try again")
 
         elif setting == "3":
-            font_size= int(input("Enter new font size: \n\nYou: "))
+            font_size= int(input_animate("Enter new font size: \n\nYou: "))
         
 
         elif setting == "4":
-            font_family = input("Enter new font family: \n\nYou: ")
+            font_family = input_animate("Enter new font family: \n\nYou: ")
             
 
         elif setting == "5":
-            font_colour = input("Enter new font colour: \n\nYou: ")
+            font_colour = input_animate("Enter new font colour: \n\nYou: ")
 
         
         elif setting == "6":
-            print("Do you want to save your settings before leaving (Y/N)? \n")
+            animate("Do you want to save your settings before leaving (Y/N)? \n")
 
             while True:
 
                 setting_saving = input("You: ").strip().lower()
 
                 if setting_saving == "yes" or setting_saving == 'y':
-                    print("Saving settings..........")
+                    animate("Saving settings..........")
                     settings["font_family"] = font_family
                     settings["font_size"] = font_size
                     settings["font_colour"] = font_colour
                     settings["text_to_speech"] = text_to_speech
-                    print("Success")
+                    with open (r"Storage\settings.json", "w") as set:
+                        json.dump(settings, set, indent=4)
+                    animate("Success")
                     return mainmenu()
                 elif setting_saving == "no" or setting_saving == 'n':
-                    print("Reverting settings.......")
+                    animate("Reverting settings.......")
                     return mainmenu()
                 else:
-                    print("Please try again")
+                    animate("Please try again")
 
         else:
-            print("Please try again")
+            animate("Please try again")
 
 
 
@@ -151,58 +178,58 @@ def settingsa():
 def deletion(saveslot_chosen):
         
         while True:
-            print(f"Are you sure you want to delete \"{saveslot_chosen}\" (Y/N)\n\n")
+            animate(f"Are you sure you want to delete \"{saveslot_chosen}\" (Y/N)\n\n")
             delete = input("You: ").lower().strip()
 
             if delete == "y" or delete == "yes":
-                print("This action cannot be undone, do you still wish to continue (Y/N) \n\n")
+                animate("This action cannot be undone, do you still wish to continue (Y/N) \n\n")
 
                 while True:
                     confirmation = input("You: ").lower().strip()
 
                     if confirmation == "y" or confirmation == "yes":
-                        print("Deleting saveslot")
+                        animate("Deleting saveslot")
                         return
                     
                     elif confirmation == "n" or confirmation == "no":
-                        print("Deletion Cancelled \nReturning to saveslot selection")
+                        animate("Deletion Cancelled \nReturning to saveslot selection")
                         saveslot(slot_1["saveslot_name"],slot_2["saveslot_name"],slot_3["saveslot_name"],slot_4["saveslot_name"])
 
                         return
                     
                     else:
-                        print("Please try again")
+                        animate("Please try again")
             
 
             elif delete == 'n' or delete == "no":
-                print("Returning to saveslot selection")
+                animate("Returning to saveslot selection")
                 saveslot(slot_1["saveslot_name"],slot_2["saveslot_name"],slot_3["saveslot_name"],slot_4["saveslot_name"])
 
                 return
 
 
             else:
-                print("Please try again")
+                animate("Please try again")
 
 
 ## Registiring player saveslot choice
 def choose(saveslot_chosen):
     while saveslot_chosen["saveslot_created"] == True:
-        choice = int(input("What do you want to do: \
+        choice = int(input_animate("What do you want to do: \
                      \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
         
         if 0 < choice < 5:
             break
 
         else:
-            print("Please try again")
+            animate("Please try again")
 
     if choice == 1:
-        print("When it all began.........")
+        animate("When it all began.........")
         return
     
     elif choice == 2:
-        print("What do you want to change:")
+        animate("What do you want to change:")
         return
     
     elif choice == 3:
@@ -210,28 +237,28 @@ def choose(saveslot_chosen):
         return
     
     elif choice == 4:
-        print("Returning to saveslot selection........")
+        animate("Returning to saveslot selection........")
         saveslot(slot_1,slot_2,slot_3,slot_4)
         return
 
     else:
         while True:
-            continue_choice = input("Do you want to continue (Y/N): ").strip().lower()
+            continue_choice = input_animate("Do you want to continue (Y/N): ").strip().lower()
 
             if continue_choice == "y" or continue_choice == "yes":
-                name = input("Enter the name for your new saveslot: ")
-                protag_name = input("Enter the name of your character: ")
-                backstory_choice = input("Do you want to input a custom backstory (Optional) Y/N: ")
-                backstory = input("Enter your custom backstory in short: ")
+                name = input_animate("Enter the name for your new saveslot: ")
+                protag_name = input_animate("Enter the name of your character: ")
+                backstory_choice = input_animate("Do you want to input a custom backstory (Optional) Y/N: ")
+                backstory = input_animate("Enter your custom backstory in short: ")
                 break
             
             elif continue_choice == "n" or continue_choice == "no":
-                print("Returning to saveslot selection........")
+                animate("Returning to saveslot selection........")
                 saveslot(slot_1,slot_2,slot_3,slot_4)
                 break
 
             else:
-                print("Please try again")          
+                animate("Please try again")          
         return
         
 
@@ -254,7 +281,7 @@ def saveslot_description(sno):
         input()
         animate("welcome to this world, ", end="\n")
         animate("soul",delay=0.5, between=" ")
-        input("Press Enter to continue... [you have to do this everytime]")
+        input_animate("Press Enter to continue... [you have to do this everytime]")
         animate(protagonist_motivations, end="\n")
         input()
         time.sleep(0.5)
@@ -300,14 +327,14 @@ def saveslot_description(sno):
         print()
         animate("Let's begin your adventure!", end="\n")
         time.sleep(0.5)
-        print("NOTE: THE GAMEPLAY HAS NOT YET BEEN IMPLEMENTED, SO THERE WILL BE AN ERROR IN 10 SECONDS")
+        animate("NOTE: THE GAMEPLAY HAS NOT YET BEEN IMPLEMENTED, SO THERE WILL BE AN ERROR IN 10 SECONDS")
         time.sleep(10)
 
-    print(f'\n\n\t\t Slot {sno}: {slot_info["saveslot_name"]} \n\t\t Character: {slot_info["protagonist_name"]} \n\t\t Class: {slot_info["protagonist_class"]} \n\t\t Location: {slot_info["location"]} \n\t\t level: {slot_info["level"]} ')
+    animate(f'\n\n\t\t Slot {sno}: {slot_info["saveslot_name"]} \n\t\t Character: {slot_info["protagonist_name"]} \n\t\t Class: {slot_info["protagonist_class"]} \n\t\t Location: {slot_info["location"]} \n\t\t level: {slot_info["level"]} ')
 
 def create_slot(sno=None):
     if sno is None:
-        sno = input("Enter the saveslot number you want to create (1-4): ").strip()
+        sno = input_animate("Enter the saveslot number you want to create (1-4): ").strip()
         create_slot(sno)
     else:
         line = "-" * 50
@@ -361,37 +388,37 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
     while True: 
         if Saveslot1["saveslot_created"] == True:
 
-            print(f' \n\n\t\t Slot 1: {Saveslot1["saveslot_name"]} \n\t\t Character: {Saveslot1["protagonist_name"]} \n\t\t Class: {Saveslot1["protagonist_class"]} \n\t\t Location: {Saveslot1["location"]} \n\t\t level: {Saveslot1["level"]} ')
+            animate(f' \n\n\t\t Slot 1: {Saveslot1["saveslot_name"]} \n\t\t Character: {Saveslot1["protagonist_name"]} \n\t\t Class: {Saveslot1["protagonist_class"]} \n\t\t Location: {Saveslot1["location"]} \n\t\t level: {Saveslot1["level"]} ')
         
         else:
-            print("\n\n\t\t Slot 1: Create Slot")
+            animate("\n\n\t\t Slot 1: Create Slot")
 
 
         if Saveslot2["saveslot_created"] == True:
 
-            print(f' \n\n\t\t Slot 2: {Saveslot2["saveslot_name"]} \n\t\t Character: {Saveslot2["protagonist_name"]} \n\t\t Class: {Saveslot2["protagonist_class"]} \n\t\t Location: {Saveslot2["location"]} \n\t\t level: {Saveslot2["level"]} ')
+            animate(f' \n\n\t\t Slot 2: {Saveslot2["saveslot_name"]} \n\t\t Character: {Saveslot2["protagonist_name"]} \n\t\t Class: {Saveslot2["protagonist_class"]} \n\t\t Location: {Saveslot2["location"]} \n\t\t level: {Saveslot2["level"]} ')
         
         else:
-            print("\n\n\t\t Slot 2: Create Slot")      
+            animate("\n\n\t\t Slot 2: Create Slot")      
 
 
         if Saveslot3["saveslot_created"] == True:
 
-            print(f' \n\n\t\t Slot 3: {Saveslot3["saveslot_name"]} \n\t\t Character: {Saveslot3["protagonist_name"]} \n\t\t Class: {Saveslot3["protagonist_class"]} \n\t\t Location: {Saveslot3["location"]} \n\t\t level: {Saveslot3["level"]} ')
+            animate(f' \n\n\t\t Slot 3: {Saveslot3["saveslot_name"]} \n\t\t Character: {Saveslot3["protagonist_name"]} \n\t\t Class: {Saveslot3["protagonist_class"]} \n\t\t Location: {Saveslot3["location"]} \n\t\t level: {Saveslot3["level"]} ')
         
         else:
-            print("\n\n\t\t Slot 3: Create Slot")
+            animate("\n\n\t\t Slot 3: Create Slot")
         
 
         if Saveslot4["saveslot_created"] == True:
 
-            print(f'\n\n\t\t Slot 4: {Saveslot4["saveslot_name"]} \n\t\t Character: {Saveslot4["protagonist_name"]} \n\t\t Class: {Saveslot4["protagonist_class"]} \n\t\t Location: {Saveslot4["location"]} \n\t\t level: {Saveslot4["level"]} ')
+            animate(f'\n\n\t\t Slot 4: {Saveslot4["saveslot_name"]} \n\t\t Character: {Saveslot4["protagonist_name"]} \n\t\t Class: {Saveslot4["protagonist_class"]} \n\t\t Location: {Saveslot4["location"]} \n\t\t level: {Saveslot4["level"]} ')
         
         else:
-            print("\n\n\t\t Slot 4: Create Slot")
+            animate("\n\n\t\t Slot 4: Create Slot")
 
 
-        choice = input("\nTo choose a saveslot click a number 1-4 corresponding to your saveslot of choice.\nIf you wish to return press 5\nYou: ").strip().lower()
+        choice = input_animate("\nTo choose a saveslot click a number 1-4 corresponding to your saveslot of choice.\nIf you wish to return press 5\nYou: ").strip().lower()
 
         if choice == "temp":
             saveslot_chosen = "temp"
@@ -413,7 +440,7 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
             animate("Please try again")
 
     else:
-        print("Please try again")
+        animate("Please try again")
                  
 
 

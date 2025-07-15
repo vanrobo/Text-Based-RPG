@@ -154,3 +154,35 @@ def map_generation(sno=None):
         #else:
         return
         
+def map_generation_lite(sno=None):
+    if sno is None:
+        while True:
+            try:
+                sno = int(input("Enter a number from 1-4: "))
+
+            except ValueError:
+                print("Please try again")
+                continue
+            
+            if sno < 1:
+                print("Please try again")
+                continue
+            
+            if sno > 4:
+                print("Please try again")
+                continue
+            
+            else:
+                break
+
+    with open(rf"Storage\Saveslots\{sno}\backstory.json") as backstory: 
+        info = json.load(backstory)
+        backstory = info["backstory"]
+        protagonist_info = info["protagonist"]
+        protagonist = protagonist_info["name"]+protagonist_info["background"]
+        location = info["location"]
+        theme_description = info["theme"]
+        world_type = None
+        specifications = f"world_type: {world_type} backstory: {backstory}, location: {location}, protagonist: {protagonist}, theme_description: {theme_description}"
+        Specifications3x3 = ai.generate(prompts.reasoning,r"Storage/Temp/temp.json", specifications)
+        map = ai.generatelite(prompts.map3x3, rf"Storage\Saveslots\{sno}\world.json", Specifications3x3)
