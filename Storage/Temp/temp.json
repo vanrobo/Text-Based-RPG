@@ -1,35 +1,32 @@
 {
   "map_type": "city",
-  "genre": "cyberpunk",
+  "genre": "sci-fi",
   "oceans": false,
-  "water_presence": "localized_sewage_and_polluted_waterways",
-  "scale_chunk_description": "Each chunk is a city block within the Ghost District, containing abandoned factories and tunnel entrances.",
-  "scale_tile_description": "Each tile is a section of a building, tunnel, or derelict structure, showing details like walls, machinery, or access points.",
+  "water_presence": "underground_aquifers",
+  "scale_chunk_description": "Each chunk represents a city block within the underground Obsidian Archive.",
+  "scale_tile_description": "Each tile is a room or corridor within the archive, possibly containing specific pieces of tech or hazards.",
   "landmarks": [
-    "Abandoned Factories",
-    "Underground Tunnels",
-    "Whisper Network Headquarters (hidden)",
-    "Technological Dead Ends",
-    "Rooftop access points"
+    "Obsidian Archive",
+    "Central Data Repository",
+    "Corrupted Data Streams",
+    "Dormant Security Drones"
   ],
   "terrain_types": [
-    "concrete",
-    "metal",
-    "rubble",
-    "dirt",
-    "sewage"
+    "ruined concrete",
+    "metal walkways",
+    "flooded sections",
+    "server rooms",
+    "data storage vaults"
   ],
-  "climate": "polluted",
+  "climate": "underground, controlled (though possibly failing)",
   "features": [
-    "hidden_entrances",
-    "technological_dead_ends",
-    "security_cameras",
-    "makeshift_shelters",
-    "graffiti",
-    "holograms",
-    "Neon signs"
+    "hidden passages",
+    "dormant AI security systems",
+    "partially corrupted data streams",
+    "ancient technology",
+    "Glimmer hotspots"
   ],
-  "tone_and_atmosphere": "desolate, gritty, rebellious, mysterious",
-  "era_or_tech_level": "futuristic",
-  "magic_presence": "no_magic"
+  "tone_and_atmosphere": "mysterious, ominous, desolate",
+  "era_or_tech_level": "post-collapse futuristic",
+  "magic_presence": "high_magic"
 }

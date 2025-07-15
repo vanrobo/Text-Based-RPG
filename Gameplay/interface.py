@@ -175,7 +175,7 @@ def settingsa():
 
 
 ## if player decides to delete the saveslot
-def deletion(saveslot_chosen):
+def deletion(saveslot_chosen, sno):
         
         while True:
             animate(f"Are you sure you want to delete \"{saveslot_chosen}\" (Y/N)\n\n")
@@ -189,6 +189,9 @@ def deletion(saveslot_chosen):
 
                     if confirmation == "y" or confirmation == "yes":
                         animate("Deleting saveslot")
+                        saveslot_chosen["saveslot_created"] = False
+                        with open (rf"Storage\Saveslots\{sno}\info.json", "w") as slot:
+                            json.dump(saveslot_chosen, slot)
                         return
                     
                     elif confirmation == "n" or confirmation == "no":
@@ -213,7 +216,7 @@ def deletion(saveslot_chosen):
 
 
 ## Registiring player saveslot choice
-def choose(saveslot_chosen):
+def choose(saveslot_chosen, sno):
     while saveslot_chosen["saveslot_created"] == True:
         choice = int(input_animate("What do you want to do: \
                      \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
@@ -224,34 +227,29 @@ def choose(saveslot_chosen):
         else:
             animate("Please try again")
 
-    if choice == 1:
-        animate("When it all began.........")
-        return
-    
-    elif choice == 2:
-        animate("What do you want to change:")
-        return
-    
-    elif choice == 3:
-        deletion(saveslot_chosen)
-        return
-    
-    elif choice == 4:
-        animate("Returning to saveslot selection........")
-        saveslot(slot_1,slot_2,slot_3,slot_4)
-        return
+        if choice == 1:
+            animate("When it all began.........")
+            return
+        
+        elif choice == 2:
+            animate("What do you want to change:")
+            return
+        
+        elif choice == 3:
+            deletion(saveslot_chosen, sno)
+            return
+        
+        elif choice == 4:
+            animate("Returning to saveslot selection........")
+            saveslot(slot_1,slot_2,slot_3,slot_4)
+            return
 
     else:
         while True:
             continue_choice = input_animate("Do you want to continue (Y/N): ").strip().lower()
 
             if continue_choice == "y" or continue_choice == "yes":
-                name = input_animate("Enter the name for your new saveslot: ")
-                protag_name = input_animate("Enter the name of your character: ")
-                backstory_choice = input_animate("Do you want to input a custom backstory (Optional) Y/N: ")
-                backstory = input_animate("Enter your custom backstory in short: ")
-                break
-            
+                create_slot(saveslot_chosen,sno)
             elif continue_choice == "n" or continue_choice == "no":
                 animate("Returning to saveslot selection........")
                 saveslot(slot_1,slot_2,slot_3,slot_4)
@@ -259,6 +257,9 @@ def choose(saveslot_chosen):
 
             else:
                 animate("Please try again")          
+
+
+                
         return
         
 
@@ -332,7 +333,7 @@ def saveslot_description(sno):
 
     animate(f'\n\n\t\t Slot {sno}: {slot_info["saveslot_name"]} \n\t\t Character: {slot_info["protagonist_name"]} \n\t\t Class: {slot_info["protagonist_class"]} \n\t\t Location: {slot_info["location"]} \n\t\t level: {slot_info["level"]} ')
 
-def create_slot(sno=None):
+def create_slot(saveslot,sno=None):
     if sno is None:
         sno = input_animate("Enter the saveslot number you want to create (1-4): ").strip()
         create_slot(sno)
@@ -377,6 +378,13 @@ def create_slot(sno=None):
             animate("Random backstory generated successfully!")
             world_gen.map_generation(sno)
         animate("Saveslot created successfully!")
+        saveslot["saveslot_created"] = True
+        saveslot["saveslot_name"] = name
+        saveslot["protagonist_name"] = protag_name
+        with open (rf"Storage\Saveslots\{sno}\info.json", "w") as slot:
+            json.dump(saveslot,slot)
+
+
         saveslot_description(sno)
 
         
@@ -420,24 +428,45 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
 
         choice = input_animate("\nTo choose a saveslot click a number 1-4 corresponding to your saveslot of choice.\nIf you wish to return press 5\nYou: ").strip().lower()
 
-        if choice == "temp":
-            saveslot_chosen = "temp"
-            animate("Temporary saveslot created")
-            sno="temp"
-            create_slot(sno)
-        elif int(choice) == 1:
-            saveslot_chosen = Saveslot1
-        elif int(choice) == 2:
-            saveslot_chosen = Saveslot2
-        elif int(choice) == 3:
-            saveslot_chosen = Saveslot3
-        elif int(choice) == 4:
-            saveslot_chosen = Saveslot4        
-        elif int(choice) == 5:
-            animate("Returning to main menu........")
-            mainmenu()
-        else:
+        try:
+
+            if choice == "temp":
+                saveslot_chosen = "temp"
+                animate("Temporary saveslot created")
+                sno="temp"
+                create_slot(sno)
+            elif int(choice) == 1:
+                saveslot_chosen = Saveslot1
+                sno = 1
+                
+            elif int(choice) == 2:
+                saveslot_chosen = Saveslot2
+                sno = 2
+
+                
+            
+            elif int(choice) == 3:
+                saveslot_chosen = Saveslot3
+                sno = 3
+            
+            elif int(choice) == 4:
+                saveslot_chosen = Saveslot4
+                sno = 4
+                  
+            
+            elif int(choice) == 5:
+                animate("Returning to main menu........")
+                mainmenu()
+                
+            
+            else:
+                animate("Please try again")
+        
+        except Exception:
             animate("Please try again")
+        
+        choose(saveslot_chosen, sno)
+
 
     else:
         animate("Please try again")
@@ -473,6 +502,7 @@ def mainmenu():
 
         elif mainOption == "3" or mainOption == "credit" or mainOption == "credits" or mainOption == "c":
             animate("Made by: Vanrobo and Valt20_20shu")
+            input_animate("Press Enter to return")
             mainmenu()
 
         elif mainOption == "4" or mainOption == "exit" or mainOption == "ex" or mainOption == "e":

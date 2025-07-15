@@ -5,124 +5,124 @@
     {
       "id": 1,
       "category": "urban",
-      "name": "Abandoned Factory Sector",
-      "description": "Dilapidated factory complex; concrete and metal dominating the terrain. Features graffiti and hidden entrances.",
+      "name": "Coastal Shinjuku",
+      "description": "Neon-drenched streets meet the ocean. Bustling markets and skyscrapers define this waterfront district, with Aetherium conduits humming beneath.",
       "coordinates": [
-        1,
-        1
+        0,
+        0
       ],
       "locations": {
-        "landmark": "Abandoned Factories",
-        "feature": "hidden_entrances"
+        "landmark": "Shinjuku district",
+        "feature": "skyscrapers"
       }
     },
     {
       "id": 2,
       "category": "urban",
-      "name": "Derelict Housing Block",
-      "description": "Rubble-strewn former housing. Makeshift shelters are visible. Security cameras are present but likely damaged.",
+      "name": "Market Square",
+      "description": "A vibrant hub of commerce and hidden pathways, located at the heart of the city. Magic presence is palpable.",
       "coordinates": [
-        2,
-        1
+        1,
+        0
       ],
       "locations": {
-        "feature": "makeshift_shelters",
-        "feature": "security_cameras"
+        "feature": "bustling markets"
       }
     },
     {
       "id": 3,
       "category": "urban",
-      "name": "Polluted Waterway Junction",
-      "description": "Convergence of sewage-filled canals. Metal walkways provide treacherous passage. Neon signs flicker dimly.",
+      "name": "Skyscraper District",
+      "description": "Towering skyscrapers pierce the sky, casting ominous shadows. A major Aetherium conduit runs through the core.",
       "coordinates": [
-        3,
-        1
+        2,
+        0
       ],
       "locations": {
-        "terrain": "sewage",
-        "feature": "Neon signs"
+        "feature": "skyscrapers"
       }
     },
     {
       "id": 4,
       "category": "urban",
-      "name": "Collapsed Tunnel Entrance",
-      "description": "Partially collapsed entrance to the Underground Tunnels. Concrete and dirt dominate. Technological dead end nearby.",
+      "name": "Residential Block",
+      "description": "Typical cyberpunk residential area, with neon signs and hidden pathways to underground areas. Amelia's apartment is located here.",
       "coordinates": [
-        1,
-        2
+        0,
+        1
       ],
       "locations": {
-        "landmark": "Underground Tunnels",
-        "feature": "technological_dead_ends"
+        "landmark": "Amelia's apartment",
+        "feature": "hidden pathways"
       }
     },
     {
       "id": 5,
       "category": "urban",
-      "name": "Central Plaza Ruins",
-      "description": "Rubble-covered plaza. Faint holographic advertisements flicker. Potential Whisper Network activity.",
+      "name": "Central Subway Station",
+      "description": "A busy subway hub connecting different parts of the city and providing access to deeper, hidden levels.",
       "coordinates": [
-        2,
-        2
+        1,
+        1
       ],
       "locations": {
-        "feature": "holograms",
-        "landmark": "Whisper Network Headquarters (hidden)"
+        "feature": "subway system"
       }
     },
     {
       "id": 6,
-      "category": "urban",
-      "name": "Rooftop Access Point",
-      "description": "Metal stairs leading to a rooftop. Offers vantage point overlooking the Ghost District.",
+      "category": "subterranean",
+      "name": "Ancient Ruins Entrance",
+      "description": "Hidden entrance to ancient ruins beneath Neo-Tokyo, shrouded in mystery and ominous atmosphere. Ley line nexus nearby.",
       "coordinates": [
-        3,
-        2
+        2,
+        1
       ],
       "locations": {
-        "landmark": "Rooftop access points"
+        "landmark": "Ancient structures beneath Neo-Tokyo",
+        "feature": "ancient ruins"
       }
     },
     {
       "id": 7,
-      "category": "urban",
-      "name": "Forgotten Workshop",
-      "description": "Concrete and metal workshop with scattered tools and broken machinery. Strong scent of sewage.",
+      "category": "subterranean",
+      "name": "Lumin Enclave Outskirts",
+      "description": "The outer edges of the hidden Lumin enclaves, accessible through hidden pathways and the subway. Magic presence is strong.",
       "coordinates": [
-        1,
-        3
+        0,
+        2
       ],
       "locations": {
-        "terrain": "sewage"
+        "landmark": "Hidden Lumin enclaves",
+        "feature": "hidden pathways"
       }
     },
     {
       "id": 8,
-      "category": "urban",
-      "name": "Dilapidated Power Station",
-      "description": "Technological Dead End: Decayed power station. Metal and concrete structures are falling apart.",
+      "category": "subterranean",
+      "name": "Ley Line Nexus Chamber",
+      "description": "A chamber deep beneath the city, housing a powerful Ley line nexus point. Ancient structures are visible.",
       "coordinates": [
-        2,
-        3
+        1,
+        2
       ],
       "locations": {
-        "landmark": "Technological Dead Ends"
+        "landmark": "Ley line nexus points",
+        "feature": "ancient ruins"
       }
     },
     {
       "id": 9,
-      "category": "urban",
-      "name": "Underground Entrance (Hidden)",
-      "description": "A hidden entrance leading into the underground tunnels, concealed by graffiti and rubble.",
+      "category": "subterranean",
+      "name": "Lumin Sanctuary",
+      "description": "The heart of the Lumin enclaves, a place of both vibrant energy and ominous secrets. Aetherium conduits power the area.",
       "coordinates": [
-        3,
-        3
+        2,
+        2
       ],
       "locations": {
-        "landmark": "Underground Tunnels",
-        "feature": "hidden_entrances"
+        "landmark": "Hidden Lumin enclaves",
+        "feature": "Aetherium conduits"
       }
     }
   ]

@@ -4,9 +4,9 @@
   "tiles": [
     {
       "id": 1,
-      "category": "Mountain Peak",
-      "name": "Jagged Peak",
-      "description": "A towering mountain peak, covered in snow and ice. Difficult to traverse. Part of the 'Mountain peaks' landmark and reflects the 'Alpine/Arctic' climate.",
+      "category": "ruined concrete",
+      "name": "Entrance Sector",
+      "description": "Ruined concrete and metal walkways. Evidence of a past collapse. High magic presence detected.",
       "coordinates": [
         0,
         0
@@ -15,86 +15,98 @@
     },
     {
       "id": 2,
-      "category": "Cliff Face",
-      "name": "Western Cliff",
-      "description": "A sheer cliff face, part of the natural 'Cliff face' landmark, with sparse vegetation and steep slopes as specified in 'terrain_types'. Scale aligns with 'scale_chunk_description'.",
+      "category": "metal walkways",
+      "name": "Connecting Junction",
+      "description": "A network of metal walkways connecting different sections. Dormant security drones are located here.",
       "coordinates": [
-        0,
-        1
+        1,
+        0
       ],
-      "locations": {}
+      "locations": {
+        "Dormant Security Drones": "inactive"
+      }
     },
     {
       "id": 3,
-      "category": "Rocky Path",
-      "name": "Western Ascent",
-      "description": "A winding rocky path leading up the mountain. Narrow, as indicated in 'features', and made of 'Rock' terrain. Connects lower elevations to the village.",
+      "category": "flooded sections",
+      "name": "Submerged Passageway",
+      "description": "Flooded section, possibly connected to the underground aquifers. Navigation is difficult.",
       "coordinates": [
-        0,
-        2
+        2,
+        0
       ],
       "locations": {}
     },
     {
       "id": 4,
-      "category": "Village Dwelling",
-      "name": "Lower Dwellings",
-      "description": "A cluster of stone dwellings built into the cliff face, representing a part of 'Stone dwellings' landmark and village structure. Shows modern elements within the 'Modern with traditional elements (Sherpa culture)' era.",
+      "category": "server rooms",
+      "name": "Data Processing Hub",
+      "description": "A partially functional server room. Corrupted data streams emanating from this sector.",
       "coordinates": [
-        1,
-        0
+        0,
+        1
       ],
-      "locations": {}
+      "locations": {
+        "Corrupted Data Streams": "partial corruption"
+      }
     },
     {
       "id": 5,
-      "category": "Rope Bridge",
-      "name": "The Crossing",
-      "description": "A precarious rope bridge spanning a deep chasm, a key 'Rope bridge' landmark and perilous feature as described in 'features', contributing to the 'dangerous' tone.",
+      "category": "data storage vaults",
+      "name": "Central Data Repository",
+      "description": "The core of the Obsidian Archive. Contains vast amounts of (mostly) intact data.",
       "coordinates": [
         1,
         1
       ],
-      "locations": {}
+      "locations": {
+        "Central Data Repository": "intact"
+      }
     },
     {
       "id": 6,
-      "category": "Village Center",
-      "name": "Prayer Flag Plaza",
-      "description": "The heart of the mountain village, adorned with colorful 'Prayer flags'. Represents the 'mystical' atmosphere and blends with Sherpa Culture.",
+      "category": "server rooms",
+      "name": "AI Control Nexus",
+      "description": "Once the heart of the archive's security. Now dormant, with traces of ancient technology.",
+      "coordinates": [
+        2,
+        1
+      ],
+      "locations": {
+        "Dormant AI security systems": "inactive"
+      }
+    },
+    {
+      "id": 7,
+      "category": "ruined concrete",
+      "name": "Collapsed Stairwell",
+      "description": "A partially collapsed stairwell. The Glimmer hotspot presence is quite strong.",
+      "coordinates": [
+        0,
+        2
+      ],
+      "locations": {
+        "Glimmer hotspots": "present"
+      }
+    },
+    {
+      "id": 8,
+      "category": "metal walkways",
+      "name": "Maintenance Corridor",
+      "description": "A narrow corridor used for maintenance. A possible hidden passage is located here.",
       "coordinates": [
         1,
         2
       ],
-      "locations": {}
-    },
-    {
-      "id": 7,
-      "category": "Chasm Edge",
-      "name": "Southern Crevice",
-      "description": "The edge of a deep chasm, implying the 'Deep chasm' landmark and inherent danger. Influences the isolated tone. Includes traces of 'glacial runoff' from the 'water_presence' specification.",
-      "coordinates": [
-        2,
-        0
-      ],
-      "locations": {}
-    },
-    {
-      "id": 8,
-      "category": "Mountain Slope",
-      "name": "Yak Trail",
-      "description": "A steep, snow-covered slope, potentially used by 'Yaks/other mountain animals'. Shows a mix of 'Snow' and 'Steep slopes' terrain types.",
-      "coordinates": [
-        2,
-        1
-      ],
-      "locations": {}
+      "locations": {
+        "hidden passages": "possible"
+      }
     },
     {
       "id": 9,
-      "category": "Avalanche Zone",
-      "name": "Eastern Glade",
-      "description": "A treeless area prone to avalanches, implying the 'Avalanche zones' feature. Reflects the 'dangerous' atmosphere and risk present.",
+      "category": "data storage vaults",
+      "name": "Restricted Archives",
+      "description": "Vaults containing highly sensitive and dangerous information. Heavy security was once in place.",
       "coordinates": [
         2,
         2
