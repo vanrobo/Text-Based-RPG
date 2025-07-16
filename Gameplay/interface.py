@@ -176,47 +176,49 @@ def settingsa():
 
 ## if player decides to delete the saveslot
 def deletion(saveslot_chosen, sno):
+    while True:
+        animate(f"Are you sure you want to delete {saveslot_chosen} (Y/N)\n\n")
+        delete = input("You: ").lower().strip()
+
+        if delete == "y" or delete == "yes":
+            animate("This action cannot be undone, do you still wish to continue (Y/N) \n\n")
+
+            while True:
+                confirmation = input("You: ").lower().strip()
+
+                if confirmation == "y" or confirmation == "yes":
+                    animate("Deleting saveslot")
+                    saveslot_chosen["saveslot_created"] = False
+                    with open (rf"Storage\Saveslots\{sno}\info.json", "w") as slot:
+                        json.dump(saveslot_chosen, slot)
+                    saveslot(slot_1,slot_2,slot_3,slot_4)
+
+                    return
+                
+                elif confirmation == "n" or confirmation == "no":
+                    animate("Deletion Cancelled \nReturning to saveslot selection")
+                    saveslot(slot_1,slot_2,slot_3,slot_4)
+
+                    return
+                
+                else:
+                    animate("Please try again")
         
-        while True:
-            animate(f"Are you sure you want to delete \"{saveslot_chosen}\" (Y/N)\n\n")
-            delete = input("You: ").lower().strip()
 
-            if delete == "y" or delete == "yes":
-                animate("This action cannot be undone, do you still wish to continue (Y/N) \n\n")
+        elif delete == 'n' or delete == "no":
+            animate("Returning to saveslot selection")
+            saveslot(slot_1,slot_2,slot_3,slot_4)
 
-                while True:
-                    confirmation = input("You: ").lower().strip()
-
-                    if confirmation == "y" or confirmation == "yes":
-                        animate("Deleting saveslot")
-                        saveslot_chosen["saveslot_created"] = False
-                        with open (rf"Storage\Saveslots\{sno}\info.json", "w") as slot:
-                            json.dump(saveslot_chosen, slot)
-                        return
-                    
-                    elif confirmation == "n" or confirmation == "no":
-                        animate("Deletion Cancelled \nReturning to saveslot selection")
-                        saveslot(slot_1["saveslot_name"],slot_2["saveslot_name"],slot_3["saveslot_name"],slot_4["saveslot_name"])
-
-                        return
-                    
-                    else:
-                        animate("Please try again")
-            
-
-            elif delete == 'n' or delete == "no":
-                animate("Returning to saveslot selection")
-                saveslot(slot_1["saveslot_name"],slot_2["saveslot_name"],slot_3["saveslot_name"],slot_4["saveslot_name"])
-
-                return
+            return
 
 
-            else:
-                animate("Please try again")
+        else:
+            animate("Please try again")
 
 
 ## Registiring player saveslot choice
 def choose(saveslot_chosen, sno):
+    choice = "pass"
     while saveslot_chosen["saveslot_created"] == True:
         choice = int(input_animate("What do you want to do: \
                      \n\n\t(1) Continue\n\t(2) Edit\n\t(3) Delete\n\t(4) Back\n\nYou: "))
@@ -226,24 +228,7 @@ def choose(saveslot_chosen, sno):
 
         else:
             animate("Please try again")
-
-        if choice == 1:
-            animate("When it all began.........")
-            return
-        
-        elif choice == 2:
-            animate("What do you want to change:")
-            return
-        
-        elif choice == 3:
-            deletion(saveslot_chosen, sno)
-            return
-        
-        elif choice == 4:
-            animate("Returning to saveslot selection........")
-            saveslot(slot_1,slot_2,slot_3,slot_4)
-            return
-
+    
     else:
         while True:
             continue_choice = input_animate("Do you want to continue (Y/N): ").strip().lower()
@@ -259,13 +244,40 @@ def choose(saveslot_chosen, sno):
                 animate("Please try again")          
 
 
-                
+    if choice == "pass":
+        pass
+
+    elif choice == 1:
+        animate("When it all began.........")
         return
+    
+    elif choice == 2:
+        animate("What do you want to change:")
+        return
+    
+    elif choice == 3:
+        deletion(saveslot_chosen, sno)
+        return
+    
+    elif choice == 4:
+        animate("Returning to saveslot selection........")
+        saveslot(slot_1,slot_2,slot_3,slot_4)
+        return
+
+    
+    else:
+        animate("Please try again")
+        
+    return
         
 
 def saveslot_description(sno):
+    with open (f"Storage/Saveslots/{sno}/info.json") as slotting:
+        slot_info = json.load(slotting)
+
+
     with open(f"Storage/Saveslots/{sno}/backstory.json") as slot:
-        slot_info = json.load(slot)
+        slot_backstory = json.load(slot)
         general_backstory = slot_info["about"]
         backstory = slot_info["backstory"]
         location = slot_info["location"]
@@ -382,7 +394,7 @@ def create_slot(saveslot,sno=None):
         saveslot["saveslot_name"] = name
         saveslot["protagonist_name"] = protag_name
         with open (rf"Storage\Saveslots\{sno}\info.json", "w") as slot:
-            json.dump(saveslot,slot)
+            json.dump(saveslot,slot, indent=4)
 
 
         saveslot_description(sno)
@@ -466,6 +478,7 @@ def saveslot(Saveslot1,Saveslot2,Saveslot3,Saveslot4):
             animate("Please try again")
         
         choose(saveslot_chosen, sno)
+        return
 
 
     else:

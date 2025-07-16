@@ -1,32 +1,35 @@
 {
   "map_type": "city",
-  "genre": "sci-fi",
+  "genre": "cyberpunk",
   "oceans": false,
-  "water_presence": "underground_aquifers",
-  "scale_chunk_description": "Each chunk represents a city block within the underground Obsidian Archive.",
-  "scale_tile_description": "Each tile is a room or corridor within the archive, possibly containing specific pieces of tech or hazards.",
+  "water_presence": "urban_waterways",
+  "scale_chunk_description": "Each chunk represents a city block within Neo-Kyoto's Shinjuku district.",
+  "scale_tile_description": "Each tile represents a specific building, alleyway, or section of street within that city block.",
   "landmarks": [
-    "Obsidian Archive",
-    "Central Data Repository",
-    "Corrupted Data Streams",
-    "Dormant Security Drones"
+    "Dilapidated karaoke bar (Whisperwind Collective HQ)",
+    "Mega-corporation headquarters (implied presence)",
+    "Black market locations (implied presence)",
+    "Neon-drenched streets"
   ],
   "terrain_types": [
-    "ruined concrete",
-    "metal walkways",
-    "flooded sections",
-    "server rooms",
-    "data storage vaults"
+    "concrete",
+    "asphalt",
+    "steel",
+    "glass",
+    "rooftops",
+    "alleys"
   ],
-  "climate": "underground, controlled (though possibly failing)",
+  "climate": "controlled_indoor_environments and polluted_outdoor_environments",
   "features": [
-    "hidden passages",
-    "dormant AI security systems",
-    "partially corrupted data streams",
-    "ancient technology",
-    "Glimmer hotspots"
+    "roads",
+    "alleys",
+    "skyscrapers",
+    "hidden_passages",
+    "digital_billboards",
+    "cybernetic_shops",
+    "karaoke_bar"
   ],
-  "tone_and_atmosphere": "mysterious, ominous, desolate",
-  "era_or_tech_level": "post-collapse futuristic",
-  "magic_presence": "high_magic"
+  "tone_and_atmosphere": "dystopian, gritty, neon-lit, mysterious, oppressive, hopeful",
+  "era_or_tech_level": "futuristic",
+  "magic_presence": "low_magic"
 }
