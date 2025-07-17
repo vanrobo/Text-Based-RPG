@@ -218,7 +218,7 @@ def deletion(saveslot_chosen, sno):
                 
                 elif confirmation == "n" or confirmation == "no":
                     animate("Deletion Cancelled \nReturning to saveslot selection")
-                    saveslot(slot_1,slot_2,slot_3,slot_4)
+                    saveslot(slotter_1,slotter_2,slotter_3,slotter_4)
 
                     return
                 

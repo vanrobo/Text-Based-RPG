@@ -1,32 +1,38 @@
 {
   "map_type": "city",
-  "genre": "sci-fi",
+  "genre": "cyberpunk",
   "oceans": false,
-  "water_presence": "Minimal; likely reservoirs or aqueducts within the city infrastructure, but no natural bodies of water.",
-  "scale_chunk_description": "Each chunk represents a large city block within the Skywalk District, containing multiple buildings, elevated walkways, and public spaces.",
-  "scale_tile_description": "Each tile represents a specific element within the city block: a room, a section of walkway, a small park, or a structural component of a building.",
+  "water_presence": "Underground aquifers and possible flooding in lower levels due to decaying infrastructure.",
+  "scale_chunk_description": "Each 3x3 chunk represents a city block within Sector 7, a mix of abandoned factories, warehouses, and transit tunnels.",
+  "scale_tile_description": "Each tile within a chunk represents a section of a building, a short stretch of a tunnel, or a specific area within a factory complex.",
   "landmarks": [
-    "Nexus Hub (a vital network infrastructure point)",
-    "Veridian Veil (energy dome surrounding the city)",
-    "Skywalk District (elevated luxury apartments)",
-    "Locations of 'decommissioned' individuals (Sera's parents' former residence?)"
+    "Abandoned factories",
+    "Dilapidated warehouses",
+    "Underground transit tunnels",
+    "Glowing energy conduits built by the Lumin",
+    "Crumbling skyscrapers in the distance (exterior view)",
+    "Hidden Lumin workshops and living spaces"
   ],
   "terrain_types": [
-    "metallic structures",
-    "synthetic surfaces",
-    "glass walkways",
-    "energy fields (around the Veridian Veil and potentially other locations)"
+    "Concrete rubble",
+    "Metal flooring",
+    "Exposed wiring",
+    "Leaking pipes",
+    "Damaged machinery",
+    "Makeshift living spaces"
   ],
-  "climate": "controlled; stable temperature and weather within the Veridian Veil",
+  "climate": "Damp and cool, with fluctuating temperatures due to unstable energy sources. Likely some areas are warmer due to active energy conduits.",
   "features": [
-    "hidden network of 'Echoes'",
-    "access points to the digital realm",
-    "algorithmic control systems",
-    "luxury apartments",
-    "security checkpoints",
-    "surveillance systems"
+    "Energy conduits",
+    "Makeshift barricades",
+    "Hidden entrances",
+    "Lumin workshops",
+    "Abandoned vehicles",
+    "Makeshift settlements",
+    "Areas of technological decay and disrepair"
   ],
-  "tone_and_atmosphere": "Oppressive, controlled, technologically advanced, but with pockets of resistance and rebellion. A mix of sterile perfection and hidden danger.",
-  "era_or_tech_level": "futuristic",
-  "magic_presence": "low_magic; the 'Echoes' ability to manipulate digital systems can be considered a form of 'soft' magic, bending the rules of technology rather than violating them entirely."
+  "tone_and_atmosphere": "Desolate, gritty, and mysterious, with a glimmer of hope provided by the Lumin's activity. A sense of decay and forgotten technology permeates the area.",
+  "era_or_tech_level": "Post-technological collapse. Advanced technology exists, but is damaged and unreliable, mixed with jury-rigged solutions.",
+  "magic_presence": "low_magic",
+  "notes": "The 'magic' is essentially manipulating residual energy from the Static Shift. Treat it as a form of specialized engineering or technomancy."
 }
