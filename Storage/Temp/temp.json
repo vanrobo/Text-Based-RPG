@@ -1,35 +1,32 @@
 {
   "map_type": "city",
-  "genre": "cyberpunk",
+  "genre": "sci-fi",
   "oceans": false,
-  "water_presence": "urban_waterways",
-  "scale_chunk_description": "Each chunk represents a city block within Neo-Kyoto's Shinjuku district.",
-  "scale_tile_description": "Each tile represents a specific building, alleyway, or section of street within that city block.",
+  "water_presence": "Minimal; likely reservoirs or aqueducts within the city infrastructure, but no natural bodies of water.",
+  "scale_chunk_description": "Each chunk represents a large city block within the Skywalk District, containing multiple buildings, elevated walkways, and public spaces.",
+  "scale_tile_description": "Each tile represents a specific element within the city block: a room, a section of walkway, a small park, or a structural component of a building.",
   "landmarks": [
-    "Dilapidated karaoke bar (Whisperwind Collective HQ)",
-    "Mega-corporation headquarters (implied presence)",
-    "Black market locations (implied presence)",
-    "Neon-drenched streets"
+    "Nexus Hub (a vital network infrastructure point)",
+    "Veridian Veil (energy dome surrounding the city)",
+    "Skywalk District (elevated luxury apartments)",
+    "Locations of 'decommissioned' individuals (Sera's parents' former residence?)"
   ],
   "terrain_types": [
-    "concrete",
-    "asphalt",
-    "steel",
-    "glass",
-    "rooftops",
-    "alleys"
+    "metallic structures",
+    "synthetic surfaces",
+    "glass walkways",
+    "energy fields (around the Veridian Veil and potentially other locations)"
   ],
-  "climate": "controlled_indoor_environments and polluted_outdoor_environments",
+  "climate": "controlled; stable temperature and weather within the Veridian Veil",
   "features": [
-    "roads",
-    "alleys",
-    "skyscrapers",
-    "hidden_passages",
-    "digital_billboards",
-    "cybernetic_shops",
-    "karaoke_bar"
+    "hidden network of 'Echoes'",
+    "access points to the digital realm",
+    "algorithmic control systems",
+    "luxury apartments",
+    "security checkpoints",
+    "surveillance systems"
   ],
-  "tone_and_atmosphere": "dystopian, gritty, neon-lit, mysterious, oppressive, hopeful",
+  "tone_and_atmosphere": "Oppressive, controlled, technologically advanced, but with pockets of resistance and rebellion. A mix of sterile perfection and hidden danger.",
   "era_or_tech_level": "futuristic",
-  "magic_presence": "low_magic"
+  "magic_presence": "low_magic; the 'Echoes' ability to manipulate digital systems can be considered a form of 'soft' magic, bending the rules of technology rather than violating them entirely."
 }

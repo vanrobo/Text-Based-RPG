@@ -4,112 +4,100 @@
   "tiles": [
     {
       "id": 1,
-      "category": "ruined concrete",
-      "name": "Entrance Sector",
-      "description": "Ruined concrete and metal walkways. Evidence of a past collapse. High magic presence detected.",
+      "category": "City Block",
+      "name": "Luxury Apartments Sector A",
+      "description": "Elevated apartments with glass walkways and algorithmic control systems. Part of the Skywalk District, designed for the city's elite.",
       "coordinates": [
-        0,
-        0
+        1,
+        1
       ],
       "locations": {}
     },
     {
       "id": 2,
-      "category": "metal walkways",
-      "name": "Connecting Junction",
-      "description": "A network of metal walkways connecting different sections. Dormant security drones are located here.",
+      "category": "Infrastructure",
+      "name": "Nexus Hub Access Point",
+      "description": "Entrance to a vital network infrastructure hub. Heavily guarded, potentially with hidden access points to the Echoes network.",
       "coordinates": [
-        1,
-        0
+        2,
+        1
       ],
-      "locations": {
-        "Dormant Security Drones": "inactive"
-      }
+      "locations": {}
     },
     {
       "id": 3,
-      "category": "flooded sections",
-      "name": "Submerged Passageway",
-      "description": "Flooded section, possibly connected to the underground aquifers. Navigation is difficult.",
+      "category": "Security",
+      "name": "Veridian Veil Perimeter Checkpoint",
+      "description": "A reinforced security checkpoint along the edge of the Veridian Veil energy dome. Metallic structures and constant surveillance.",
       "coordinates": [
-        2,
-        0
+        3,
+        1
       ],
       "locations": {}
     },
     {
       "id": 4,
-      "category": "server rooms",
-      "name": "Data Processing Hub",
-      "description": "A partially functional server room. Corrupted data streams emanating from this sector.",
+      "category": "City Block",
+      "name": "Luxury Apartments Sector B",
+      "description": "Identical to Sector A, but with subtle differences that could indicate a higher concentration of 'decommissioned' individuals.",
       "coordinates": [
-        0,
-        1
+        1,
+        2
       ],
-      "locations": {
-        "Corrupted Data Streams": "partial corruption"
-      }
+      "locations": {}
     },
     {
       "id": 5,
-      "category": "data storage vaults",
-      "name": "Central Data Repository",
-      "description": "The core of the Obsidian Archive. Contains vast amounts of (mostly) intact data.",
+      "category": "Public Space",
+      "name": "Central Skywalk Plaza",
+      "description": "A large open area above the city streets with multiple walkways and access points to buildings. Synthetic surfaces and minimal water features (reservoirs).",
       "coordinates": [
-        1,
-        1
+        2,
+        2
       ],
-      "locations": {
-        "Central Data Repository": "intact"
-      }
+      "locations": {}
     },
     {
       "id": 6,
-      "category": "server rooms",
-      "name": "AI Control Nexus",
-      "description": "Once the heart of the archive's security. Now dormant, with traces of ancient technology.",
+      "category": "Residential",
+      "name": "Former Residence",
+      "description": "Identical looking residential apartment, could be Sera's parents' former residence, now potentially under surveillance.",
       "coordinates": [
-        2,
-        1
+        3,
+        2
       ],
-      "locations": {
-        "Dormant AI security systems": "inactive"
-      }
+      "locations": {}
     },
     {
       "id": 7,
-      "category": "ruined concrete",
-      "name": "Collapsed Stairwell",
-      "description": "A partially collapsed stairwell. The Glimmer hotspot presence is quite strong.",
+      "category": "Recreational",
+      "name": "Skygarden Reservoir",
+      "description": "Artificial greenery and controlled water reservoir in top level skygarden. Provides some escape for those who can reach it",
       "coordinates": [
-        0,
-        2
+        1,
+        3
       ],
-      "locations": {
-        "Glimmer hotspots": "present"
-      }
+      "locations": {}
     },
     {
       "id": 8,
-      "category": "metal walkways",
-      "name": "Maintenance Corridor",
-      "description": "A narrow corridor used for maintenance. A possible hidden passage is located here.",
+      "category": "Hidden",
+      "name": "Echoes Network Access Point",
+      "description": "A hidden and obscured access point to the digital realm for members of the Echoes. Could be in an alley or backroom.",
       "coordinates": [
-        1,
-        2
+        2,
+        3
       ],
-      "locations": {
-        "hidden passages": "possible"
-      }
+      "locations": {}
     },
     {
       "id": 9,
-      "category": "data storage vaults",
-      "name": "Restricted Archives",
-      "description": "Vaults containing highly sensitive and dangerous information. Heavy security was once in place.",
+      "category": "Security",
+      "name": "Surveillance Hub",
+      "description": "Central control room for the surveillance systems in the Skywalk District. Metallic structures and advanced technology.",
       "coordinates": [
-        2,
-        2
+        3,
+        3
       ],
       "locations": {}
     }

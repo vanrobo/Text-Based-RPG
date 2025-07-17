@@ -47,7 +47,7 @@ with open (r"Storage\Saveslots\4\info.json") as slot:
 
     # print(slot_1, slot_2, slot_3, slot_4, config)
 
-def animate(*text, delay=0.01,sep="", end="\n",between=None):
+def animate(*text, delay=0.001,sep="", end="\n",between=None):
 
     combined_text = sep.join(map(str, text))
 
@@ -68,7 +68,7 @@ def animate(*text, delay=0.01,sep="", end="\n",between=None):
         print(end=end)  # New line
 
 
-def input_animate(*text,delay=0.01,sep="", end="\n",between=None):
+def input_animate(*text,delay=0.001,sep="", end="\n",between=None):
 
     combined_text = sep.join(map(str, text))
 
@@ -177,7 +177,12 @@ def settingsa():
 ## if player decides to delete the saveslot
 def deletion(saveslot_chosen, sno):
 
-    
+    slotter_1 = slot_1
+    slotter_2 = slot_2
+    slotter_3 = slot_3
+    slotter_4 = slot_4
+
+
     while True:
         animate(f"Are you sure you want to delete {saveslot_chosen["saveslot_name"]} (Y/N)\n\n")
         delete = input("You: ").lower().strip()
@@ -193,19 +198,21 @@ def deletion(saveslot_chosen, sno):
                     saveslot_chosen = {"saveslot_created": False, "saveslot_name": "", "date_of_creation": "", "protagonist_name": "","protagonist_class": "", "location": "", "level": ""}
 
                     if sno == 1:
-                        slot_1 = saveslot_chosen
+                        slotter_1 = saveslot_chosen
                     elif sno == 2:
-                        slot_2 = saveslot_chosen
+                        slotter_2 = saveslot_chosen
                     elif sno == 3:
-                        slot_3 = saveslot_chosen
+                        slotter_3 = saveslot_chosen
                     elif sno == 4:
-                        slot_4 = saveslot_chosen
+                        slotter_4 = saveslot_chosen
                     else:
                         pass
                     
                     with open (rf"Storage\Saveslots\{sno}\info.json", "w") as slot:
                         json.dump(saveslot_chosen, slot, indent=4)
-                    saveslot(slot_1,slot_2,slot_3,slot_4)
+
+                        
+                    saveslot(slotter_1,slotter_2,slotter_3,slotter_4)
 
                     return
                 
@@ -307,7 +314,7 @@ def saveslot_description(sno):
         animate("Press Enter to Continue...")
         input()
         animate("welcome to this world, ", end="\n")
-        animate("soul",delay=0.5, between=" ")
+        animate("soul",delay=0.05, between=" ")
         input_animate("Press Enter to continue... [you have to do this everytime]")
         animate(protagonist_motivations, end="\n")
         input()
@@ -349,7 +356,7 @@ def saveslot_description(sno):
         print()
         input()
         animate("Are you ready? ", end="\n")
-        animate("You: ", delay=0.5, end="")
+        animate("You: ", delay=0.05, end="")
         input()
         print()
         animate("Let's begin your adventure!", end="\n")
@@ -367,13 +374,13 @@ def create_slot(saveslot,sno=None):
         line = "-" * 50
         print()
         animate("Greetings, Traveller", end="")
-        animate("...", delay=0.5 )
+        animate("...", delay=0.05 )
         time.sleep(0.5)
 
         animate("Welcome to the world of Text-Based RPG")
         animate("You are about to create a brand new world")
         print()
-        animate("choose wisely...", delay=0.2,between=" ")
+        animate("choose wisely...", delay=0.02,between=" ")
         print()
         animate("This world will be your playground, your adventure, and your story")
         time.sleep(1)

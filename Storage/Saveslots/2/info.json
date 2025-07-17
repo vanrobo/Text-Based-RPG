@@ -1,10 +1,9 @@
 {
-    "saveslot_created": true,
-    "saveslot_name" : "polpen",
-    "date_of_creation" : "fweg",
-    "protagonist_name" : "dasf",
-    "protagonist_class" : "ewdfw",
-    "location" : "wef",
-    "level" : "ewr" 
-    
+    "saveslot_created": false,
+    "saveslot_name": "",
+    "date_of_creation": "",
+    "protagonist_name": "",
+    "protagonist_class": "",
+    "location": "",
+    "level": ""
 }
